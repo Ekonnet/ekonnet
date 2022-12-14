@@ -1,10 +1,12 @@
-import React from 'react'
-import HeaderNav from './HeaderNav'
+import React from 'react';
+import Future from '../components/Future/Future.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
   return (
     <>
-<HeaderNav/>
+<Future/>
     </>
   )
 }
