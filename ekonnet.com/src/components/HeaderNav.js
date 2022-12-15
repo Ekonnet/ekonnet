@@ -2,38 +2,33 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Link
-} from "react-router-dom";
+import {Route,Routes,Link} from "react-router-dom";
 
-import Home from './components/Home/Home';
+// import Home from './components/Home/Home';
 // import BuyCrypto from './components/BuyCrypto/BuyCrypto';
-import OneClickBuy from './components/BuyCrypto/OneClickBuy';
-import P2pTradingFees from './components/BuyCrypto/P2pTradingFees';
-import FiatDeposite from './components/BuyCrypto/FiatDeposite';
-import MarketOverview from './components/Markets/MarketOverview';
-import Traders from './components/Traders/Traders';
-import Features from './components/Traders/Features';
-import MobileApp from './components/Traders/MobileApp';
-import Wallets from './components/Traders/Wallets';
-import Security from './components/Traders/Security';
-import Explore from './components/Explore/Explore';
-import Future from  './components/Future/Future';
-import SignUp from './components/Login/SignUp';
-import SignIn from './components/Login/SignIn';
-import Markets from './components/Markets/Markets';
-import MarketData from './components/Markets/MarketData';
+import OneClickBuy from './BuyCrypto/OneClickBuy';
+import P2pTradingFees from './BuyCrypto/P2pTradingFees';
+import FiatDeposite from './BuyCrypto/FiatDeposite';
+import MarketOverview from './Markets/MarketOverview';
+import Traders from './Traders/Traders';
+import Features from './Traders/Features';
+import MobileApp from './Traders/MobileApp';
+import Wallets from './Traders/Wallets';
+import Security from './Traders/Security';
+import Explore from './Explore/Explore';
+import Future from  './Future/Future';
+import SignUp from './Login/SignUp';
+import SignIn from './Login/SignIn';
+
+import MarketData from './Markets/MarketData';
 
 
 
 function HeaderNav() {
   return (
-    <Router>
-    <div>
-    <Navbar bg="danger" expand="lg">
+    
+   <>
+    <Navbar bg="danger" expand="lg" sticky="top">
       <Container>
         <Navbar.Brand as={Link} to={"/"} className='d-flex justify-content-between'>Ekonnet.com</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -41,19 +36,19 @@ function HeaderNav() {
           <Nav className="me-auto">
             
             <NavDropdown title="Buy Crypto" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to={"/one_click_buy"}>One-Click Buy</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={"/one-click-buy"}>One-Click Buy</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to={"/p2p_trading_Fees"}>
+              <NavDropdown.Item as={Link} to={"/p2p-trading-Fees"}>
                 P2P Trading(0 Fees)
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to={"/fiat_deposite"}>Fiat Deposite</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={"/fiat-deposite"}>Fiat Deposite</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Markets" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to={"/market_overview"}>Market Overview</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={"/market-overview"}>Market Overview</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to={"/market_data"}>
+              <NavDropdown.Item as={Link} to={"/market-data"}>
                Market Data
               </NavDropdown.Item>
             </NavDropdown>
@@ -61,7 +56,7 @@ function HeaderNav() {
             <NavDropdown title="Traders" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to={"/features"}>Features</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to={"/mobile_app"}>
+              <NavDropdown.Item as={Link} to={"/mobile-app"}>
                Mobile App
               </NavDropdown.Item>
               <NavDropdown.Divider />
@@ -73,14 +68,19 @@ function HeaderNav() {
                Wallet
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link as={Link} to={"/explore"}>Explore</Nav.Link>
           </Nav>
+          <Nav.Link as={Link} to={"/signup"}>Sign Up</Nav.Link>
+          <Nav.Link as={Link} to={"/signin"}>Sign In</Nav.Link>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    </div>
+  
+
     <div>
       <Routes>
-        <Route path="/" element={<Home/>}/> 
+       
         <Route path="/one-click-buy" element={<OneClickBuy/>}/> 
         <Route path="/p2p-trading" element={<P2pTradingFees/>}/>
         <Route path="/fiat-deposite" element={<FiatDeposite/>}/>
@@ -94,13 +94,12 @@ function HeaderNav() {
         <Route path="/future" element={<Future/>}/>
         <Route path="/signup" element={<SignUp/>}/>
         <Route path="/signin" element={<SignIn/>}/>
-        <Route path="/markets" element={<Markets/>}/>
+      
         <Route path="/market-data" element={<MarketData/>}/>
-        
-
+      
       </Routes>
     </div>
-    </Router>
+    </>
   );
 }
 
