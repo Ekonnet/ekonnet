@@ -1,0 +1,25 @@
+.features{
+    background-color: #18189C;
+}
+h1{
+    color: #ffffff;
+    margin-top: 130px;
+    font-size: 50px;
+}
+p{
+    color: #ffffff;
+    font-size: 16px;
+}
+img{
+    width: 500px;
+    margin-left: 30px;
+}
+.exchange{
+    background-color: #030361;
+}
+.margin_trading{
+    background-color: #18189C;
+}
+.Derivatives{
+    background-color: #18189C; 
+}
