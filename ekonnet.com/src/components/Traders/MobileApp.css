@@ -1,0 +1,27 @@
+p{
+    color: white;
+}
+h4{
+    color: #ffffff;
+}
+.trade_btn{
+    border-radius: 5px;
+    background-color: rgb(209, 209, 22);
+    margin: 80px;
+}
+.mob{
+    
+    background-color: #18189C;
+}
+.mob_desk h1{
+    font-size: 30px;
+    margin-left: 200px;
+}
+.mob_desk email{
+    color: #ffffff;
+    margin-left: 183px;
+    font-size: 20px;
+    width: 25px;
+    height: 20px;
+    border: 1px solid;
+}
