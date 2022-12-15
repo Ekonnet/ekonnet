@@ -28,12 +28,12 @@ function HeaderNav() {
   return (
     
    <>
-    <Navbar bg="danger" expand="lg" sticky="top">
+    <Navbar className='navbg' expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand as={Link} to={"/"} className='d-flex justify-content-between'>Ekonnet.com</Navbar.Brand>
+        <Navbar.Brand as={Link} to={"/"} className='logo'>Ekonnet.com</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto main-nav">
             
             <NavDropdown title="Buy Crypto" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to={"/one-click-buy"}>One-Click Buy</NavDropdown.Item>
@@ -70,8 +70,8 @@ function HeaderNav() {
             </NavDropdown>
             <Nav.Link as={Link} to={"/explore"}>Explore</Nav.Link>
           </Nav>
-          <Nav.Link as={Link} to={"/signup"}>Sign Up</Nav.Link>
-          <Nav.Link as={Link} to={"/signin"}>Sign In</Nav.Link>
+          <Nav.Link className='login' as={Link} to={"/signup"}>Sign Up</Nav.Link>
+          <Nav.Link className='login' as={Link} to={"/signin"}>Sign In</Nav.Link>
 
         </Navbar.Collapse>
       </Container>

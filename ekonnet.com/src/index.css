@@ -1,50 +1,58 @@
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
   --navheader: #05055a;
   --bgsec-1: #0a0acf;
   --bgsec-2: #030361;
-  --heding-color:linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 1));
-  --yellow-red-gradient:linear-gradient(rgba(255, 210, 0, 1), rgba(247, 30, 30, 1));
-  --Cyan-perple-gradient:linear-gradient(rgba(0, 224, 255, 1), rgba(60, 30, 247, 1));
+  --heding-color: linear-gradient(rgba(255, 210, 0, 1), rgba(247, 151, 30, 1));
+  --yellow-red-gradient: linear-gradient(rgba(255, 210, 0, 1), rgba(247, 30, 30, 1));
+  --Cyan-perple-gradient: linear-gradient(rgba(0, 224, 255, 1), rgba(60, 30, 247, 1));
   --para-color: #ffff;
   --inpute-feildbg-color: #24A3BF;
-  --cyan-color:#09D3FF;
+  --cyan-color: #09D3FF;
   --heading-text-font: 'Spectral', serif;
   --para-text-font: 'Open Sans', sans-serif;
-
-
 }
 
 
-body{
-  background-color: #5f5f9e;
+body {
+  background-color: var(--bgsec-2);
 }
+
 /* Header Nav styling Here */
 
-.navbg{
-  background-color:var(--bgsec-1);
-}
-.logo{
-  color: aliceblue;
-  font-family:var(--heading-text-font);
-  font-weight: 400;
-}
-.logo:hover,
-.simplelink:hover{
-  color: aqua;
-}
-Nav.navbar{
-  color: aliceblue;
-}
-#basic-nav-dropdown{
-  color: aliceblue;
-}
-.simplelink{
-  color: aliceblue;
+.navbg {
+  background-color: var(--bgsec-1);
 }
 
+.logo {
+  color: aliceblue !important;
+  font-family: var(--heading-text-font);
+  font-weight: 400;
+}
+
+.main-nav,
+a#basic-nav-dropdown,
+a.nav-link {
+  color: aliceblue !important;
+}
+
+.logo:hover,
+.navbg:hover,
+.main-nav:hover,
+.a#basic-nav-dropdown:hover,
+a.nav-link:hover {
+  color: #09D3FF;
+
+}
+
+.login {
+  padding: 0 1rem;
+}
+
+
+/* Header Nav styling End Here */
