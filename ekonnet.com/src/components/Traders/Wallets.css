@@ -1,0 +1,66 @@
+.app_icons{
+    width: 220px;
+    height:70px;
+    border: 1px solid #ffffff;
+    margin-left: 16px;
+}
+
+.app_icons i{
+    color: #ffffff;
+    margin-left: 10px;
+    padding-right: 12px;
+    padding-top: 12px;
+}
+.app_icons h2{
+    color: #ffffff;
+    font-size: 25px;
+}
+.bottom_section{
+    color: #ffffff;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.crypto_section h1{
+    color: #ffffff;
+    margin-top: 175px;
+    font-size: 30px;
+}
+.private_secure h1{
+    font-size: 42px;
+}
+
+.private_secure p{
+    font-size: 20px;
+}
+.private_secure_img{
+    width: 180px;
+    height: 180px;
+    margin: 80px;
+}
+.private_secure_section i{
+    color: #ffffff;
+    margin-top: 20px;
+    width: 65px;
+    height: 65px;
+    border: 1px solid;
+    padding: 12px;
+}
+.private_secure_section h3{
+    color: #ffffff;
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: 6px;
+}
+.private_secure_section p{
+    color: #ffffff;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.crypto_wallet img{
+    height: 450px;
+    width: 367px;
+    margin: 75px;
+}
+.crypto img{
+    height:350px;
+}

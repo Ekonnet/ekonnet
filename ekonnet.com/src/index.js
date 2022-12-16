@@ -4,6 +4,8 @@ import App from './components/App';
 import './index.css';
 import {BrowserRouter} from "react-router-dom";
 import HeaderNav from './components/HeaderNav';
+import "swiper/css/bundle";
+
 
 
 
