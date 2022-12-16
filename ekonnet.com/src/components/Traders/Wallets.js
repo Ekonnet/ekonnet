@@ -1,7 +1,7 @@
 import React from 'react';
 import W1 from "../assets/W1.png";
 import W2 from "../assets/W2.png";
-import W3 from "../assets/W3.png";
+import Wallet from "../assets/Secure-wallet.png";
 import W4 from "../assets/W4.png";
 import './Wallets.css';
 
@@ -37,7 +37,7 @@ const Wallets = () => {
             </div>
             </div>
             <div className='col-lg-6'>
-              <img src={W3} alt='' className='img-fluid '></img>
+              <img src={Wallet} alt='' className='img-fluid '></img>
             </div>
            </div>
 

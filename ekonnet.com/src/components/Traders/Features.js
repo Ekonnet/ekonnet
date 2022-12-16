@@ -1,6 +1,11 @@
 import React from 'react';
 import './Features.css';
-import f1 from "../assets/f1.png";
+import MarketP from "../assets/Market-place.png";
+import Exchange from "../assets/CoinExchange.png";
+import Margin from "../assets/MarginTrading.png";
+import FundingImg from "../assets/Funding.png";
+import DerivativesImg from "../assets/Derivatives.png";
+// import FundingImg from "../assets/Funding.png";
 
 
 
@@ -17,7 +22,7 @@ const Features = () => {
                     </p>
                 </div>
                 <div className='col-lg-6'>
-                    <img src={f1} alt='' className='img-fluid'></img>
+                    <img src={MarketP} alt='' className='img-fluid'></img>
 
                 </div>
             </div>
@@ -34,7 +39,7 @@ const Features = () => {
                     </p>
                 </div>
                 <div className='col-lg-6'>
-                    <img src={f1} alt='' className='img-fluid'></img>
+                    <img src={Exchange} alt='' className='img-fluid'></img>
                 </div>
             </div>
         </div>
@@ -43,7 +48,7 @@ const Features = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6'>
-                <img src={f1} alt='' className='img-fluid'></img>
+                <img src={Margin} alt='' className='img-fluid'></img>
                 </div>
                 <div className='col-lg-6'>
                     <h1>Margin trading</h1>
@@ -64,7 +69,7 @@ const Features = () => {
                     </p>
                 </div>
                 <div className='col-lg-6'>
-                    <img src={f1} alt='' className='img-fluid'></img>
+                    <img src={FundingImg} alt='' className='img-fluid'></img>
                 </div>
             </div>
         </div>
@@ -73,7 +78,7 @@ const Features = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6'>
-                <img src={f1} alt='' className='img-fluid'></img>
+                <img src={DerivativesImg} alt='' className='img-fluid'></img>
                 </div>
                 <div className='col-lg-6'>
                     <h1>Derivatives</h1>
