@@ -5,6 +5,7 @@ import Exchange from "../assets/CoinExchange.png";
 import Margin from "../assets/MarginTrading.png";
 import FundingImg from "../assets/Funding.png";
 import DerivativesImg from "../assets/Derivatives.png";
+
 // import FundingImg from "../assets/Funding.png";
 
 

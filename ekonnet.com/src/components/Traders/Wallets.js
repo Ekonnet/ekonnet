@@ -4,6 +4,7 @@ import W2 from "../assets/W2.png";
 import Wallet from "../assets/Secure-wallet.png";
 import W4 from "../assets/W4.png";
 import './Wallets.css';
+import { BsApple } from 'react-icons/bs';
 
 const Wallets = () => {
   return (
@@ -27,11 +28,11 @@ const Wallets = () => {
             </p>
             <div className='d-flex'> 
             <div className='app_icons d-flex'>
-              <i className='fa fa-brands fa-apple fa-2x solid'></i>
+              <BsApple/>
               <h2>Download for App Store</h2>
             </div>
             <div className='app_icons d-flex'>
-              <i className='fa fa-brands fa-apple fa-2x solid'></i>
+              <BsApple/>
               <h2>Download for Google Play</h2>
             </div>
             </div>

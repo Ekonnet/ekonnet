@@ -5,6 +5,7 @@ import './index.css';
 import {BrowserRouter} from "react-router-dom";
 import HeaderNav from './components/HeaderNav';
 import "swiper/css/bundle";
+import Footer from './components/Footer';
 
 
 
@@ -14,6 +15,7 @@ root.render(
    <BrowserRouter>
    <HeaderNav />
    <App/>
+   <Footer/>
    </BrowserRouter>
 
 
