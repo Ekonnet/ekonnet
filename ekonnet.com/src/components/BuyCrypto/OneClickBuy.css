@@ -29,6 +29,7 @@
 }
 .buy_sell_box h1{
     color: #000000;
+    margin-top: 0;
 }
 .spend{
     width:420px;

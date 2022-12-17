@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Spectral:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
 .future{
 background-color: #0404EA;
 }
 .future h1{
-    font-family: 'Inter';
+    font-family: 'Spectral', serif;
     font-style: normal;
-    font-weight: 700;
+    /*  */
     font-size: 60px;
     line-height: 124.02%;
     letter-spacing: 0.1em;
@@ -14,9 +17,9 @@ background-color: #0404EA;
 .future strong{
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 60px;
-    line-height: 124.02%;
+    /* line-height: 124.02%; */
     letter-spacing: 0.1em;
     color: #FFFFFF;
     margin-top: 140px;
@@ -28,10 +31,11 @@ background-color: #0404EA;
         
 }
 .future p{
+    font-family: 'Open Sans', sans-serif;
 font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 124.02%;
+
+font-size: 1.5rem;
+
 color: #FFFFFF;
 }
 .Future_Visit_btn{
@@ -45,51 +49,68 @@ color: #FFFFFF;
     margin-left: 10px;
 }
 .future_img{
-    width: 550px;
-    height:550px;
+    width: 400px;
+    height:400px;
     margin: 70px;
+}
+.future-levrage{
+    margin-top: 0;
 }
 .leverage{
     background-color:#030361;
+    width: 100%;
+    height: 70vh;
 }
 .flexibility{
     background-color: #18189C;
+    width: 100%;
+    height: 70vh;
+}
+
+#currency{
+    background-color:#030361;
+    width: 100%;
+    height: 100vh;
 }
 .icons_img{
-    margin: 50px;
-    width: 250px;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
 }
 .leverage h2{
-    font-family: 'Baloo 2';
-    margin-top: 100px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 124.02%;
+    font-family: 'Spectral', serif;
+    margin-top: 60px;
+    
+    font-size:2rem;
+
     color: #FFFFFF;
     
 }
 .leverage p{
-    font-family: 'Ballo 2';
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 124.02%;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:20px ;
+    font-size: 1rem;
+    
     color: #FFFFFF;
     padding-right: 210px;
 
 }
 .flexibility h2{
-    font-family: 'Baloo 2';
-    margin-top: 100px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 124.02%;
+    font-family: 'Spectral', serif;
+    margin-top: 60px;
+    
+    font-size: 2rem;
+    
     color: #FFFFFF;
 }
 .flexibility p{
-    font-family: 'Ballo 2';
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 124.02%;
+    font-family: 'Open Sans', sans-serif;
+    margin-top:20px ;
+    font-size: 1rem;
+    
     color: #FFFFFF;
     padding-right: 210px;
+}
+#login{
+    margin-top: 30px;
 }
