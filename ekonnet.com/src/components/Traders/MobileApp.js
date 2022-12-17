@@ -1,6 +1,7 @@
 import React from 'react'
 import './MobileApp.css';
-import f1 from "../assets/f1.png";
+import Button from 'react-bootstrap/Button';
+import Mobile from "../assets/Mobile-app.png";
 
 
 const MobileApp = () => {
@@ -15,10 +16,10 @@ const MobileApp = () => {
                   <p>Buy and sell 250+ cryptocurrencies with 20+ fiat currencies using bank transfers or 
                      your credit/debit card.
                   </p>
-                  <button className='trade_btn'>Trade Now</button>
+                  <Button size="lg" className='get-start'>Trad Now</Button>
                 </div>
                 <div className='col-lg-6'>
-                    <img src={f1} alt='' className='img-fluid'></img>
+                    <img src={Mobile} alt='' className='img-fluid'></img>
                 </div>
             </div>
         </div>

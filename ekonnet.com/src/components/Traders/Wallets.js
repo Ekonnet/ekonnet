@@ -79,34 +79,34 @@ const Wallets = () => {
             </div>                 
          <div className='col-lg-6 private_secure_section'>
           <div className='d-flex'> 
-          <i className='fa fa-solid fa-lock fa-3x solid'></i> 
+          
            <div> <h3>AES Encryption</h3>
             <p>We use enterprise level encryption systems when storing all your personal and financial data. </p>
           </div></div>
           <div className='d-flex'>
-            <i className='fa fa-brands fa-envelope fa-3x solid'></i> 
+           
            <div> <h3>Anti-Phishing Message</h3>
             <p>Set your own unique phrase to know which messages are actually from Ekonnet and which not to trust.</p>
             </div></div>
             <div className='d-flex'>
-            <i className='fa fa-brands fa-apple fa-3x solid'></i> 
+           
            <div> <h3>Anomaly Detection</h3>
             <p>Our state-of-the-art risk detection system helps us find malicious behaviour on our platform and keep your money safe. </p>
             </div> </div>
           </div>
            <div className='col-lg-6 private_secure_section'>
            <div className='d-flex'>
-           <i className='fa fa-brands fa-check fa-3x solid'></i> 
+          
           <div><h3>Mandatory 2FA</h3>
             <p>All accounts must have 2-Factor Authentication enabled for added protection. </p>
             </div></div>
             <div className='d-flex'>
-            <i className='fa fa-brands fa-key fa-3x solid'></i> 
+          
          <div>   <h3>Password Policy</h3>
             <p>You are required to create strong passwords and encouraged to use a password manager to keep your account secure.</p>
             </div></div>
             <div className='d-flex'>
-            <i className='fa fa-brands fa-apple fa-3x solid'></i> 
+           
           <div> <h3>Wallet Protect</h3>
             <p>Secure your money and get peace of mind. </p>
             </div>
