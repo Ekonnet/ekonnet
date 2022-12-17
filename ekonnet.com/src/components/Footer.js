@@ -51,7 +51,7 @@ const Footer = () => {
                         </Col>
                             {/* ------------3rd section--------------- */}
                         <Col className='footer-services'>
-                            <h2>Cumpany</h2>
+                            <h2>Company</h2>
                             <h5>About</h5>
                             <h5>Affiliates</h5>
                             <h5>Careers</h5>

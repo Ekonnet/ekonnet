@@ -62,12 +62,22 @@
   }
 
     /* @media  css start here */
-    @media only screen and (max-width: 600px) {
+    @media (min-width: 200px) and (max-width: 575px) { 
+        .app .text-wrapper h1{
+            color: var(--cyan-color);
+            font-size: 1rem;
+            margin-top: 0;
+           
+          }
+     }
+
+
+    @media only screen and (max-width: 576px) {
         .app .text-wrapper h1{
             color: var(--cyan-color);
             display: inline-block;
             padding: 10px 20px;
-            font-size: 1.2rem;
+            font-size: 1rem;
             margin-top: 0;
             font-family: 'Spectral';
           }
@@ -80,9 +90,45 @@
             color: var(--cyan-color);
             display: inline-block;
             padding: 10px 20px;
+            font-size: 1.3rem;
+            margin-top: 0;
+            font-family: 'Spectral';
+          }
+         
+      }
+
+      @media only screen and (max-width: 992px) {
+        .app .text-wrapper h1{
+            color: var(--cyan-color);
+            display: inline-block;
+            padding: 10px 20px;
             font-size: 1.5rem;
             margin-top: 0;
             font-family: 'Spectral';
           }
          
       }
+      @media only screen and (max-width: 1200px) {
+        .app .text-wrapper h1{
+            color: var(--cyan-color);
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 2rem;
+            margin-top: 0;
+            font-family: 'Spectral';
+          }
+         
+      }
+
+      @media only screen and (max-width: 1400px) {
+        .app .text-wrapper h1{
+            color: var(--cyan-color);
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 2.2rem;
+            margin-top: 0;
+            font-family: 'Spectral';
+          }
+         
+      }
+
