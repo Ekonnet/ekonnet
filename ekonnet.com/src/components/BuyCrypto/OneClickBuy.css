@@ -1,0 +1,123 @@
+.one_click_box{
+    width:900px;
+    height:90px;
+    border: 1px solid #040430;
+    margin-top: 80px;
+    background-color: #040430;
+   
+}
+.one_click_box ul{
+    color: #ffffff;
+    list-style: none;
+    display: flex;
+    padding: 25px;
+}
+.one_click_box ul li{
+    padding-left: 30px;
+    font-size: 30px;
+}
+#buy_sell{
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.buy_sell_box{
+    width: 550px;
+    height: 520px;
+    border: 1px solid #000000; 
+    background-color: #31C8FD; 
+
+}
+.buy_sell_box h1{
+    color: #000000;
+}
+.spend{
+    width:420px;
+    height:60px;
+    border: 1px solid purple;
+    margin: 50px 50px 0px 50px;
+}
+.spend h1{
+    font-size: 22px;
+    padding-left: 25px;
+}
+.spend p{
+    font-size: 15px;
+    padding-left: 25px; 
+    color: #000000;
+}
+.spend_btn{
+    margin-left: 180px;
+    margin-right: 25px;
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+.receive{
+    width:420px;
+    height:60px;
+    border: 1px solid purple;
+    margin: 50px 50px 0px 50px;
+}
+.receive h1{
+    font-size: 22px;
+    padding-left: 25px;
+}
+.receive p{
+    font-size: 15px;
+    padding-left: 25px; 
+    color: #000000;
+}
+.receive_btn{
+    margin-left: 197px;
+    margin-right: 25px;
+    width: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:#000000
+
+}
+
+
+.payment_method{
+    width:420px;
+    height:60px;
+    border: 1px solid purple;
+    margin: 0px 50px 50px 50px;
+}
+.payment_method ul{
+    color: #000000;
+    list-style: none;
+    font-size: 22px;   
+    padding: 0px;
+}
+.payment_method ul li{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.payment_text{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: #000000;
+}
+.one_click_login{
+    margin-left: 200px;
+    width: 130px;
+    padding: 4px;
+}
+.peer_to_peer h2{
+    color: #ffffff;
+    margin-left: 40px;
+}
+.peer_to_peer p{
+    color: #ffffff;
+    margin-left: 40px;
+}
+.peer_to_peer img{
+    width:500px;
+    height:auto;
+    margin-left: 40px;
+}
