@@ -1,0 +1,88 @@
+.app{
+    text-align:start;
+  }
+  .app .text-wrapper{
+    padding: 28px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 50%;
+    height: 100vh;
+  
+  }
+  .app .text-wrapper h1{
+    color: var(--cyan-color);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 2.5rem;
+    font-family: 'Spectral';
+  }
+  .app video{
+    position: relative;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+  .get-start{
+    margin-left: 23px;
+    background-color: var(--Cyan-perple-gradient);
+  }
+  .section-part{
+    position: relative;
+  }
+  
+  
+
+  /* swipper css start */
+  .slider-div{
+    margin-top: 30px;
+  }
+  .slider-div img{
+    padding: 5px;
+  }
+  .digital-assets{
+    color: #09D3FF;
+    text-align: center;
+  }
+  .login-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 1.5rem;
+  }
+  .sign-in{
+  background-color: var(--Cyan-perple-gradient);
+  
+  border-radius: none !important;
+  }
+
+    /* @media  css start here */
+    @media only screen and (max-width: 600px) {
+        .app .text-wrapper h1{
+            color: var(--cyan-color);
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            margin-top: 0;
+            font-family: 'Spectral';
+          }
+         
+      }
+
+        /* @media  css start here */
+    @media only screen and (max-width: 786px) {
+        .app .text-wrapper h1{
+            color: var(--cyan-color);
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.5rem;
+            margin-top: 0;
+            font-family: 'Spectral';
+          }
+         
+      }

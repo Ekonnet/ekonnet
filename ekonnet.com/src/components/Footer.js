@@ -1,9 +1,14 @@
 import React from 'react'
-import { Button } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
 import './Footer.css';
 import { AiFillTwitterCircle } from 'react-icons/ai';
+import { AiFillInstagram } from 'react-icons/ai';
+import { BsFacebook } from 'react-icons/bs';
+import { TiSocialLinkedinCircular } from 'react-icons/ti';
+import { FaTelegram } from 'react-icons/fa';
+import { BsReddit } from 'react-icons/bs';
 
 
 const Footer = () => {
@@ -11,11 +16,11 @@ const Footer = () => {
         <>
             <section className='footer-section' >
                 <div className="contact-sort">
-                    <div className='d-flex justify-content-between'>
-                        <div>
+                    <div className='d-flex justify-content-between align-items-center'>
+                        <div className='getstart-now'>
                             <h3>Ready to get start</h3>
                         </div>
-                        <div>
+                        <div className='btnstyle'>
                             <NavLink to="/">
                                 <Button>Get Started</Button>
                             </NavLink>
@@ -76,22 +81,28 @@ const Footer = () => {
                 </div>
                 <div className="footer-bottom">
                     <hr/>
+                    <Container>
+                    <Row className='position' >
                     <div className='d-flex justify-content-between'>
-                    <Row >
                         <Col className='copyright'>
                             <p>Copyright © 2023 Ekonnet.  All rights reserved.</p>
                         </Col>
                         <Col className='social-icons'>
                         <div className='icon'>                        
-                        <AiFillTwitterCircle/>
-                        <AiFillTwitterCircle/>
-                        <AiFillTwitterCircle/>
+                        <AiFillTwitterCircle size="1.5rem"/>
+                        <AiFillInstagram size="1.5rem"/>
+                        <BsFacebook size="1.5rem"/>
+                        <TiSocialLinkedinCircular size="1.5rem"/>
+                        <FaTelegram size="1.5rem"/>
+                        <BsReddit size="1.5rem"/>
                         
                         
                         </div>
                         </Col>
+                        </div>
                     </Row>
-                    </div>
+                    </Container>
+                   
                 </div>
             </footer>
 

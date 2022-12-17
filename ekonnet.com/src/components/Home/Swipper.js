@@ -5,6 +5,7 @@ import Slider01 from '../assets/slide01.png';
 import Slider02 from '../assets/slide02.png';
 import Slider03 from '../assets/slide03.png';
 import Slider04 from '../assets/slide04.png';
+import './Home.css';
 
 
 

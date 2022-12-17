@@ -3,7 +3,7 @@ import Video from '../assets/Header_Video.mp4';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Swipper from './Swipper';
-
+import './Home.css';
 const Home = () => {
   return (
     <>
@@ -26,8 +26,8 @@ const Home = () => {
         <Swipper/>
         <h2 className='digital-assets'>The home of digital asset trading</h2>
        <div className="login-btn">
-        <Button size="sm" className='sign-up'>Sign Up</Button>
-        <Button size="sm" className='sign-in'>Sign In</Button>
+        <Button size="lg" className='sign-up'>Sign Up</Button>
+        <Button size="lg" className='sign-in'>Sign In</Button>
         </div>
         </Container>
 
