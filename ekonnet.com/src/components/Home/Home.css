@@ -61,6 +61,47 @@
   border-radius: none !important;
   }
 
+    /*  CoinList Api Section start here */
+
+    .Coinlist{
+      background: #0a0acf;
+      width: 100%;
+      height: 100vh;
+      margin-top: 40px;
+    }
+    .Coinlist h2{
+      color:white;
+      text-align: center;
+     padding-top: 40px;
+    }
+
+
+
+  /*   Trade Section start here */
+  .trade h2{
+    color: white;
+    margin-top: 50px;
+    border-bottom: 2px solid #09D3FF;
+    border-radius: 10px;
+    width: 18%;
+    font-size: 2.5rem;
+  }
+.trade p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  padding-top: 20px;
+}
+.kuchbhi{
+ 
+  margin-top: 50px;
+
+}
+
+
+
+
+
+
     /* @media  css start here */
 
 
