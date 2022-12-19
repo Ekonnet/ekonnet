@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {Link} from "react-router-dom";
 
@@ -56,8 +57,11 @@ function HeaderNav() {
             </NavDropdown>
             <Nav.Link as={Link} to={"/explore"}>Explore</Nav.Link>
           </Nav>
-          <Nav.Link className='login' as={Link} to={"/signup"}>Sign Up</Nav.Link>
-          <Nav.Link className='login' as={Link} to={"/signin"}>Sign In</Nav.Link>
+         
+          <Button href="#" className='btns'>Sign Up</Button>
+          <Button href="#" variant="outline-info">Sign In</Button>
+          {/* <Nav.Link className='login' as={Link} to={"/signup"}>Sign Up</Nav.Link> */}
+          {/* <Nav.Link className='login' as={Link} to={"/signin"}>Sign In</Nav.Link> */}
 
         </Navbar.Collapse>
       </Container>

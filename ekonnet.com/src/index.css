@@ -22,8 +22,7 @@
 
 
 body {
-  background-color: var(--bgsec-2);
-  font-family: 'Spectral';
+  background-image: linear-gradient(to right top, #04c1f1, #0095d7, #0069b7, #003e91, #0e1065);
 }
 
 /* Header Nav styling Here */
@@ -46,17 +45,24 @@ a.nav-link {
   color: aliceblue !important;
 }
 
-.logo:hover,
-.navbg:hover,
-.main-nav:hover,
-.a#basic-nav-dropdown:hover,
-a.nav-link:hover {
-  color: #09D3FF;
+a.nav-link:hover,
+a#basic-nav-dropdown:hover{
+  color: #09D3FF !important;
+  font-weight: bold;
+}
+a.nav-link:active,
+a#basic-nav-dropdown:active{
+  color: #ff096f !important;
+  font-weight: bold;
+}
+
+.btns{
+ 
+  margin: 0 1rem 0 0;
 }
 .login {
   padding: 0 1rem;
 }
-/* Header Nav styling End Here */
 
-/* Home styling start Here */
 
+/* navbar end */

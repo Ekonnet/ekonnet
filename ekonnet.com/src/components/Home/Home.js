@@ -7,6 +7,12 @@ import Col from 'react-bootstrap/Col';
 import Swipper from './Swipper';
 import './Home.css';
 import TradeImg from "../assets/Trade.png";
+import EasyInvest from "../assets/investing.png";
+import p2pImg from "../assets/p2p.png";
+import analysisImg from "../assets/analysis.png";
+import { AiFillDollarCircle } from 'react-icons/ai';
+import { BsFillCartCheckFill } from 'react-icons/bs';
+import { BsFillStopwatchFill } from 'react-icons/bs';
 const Home = () => {
   return (
     <>
@@ -39,31 +45,123 @@ const Home = () => {
       {/* slider section End here */}
 
 
-      <section className='Coinlist'>
-
-        <h2> This section design later </h2>
-      </section>
-
-      {/* Trade section start here */}
-
-
-      <section className='trade'>
+      <section className=' Common_style' id='Coinlist'>
         <Container>
           <Row>
-            <Col className="col-lg-6 col-md-6 col-sm-12">
-              <div className='kuchbhi'>
-              <h2>Trade</h2>
-              <p>An intuitive interface for trading all your assets. Trade any of the currencies supported by Ekonnet or over 100 other IOUs on the XRP Ledger decentralized exchange. Explore and analyze the markets.The new Trade page works for you whether you're a beginner or a seasoned trader. </p>
-              </div>
-            </Col>
-            <Col className="col-lg-6 col-md-6 col-sm-12">
-            <img src={TradeImg} alt='' className='img-fluid'></img>
+            <Col className='col-lg-12 api'>
+              <h2> This section design later </h2>
             </Col>
           </Row>
         </Container>
 
 
       </section>
+
+      {/* Trade section start here */}
+
+
+      <section className='Common_style' id='trade'>
+        <Container>
+          <Row>
+            <Col className="col-lg-6 col-md-6 col-sm-12" >
+              <div className='Content d-flex justify-content-center flex-column' data-aos="zoom-in-right" >
+                <h2>Trade</h2>
+                <p>An intuitive interface for trading all your assets. Trade any of the currencies supported by Ekonnet or over 100 other IOUs on the XRP Ledger decentralized exchange. Explore and analyze the markets.The new Trade page works for you whether you're a beginner or a seasoned trader.
+                  Cryptocurrency trading is the act of speculating on cryptocurrency price movements via a CFD trading account, or buying and selling the underlying coins via an exchange.
+                </p>
+              </div>
+            </Col>
+            <Col className="col-lg-6 col-md-6 col-sm-12" >
+              <div className='img d-flex justify-content-center flex-column' data-aos="zoom-in-left" >
+                <img src={TradeImg} alt='' className='img-fluid'></img>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+
+
+      </section>
+      {/* Analytics section start here */}
+
+      <section className='Common_style' id='analytics'>
+        <Container>
+          <Row>
+            <Col className="col-lg-6 col-md-6 col-sm-12">
+              <img src={analysisImg} alt='' className='img-fluid'></img>
+
+            </Col>
+            <Col className="col-lg-6 col-md-6 col-sm-12">
+              <div className='Content d-flex justify-content-center flex-column'>
+                <h2>Analytics</h2>
+                <p>An intuitive interface for trading all your assets. Trade any of the currencies supported by Ekonnet or over 100 other IOUs on the XRP Ledger decentralized exchange. Explore and analyze
+                  the markets.The new Trade page works for you whether you're a beginner or a seasoned trader.
+                </p>
+              </div>
+
+            </Col>
+          </Row>
+        </Container>
+
+
+      </section>
+
+      {/* Easy to invest section start here */}
+
+      <section className='Common_style' id='Easy_to_invest'>
+        <Container>
+          <Row gy-3>
+            <Col className="col-lg-6 col-md-6 col-sm-12">
+              <div className='Content d-flex justify-content-center flex-column'>
+                <h2>Easy to invest</h2>
+                <p>By easy to use interface and fast transaction
+                  processing speed,  anyone can invest crypto
+                  with Ekonnet
+                </p>
+                <div className='d-flex gap-4 mt-2 easy-icon-para'>
+                  <AiFillDollarCircle className='easy-invest-icon' size="1.5rem" /> <h3>Buy Crypto from 0.3 USD</h3>
+                </div>
+                <div className='d-flex gap-4 mt-2 easy-icon-para' >
+                  <BsFillCartCheckFill className='easy-invest-icon ' size="1.5rem" /> <h3>Buy Crypto from  INR</h3>
+                </div>
+                <div className='d-flex gap-4 mt-2 easy-icon-para '>
+                  <BsFillStopwatchFill className='easy-invest-icon' size="1.5rem" /> <h3>Commit to complete your transactions
+                    within 15 minutes </h3>
+                </div>
+              </div>
+            </Col>
+            <Col className="col-lg-6 col-md-6 col-sm-12">
+              <img src={EasyInvest} alt='' className='img-fluid'></img>
+            </Col>
+          </Row>
+        </Container>
+
+
+      </section>
+
+      {/* Peer-to-peer (P2P) section start here */}
+
+      <section className='Common_style' id='Peer-to-peer'>
+        <Container>
+          <Row>
+            <Col className="col-lg-6 col-md-6 col-sm-12">
+              <img src={p2pImg} alt='' className='img-fluid'></img>
+
+            </Col>
+            <Col className="col-lg-6 col-md-6 col-sm-12">
+              <div className='Content d-flex justify-content-center flex-column'>
+                <h2>Peer-to-peer</h2>
+                <p>An intuitive interface for trading all your assets. Trade any of the currencies supported by Ekonnet or over 100 other IOUs on the XRP Ledger decentralized exchange. Explore and analyze
+                  the markets.The new Trade page works for you whether you're a beginner or a seasoned trader.
+                </p>
+              </div>
+
+            </Col>
+          </Row>
+        </Container>
+
+
+      </section>
+
 
 
 
