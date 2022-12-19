@@ -1,0 +1,48 @@
+.p_to_p_form{
+    width: 500px;
+    height: 450px;
+    border: 1px solid #7d6f6f;
+    margin: 150px 300px 300px 300px;
+    background-color: #09D3FF;
+}
+.p_to_p_Buy h1{
+    margin-top: 0px;
+    background-color: #15DB88;;
+    font-size: 2rem;
+}
+.p_to_p_sell h1{
+    margin-top: 0px;
+    color: #212529;
+    font-size: 2rem;
+}
+.p_to_p_form input{
+    background-color: #09D3FF;
+    border: 1px solid #7D6F6F;
+    margin: 30px;
+    width: 432px;  
+}
+.p_to_p_btn{
+    width:100px;
+    height: 40px;
+    background-color: #15DB88;
+    border-color: #15DB88;
+    margin: 22px 199px 22px 199px;
+}
+ .p_to_p_optional{
+    margin-left: 30px;
+    width: 432px;  
+    height: 38px;
+    background-color: #09D3FF;
+    border: 1px solid #7D6F6F;
+    border-radius: 6px;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    padding : 6px 196px 6px 12px;
+} 
+.p_to_p h6{
+    padding-left: 30px;
+}
+
+
+

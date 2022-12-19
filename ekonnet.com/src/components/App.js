@@ -24,7 +24,7 @@ const App = () => {
       <Routes>
       <Route path="/" element={<Home/>}/> 
        <Route path="/one-click-buy" element={<OneClickBuy/>}/> 
-       <Route path="/p2p-trading" element={<P2pTradingFees/>}/>
+       <Route path="/p2p-trading-Fees" element={<P2pTradingFees/>}/>
        <Route path="/fiat-deposite" element={<FiatDeposite/>}/>
        <Route path="/market-overview" element={<MarketOverview/>}/>
        <Route path="/traders" element={<Traders/>}/>

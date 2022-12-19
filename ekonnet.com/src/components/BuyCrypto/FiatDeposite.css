@@ -1,0 +1,57 @@
+.fiat_deposite_form{
+    margin-left: 412px;
+}
+.fiat_deposite h1{
+    font-family: 'Spectral', serif;
+    color: #ffffff;
+    margin-top: 130px;
+    font-size: 2rem;
+}
+.fiat_deposite_box{
+    width: 500px;
+    height: 350px;
+    background-color: #31C8FD;
+    border: 1px solid #7D6F6F;
+    padding: 30px;
+}
+.currency{
+    margin-left: 40px;
+}
+.fiat_deposite_btn{
+    width: 92px;
+    height: 38px;
+    border: 1px solid #7D6F6F;
+    border-radius: 6px;
+    background-color: #31C8FD;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: normal;
+
+}
+.fiat_deposite_box input{
+    background-color: #31C8FD;
+    border: 1px solid #7D6F6F;
+    width: 300px;
+}
+.fiat_deposite_box h3{
+    font-size: 20px;
+}
+.fiat_deposite_payment{
+    margin-top: 30px;
+    
+}
+.fiat_deposite_payment input{
+    width:430px;
+}
+.fiat_deposite_card input{
+    margin-top: 30px;
+    width:430px;
+}
+.Fiat_login{
+    margin-left: 160px;
+    width: 130px;
+    padding: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #31C8FD;
+}
