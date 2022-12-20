@@ -48,7 +48,7 @@ const Future = () => {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-6'>
-              <h2>Flexibility in risk manageme</h2>
+              <h2>Flexibility in risk management</h2>
               <p>Ekonnet Futures offers leverage, allowing you to amplify your buying or selling power.
                 Risk management is a vital element of success for any trader in any market. No matter the size of the capital you’re trading with or investing in, losses are going to be inevitable, particularly in highly volatile markets like cryptocurrency
               </p>

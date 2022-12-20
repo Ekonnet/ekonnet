@@ -1,6 +1,7 @@
 import React from 'react';
+
 // import Future from '../components/Future/Future.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Home from './Home/Home';
 import OneClickBuy from './BuyCrypto/OneClickBuy';
 import P2pTradingFees from './BuyCrypto/P2pTradingFees';

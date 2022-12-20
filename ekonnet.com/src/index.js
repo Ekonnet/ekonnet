@@ -6,6 +6,10 @@ import {BrowserRouter} from "react-router-dom";
 import HeaderNav from './components/HeaderNav';
 import "swiper/css/bundle";
 import Footer from './components/Footer';
+import '@coreui/coreui/dist/css/coreui.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 
 

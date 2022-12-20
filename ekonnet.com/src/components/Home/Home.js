@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Video from '../assets/Header_Video.mp4';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -9,10 +10,19 @@ import './Home.css';
 import TradeImg from "../assets/Trade.png";
 import EasyInvest from "../assets/investing.png";
 import p2pImg from "../assets/p2p.png";
+import Maingraph from "../assets/main-graph.png";
+import workImg from "../assets/work-img.png";
 import analysisImg from "../assets/analysis.png";
 import { AiFillDollarCircle } from 'react-icons/ai';
 import { BsFillCartCheckFill } from 'react-icons/bs';
 import { BsFillStopwatchFill } from 'react-icons/bs';
+import { FaBraille } from 'react-icons/fa';
+import { TbWorld } from 'react-icons/tb';
+import { AiFillTrophy } from 'react-icons/ai';
+import VectorImg from "../assets/Vector.png";
+
+import TradingInfoCard from '../CardComponents/TradingInfoCard';
+
 const Home = () => {
   return (
     <>
@@ -48,9 +58,9 @@ const Home = () => {
       <section className=' Common_style' id='Coinlist'>
         <Container>
           <Row>
-            <Col className='col-lg-12 api'>
-              <h2> This section design later </h2>
-            </Col>
+
+            <img src={Maingraph} alt="main-heading" width="3000px" height="700px" />
+
           </Row>
         </Container>
 
@@ -158,10 +168,76 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
-
-
       </section>
 
+      <section className='Common_style' id='how-it-is-work'>
+        <Container>
+          <Row>
+            <Col className="col-lg-6 col-md-6 col-sm-12">
+              <div className='Content d-flex justify-content-center flex-column'>
+                <h2>How it Works</h2>
+                <h3>We’ve built a platform to
+                  buy and sell Crypto.</h3>
+                <div className='d-flex gap-4 mt-2 easy-icon-para'>
+                  <FaBraille className='easy-invest-icon' size="1.5rem" /> <h3>Buy Crypto from 0.3 USD</h3>
+                </div>
+                <div className='d-flex gap-4 mt-2 easy-icon-para' >
+                  <TbWorld className='easy-invest-icon ' size="1.5rem" /> <h3>Buy Crypto from  INR</h3>
+                </div>
+                <div className='d-flex gap-4 mt-2 easy-icon-para '>
+                  <AiFillTrophy className='easy-invest-icon' size="1.5rem" /> <h3>Commit to complete your transactions
+                    within 15 minutes </h3>
+                </div>
+
+              </div>
+
+
+            </Col>
+            <Col className="col-lg-6 col-md-6 col-sm-12">
+              <img src={workImg} alt='' className='img-fluid'></img>
+
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+
+
+
+
+      <section className='Common_style' id='word-class-trading'>
+        <Container>
+          <Row>
+            <h2>World ClassTradingPlatform</h2>
+          </Row>
+          {/* <TradingInfoCard/> */}
+          <Row>
+            <Col>
+              <div className='d-flex gap-4 mt-2 easy-icon-para '>
+                <AiFillTrophy className='easy-invest-icon' size="1.5rem"/> <h3>Commit to complete your transactions
+                  within 15 minutes </h3>
+              </div>
+            </Col>
+            <Col>
+              <div className='d-flex gap-4 mt-2 easy-icon-para '>
+                <AiFillTrophy className='easy-invest-icon' size="1.5rem" /> <h3>Commit to complete your transactions
+                  within 15 minutes </h3>
+              </div>
+            </Col>
+            <Col>
+              <div className='d-flex gap-4 mt-2 easy-icon-para '>
+                <img src={VectorImg} alt='' className='img-fluid' width="10px" height="10px"></img> <h3>Commit to complete your transactions
+                  within 15 minutes </h3>
+              </div>
+              <p>Ekonnet allows users to trade with up to 10x leverage by receiving funding from the peer to peer margin funding platform.
+                Users can enter an order to borrow the desired amount of funding at the rate and duration of their choice, or they can simply open a position and Ekonnet will take out funding for them at the best available rate at that time.
+              </p>
+            </Col>
+          </Row>
+         
+<TradingInfoCard/>
+        </Container>
+      </section>
 
 
 
