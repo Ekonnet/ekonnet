@@ -21,7 +21,7 @@ import { TbWorld } from 'react-icons/tb';
 import { AiFillTrophy } from 'react-icons/ai';
 import VectorImg from "../assets/Vector.png";
 
-import TradingInfoCard from '../CardComponents/TradingInfoCard';
+// import TradingInfoCard from '../CardComponents/TradingInfoCard';
 
 const Home = () => {
   return (
@@ -235,7 +235,7 @@ const Home = () => {
             </Col>
           </Row>
          
-<TradingInfoCard/>
+{/* <TradingInfoCard/> */}
         </Container>
       </section>
 

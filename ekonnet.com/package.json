@@ -5,6 +5,8 @@
   "dependencies": {
     "@coreui/coreui": "^4.2.4",
     "@coreui/react": "^4.5.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.0",
     "@mui/styled-engine-sc": "^5.11.0",

@@ -14,8 +14,8 @@ import Wallets from './Traders/Wallets';
 import Security from './Traders/Security';
 import Explore from './Explore/Explore';
 import Future from  './Future/Future';
-import SignUp from './Login/SignUp';
-import SignIn from './Login/SignIn';
+import SignUp from '../components/AcountLogin/SignUp';
+import SignIn from '../components/AcountLogin/SignIn';
 import MarketData from './Markets/MarketData';
 import {Route,Routes} from "react-router-dom";
 
@@ -38,6 +38,9 @@ const App = () => {
        <Route path="/signup" element={<SignUp/>}/>
        <Route path="/signin" element={<SignIn/>}/>
        <Route path="/market-data" element={<MarketData/>}/>
+       <Route path="/sign-in" element={<SignIn/>}/>
+       <Route path="/sign-up" element={<SignUp/>}/>
+
      </Routes>
     </>
  
