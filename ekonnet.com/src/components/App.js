@@ -5,6 +5,7 @@ import React from 'react';
 import Home from './Home/Home';
 import OneClickBuy from './BuyCrypto/OneClickBuy';
 import P2pTradingFees from './BuyCrypto/P2pTradingFees';
+// import P2pTradingFeesSell from './BuyCrypto/P2pTradingFeesSell';
 import FiatDeposite from './BuyCrypto/FiatDeposite';
 import MarketOverview from './Markets/MarketOverview';
 import Traders from './Traders/Traders';
@@ -38,6 +39,7 @@ const App = () => {
        <Route path="/signup" element={<SignUp/>}/>
        <Route path="/signin" element={<SignIn/>}/>
        <Route path="/market-data" element={<MarketData/>}/>
+       {/* <Route path="/P2p-trading-fees-sell" element={<P2pTradingFeesSell/>}/> */}
        <Route path="/sign-in" element={<SignIn/>}/>
        <Route path="/sign-up" element={<SignUp/>}/>
 
