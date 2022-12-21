@@ -1,4 +1,6 @@
-
+body{
+    background: rgb(203,219,227) !important;
+    background: radial-gradient(circle, rgba(203,219,227,0.9262079831932774) 0%, rgba(148,187,233,0.9458158263305322) 100%);}
 
 /* Sign Up style section here */
 
@@ -10,7 +12,7 @@
 
 /* Sign In style section here */
 
-a.MuiTypography-root.MuiTypography-body2.MuiLink-root.MuiLink-underlineAlways.css-101ca9i-MuiTypography-root-MuiLink-root {
+/* a.MuiTypography-root.MuiTypography-body2.MuiLink-root.MuiLink-underlineAlways.css-101ca9i-MuiTypography-root-MuiLink-root {
     color:white !important;
 }
 .css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
@@ -37,4 +39,4 @@ span.MuiButtonBase-root.MuiCheckbox-root.MuiCheckbox-colorPrimary.PrivateSwitchB
 }
 .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
     border-color: white !important;
-}
+} */
