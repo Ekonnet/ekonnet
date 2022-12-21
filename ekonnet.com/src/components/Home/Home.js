@@ -19,6 +19,12 @@ import { BsFillStopwatchFill } from 'react-icons/bs';
 import { FaBraille } from 'react-icons/fa';
 import { TbWorld } from 'react-icons/tb';
 import { AiFillTrophy } from 'react-icons/ai';
+import Buttons from '../ButtonComponents/Buttons';
+import image from '../assets/exchange-img.jpg';
+// import MarginImage from '../assets/margin-img.jpg';
+// import FundingImage from '../assets/funding-img.jpg';
+import MobileApp from '../assets/MobileApp.png';
+import PlayStore from '../assets/playstore-img.png';
 
 
 import TradingInfoCard from '../CardComponents/TradingInfoCard';
@@ -45,8 +51,9 @@ const Home = () => {
           <Swipper />
           <h2 className='digital-assets'>The home of digital asset trading</h2>
           <div className="login-btn">
-            <Button href='/sign-up' size="lg" className='sign-up'>Sign Up</Button>
-            <Button href='/sign-in' size="lg" className='sign-in'>Sign In</Button>
+            {/* <Button href='/sign-up' size="lg" className='sign-up'>Sign Up</Button>
+            <Button href='/sign-in' size="lg" className='sign-in'>Sign In</Button> */}
+            <Buttons />
           </div>
         </Container>
 
@@ -174,30 +181,30 @@ const Home = () => {
         <Container>
           <Row >
             <div className='mt-5 d-flex'>
-            <Col className="col-lg-6 col-md-6 col-sm-12">
-              <div className='Content d-flex justify-content-center flex-column'>
-                <h2>How it Works</h2>
-                <h3>We’ve built a platform to
-                  buy and sell Crypto.</h3>
-                <div className='d-flex gap-4 mt-2 easy-icon-para'>
-                  <FaBraille className='easy-invest-icon' size="1.5rem" /> <h3>Buy Crypto from 0.3 USD</h3>
+              <Col className="col-lg-6 col-md-6 col-sm-12">
+                <div className='Content d-flex justify-content-center flex-column'>
+                  <h2>How it Works</h2>
+                  <h3>We’ve built a platform to
+                    buy and sell Crypto.</h3>
+                  <div className='d-flex gap-4 mt-2 easy-icon-para'>
+                    <FaBraille className='easy-invest-icon' size="1.5rem" /> <h3>Buy Crypto from 0.3 USD</h3>
+                  </div>
+                  <div className='d-flex gap-4 mt-2 easy-icon-para' >
+                    <TbWorld className='easy-invest-icon ' size="1.5rem" /> <h3>Buy Crypto from  INR</h3>
+                  </div>
+                  <div className='d-flex gap-4 mt-2 easy-icon-para '>
+                    <AiFillTrophy className='easy-invest-icon' size="1.5rem" /> <h3>Commit to complete your transactions
+                      within 15 minutes </h3>
+                  </div>
+
                 </div>
-                <div className='d-flex gap-4 mt-2 easy-icon-para' >
-                  <TbWorld className='easy-invest-icon ' size="1.5rem" /> <h3>Buy Crypto from  INR</h3>
-                </div>
-                <div className='d-flex gap-4 mt-2 easy-icon-para '>
-                  <AiFillTrophy className='easy-invest-icon' size="1.5rem" /> <h3>Commit to complete your transactions
-                    within 15 minutes </h3>
-                </div>
-
-              </div>
 
 
-            </Col>
-            <Col className="col-lg-6 col-md-6 col-sm-12">
-              <img src={workImg} alt='' className='img-fluid'></img>
+              </Col>
+              <Col className="col-lg-6 col-md-6 col-sm-12">
+                <img src={workImg} alt='' className='img-fluid'></img>
 
-            </Col>
+              </Col>
             </div>
           </Row>
         </Container>
@@ -205,41 +212,113 @@ const Home = () => {
 
       <section className='Common_style' id='Trading-platform'>
         <Container>
-        <Row>
+          <Row>
             <Col className="col-12">
               <h2 className='pb-5 text-center'>World ClassTradingPlatform</h2>
             </Col>
-            </Row>
-            <Row>
-              <Col>
-          <TradingInfoCard/>
-         </Col>
-         <Col>
-          <TradingInfoCard/>
-         </Col>
-         <Col>
-          <TradingInfoCard/>
-         </Col>
-         </Row>
-         <Row className='mt-5'>
-              <Col>
-          <TradingInfoCard/>
-         </Col>
-         <Col>
-          <TradingInfoCard/>
-         </Col>
-         <Col>
-          <TradingInfoCard/>
-         </Col>
-         </Row>
+          </Row>
+          <Row>
+            <Col>
+              <TradingInfoCard
+                image={image}
+                title="Exchange"
+                para="Ekonnet offers order books with top tier liquidity, 
+          allowing users to easily exchange Bitcoin, Ethereum, 
+          EOS, Litecoin, Ripple, NEO and many other digital assets 
+          with minimal slippage. Ekonnet also boasts a suite of order 
+          types to help traders take advantage of every situation
+          "
+              />
+            </Col>
+            <Col>
+              <TradingInfoCard
+                image={image}
+                title="Margin trading"
+                para="Ekonnet allows users to trade with up to 10x leverage by receiving funding from the peer to peer margin funding platform.
+           Users can enter an order to borrow the desired amount of funding at the rate and duration of their choice, or they can simply open a position and Ekonnet will take out .
+           
+           "/>
+            </Col>
+            <Col>
+              <TradingInfoCard
+                image={image}
+                title="Margin funding"
+                para="Ekonnet allows users to trade with up to 10x leverage by receiving funding from the peer to peer margin funding platform.
+           Users can enter an order to borrow the desired amount of funding at the rate and duration of their choice, or they can simply open a position and Ekonnet will take out .
+           
+           "/>
+            </Col>
+          </Row>
+          <Row className='mt-5'>
+            <Col>
+              <TradingInfoCard
+                image={image}
+                title="Security"
+                para="Ekonnet offers order books with top tier liquidity, 
+           allowing users to easily exchange Bitcoin, Ethereum, 
+           EOS, Litecoin, Ripple, NEO and many other digital assets 
+           with minimal slippage. Ekonnet also boasts a suite of order 
+           types to help traders take advantage of every situation
+           
+           "/>
+            </Col>
+            <Col>
+              <TradingInfoCard
+                image={image}
+                title="Order Type"
+                para="Ekonnet offers order books with top tier liquidity, 
+           allowing users to easily exchange Bitcoin, Ethereum, 
+           EOS, Litecoin, Ripple, NEO and many other digital assets 
+           with minimal slippage. Ekonnet also boasts a suite of order 
+           types to help traders take advantage of every situation
+           
+           "/>
+            </Col>
+            <Col>
+              <TradingInfoCard
+                image={image}
+                title="Customizable Interface"
+                para="Ekonnet offers order books with top tier liquidity, 
+           allowing users to easily exchange Bitcoin, Ethereum, 
+           EOS, Litecoin, Ripple, NEO and many other digital assets 
+           with minimal slippage. Ekonnet also boasts a suite of order 
+           types to help traders take advantage of every situation
+           
+           "/>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+
+      <section className='Common_style' id='mobile-app'>
+        <Container>
+          <Row >
+            <div className='mt-5 d-flex'>
+              <Col className="col-lg-6 col-md-6 col-sm-12">
+                <div className='Content d-flex justify-content-center flex-column'>
+                  <h2 className='mobile-app-heading'>Trasted Platform
+                    Anytime & Anywhere</h2>
+                  <h3 className='mobile-app-subheading'>The  Ekonnet mobile app adapts the full functionality of the Ekonnet platform
+                    for seamless ‘on-the-go’ trading .</h3>
+                  
+                    <img src={PlayStore} alt='' className='img-fluid mt-3'></img>
+                </div>
+
+
+              </Col>
+              <Col className="col-lg-6 col-md-6 col-sm-12">
+                <img src={MobileApp} alt='' className='img-fluid mobile-app-img '></img>
+
+              </Col>
+            </div>
+          </Row>
         </Container>
       </section>
 
 
 
 
-
-      
 
 
     </>
