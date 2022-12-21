@@ -19,7 +19,7 @@ import { BsFillStopwatchFill } from 'react-icons/bs';
 import { FaBraille } from 'react-icons/fa';
 import { TbWorld } from 'react-icons/tb';
 import { AiFillTrophy } from 'react-icons/ai';
-import VectorImg from "../assets/Vector.png";
+
 
 // import TradingInfoCard from '../CardComponents/TradingInfoCard';
 
@@ -205,40 +205,7 @@ const Home = () => {
 
 
 
-      <section className='Common_style' id='word-class-trading'>
-        <Container>
-          <Row>
-            <h2>World ClassTradingPlatform</h2>
-          </Row>
-          {/* <TradingInfoCard/> */}
-          <Row>
-            <Col>
-              <div className='d-flex gap-4 mt-2 easy-icon-para '>
-                <AiFillTrophy className='easy-invest-icon' size="1.5rem"/> <h3>Commit to complete your transactions
-                  within 15 minutes </h3>
-              </div>
-            </Col>
-            <Col>
-              <div className='d-flex gap-4 mt-2 easy-icon-para '>
-                <AiFillTrophy className='easy-invest-icon' size="1.5rem" /> <h3>Commit to complete your transactions
-                  within 15 minutes </h3>
-              </div>
-            </Col>
-            <Col>
-              <div className='d-flex gap-4 mt-2 easy-icon-para '>
-                <img src={VectorImg} alt='' className='img-fluid' width="10px" height="10px"></img> <h3>Commit to complete your transactions
-                  within 15 minutes </h3>
-              </div>
-              <p>Ekonnet allows users to trade with up to 10x leverage by receiving funding from the peer to peer margin funding platform.
-                Users can enter an order to borrow the desired amount of funding at the rate and duration of their choice, or they can simply open a position and Ekonnet will take out funding for them at the best available rate at that time.
-              </p>
-            </Col>
-          </Row>
-         
-{/* <TradingInfoCard/> */}
-        </Container>
-      </section>
-
+      
 
 
     </>

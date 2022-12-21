@@ -32,7 +32,7 @@ const Footer = () => {
             <footer className='footer-color'>
                 <div className="container footer-container">
                     <Row>
-                           {/* ------------1st section--------------- */}
+                        {/* ------------1st section--------------- */}
                         <Col className='footer-services'>
                             <h2>Services</h2>
                             <h5>Exchange</h5>
@@ -41,7 +41,7 @@ const Footer = () => {
                             <h5>Security & Protection</h5>
                             <h5>Credit & Debit Card</h5>
                         </Col>
-                          {/* ------------2nd section--------------- */}
+                        {/* ------------2nd section--------------- */}
                         <Col className='footer-services'>
                             <h2>Products</h2>
                             <h5>Exchange</h5>
@@ -49,7 +49,7 @@ const Footer = () => {
                             <h5>Ekonnet Pay</h5>
                             <h5>Wallet</h5>
                         </Col>
-                            {/* ------------3rd section--------------- */}
+                        {/* ------------3rd section--------------- */}
                         <Col className='footer-services'>
                             <h2>Company</h2>
                             <h5>About</h5>
@@ -58,13 +58,13 @@ const Footer = () => {
                             <h5>NewsLetter</h5>
                             <h5>our Fees</h5>
                         </Col>
-                          {/* ------------4th section--------------- */}      
+                        {/* ------------4th section--------------- */}
                         <Col className='footer-services'>
                             <h2>Support</h2>
                             <h5>Contact Us</h5>
                             <h5>Help Center</h5>
                         </Col>
-                         {/* ------------5th section--------------- */}  
+                        {/* ------------5th section--------------- */}
                         <Col className='footer-services'>
                             <h2>Legal & Privacy</h2>
                             <h5>General Notices & Terms</h5>
@@ -80,29 +80,27 @@ const Footer = () => {
                     </Row>
                 </div>
                 <div className="footer-bottom">
-                    <hr/>
+                    <hr className='hr ' />
                     <Container>
-                    <Row className='position' >
-                    <div className='d-flex justify-content-between'>
-                        <Col className='copyright'>
-                            <p>Copyright © 2023 Ekonnet.  All rights reserved.</p>
-                        </Col>
-                        <Col className='social-icons'>
-                        <div className='icon'>                        
-                        <AiFillTwitterCircle size="1.5rem"/>
-                        <AiFillInstagram size="1.5rem"/>
-                        <BsFacebook size="1.5rem"/>
-                        <TiSocialLinkedinCircular size="1.5rem"/>
-                        <FaTelegram size="1.5rem"/>
-                        <BsReddit size="1.5rem"/>
-                        
-                        
-                        </div>
-                        </Col>
-                        </div>
-                    </Row>
+                        <Row className='d-flex justify-content-between'  >
+
+                            <Col className='copyright col-6'>
+                                <p>Copyright © 2023 Ekonnet.  All rights reserved.</p>
+                            </Col>
+                            <Col className='social-icons col-6'>
+                                
+                                    <AiFillTwitterCircle size="1.5rem" />
+                                    <AiFillInstagram size="1.5rem" />
+                                    <BsFacebook size="1.3rem" />
+                                    <TiSocialLinkedinCircular size="1.8rem" />
+                                    <FaTelegram size="1.5rem" />
+                                    <BsReddit size="1.5rem" />
+                                
+                            </Col>
+
+                        </Row>
                     </Container>
-                   
+
                 </div>
             </footer>
 
