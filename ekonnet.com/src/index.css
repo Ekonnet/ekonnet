@@ -22,7 +22,10 @@
 
 
 body {
-  background-image: linear-gradient(to right top, #04c1f1, #0095d7, #0069b7, #003e91, #0e1065);
+  /* background-image: linear-gradient(to right top, #04c1f1, #0095d7, #0069b7, #003e91, #0e1065); */
+ 
+    background: rgb(203,219,227) ;
+background: radial-gradient(circle, rgba(203,219,227,0.8393732492997199) 0%, rgba(148,187,233,0.8113620448179272) 100%); 
 }
 
 /* Header Nav styling Here */

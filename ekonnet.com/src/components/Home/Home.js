@@ -59,7 +59,7 @@ const Home = () => {
         <Container>
           <Row>
 
-            <img src={Maingraph} alt="main-heading" width="3000px" height="700px" />
+            <img className='mt-1' src={Maingraph} alt="main-heading" width="3000px" height="700px" />
 
           </Row>
         </Container>
@@ -172,7 +172,8 @@ const Home = () => {
 
       <section className='Common_style' id='how-it-is-work'>
         <Container>
-          <Row>
+          <Row >
+            <div className='mt-5 d-flex'>
             <Col className="col-lg-6 col-md-6 col-sm-12">
               <div className='Content d-flex justify-content-center flex-column'>
                 <h2>How it Works</h2>
@@ -197,6 +198,7 @@ const Home = () => {
               <img src={workImg} alt='' className='img-fluid'></img>
 
             </Col>
+            </div>
           </Row>
         </Container>
       </section>
