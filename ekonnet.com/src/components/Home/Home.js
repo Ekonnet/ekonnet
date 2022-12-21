@@ -21,7 +21,7 @@ import { TbWorld } from 'react-icons/tb';
 import { AiFillTrophy } from 'react-icons/ai';
 
 
-// import TradingInfoCard from '../CardComponents/TradingInfoCard';
+import TradingInfoCard from '../CardComponents/TradingInfoCard';
 
 const Home = () => {
   return (
@@ -45,8 +45,8 @@ const Home = () => {
           <Swipper />
           <h2 className='digital-assets'>The home of digital asset trading</h2>
           <div className="login-btn">
-            <Button size="lg" className='sign-up'>Sign Up</Button>
-            <Button size="lg" className='sign-in'>Sign In</Button>
+            <Button href='/sign-up' size="lg" className='sign-up'>Sign Up</Button>
+            <Button href='/sign-in' size="lg" className='sign-in'>Sign In</Button>
           </div>
         </Container>
 
@@ -198,6 +198,38 @@ const Home = () => {
 
             </Col>
           </Row>
+        </Container>
+      </section>
+
+      <section className='Common_style' id='Trading-platform'>
+        <Container>
+        <Row>
+            <Col className="col-12">
+              <h2 className='pb-5 text-center'>World ClassTradingPlatform</h2>
+            </Col>
+            </Row>
+            <Row>
+              <Col>
+          <TradingInfoCard/>
+         </Col>
+         <Col>
+          <TradingInfoCard/>
+         </Col>
+         <Col>
+          <TradingInfoCard/>
+         </Col>
+         </Row>
+         <Row className='mt-5'>
+              <Col>
+          <TradingInfoCard/>
+         </Col>
+         <Col>
+          <TradingInfoCard/>
+         </Col>
+         <Col>
+          <TradingInfoCard/>
+         </Col>
+         </Row>
         </Container>
       </section>
 
