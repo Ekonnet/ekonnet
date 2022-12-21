@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Video from '../assets/Header_Video.mp4';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -19,7 +19,11 @@ import { BsFillStopwatchFill } from 'react-icons/bs';
 import { FaBraille } from 'react-icons/fa';
 import { TbWorld } from 'react-icons/tb';
 import { AiFillTrophy } from 'react-icons/ai';
+import { BsPlusCircleDotted } from 'react-icons/bs';
+import {MdOutlineInsights} from 'react-icons/md';
+import {AiOutlineBank} from 'react-icons/ai';
 import Buttons from '../ButtonComponents/Buttons';
+import Button from '@mui/material/Button';
 import image from '../assets/exchange-img.jpg';
 // import MarginImage from '../assets/margin-img.jpg';
 // import FundingImage from '../assets/funding-img.jpg';
@@ -37,11 +41,15 @@ const Home = () => {
           <video autoPlay loop muted>
             <source src={Video} type="video/mp4" />
           </video>
+       
+            
           <div className="text-wrapper">
             <h1>Trade like a legend on the legendary
               crypto exchange</h1>
-            <Button size="lg" className='get-start'>Get Start</Button>
+            <Button color="info" className='ml-5' href='/sign-in' variant="contained" size="medium">Get Start</Button>
+
           </div>
+          
         </div>
       </section>
       {/* hero section End here */}
@@ -218,7 +226,7 @@ const Home = () => {
             </Col>
           </Row>
           <Row>
-            <Col>
+            <Col >
               <TradingInfoCard
                 image={image}
                 title="Exchange"
@@ -301,8 +309,8 @@ const Home = () => {
                     Anytime & Anywhere</h2>
                   <h3 className='mobile-app-subheading'>The  Ekonnet mobile app adapts the full functionality of the Ekonnet platform
                     for seamless ‘on-the-go’ trading .</h3>
-                  
-                    <img src={PlayStore} alt='' className='img-fluid mt-3'></img>
+
+                  <img src={PlayStore} alt='' className='img-fluid mt-3'></img>
                 </div>
 
 
@@ -313,6 +321,65 @@ const Home = () => {
               </Col>
             </div>
           </Row>
+        </Container>
+      </section>
+
+
+
+
+      <section className='Common_style' id='invest-now'>
+        <Container>
+          
+          <Row  >
+            <div className='d-flex justify-content-center  flex-column text-center invest-heading'>
+              <h3>Get started in a few minutes</h3>
+              <h4>Start  your crypto investment with Ekonnet now !</h4>
+            </div>
+          </Row>
+          <Row className='mt-5'>
+            <Col>
+              <div className='d-flex justify-content-center gap-3 invest'>
+                <BsPlusCircleDotted className='icons' size="2rem"/>
+                <h3>Create an account </h3>
+              </div>
+            </Col>
+            <Col> 
+              <div className='d-flex justify-content-center gap-3 invest' >
+                <AiOutlineBank className='icons' size="2rem"/>
+                <h3>Link your bank account </h3>
+              </div>
+            </Col>
+            <Col>
+              <div className='d-flex justify-content-center gap-3 invest'>
+                <MdOutlineInsights className='icons' size="2rem"/>
+                <h3>Start buying & selling </h3>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col className='d-flex justify-content-center mt-5'>
+            <Button color="secondary" href='/sign-in' variant="contained" size="medium">Invest now</Button>
+            </Col>
+          </Row>
+        
+        </Container>
+      </section>
+
+
+
+
+      <section className='Common_style' id='join-cumunity'>
+        <Container>
+          
+          <Row  >
+            <div className='d-flex justify-content-center  flex-column text-center invest-heading'>
+              <h3>Join Our Community</h3>
+              <h4>Ekonnet is Global .Join The Conversation in any of our woldwide communities.</h4>
+            </div>
+          </Row>
+         
+          
+        
         </Container>
       </section>
 
