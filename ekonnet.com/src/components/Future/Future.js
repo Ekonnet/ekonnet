@@ -64,7 +64,7 @@ const Future = () => {
           <div className='row'>
             <div className='col-lg-6'>
               <img src={currency} alt='phone' className='img-fluid icons_img'></img>
-            </div>
+            </div>z
             <div className='col-lg-6'>
               <h2>Trade a range of currency pairs</h2>
               <p>Gain exposure to a variety of pairs using your multi-collateral futures wallet with 10 different collateral options.

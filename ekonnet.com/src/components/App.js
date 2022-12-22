@@ -19,6 +19,7 @@ import Future from  './Future/Future';
 import SignUp from '../components/AcountLogin/SignUp';
 import SignIn from '../components/AcountLogin/SignIn';
 import MarketData from './Markets/MarketData';
+import Affiliate from './Affiliate';
 import {Route,Routes} from "react-router-dom";
 
 const App = () => {
@@ -43,7 +44,7 @@ const App = () => {
        <Route path="/market-data" element={<MarketData/>}/>
        <Route path="/P2p-trading-fees-sell" element={<P2pTradingFeesSell/>}/>
        <Route path="/sign-in" element={<SignIn/>}/>
-       <Route path="/sign-up" element={<SignUp/>}/>
+       <Route path='/affiliate' element={<Affiliate/>}/>
 
      </Routes>
     </>
