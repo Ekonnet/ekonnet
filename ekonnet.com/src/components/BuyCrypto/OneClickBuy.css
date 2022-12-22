@@ -1,124 +1,141 @@
-.one_click_box{
-    width:900px;
-    height:90px;
-    border: 1px solid #040430;
-    margin-top: 80px;
-    background-color: #040430;
+.one_click{
+    margin:150px 400px 30px 400px;   
+}
+.one_click_button button{
+    width: 180px;
+    height: 54px;
+    box-shadow: 10px 10px 15px -11px rgba(0,0,0,0.53);
+    font-size: 1.5rem;
+    margin: 16px;
+    border: 1px solid #6c757d;
+    border-radius: 50px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Spectral', serif;
+    background: rgb(203,219,227) !important;
+    background: radial-gradient(circle, rgba(203,219,227,0.9262079831932774) 0%, rgba(148,187,233,0.9458158263305322) 100%);
+}
+ #one_click_active{
+    width: 180px;
+    height: 54px;
+    font-size: 1.5rem;
+    margin: 16px;
+    border: 1px solid #6c757d;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Spectral', serif;
+    background-color: #01B0EA !important;
+}
+#one_click_active:hover{
+    border-color: black;
+}
+.one_click_button button:hover{
+    border-color: black;
+}
+.one_click_buy{
+    width: 600px;
+    height: 500px;
+    border: 1px solid transparent;
+    margin: 40px 430px 40px 430px; 
+}
+.one_click_buy h1{
+    color:rgba(0, 0, 0, 0.87);
+    font-size: 2rem;
+    font-family: 'Spectral', serif;
+    margin-top: 15px;
+}
+#one_click_buy_border{
+border-bottom: 3px solid #01B0EA;
+
+}
+#one_click_sell_border{
+    border-bottom: 3px solid #01B0EA;
+    }
+.one_click_buy label{
+    padding-left: 40px;
+    font-size: 1.4rem;
+    font-family: 'Spectral', serif;
+    margin-top: 15px;
+}
+.one_click_buy input{
+    margin-left: 40px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 1px solid #6c757d;
+    width: 350px;
+    height: 50px;
+    padding-left:10px;
+    color: rgba(0, 0, 0, 0.87);
+
+}
+.one_click_buy input:hover{
+    border-color: black;
+}
+.one_click_buy button{
+    margin-left: 0px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid #6c757d;
+    width: 148px;
+    height: 50px;
+    margin-top: 50px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.one_click_buy button:hover{
+    border-color: black
+}
+.one_click_buy ul{
+    width: 535px;
+    height: 50px;
+    border: 1px solid #6c757d;
+    list-style: none;
+    font-size: 1.1rem;
+    padding-left: 10px;
+    margin-left: 40px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.one_click_buy ul:hover{
+    border-color: black;
    
 }
-.one_click_box ul{
+.one_click_buy ul li{
+    margin: 8px;
+    
+}
+
+.one_click_buy_login button{
+    margin: 12px 0px 12px 38px;
+    width: 539px;
+    background-color: #01B0EA;
     color: #ffffff;
-    list-style: none;
-    display: flex;
-    padding: 25px;
-}
-.one_click_box ul li{
-    padding-left: 30px;
-    font-size: 30px;
-}
-#buy_sell{
-    margin-top: 120px;
-    margin-bottom: 40px;
-}
-.buy_sell_box{
-    width: 550px;
-    height: 520px;
-    border: 1px solid #000000; 
-    background-color: #31C8FD; 
+    font-size: 1.2rem;
+    box-shadow: 10px 10px 14px -7px rgba(0,0,0,0.75);
 
 }
-.buy_sell_box h1{
-    color: #000000;
-    margin-top: 0;
-}
-.spend{
-    width:420px;
-    height:60px;
-    border: 1px solid purple;
-    margin: 50px 50px 0px 50px;
-}
-.spend h1{
-    font-size: 22px;
-    padding-left: 25px;
-}
-.spend p{
-    font-size: 15px;
-    padding-left: 25px; 
-    color: #000000;
-}
-.spend_btn{
-    margin-left: 180px;
-    margin-right: 25px;
-    width: 100px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-
-}
-
-
-.receive{
-    width:420px;
-    height:60px;
-    border: 1px solid purple;
-    margin: 50px 50px 0px 50px;
-}
-.receive h1{
-    font-size: 22px;
-    padding-left: 25px;
-}
-.receive p{
-    font-size: 15px;
-    padding-left: 25px; 
-    color: #000000;
-}
-.receive_btn{
-    margin-left: 197px;
-    margin-right: 25px;
-    width: 100px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color:#000000
-
-}
-
-
-.payment_method{
-    width:420px;
-    height:60px;
-    border: 1px solid purple;
-    margin: 0px 50px 50px 50px;
-}
-.payment_method ul{
-    color: #000000;
-    list-style: none;
-    font-size: 22px;   
-    padding: 0px;
-}
-.payment_method ul li{
-    margin-left: 25px;
-    margin-top: 10px;
-}
-
-.payment_text{
-    margin-left: 50px;
-    margin-top: 30px;
-    color: #000000;
-}
-.one_click_login{
-    margin-left: 200px;
-    width: 130px;
-    padding: 4px;
-}
-.peer_to_peer h2{
+.one_click_sell_login button{
+    margin: 100px 0px 12px 38px;
+    width: 539px;
+    background-color: #01B0EA;
     color: #ffffff;
-    margin-left: 40px;
+    font-size: 1.2rem;
+    box-shadow: 10px 10px 14px -7px rgba(0,0,0,0.75);
+
 }
-.peer_to_peer p{
-    color: #ffffff;
-    margin-left: 40px;
+.paymet input{
+    width: 531px;
 }
-.peer_to_peer img{
-    width:500px;
-    height:auto;
-    margin-left: 40px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,8 +4,9 @@ import React from 'react';
 
 import Home from './Home/Home';
 import OneClickBuy from './BuyCrypto/OneClickBuy';
+import OneClickSell from './BuyCrypto/OneClickSell';
 import P2pTradingFees from './BuyCrypto/P2pTradingFees';
-// import P2pTradingFeesSell from './BuyCrypto/P2pTradingFeesSell';
+import P2pTradingFeesSell from './BuyCrypto/P2pTradingFeesSell';
 import FiatDeposite from './BuyCrypto/FiatDeposite';
 import MarketOverview from './Markets/MarketOverview';
 import Traders from './Traders/Traders';
@@ -26,6 +27,7 @@ const App = () => {
       <Routes>
       <Route path="/" element={<Home/>}/> 
        <Route path="/one-click-buy" element={<OneClickBuy/>}/> 
+       <Route path="/one-click-sell" element={<OneClickSell/>}/> 
        <Route path="/p2p-trading-Fees" element={<P2pTradingFees/>}/>
        <Route path="/fiat-deposite" element={<FiatDeposite/>}/>
        <Route path="/market-overview" element={<MarketOverview/>}/>
@@ -39,7 +41,7 @@ const App = () => {
        <Route path="/signup" element={<SignUp/>}/>
        <Route path="/signin" element={<SignIn/>}/>
        <Route path="/market-data" element={<MarketData/>}/>
-       {/* <Route path="/P2p-trading-fees-sell" element={<P2pTradingFeesSell/>}/> */}
+       <Route path="/P2p-trading-fees-sell" element={<P2pTradingFeesSell/>}/>
        <Route path="/sign-in" element={<SignIn/>}/>
        <Route path="/sign-up" element={<SignUp/>}/>
 

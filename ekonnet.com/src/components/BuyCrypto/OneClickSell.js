@@ -3,7 +3,7 @@ import './OneClickBuy.css';
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 
-const OneClickBuy = () => {
+const OneClickSell = () => {
   return (
     <>
     <section id='one_click' className='one_click'>
@@ -25,10 +25,10 @@ const OneClickBuy = () => {
           <div className='col-lg-12'>
             <div className=' d-flex text-center'>
               <div className='col-lg-6'>
-              <h1 id='one_click_buy_border'>Buy</h1>
+              <Nav.Link as={Link} to={"/one-click-buy"}><h1>Buy</h1></Nav.Link>
               </div>
               <div className='col-lg-6'>
-              <Nav.Link as={Link} to={"/one-click-sell"}><h1>Sell</h1></Nav.Link> 
+              <h1 id='one_click_sell_border'>Sell</h1>
               </div>
               </div>
               <div className='d-flex'>
@@ -48,20 +48,10 @@ const OneClickBuy = () => {
               <div>
               <button className='dropdown-toggle'>BTC</button>
               </div>
-              </div>
-              <div className='payment'>
-              <label>Payment Method</label>
-              <input list="payment" className="browser dropdown-toggle" placeholder='Select payment method' data-bs-toggle="dropdown"></input>
-              <datalist id="payment">
-              <option value="P2P"/>
-              <option value="Phonepe"/>
-              <option value="Local Card"/>
-             </datalist>
-              </div>
-              
+              </div>    
             </div>
-            <div className='one_click_buy_login'>
-            <Nav.Link as={Link} to={"/sign-in"}><button>Sign In</button></Nav.Link> 
+            <div className='one_click_sell_login'>
+              <button>Sign In</button>
             </div>
         </div>
       </div>
@@ -70,4 +60,4 @@ const OneClickBuy = () => {
   )
 }
 
-export default OneClickBuy
+export default OneClickSell

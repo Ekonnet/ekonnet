@@ -1,0 +1,64 @@
+import React from 'react';
+import './P2pTradingFees.css';
+import {Link} from "react-router-dom";
+import Nav from 'react-bootstrap/Nav';
+
+const P2pTradingFeesSell = () => {
+  return (
+    <>
+    <section id='p_to_p' className='p_to_p'>
+      <div className='container'>
+        <div className='row'>
+         <div className='col-lg-12'>
+          <div className='p_to_p_button d-flex'>
+          <Nav.Link as={Link} to={"/one-click-buy"}><button>one-Click Buy</button></Nav.Link> 
+            <button id="p2p_active">P2P</button> 
+            <Nav.Link as={Link} to={"/fiat-deposite"}><button>Fiat-Deposite</button></Nav.Link> 
+          </div>
+         </div>
+        </div>
+      </div>
+    </section>
+    <section id='p_to_p_buy' className='p_to_p_buy'>
+      <div className='container'>
+        <div className='row'>
+          <div className='col-lg-12'>
+            <div className=' d-flex text-center'>
+              <div className='col-lg-6'>
+              <Nav.Link as={Link} to={"/p2p-trading-fees"}><h1>Buy</h1></Nav.Link> 
+              </div>
+              <div className='col-lg-6'>
+             <h1 id='one_click_sell_border'>Sell</h1>
+              </div>
+            </div>
+            <div className=''>
+              <label>PRICE EUR</label>
+              <input type="text" placeholder='87.35' className='text'></input>
+              <div>
+              <label>VOLUME BTC</label>
+              <input type="text" placeholder='0' className='text'></input>
+              </div>
+              <div>
+              <label>TOTAL EUR</label>
+              <input type="text" placeholder='0.00' className='text'></input>
+              </div>
+              <div className='p_to_p_optional'>
+              <input type="text" placeholder='Add preferred seller (Optional)' className='text'></input>
+              </div>
+            </div>
+            <div className='p_to_p_buy_button'>
+              <button>Buy</button>
+            </div>
+            <div>
+              <h6>Fee:0.00%</h6>
+              <h6>Add/Edit Payment Details</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </>
+  )
+}
+
+export default P2pTradingFeesSell

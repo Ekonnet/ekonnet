@@ -1,57 +1,101 @@
-.fiat_deposite_form{
-    margin-left: 412px;
+.fiat_deposite{
+    margin:150px 400px 30px 400px;   
 }
-.fiat_deposite h1{
+.fiat_deposite_button button{
+    width: 180px;
+    height: 54px;
+    box-shadow: 10px 10px 15px -11px rgba(0,0,0,0.53);
+    font-size: 1.5rem;
+    margin: 16px;
+    border: 1px solid #6c757d;
+    border-radius: 50px;
+    color: rgba(0, 0, 0, 0.87);
     font-family: 'Spectral', serif;
-    color: #ffffff;
-    margin-top: 130px;
-    font-size: 2rem;
+    background: rgb(203,219,227) !important;
+    background: radial-gradient(circle, rgba(203,219,227,0.9262079831932774) 0%, rgba(148,187,233,0.9458158263305322) 100%);
 }
-.fiat_deposite_box{
-    width: 500px;
-    height: 350px;
-    background-color: #31C8FD;
-    border: 1px solid #7D6F6F;
-    padding: 30px;
+ #fiat_deposite_active{
+    width: 180px;
+    height: 54px;
+    font-size: 1.5rem;
+    margin: 16px;
+    border: 1px solid #6c757d;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Spectral', serif;
+    background-color: #01B0EA !important;
 }
-.currency{
+#fiat_deposite_active:hover{
+    border-color: black;
+}
+.fiat_deposite_button button:hover{
+    border-color: black;
+}
+.fiat{
+    width: 600px;
+    height: 400px;
+    border: 1px solid transparent;
+    margin: 40px 427px 40px 427px; 
+}
+.fiat label{
+    padding-left: 40px;
+    font-size: 1.4rem;
+    font-family: 'Spectral', serif;
+    margin-top: 10px;
+}
+.fiat input{
     margin-left: 40px;
-}
-.fiat_deposite_btn{
-    width: 92px;
-    height: 38px;
-    border: 1px solid #7D6F6F;
-    border-radius: 6px;
-    background-color: #31C8FD;
-    color: #212529;
-    font-size: 1rem;
-    font-weight: normal;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 1px solid #6c757d;
+    width: 350px;
+    height: 50px;
+    padding-left:10px;
+    color: rgba(0, 0, 0, 0.87);
 
 }
-.fiat_deposite_box input{
-    background-color: #31C8FD;
-    border: 1px solid #7D6F6F;
-    width: 300px;
+.fiat input:hover{
+    border-color: black;
 }
-.fiat_deposite_box h3{
-    font-size: 20px;
+.fiat button{
+    margin-left: 37px;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid #6c757d;
+    width: 148px;
+    height: 50px;
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.87);
 }
-.fiat_deposite_payment{
-    margin-top: 30px;
-    
+.fiat button:hover{
+    border-color: black
 }
-.fiat_deposite_payment input{
-    width:430px;
+
+.one_click_buy_login button{
+    margin: 100px 0px 12px 38px;
+    width: 539px;
+    background-color: #01B0EA;
+    color: #ffffff;
+    font-size: 1.2rem;
+    box-shadow: 10px 10px 14px -7px rgba(0,0,0,0.75);
+
 }
-.fiat_deposite_card input{
-    margin-top: 30px;
-    width:430px;
+.payment input{
+    width: 531px;
 }
-.Fiat_login{
-    margin-left: 160px;
-    width: 130px;
-    padding: 4px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #31C8FD;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
