@@ -119,9 +119,10 @@
        /* margin-top: 80px; */
  }
  #trade h2{
-   border-bottom: 2px solid #3d23c3;
+   border-bottom: 4px solid #3d23c3;
    border-radius: 10px;
    width: 14%;
+   line-height: 40px;
  }
  
 #analytics{
@@ -130,9 +131,10 @@
       height: 70vh;   
 }
 #analytics h2{
-  border-bottom: 2px solid #3d23c3;
+  border-bottom: 4px solid #3d23c3;
   border-radius: 10px;
   width: 23%;
+  line-height: 40px;
 }
 
   #Easy_to_invest{
@@ -141,12 +143,17 @@
          height: 70vh;
    }
    #Easy_to_invest h2{
-    border-bottom: 2px solid #3d23c3;
+    border-bottom: 4px solid #3d23c3;
     border-radius: 10px;
     width: 33%;
+    line-height: 40px;
   }
 .easy-invest-icon{
-  color:#3d23c3;
+  background:linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+  color: white;
+  border-radius: 50%;
+  
+  
 }
 .easy-icon-para h3{
   font-size: 1rem;
@@ -167,9 +174,10 @@
          height: 70vh;
    }
    #Peer-to-peer h2{
-    border-bottom: 2px solid #3d23c3;
+    border-bottom: 4px solid #3d23c3;
     border-radius: 10px;
     width: 33%;
+    line-height: 40px;
   }
    
 
@@ -232,8 +240,20 @@
 }
 .invest .icons{
  color: aqua !important;
+ background: rgb(160,25,224);
+background: radial-gradient(circle, rgba(160,25,224,0.8841911764705882) 0%, rgba(230,118,211,0.9458158263305322) 100%);
+ border: 1px solid transparent;
+ border-radius: 10%;
+ width: 40px;
+ height: 40px;
 }
+.invest-btn{
+  background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+}
+.invest-btn:hover{
+color: aqua !important;
 
+}
 
 #join-cumunity{
   background: #030361;

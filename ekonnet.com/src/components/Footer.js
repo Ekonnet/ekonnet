@@ -99,6 +99,7 @@ const Footer = () => {
                             </Col>
 
                         </Row>
+                        
                     </Container>
 
                 </div>

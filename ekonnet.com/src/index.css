@@ -18,6 +18,9 @@
   --cyan-color: #09D3FF;
   --heading-text-font: 'Spectral', serif;
   --para-text-font: 'Open Sans', sans-serif;
+  --button-cyan-gradient:linear-gradient(90deg, #6DDFF6 0%, #6366FF 100%);
+  --button-pink-gradient:linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+
 }
 
 
@@ -59,8 +62,8 @@ a#basic-nav-dropdown:active{
   font-weight: bold;
 }
 
-.btns{
- 
+.nav-btn{
+ background: var(--button-pink-gradient);
   margin: 0 1rem 0 0;
 }
 .login {
@@ -69,3 +72,14 @@ a#basic-nav-dropdown:active{
 
 
 /* navbar end */
+
+.sign-up-btn{
+  background: var(--button-pink-gradient);
+}
+.sign-in-btn{
+  background: var(--button-cyan-gradient);
+}
+.sign-in-btn:hover,
+.sign-up-btn:hover{
+  color: black;
+}

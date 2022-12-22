@@ -46,7 +46,7 @@ const Home = () => {
           <div className="text-wrapper">
             <h1>Trade like a legend on the legendary
               crypto exchange</h1>
-            <Button color="info" className='ml-5' href='/sign-in' variant="contained" size="medium">Get Start</Button>
+            <Button  className='ml-5 invest-btn' href='/sign-in' variant="contained" size="medium">Get Start</Button>
 
           </div>
           
@@ -142,14 +142,14 @@ const Home = () => {
                   processing speed,  anyone can invest crypto
                   with Ekonnet
                 </p>
-                <div className='d-flex gap-4 mt-2 easy-icon-para'>
-                  <AiFillDollarCircle className='easy-invest-icon' size="1.5rem" /> <h3>Buy Crypto from 0.3 USD</h3>
+                <div className='d-flex gap-4 mt-4 easy-icon-para'>
+                  <AiFillDollarCircle className='easy-invest-icon' size="2rem" /> <h3>Buy Crypto from 0.3 USD</h3>
                 </div>
-                <div className='d-flex gap-4 mt-2 easy-icon-para' >
-                  <BsFillCartCheckFill className='easy-invest-icon ' size="1.5rem" /> <h3>Buy Crypto from  INR</h3>
+                <div className='d-flex gap-4 mt-4 easy-icon-para' >
+                  <BsFillCartCheckFill className='easy-invest-icon ' size="2rem" /> <h3>Buy Crypto from  INR</h3>
                 </div>
-                <div className='d-flex gap-4 mt-2 easy-icon-para '>
-                  <BsFillStopwatchFill className='easy-invest-icon' size="1.5rem" /> <h3>Commit to complete your transactions
+                <div className='d-flex gap-4 mt-4 easy-icon-para '>
+                  <BsFillStopwatchFill className='easy-invest-icon' size="2rem" /> <h3>Commit to complete your transactions
                     within 15 minutes </h3>
                 </div>
               </div>
@@ -194,14 +194,14 @@ const Home = () => {
                   <h2>How it Works</h2>
                   <h3>We’ve built a platform to
                     buy and sell Crypto.</h3>
-                  <div className='d-flex gap-4 mt-2 easy-icon-para'>
-                    <FaBraille className='easy-invest-icon' size="1.5rem" /> <h3>Buy Crypto from 0.3 USD</h3>
+                  <div className='d-flex gap-4 mt-4 easy-icon-para'>
+                    <FaBraille className='easy-invest-icon' size="2rem" /> <h3>Decentralized Platform</h3>
                   </div>
-                  <div className='d-flex gap-4 mt-2 easy-icon-para' >
-                    <TbWorld className='easy-invest-icon ' size="1.5rem" /> <h3>Buy Crypto from  INR</h3>
+                  <div className='d-flex gap-4 mt-4 easy-icon-para' >
+                    <TbWorld className='easy-invest-icon ' size="2rem" /> <h3>Crowd Wishdom</h3>
                   </div>
-                  <div className='d-flex gap-4 mt-2 easy-icon-para '>
-                    <AiFillTrophy className='easy-invest-icon' size="1.5rem" /> <h3>Commit to complete your transactions
+                  <div className='d-flex gap-4 mt-4 easy-icon-para '>
+                    <AiFillTrophy className='easy-invest-icon' size="2rem" /> <h3>Rewards MeAchanism
                       within 15 minutes </h3>
                   </div>
 
@@ -358,7 +358,7 @@ const Home = () => {
           </Row>
           <Row>
             <Col className='d-flex justify-content-center mt-5'>
-            <Button color="secondary" href='/sign-in' variant="contained" size="medium">Invest now</Button>
+            <Button className='invest-btn'  href='/sign-in' variant="contained" size="medium">Invest now</Button>
             </Col>
           </Row>
         
@@ -376,6 +376,16 @@ const Home = () => {
               <h3>Join Our Community</h3>
               <h4>Ekonnet is Global .Join The Conversation in any of our woldwide communities.</h4>
             </div>
+          </Row>
+          <Row>
+            <Col className='d-flex justify-content-center gap-5 mt-5 community-social'>
+              <div className='com-twitter'>
+            <MdOutlineInsights className='community-icon' size="1rem"/><span>Twitter</span>
+            </div>
+            <MdOutlineInsights className='community-icon' size="1rem"/><span>Twitter</span>
+            <MdOutlineInsights className='community-icon' size="1rem"/><span>Twitter</span>
+            <MdOutlineInsights className='community-icon' size="1rem"/><span>Twitter</span>
+            </Col>
           </Row>
          
           

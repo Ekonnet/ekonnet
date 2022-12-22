@@ -58,7 +58,7 @@ function HeaderNav() {
             <Nav.Link as={Link} to={"/explore"}>Explore</Nav.Link>
           </Nav>
          
-          <Button href="/sign-up" className='btns'>Sign Up</Button>
+          <Button  href="/sign-up" className='nav-btn'>Sign Up</Button>
           <Button href="/sign-in" variant="outline-info">Sign In</Button>
           {/* <Nav.Link className='login' as={Link} to={"/signup"}>Sign Up</Nav.Link> */}
           {/* <Nav.Link className='login' as={Link} to={"/signin"}>Sign In</Nav.Link> */}
