@@ -75,9 +75,11 @@ a#basic-nav-dropdown:active{
 
 .sign-up-btn{
   background: var(--button-pink-gradient);
+  transition: all linear 0.3;
 }
 .sign-in-btn{
   background: var(--button-cyan-gradient);
+  transition: all linear 0.3;
 }
 .sign-in-btn:hover,
 .sign-up-btn:hover{

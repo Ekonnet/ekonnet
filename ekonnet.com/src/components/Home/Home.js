@@ -5,6 +5,7 @@ import Video from '../assets/Header_Video.mp4';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Link } from "react-router-dom";
 import Swipper from './Swipper';
 import './Home.css';
 import TradeImg from "../assets/Trade.png";
@@ -20,8 +21,15 @@ import { FaBraille } from 'react-icons/fa';
 import { TbWorld } from 'react-icons/tb';
 import { AiFillTrophy } from 'react-icons/ai';
 import { BsPlusCircleDotted } from 'react-icons/bs';
-import {MdOutlineInsights} from 'react-icons/md';
-import {AiOutlineBank} from 'react-icons/ai';
+import { MdOutlineInsights } from 'react-icons/md';
+import { AiOutlineBank } from 'react-icons/ai';
+import { BsTwitter } from 'react-icons/bs';
+import { FaFacebookF } from 'react-icons/fa';
+import { AiFillInstagram } from 'react-icons/ai';
+import { FaBloggerB } from 'react-icons/fa';
+
+
+
 import Buttons from '../ButtonComponents/Buttons';
 import Button from '@mui/material/Button';
 import image from '../assets/exchange-img.jpg';
@@ -32,6 +40,8 @@ import PlayStore from '../assets/playstore-img.png';
 
 
 import TradingInfoCard from '../CardComponents/TradingInfoCard';
+import { NavLink } from 'react-bootstrap';
+
 
 const Home = () => {
   return (
@@ -41,15 +51,15 @@ const Home = () => {
           <video autoPlay loop muted>
             <source src={Video} type="video/mp4" />
           </video>
-       
-            
+
+
           <div className="text-wrapper">
             <h1>Trade like a legend on the legendary
               crypto exchange</h1>
-            <Button  className='ml-5 invest-btn' href='/sign-in' variant="contained" size="medium">Get Start</Button>
+            <Button className='ml-5 invest-btn' href='/sign-in' variant="contained" size="medium">Get Start</Button>
 
           </div>
-          
+
         </div>
       </section>
       {/* hero section End here */}
@@ -192,7 +202,7 @@ const Home = () => {
               <Col className="col-lg-6 col-md-6 col-sm-12">
                 <div className='Content d-flex justify-content-center flex-column'>
                   <h2>How it Works</h2>
-                  <h3>We’ve built a platform to
+                  <h3 className='pt-5'>We’ve built a platform to
                     buy and sell Crypto.</h3>
                   <div className='d-flex gap-4 mt-4 easy-icon-para'>
                     <FaBraille className='easy-invest-icon' size="2rem" /> <h3>Decentralized Platform</h3>
@@ -202,7 +212,7 @@ const Home = () => {
                   </div>
                   <div className='d-flex gap-4 mt-4 easy-icon-para '>
                     <AiFillTrophy className='easy-invest-icon' size="2rem" /> <h3>Rewards MeAchanism
-                      within 15 minutes </h3>
+                    </h3>
                   </div>
 
                 </div>
@@ -222,10 +232,10 @@ const Home = () => {
         <Container>
           <Row>
             <Col className="col-12">
-              <h2 className='pb-5 text-center'>World ClassTradingPlatform</h2>
+              <h2 className=''>World ClassTradingPlatform</h2>
             </Col>
           </Row>
-          <Row>
+          <Row className='pt-5'>
             <Col >
               <TradingInfoCard
                 image={image}
@@ -307,10 +317,11 @@ const Home = () => {
                 <div className='Content d-flex justify-content-center flex-column'>
                   <h2 className='mobile-app-heading'>Trasted Platform
                     Anytime & Anywhere</h2>
-                  <h3 className='mobile-app-subheading'>The  Ekonnet mobile app adapts the full functionality of the Ekonnet platform
-                    for seamless ‘on-the-go’ trading .</h3>
+                  <h3 className='mobile-app-subheading pt-4'>The  Ekonnet mobile app adapts the full functionality of the Ekonnet platform
+                    for seamless ‘on-the-go’ trading .<br/><br/>
+                    The Ekonnet Mobile application allows you to connect to your ekonnet trading account and provide live information about your open orders as well as the status of your account. Wherever you are, you can easily make changes to your trades and never have to miss an opportunity again.</h3>
 
-                  <img src={PlayStore} alt='' className='img-fluid mt-3'></img>
+                  <img src={PlayStore} alt='' className='w-1 h-auto mt-3'></img>
                 </div>
 
 
@@ -329,7 +340,7 @@ const Home = () => {
 
       <section className='Common_style' id='invest-now'>
         <Container>
-          
+
           <Row  >
             <div className='d-flex justify-content-center  flex-column text-center invest-heading'>
               <h3>Get started in a few minutes</h3>
@@ -339,29 +350,29 @@ const Home = () => {
           <Row className='mt-5'>
             <Col>
               <div className='d-flex justify-content-center gap-3 invest'>
-                <BsPlusCircleDotted className='icons' size="2rem"/>
+                <BsPlusCircleDotted className='icons' size="2rem" />
                 <h3>Create an account </h3>
               </div>
             </Col>
-            <Col> 
+            <Col>
               <div className='d-flex justify-content-center gap-3 invest' >
-                <AiOutlineBank className='icons' size="2rem"/>
+                <AiOutlineBank className='icons' size="2rem" />
                 <h3>Link your bank account </h3>
               </div>
             </Col>
             <Col>
               <div className='d-flex justify-content-center gap-3 invest'>
-                <MdOutlineInsights className='icons' size="2rem"/>
+                <MdOutlineInsights className='icons' size="2rem" />
                 <h3>Start buying & selling </h3>
               </div>
             </Col>
           </Row>
           <Row>
             <Col className='d-flex justify-content-center mt-5'>
-            <Button className='invest-btn'  href='/sign-in' variant="contained" size="medium">Invest now</Button>
+              <Button className='invest-btn' href='/sign-in' variant="contained" size="medium">Invest now</Button>
             </Col>
           </Row>
-        
+
         </Container>
       </section>
 
@@ -370,26 +381,32 @@ const Home = () => {
 
       <section className='Common_style' id='join-cumunity'>
         <Container>
-          
+
           <Row  >
             <div className='d-flex justify-content-center  flex-column text-center invest-heading'>
-              <h3>Join Our Community</h3>
-              <h4>Ekonnet is Global .Join The Conversation in any of our woldwide communities.</h4>
+              <h3 className='join-community-heading'>Join Our Community</h3>
+              <h4 className='join-community-para'>Ekonnet is Global .Join The Conversation in any of our woldwide communities.</h4>
             </div>
           </Row>
           <Row>
             <Col className='d-flex justify-content-center gap-5 mt-5 community-social'>
               <div className='com-twitter'>
-            <MdOutlineInsights className='community-icon' size="1rem"/><span>Twitter</span>
-            </div>
-            <MdOutlineInsights className='community-icon' size="1rem"/><span>Twitter</span>
-            <MdOutlineInsights className='community-icon' size="1rem"/><span>Twitter</span>
-            <MdOutlineInsights className='community-icon' size="1rem"/><span>Twitter</span>
+                <BsTwitter className='community-icon ' size="1.5rem" /><NavLink as={Link} to={"/"} >Twitter</NavLink>
+              </div>
+              <div className='com-twitter'>
+                <FaFacebookF className='community-icon' size="1.5rem" /><NavLink as={Link} to={"/"}>Facebook</NavLink>
+              </div>
+              <div className='com-twitter'>
+                <AiFillInstagram className='community-icon' size="1.5rem" /><NavLink as={Link} to={"/"}>Instagram</NavLink>
+              </div>
+              <div className='com-twitter'>
+                <FaBloggerB className='community-icon' size="1.5rem" /><NavLink as={Link} to={"/"}>Blog</NavLink>
+              </div>
             </Col>
           </Row>
-         
-          
-        
+
+
+
         </Container>
       </section>
 
