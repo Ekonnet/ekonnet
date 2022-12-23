@@ -71,7 +71,7 @@ const Home = () => {
           <div className="login-btn">
             {/* <Button href='/sign-up' size="lg" className='sign-up'>Sign Up</Button>
             <Button href='/sign-in' size="lg" className='sign-in'>Sign In</Button> */}
-            <Buttons />
+            <Buttons signup='Sign Up' />
           </div>
         </Container>
 

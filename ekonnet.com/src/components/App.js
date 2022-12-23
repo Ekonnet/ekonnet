@@ -20,6 +20,7 @@ import SignUp from '../components/AcountLogin/SignUp';
 import SignIn from '../components/AcountLogin/SignIn';
 import MarketData from './Markets/MarketData';
 import Affiliate from './Affiliate';
+import About from './About';
 import {Route,Routes} from "react-router-dom";
 
 const App = () => {
@@ -45,6 +46,7 @@ const App = () => {
        <Route path="/P2p-trading-fees-sell" element={<P2pTradingFeesSell/>}/>
        <Route path="/sign-in" element={<SignIn/>}/>
        <Route path='/affiliate' element={<Affiliate/>}/>
+       <Route path='/about' element={<About/>}/>
 
      </Routes>
     </>

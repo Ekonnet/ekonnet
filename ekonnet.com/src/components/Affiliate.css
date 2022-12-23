@@ -1,3 +1,116 @@
-.affiliate_hero{
-    margin-top: 50px;
+:root{
+
+--h1-color:darkblue;
+--p-color:blueviolet;
+
+}
+.affiliate_hero h1{
+    margin-top: 110px;
+    font-family: 'Spectral', serif;
+    color: var(--h1-color);
+}
+.affiliate_hero h3 strong{
+    background: linear-gradient(
+            to right, #f32170, #ff6b08,
+             #cf23cf, #eedd44);
+             -webkit-text-fill-color: transparent;
+             -webkit-background-cli: text;
+             font-family: 'Spectral', serif;
+            
+
+}
+.affiliate_hero h3{
+    color: var(--p-color);
+    font-size: 1.6rem;
+    font-family: 'Spectral', serif;
+}
+.affiliate_hero p{
+    color:var(--h1-color);  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;   
+}
+.affiliate_hero .btn-primary{
+    border-radius: 50px;
+    border: none;
+}
+.affiliate_income{
+    margin-top: 60px;
+}
+.affiliate_income span{
+    font-size: 2rem;
+    font-family: 'Spectral', serif;
+    color: var(--h1-color);
+}
+.affiliate_income p{
+    margin-top: 40px;
+    color: var(--p-color);  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;  
+    
+}
+.income p{
+    color: var(--p-color);  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;  
+    margin-top: 0px;
+}
+.income h6{
+    font-family: 'Spectral', serif;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    color: var(--h1-color);
+}
+.why_affiliate{
+    margin-top: 40px;
+}
+.why_affiliate h1{
+    color: var(--h1-color);
+    margin-top: 110px;
+    font-family: 'Spectral', serif;
+    font-size: 1.8rem;
+}
+.why_affiliate span{
+    font-size: 1.4rem;
+    font-family: 'Spectral', serif;
+    color: var(--p-color);
+}
+.why_affiliate p{
+    margin-top: 0px;
+    color: var(--p-color);  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;  
+    
+}
+.why_affiliate h3{
+    color: var(--h1-color);
+    margin-top: 90px;
+    font-family: 'Spectral', serif;
+    font-size: 1.5rem;
+}
+.affiliate_work{
+    margin-top: 60px;
+}
+.affiliate_work h1{
+    color: var(--h1-color);
+    margin-top: 110px;
+    font-family: 'Spectral', serif;
+    font-size: 1.8rem;
+}
+.affiliate_work span{
+    font-size: 1.4rem;
+    font-family: 'Spectral', serif;
+    color: var(--p-color);
+}
+.affiliate_work h3{
+    color: var(--h1-color);
+    margin-top: 90px;
+    font-family: 'Spectral', serif;
+    font-size: 1.5rem;
+}
+.affiliate_work p{
+    margin-top: 0px;
+    color: var(--p-color);  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;  
+    
 }

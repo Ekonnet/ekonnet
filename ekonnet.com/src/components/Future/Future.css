@@ -1,6 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Spectral:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
+
+.futur-common h2{
+    position: relative;
+}
+.futur-common h2::before{
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    top: 100%;
+    border-radius: 50%;
+    left: 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    background:linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+  }
+  .futur-common h2::after{
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    top: 111%;
+    left: 0.8rem;
+   
+    min-width: 5rem;
+   height: 0.2rem;
+   border-radius: 0  10px 10px 0;
+   
+    background:linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+  }
+
+
+
+
+
+
 .future{
 background-color: #0404EA;
 }
@@ -38,16 +72,7 @@ font-size: 1.5rem;
 
 color: #FFFFFF;
 }
-.Future_Visit_btn{
-    width: 120px;
-    height: 40px;
-    color:white;
-    background-color: #0404EA;
-    border: 1px solid #ffff00;
-}
-.Future_Register_btn{
-    margin-left: 10px;
-}
+
 .future_img{
     width: 400px;
     height:400px;
@@ -88,7 +113,7 @@ color: #FFFFFF;
 }
 .leverage p{
     font-family: 'Open Sans', sans-serif;
-    margin-top:20px ;
+    margin-top:50px ;
     font-size: 1rem;
     
     color: #FFFFFF;
@@ -105,7 +130,7 @@ color: #FFFFFF;
 }
 .flexibility p{
     font-family: 'Open Sans', sans-serif;
-    margin-top:20px ;
+    margin-top:50px ;
     font-size: 1rem;
     
     color: #FFFFFF;
