@@ -56,6 +56,9 @@ function HeaderNav() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to={"/explore"}>Explore</Nav.Link>
+            <Nav.Link as={Link} to={"/"}>Affiliate</Nav.Link>
+            <Nav.Link as={Link} to={"/"}>About Us</Nav.Link>
+            
           </Nav>
          
           <Button  href="/sign-up" className='nav-btn'>Sign Up</Button>
