@@ -1,0 +1,13 @@
+.staking h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 1.8rem;
+    margin-top: 80px;
+}
+.staking p{
+    color: blueviolet;  
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+}

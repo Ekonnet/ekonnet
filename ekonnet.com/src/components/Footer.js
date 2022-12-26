@@ -9,6 +9,8 @@ import { BsFacebook } from 'react-icons/bs';
 import { TiSocialLinkedinCircular } from 'react-icons/ti';
 import { FaTelegram } from 'react-icons/fa';
 import { BsReddit } from 'react-icons/bs';
+import {Link} from "react-router-dom";
+import Nav from 'react-bootstrap/Nav';
 
 
 const Footer = () => {
@@ -37,7 +39,7 @@ const Footer = () => {
                             <h2>Services</h2>
                             <h5>Exchange</h5>
                             <h5>Otc</h5>
-                            <h5>Staking</h5>
+                        <Nav.Link as={Link} to={"/staking"}><h5>Staking</h5></Nav.Link>
                             <h5>Security & Protection</h5>
                             <h5>Credit & Debit Card</h5>
                         </Col>
@@ -45,18 +47,18 @@ const Footer = () => {
                         <Col className='footer-services'>
                             <h2>Products</h2>
                             <h5>Exchange</h5>
-                            <h5>Mobile App</h5>
-                            <h5>Ekonnet Pay</h5>
-                            <h5>Wallet</h5>
+                        <Nav.Link as={Link} to={"/mobile-app"}><h5>Mobile App</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/ekonnet-pay"}><h5>Ekonnet Pay</h5></Nav.Link>       
+                        <Nav.Link as={Link} to={"/wallets"}><h5>Wallet</h5></Nav.Link>
                         </Col>
                         {/* ------------3rd section--------------- */}
                         <Col className='footer-services'>
                             <h2>Company</h2>
-                            <h5>About</h5>
-                            <h5>Affiliates</h5>
-                            <h5>Careers</h5>
-                            <h5>NewsLetter</h5>
-                            <h5>our Fees</h5>
+                        <Nav.Link as={Link} to={"/about"}><h5>About</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/affiliate"}><h5>Affiliates</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/career"}><h5>Careers</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/news-letter"}><h5>NewsLetter</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/fees"}><h5>Fees</h5></Nav.Link>
                         </Col>
                         {/* ------------4th section--------------- */}
                         <Col className='footer-services'>

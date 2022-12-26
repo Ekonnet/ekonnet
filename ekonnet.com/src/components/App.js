@@ -20,6 +20,13 @@ import SignUp from '../components/AcountLogin/SignUp';
 import SignIn from '../components/AcountLogin/SignIn';
 import Spot from '../components/Markets/Spot';
 import MarketData from './Markets/MarketData';
+import Affiliate from './Affiliate';
+import About from './About';
+import Fees from './Fees';
+import NewsLetter from './NewsLetter';
+import Career from './Career';
+import EkonnetPay from './EkonnetPay';
+import Staking from './Staking';
 import {Route,Routes} from "react-router-dom";
 import Derivatives from './Markets/Derivatives';
 
@@ -47,7 +54,14 @@ const App = () => {
        <Route path="/market-data" element={<MarketData/>}/>
        <Route path="/P2p-trading-fees-sell" element={<P2pTradingFeesSell/>}/>
        <Route path="/sign-in" element={<SignIn/>}/>
-       <Route path="/sign-up" element={<SignUp/>}/>
+       <Route path='/affiliate' element={<Affiliate/>}/>
+       <Route path='/about' element={<About/>}/>
+       <Route path='/career' element={<Career/>}/>
+       <Route path='/fees' element={<Fees/>}/>
+       <Route path='/news-letter' element={<NewsLetter/>}/>
+       <Route path='/ekonnet-pay' element={<EkonnetPay/>}/>
+       <Route path='/staking' element={<Staking/>}/>
+
 
      </Routes>
     </>

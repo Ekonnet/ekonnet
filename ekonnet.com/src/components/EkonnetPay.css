@@ -1,0 +1,101 @@
+.ekonnet_hero{
+    margin-top: 80px;
+}
+.ekonnet_hero h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 1.8rem;
+    margin-top: 80px;
+}
+.ekonnet_hero h3{
+    font-family: 'Spectral', serif;
+    font-size: 1.4rem;
+    color: cornflowerblue;
+    margin-top: 10px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.ekonnet_hero button{
+    margin-top: 10px;
+}
+.what_ekonnet h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 1.8rem;
+    margin-top: 60px;
+}
+.what_ekonnet p{
+    color: blueviolet;  
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.why_ekonnet h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 1.8rem;
+    margin-top: 60px;
+}
+.why_ekonnet h4{
+    font-family: 'Spectral', serif;
+    font-size: 1.4rem;
+    color: cornflowerblue;
+    margin-top: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+.why_ekonnet p{
+    color: blueviolet;  
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+.flexible h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 1.8rem;
+    margin-top: 60px;
+}
+.flexible h3{
+    font-family: 'Spectral', serif;
+    font-size: 1.4rem;
+    color: cornflowerblue;
+    margin-top: 10px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.flexible p{
+    color: blueviolet;  
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+.option h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 1.8rem;
+    margin-top: 60px;
+}
+.option p{
+    color: blueviolet;  
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+.ekonnet_crypto h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 1.8rem;
+    margin-top: 60px;
+}
+.ekonnet_crypto p{
+    color: blueviolet;  
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+}

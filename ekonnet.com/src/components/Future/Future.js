@@ -67,7 +67,7 @@ const Future = () => {
             <div className='col-lg-6'>
               <img src={currency} alt='phone' className='img-fluid icons_img'></img>
             </div>
-            <div className='col-lg-6 futur-common'>
+            <div className='col-lg-6'>
               <h2>Trade a range of currency pairs</h2>
               <p>Gain exposure to a variety of pairs using your multi-collateral futures wallet with 10 different collateral options.
                 The most versatile cryptocurrency pairs to trade are usually BTC and ETH, as they're offered by most exchanges. Many crypto exchanges offer pairings for cryptocurrencies and fiat currencies like the U.S. dollar (USD), while some do not.

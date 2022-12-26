@@ -1,0 +1,75 @@
+.career_hero{
+    margin-top: 80px;
+}
+.career_hero h3{
+    color: darkblue;
+    font-size: 1.7rem;
+    font-family: 'Spectral', serif;
+}
+.career_hero strong{
+    color: brown;
+}
+.career_hero h1{
+    color: blueviolet;
+    font-size: 1.4rem;
+    font-family: 'Spectral', serif;
+}
+.career{
+    margin-top: 60px;
+}
+.career h1{
+    font-family: 'Spectral', serif;
+    font-size: 1.8rem;
+    color: darkblue;
+}
+.career h3{
+    font-family: 'Spectral', serif;
+    font-size: 1.4rem;
+    color: cornflowerblue;
+    margin-top: 20px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+.career p{
+    color: blueviolet;  
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 1rem;
+}
+.career .img-fluid{
+    margin-left: 100px;
+}
+.openings{
+    margin-top: 60px;   
+}
+.openings h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 1.8rem;
+}
+.openings h6{
+    font-family: 'Spectral', serif;
+    color: cornflowerblue;
+    margin-top: 10px;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.openings p{
+    color: blueviolet;  
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+.openings h3{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+.openings button{
+    margin-top: 10px;
+}
