@@ -49,3 +49,18 @@
     margin-bottom: 30px;
    
 }
+.about_value h3{
+    color: darkblue;
+    font-size: 1.2rem;
+    font-family: 'Spectral', serif;
+    text-align: center; 
+    margin-top: 10px;
+    
+}
+.about_value p{
+    color: darkmagenta;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;  
+    text-align: justify;
+    font-style: italic;
+}

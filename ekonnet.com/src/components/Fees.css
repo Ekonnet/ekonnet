@@ -1,0 +1,20 @@
+.fees h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    margin-top: 80px;
+    font-size: 1.8rem;
+}
+.fees button{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.fees p{
+    color: blueviolet;  
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    font-size: 1rem;
+    margin-left: 30px;
+}
+.fees img{
+    margin-top: 60px;
+}

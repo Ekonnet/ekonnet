@@ -85,53 +85,54 @@ const About = () => {
                     <div>
                         <h3>Think Clearly</h3>
                         <p>We consider clarity of thought to be the single most important trait we look for in our colleagues 
-We think about the message we want to deliver before we speak, and know what is important and what is not We are concise and articulate, putting effort into making things simple and easy to understand
-</p>
+                         We think about the message we want to deliver before we speak, and know what is important and what is not We are concise and articulate, putting effort into making things simple and easy to understand
+                        </p>
                     </div>
 
                 </div>
                 <div className='col-lg-6'>
                     <div>
-                        <h3>Think Clearly</h3>
-                        <p>We consider clarity of thought to be the single most important trait we look for in our colleagues 
-We think about the message we want to deliver before we speak, and know what is important and what is not We are concise and articulate, putting effort into making things simple and easy to understand
-</p>
+                        <h3>Dream Big</h3>
+                        <p>We think big, take smart risks, and do things that have never been done before We are not afraid to make tough choices that align with our long-term objectives 
+                         We know that it always seems impossible until it’s done
+                        </p>
                     </div>
 
                 </div>
                 <div className='col-lg-6'>
                     <div>
-                        <h3>Think Clearly</h3>
-                        <p>We consider clarity of thought to be the single most important trait we look for in our colleagues 
-We think about the message we want to deliver before we speak, and know what is important and what is not We are concise and articulate, putting effort into making things simple and easy to understand
-</p>
+                        <h3>Be Resourceful</h3>
+                        <p>We go beyond the surface to gain a deep understanding of every issue We always find a way to get things done with what’s available, but we are not shy about asking for help when it’s needed 
+                         We believe that great ideas can come from anywhere, regardless of seniority and experience
+                        </p>
                     </div>
 
                 </div>
                 <div className='col-lg-6'>
                     <div>
-                        <h3>Think Clearly</h3>
-                        <p>We consider clarity of thought to be the single most important trait we look for in our colleagues 
-We think about the message we want to deliver before we speak, and know what is important and what is not We are concise and articulate, putting effort into making things simple and easy to understand
-</p>
+                        <h3>Take Ownership and Be Decisive</h3>
+                        <p>We are all empowered to take initiative, make the right decisions, and act as owners We are committed to protecting our company culture and seek to bring in the best people we’ve ever worked with 
+                         We aim to surprise and inspire with the quality and speed of our decision-making
+                        </p>
                     </div>
 
                 </div>
                 <div className='col-lg-6'>
                     <div>
-                        <h3>Think Clearly</h3>
-                        <p>We consider clarity of thought to be the single most important trait we look for in our colleagues 
-We think about the message we want to deliver before we speak, and know what is important and what is not We are concise and articulate, putting effort into making things simple and easy to understand
-</p>
+                        <h3>Stay Determined</h3>
+                        <p>We never give up, carry each other through hard times, and recognise grit in our colleagues
+                         We understand that building a world-changing company is a monumental task, but we love every minute of it 
+                         We celebrate milestones together, recharge, and get back to work</p>
                     </div>
 
                 </div>
                 <div className='col-lg-6'>
                     <div>
-                        <h3>Think Clearly</h3>
-                        <p>We consider clarity of thought to be the single most important trait we look for in our colleagues 
-We think about the message we want to deliver before we speak, and know what is important and what is not We are concise and articulate, putting effort into making things simple and easy to understand
-</p>
+                        <h3>Remain Humble</h3>
+                        <p>We don’t seek the limelight and focus on doing what is best for the company and the users
+                         We leave our egos at the door and learn from our mistakes, knowing that we are always stronger as a team 
+                         We think twice before spending, but are aggressive when it comes to investing in what matters
+                        </p>
                     </div>
 
                 </div>

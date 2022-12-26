@@ -21,6 +21,11 @@ import SignIn from '../components/AcountLogin/SignIn';
 import MarketData from './Markets/MarketData';
 import Affiliate from './Affiliate';
 import About from './About';
+import Fees from './Fees';
+import NewsLetter from './NewsLetter';
+import Career from './Career';
+import EkonnetPay from './EkonnetPay';
+import Staking from './Staking';
 import {Route,Routes} from "react-router-dom";
 
 const App = () => {
@@ -47,6 +52,12 @@ const App = () => {
        <Route path="/sign-in" element={<SignIn/>}/>
        <Route path='/affiliate' element={<Affiliate/>}/>
        <Route path='/about' element={<About/>}/>
+       <Route path='/career' element={<Career/>}/>
+       <Route path='/fees' element={<Fees/>}/>
+       <Route path='/news-letter' element={<NewsLetter/>}/>
+       <Route path='/ekonnet-pay' element={<EkonnetPay/>}/>
+       <Route path='/staking' element={<Staking/>}/>
+
 
      </Routes>
     </>
