@@ -11,3 +11,94 @@
     font-size: 1rem;
     text-align: center;
 }
+.staking h3{
+    font-family: 'Spectral', serif;
+    font-size: 1.4rem;
+    color: cornflowerblue;
+    margin-top: 100px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.btn_coin button{
+    margin-top: 15px;
+    width: 150px;
+}
+.staking input{
+    margin-top: 15px;
+    border-color: darkblue;
+}
+.potential_reward h5{
+    margin-top: 20px;
+    color: darkblue;
+    font-family: 'Spectral', serif;
+    font-size: 1.2rem;
+}
+.potential_reward p{
+    color: blueviolet;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+}
+.staking_deposit{
+    margin-top: 60px;
+}
+.staking_deposit h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 1.8rem;
+}
+.staking_deposit h2{
+    font-family: 'Spectral', serif;
+    font-size: 1.4rem;
+    color: cornflowerblue;
+    font-style: oblique;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.staking_deposit h6{
+    margin-top: 20px;
+    color: darkblue;
+    font-family: 'Spectral', serif;
+    font-size: 1.2rem;
+}
+.staking_deposit p{
+    color: blueviolet;  
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+.digital_token h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 1.8rem;
+    margin-top: 80px;
+}
+.digital_token h2{
+    font-family: 'Spectral', serif;
+    font-size: 1.4rem;
+    color: cornflowerblue;
+    margin-top: 10px;
+    font-style: oblique;
+    font-weight: bold;
+}
+.digital_token h6{
+    margin-top: 8px;
+    color: #00008b;
+    font-family: 'Spectral', serif;
+    font-size: 1.2rem;
+}
+.digital_token p{
+    color: blueviolet;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+.digital_token button{
+    margin-bottom: 30px;
+}
+.acco h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 1.8rem;
+    margin-top: 80px;
+}
