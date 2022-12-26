@@ -41,7 +41,8 @@ const Footer = () => {
                             <h5>Otc</h5>
                         <Nav.Link as={Link} to={"/staking"}><h5>Staking</h5></Nav.Link>
                             <h5>Security & Protection</h5>
-                            <h5>Credit & Debit Card</h5>
+                            <Nav.Link as={Link} to={"/credit-card"}><h5>Credit & Debit Card</h5></Nav.Link>
+                         
                         </Col>
                         {/* ------------2nd section--------------- */}
                         <Col className='footer-services'>
