@@ -4,9 +4,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './Market.css'
-import { NavLink } from 'react-router-dom';
-import BoxDiv from '../OwlCarousel/BoxDiv';
+
+// import { Link } from "react-router-dom";
+// import BoxDiv from '../OwlCarousel/BoxDiv';
 import NewsFeedComponets from '../Markets/NewsFeedComponets';
+import TabsDatavalues from '../Markets/TabsDataValues';
+// import Button from '@mui/material/Button';
+
 // import Col from 'react-bootstrap/Col';
 // import { Link } from "react-router-dom";
 
@@ -35,14 +39,16 @@ export default function MarketOverview() {
           </Row>
           <Row>
             <Col>
-              <div className='d-flex justify-content-start gap-3'>
-                <NavLink><h3 className='market-nav'>Favorites</h3></NavLink>
-                <NavLink> <h3 className='market-nav'>Spot </h3></NavLink>
-                <NavLink> <h3 className='market-nav'>Darivatives</h3></NavLink>
-              </div>
+              {/* <div className='d-flex justify-content-start gap-3'>
+              
+                <NavLink as={Link} to={"/market-overview"}><button className='market-nav'>Favorites</button></NavLink>
+                <NavLink as={Link} to={"/spot"} ><button className='market-nav'>Spot </button></NavLink>
+                <NavLink as={Link} to={"/darivatives"}> <button className='market-nav'>Darivatives</button></NavLink>
+              </div> */}
+              <TabsDatavalues/>
             </Col>
           </Row>
-          <Row>
+          {/* <Row>
             <Col>
               <BoxDiv />
             </Col>
@@ -70,10 +76,8 @@ export default function MarketOverview() {
             <Col>
               <BoxDiv />
             </Col>
-          </Row>
-                          <div className='mt-5 d-flex justify-content-center'>
-                         <NavLink><h3 className='market-nav'>Add To Favorite</h3></NavLink>
-                         </div>
+          </Row> */}
+                        
         </Container>
       </section>
 

@@ -18,8 +18,10 @@ import Explore from './Explore/Explore';
 import Future from  './Future/Future';
 import SignUp from '../components/AcountLogin/SignUp';
 import SignIn from '../components/AcountLogin/SignIn';
+import Spot from '../components/Markets/Spot';
 import MarketData from './Markets/MarketData';
 import {Route,Routes} from "react-router-dom";
+import Derivatives from './Markets/Derivatives';
 
 const App = () => {
   return (
@@ -27,6 +29,8 @@ const App = () => {
       <Routes>
       <Route path="/" element={<Home/>}/> 
        <Route path="/one-click-buy" element={<OneClickBuy/>}/> 
+       <Route path="/spot" element={<Spot/>}/> 
+       <Route path="/derivatives" element={<Derivatives/>}/> 
        <Route path="/one-click-sell" element={<OneClickSell/>}/> 
        <Route path="/p2p-trading-Fees" element={<P2pTradingFees/>}/>
        <Route path="/fiat-deposite" element={<FiatDeposite/>}/>
