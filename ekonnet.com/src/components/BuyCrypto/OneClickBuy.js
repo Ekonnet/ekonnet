@@ -11,8 +11,7 @@ const OneClickBuy = () => {
         <div className='row'>
          <div className='col-lg-12'>
           <div className='one_click_button d-flex'>
-            {/* <button id="one_click_active">One-Click Buy</button> */}
-            <button id="one_click_active">One-Click Buy</button>
+            <Nav.Link as={Link} to={""}><button id='one_click_active'>One-Click Buy</button></Nav.Link> 
             <Nav.Link as={Link} to={"/P2p-trading-fees"}><button>P2P</button></Nav.Link> 
             <Nav.Link as={Link} to={"/fiat-deposite"}><button>Fiat-Deposite</button></Nav.Link> 
           </div>

@@ -11,8 +11,8 @@ const P2pTradingFees = () => {
         <div className='row'>
          <div className='col-lg-12'>
           <div className='p_to_p_button d-flex'>
-          <Nav.Link as={Link} to={"/one-click-buy"}><button>one-Click Buy</button></Nav.Link> 
-            <button id="p2p_active">P2P</button> 
+            <Nav.Link as={Link} to={"/one-click-buy"}><button>one-Click Buy</button></Nav.Link> 
+            <Nav.Link as={Link} to={""}><button id='p2p_active'>P2P</button></Nav.Link> 
             <Nav.Link as={Link} to={"/fiat-deposite"}><button>Fiat-Deposite</button></Nav.Link> 
           </div>
          </div>

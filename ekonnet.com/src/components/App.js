@@ -30,6 +30,7 @@ import Staking from './Staking';
 import {Route,Routes} from "react-router-dom";
 import Derivatives from './Markets/Derivatives';
 import CreditDebitCard from './CreditDebitCard';
+import Otc from './Otc';
 
 const App = () => {
   return (
@@ -63,6 +64,7 @@ const App = () => {
        <Route path='/news-letter' element={<NewsLetter/>}/>
        <Route path='/ekonnet-pay' element={<EkonnetPay/>}/>
        <Route path='/staking' element={<Staking/>}/>
+       <Route path='/otc' element={<Otc/>}/>
 
 
      </Routes>

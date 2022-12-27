@@ -38,10 +38,10 @@ const Footer = () => {
                         <Col className='footer-services'>
                             <h2>Services</h2>
                             <h5>Exchange</h5>
-                            <h5>Otc</h5>
+                        <Nav.Link as={Link} to={"/otc"}><h5>Otc</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/staking"}><h5>Staking</h5></Nav.Link>
                             <h5>Security & Protection</h5>
-                            <Nav.Link as={Link} to={"/credit-card"}><h5>Credit & Debit Card</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/credit-card"}><h5>Credit & Debit Card</h5></Nav.Link>
                          
                         </Col>
                         {/* ------------2nd section--------------- */}
