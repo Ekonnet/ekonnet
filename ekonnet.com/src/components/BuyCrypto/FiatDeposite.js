@@ -13,7 +13,7 @@ const FiatDeposite = () => {
           <div className='fiat_deposite_button d-flex'>     
             <Nav.Link as={Link} to={"/one-click-buy"}><button>One-Click Buy</button></Nav.Link> 
             <Nav.Link as={Link} to={"/P2p-trading-fees"}><button>P2P</button></Nav.Link> 
-            <button id="fiat_deposite_active">Fiat-Deposite</button>
+            <Nav.Link as={Link} to={""}><button id="fiat_deposite_active">Fiat-Deposite</button></Nav.Link> 
           </div>
          </div>
         </div>
