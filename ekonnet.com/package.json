@@ -21,6 +21,7 @@
     "get-google-fonts": "^1.2.2",
     "mdb-react-ui-kit": "^5.1.0",
     "react": "^18.2.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
     "react-grid-gallery": "^1.0.0",

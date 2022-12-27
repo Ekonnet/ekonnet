@@ -54,7 +54,13 @@
     margin-left: 10px;
 }
 .otc_input button{
-    margin-left: 0px;
     border-radius: 0px;
     margin-left: 10px;
+    width: 80px;
+}
+.otc_quato button{
+    margin-top: 50px;
+    margin-left: 149px;
+    margin-right: 107px;
+    width: 124px;
 }

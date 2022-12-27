@@ -31,6 +31,7 @@ import {Route,Routes} from "react-router-dom";
 import Derivatives from './Markets/Derivatives';
 import CreditDebitCard from './CreditDebitCard';
 import Otc from './Otc';
+import OtcSell from './OtcSell';
 
 const App = () => {
   return (
@@ -65,8 +66,7 @@ const App = () => {
        <Route path='/ekonnet-pay' element={<EkonnetPay/>}/>
        <Route path='/staking' element={<Staking/>}/>
        <Route path='/otc' element={<Otc/>}/>
-
-
+       <Route path='/otc-sell' element={<OtcSell/>}/>
      </Routes>
     </>
  
