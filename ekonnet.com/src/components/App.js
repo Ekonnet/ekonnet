@@ -32,6 +32,8 @@ import Derivatives from './Markets/Derivatives';
 import CreditDebitCard from './CreditDebitCard';
 import Otc from './Otc';
 import OtcSell from './OtcSell';
+import TwoWay from './TwoWay';
+
 
 const App = () => {
   return (
@@ -67,6 +69,7 @@ const App = () => {
        <Route path='/staking' element={<Staking/>}/>
        <Route path='/otc' element={<Otc/>}/>
        <Route path='/otc-sell' element={<OtcSell/>}/>
+       <Route path='/two-way' element={<TwoWay/>}/>
      </Routes>
     </>
  

@@ -3,7 +3,7 @@ import './Otc.css';
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 
-const Otc = () => {
+const TwoWay = () => {
   return (
     <>
       <section id='otc_hero' className='otc_hero'>
@@ -23,13 +23,13 @@ const Otc = () => {
         <div className='col-lg-4'></div>
          <div className='col-lg-4'>
          <div className='otc_button d-flex '>
-            <Nav.Link as={Link} to={""}><button id='Buy_active'>Buy</button></Nav.Link> 
+            <Nav.Link as={Link} to={"/otc"}><button>Buy</button></Nav.Link> 
             <Nav.Link as={Link} to={"/otc-sell"}><button>Sell</button></Nav.Link> 
-            <Nav.Link as={Link} to={"/two-way"}><button>Two-Way</button></Nav.Link> 
+            <Nav.Link as={Link} to={""}><button id='twoway_active'>Two-Way</button></Nav.Link> 
           </div>
           <div className='otc_input d-flex'>
             <div>
-            <label>Buy</label>
+            <label>Amount</label>
             <input type="text" placeholder=''></input>
             </div>
             <div>
@@ -39,7 +39,7 @@ const Otc = () => {
           </div>
           <div className='otc_input d-flex'>
             <div>
-            <label>Pay</label>
+            <label>Amount</label>
             <input type="text" placeholder=''></input>
             </div>
             <div>
@@ -63,4 +63,4 @@ const Otc = () => {
 
 
 
-export default Otc
+export default TwoWay

@@ -23,13 +23,13 @@ const OtcSell = () => {
         <div className='col-lg-4'></div>
          <div className='col-lg-4'>
          <div className='otc_button d-flex '>
-            <Nav.Link as={Link} to={""}><button id='Buy_active'>Buy</button></Nav.Link> 
-            <Nav.Link as={Link} to={""}><button>Sell</button></Nav.Link> 
-            <Nav.Link as={Link} to={""}><button>Two-Way</button></Nav.Link> 
+            <Nav.Link as={Link} to={"/otc"}><button>Buy</button></Nav.Link> 
+            <Nav.Link as={Link} to={""}><button id='sell_active'>Sell</button></Nav.Link> 
+            <Nav.Link as={Link} to={"/two-way"}><button>Two-Way</button></Nav.Link> 
           </div>
           <div className='otc_input d-flex'>
             <div>
-            <label>Buy</label>
+            <label>Sell</label>
             <input type="text" placeholder=''></input>
             </div>
             <div>
@@ -39,7 +39,7 @@ const OtcSell = () => {
           </div>
           <div className='otc_input d-flex'>
             <div>
-            <label>Pay</label>
+            <label>Receive</label>
             <input type="text" placeholder=''></input>
             </div>
             <div>
