@@ -65,6 +65,12 @@
 #Buy_active:hover{
     border-color: black;
 } 
+#sell_active:hover{
+    border-color: black;
+}
+#twoway_active:hover{
+    border-color: black;
+}
 .otc_input label{
     font-size: 1rem;
     margin-left: 10px;

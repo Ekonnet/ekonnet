@@ -49,10 +49,8 @@ const TwoWay = () => {
           </div>
           <div className='otc_quato'>
             <button className='btn btn-primary '>Get a quato</button>
-          </div>
-            
+          </div>        
          </div>
-         
          <div className='col-lg-4'></div>
         </div>
       </div>
@@ -60,7 +58,5 @@ const TwoWay = () => {
     </>
   )
 }
-
-
 
 export default TwoWay
