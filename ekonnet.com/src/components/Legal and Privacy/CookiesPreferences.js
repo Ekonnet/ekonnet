@@ -61,11 +61,12 @@ const CookiesPreferences = () => {
                     <Nav.Link as={Link} to={"/"}><li>Privacy Statement</li></Nav.Link> 
                     <Nav.Link as={Link} to={"/"}><li>Cookies Policy</li></Nav.Link>       
                     </ul>
-                    <button>Trading Rulebook</button>
+                    <Nav.Link as={Link} to={"/trading-rulebook"}><button>Trading Rulebook</button>
                     <ul>
                     <Nav.Link as={Link} to={"/"}><li>Privacy Statement</li></Nav.Link> 
                     <Nav.Link as={Link} to={"/"}><li>Cookies Policy</li></Nav.Link>       
                     </ul>
+                    </Nav.Link>
                     </div>
                 </div>
                 <div className='col-lg-8'>
