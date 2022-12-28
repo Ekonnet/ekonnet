@@ -2,10 +2,13 @@ import React from 'react'
 import background from '../components/assets/pbg.jpg'
 import './HelpCenter__main.css';
 import { BiSearchAlt2 } from 'react-icons/bi';
-import { SiStartrek } from 'react-icons/si';
+import { SiStartrek} from 'react-icons/si';
 import { MdDoubleArrow } from 'react-icons/md';
 import { IoArrowRedoCircle } from 'react-icons/io5';
 import HelpCenterImg from '../components/assets/HelpCenter-Footer.png'
+import {Link} from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
+
 
 
 const HelpCenter = () => {
@@ -17,6 +20,8 @@ const HelpCenter = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
     }
+
+  
 
 
 
@@ -42,6 +47,7 @@ const HelpCenter = () => {
                 <div className="container">
                     <div className="row d-flex justify-content-around gap-0.8">
                         <div className="col-lg-4 col-md-6 col-12 box__heplcenter">
+                            <Nav.Link as={Link} to={"/getting-started"}>
                             <div className='circle__icon'>
                                 <SiStartrek className='icon' size="2rem" />
                             </div>
@@ -50,6 +56,7 @@ const HelpCenter = () => {
                             <div className='d-flex justify-content-end'>
                             <IoArrowRedoCircle size={30} className="div__arrow-icon"/>
                             </div>
+                            </Nav.Link>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12 box__heplcenter">
                             <div className='circle__icon'>

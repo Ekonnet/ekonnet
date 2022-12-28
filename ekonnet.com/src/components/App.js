@@ -34,6 +34,7 @@ import Otc from './Otc';
 import OtcSell from './OtcSell';
 import TwoWay from './TwoWay';
 import HelpCenter from '../HelpCenter/HelpCenter';
+import GettingStarted from '../HelpCenter/Getting Startted/GettingStarted';
 
 
 const App = () => {
@@ -72,6 +73,7 @@ const App = () => {
        <Route path='/otc-sell' element={<OtcSell/>}/>
        <Route path='/two-way' element={<TwoWay/>}/>
        <Route path='/help-center' element={<HelpCenter/>}/>
+       <Route path='/getting-started' element={<GettingStarted/>}/>
      </Routes>
     </>
  
