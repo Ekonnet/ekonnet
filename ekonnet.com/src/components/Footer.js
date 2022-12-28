@@ -69,16 +69,16 @@ const Footer = () => {
                         </Col>
                         {/* ------------5th section--------------- */}
                         <Col className='footer-services'>
-                            <h2>Legal & Privacy</h2>
-                            <h5>General Notices & Terms</h5>
-                            <h5>Ekonnet Pay Terms</h5>
-                            <h5>Exchange Terms</h5>
-                            <h5>Derivative Terms</h5>
-                            <h5>Privacy</h5>
-                            <h5>Cookies Policy</h5>
-                            <h5>Cookies Preferences</h5>
-                            <h5>Token Specific Terms</h5>
-                            <h5>Trading Rulebook</h5>
+                            <h2>Legal & Privacy</h2>             
+                        <Nav.Link as={Link} to={"/general-notice-and-terms"}><h5>General Notices & Terms</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/ekonnet-pay-terms"}><h5>Ekonnet Pay Terms</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/exchange-terms"}><h5>Exchange Terms</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/derivative-terms"}><h5>Derivative Terms</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/privacy"}><h5>Privacy</h5></Nav.Link> 
+                        <Nav.Link as={Link} to={"/cookies-policy"}><h5>Cookies Policy</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/Cookies-Preferences"}><h5>Cookies Preferences</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/token-specific-terms"}><h5>Token Specific Terms</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/trading-rulebook"}><h5>Trading Rulebook</h5></Nav.Link>
                         </Col>
                     </Row>
                 </div>
