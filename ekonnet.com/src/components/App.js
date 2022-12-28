@@ -33,6 +33,15 @@ import CreditDebitCard from './CreditDebitCard';
 import Otc from './Otc';
 import OtcSell from './OtcSell';
 import TwoWay from './TwoWay';
+import CookiesPolicy from './Legal and Privacy/CookiesPolicy';
+import CookiesPreferences from './Legal and Privacy/CookiesPreferences';
+import TokenSpecificTerms from './Legal and Privacy/TokenSpecificTerms';
+import GeneralNoticeAndTerms from './Legal and Privacy/GeneralNoticeAndTerms';
+import TradingRuleBook from './Legal and Privacy/TradingRulebook';
+import Privacy from './Legal and Privacy/Privacy';
+import ExchangeTerms from './Legal and Privacy/ExchangeTerms';
+import EkonnetPayTerms from './Legal and Privacy/EkonnetPayTerms';
+import DerivativeTerms from './Legal and Privacy/DerivativeTerms';
 
 
 const App = () => {
@@ -70,6 +79,15 @@ const App = () => {
        <Route path='/otc' element={<Otc/>}/>
        <Route path='/otc-sell' element={<OtcSell/>}/>
        <Route path='/two-way' element={<TwoWay/>}/>
+       <Route path='/general-notice-and-terms' element={<GeneralNoticeAndTerms/>}/>
+       <Route path='/ekonnet-pay-terms' element={<EkonnetPayTerms/>}/>
+       <Route path='/exchange-terms' element={<ExchangeTerms/>}/>
+       <Route path='/derivative-terms' element={<DerivativeTerms/>}/>
+       <Route path='/privacy' element={<Privacy/>}/>
+       <Route path='/cookies-policy' element={<CookiesPolicy/>}/>
+       <Route path='/Cookies-Preferences' element={<CookiesPreferences/>}/>
+       <Route path='/token-specific-terms' element={<TokenSpecificTerms/>}/>
+       <Route path='/trading-rulebook' element={<TradingRuleBook/>}/>
      </Routes>
     </>
  
