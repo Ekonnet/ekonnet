@@ -133,3 +133,45 @@
     font-size: 1.2rem;
     
 }
+
+/* ==================================================About Us Css============================= */
+.mar-top{
+    padding-top: 100px;
+}
+
+
+.input{
+    width: 100%;
+    background: #0B1D33;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding: 18px 20px;
+    height: 65px;
+}
+.textarea{
+    width: 100%;
+    background: #0B1D33;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    padding: 18px 20px;
+    margin-top: 40px;
+    height:210px;
+}
+.btn button{
+    padding: 15px 30px;
+    border: 2px solid #00a0d2;
+    border-radius: 30px;
+    margin:20px 0 60px 0;
+    background: #0B1D33;
+    color: white;
+    font-size: 1.3rem;
+}
+.btn button:hover{
+    color: #00a0d2;
+}
