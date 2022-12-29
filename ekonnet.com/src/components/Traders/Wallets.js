@@ -4,7 +4,9 @@ import W2 from "../assets/W2.png";
 import Wallet from "../assets/Secure-wallet.png";
 import W4 from "../assets/W4.png";
 import './Wallets.css';
-import { BsApple } from 'react-icons/bs';
+import { BsApple, BsCreditCard, BsGoogle, BsLock} from 'react-icons/bs';
+
+
 
 const Wallets = () => {
   return (
@@ -32,7 +34,7 @@ const Wallets = () => {
               <h2>Download for App Store</h2>
             </div>
             <div className='app_icons d-flex'>
-              <BsApple/>
+              <BsGoogle/>
               <h2>Download for Google Play</h2>
             </div>
             </div>
@@ -44,11 +46,11 @@ const Wallets = () => {
 
         <div className='d-flex bottom_section justify-content-center'>
           <div className='buy_crypto text-center col-lg-6'>
-          <i className='fa fa-brands fa-credit-card fa-2x solid'></i>
+          <BsCreditCard/>
           <h3>Buy Crypto with a Card</h3> 
           </div>
           <div className='buy_crypto text-center col-lg-6'>
-          <i className='fa fa-brands fa-lock fa-2x solid'></i>
+          <BsLock/>
           <h3>Private & Secure</h3> 
           </div>
         </div>
@@ -89,28 +91,32 @@ const Wallets = () => {
             <p>Set your own unique phrase to know which messages are actually from Ekonnet and which not to trust.</p>
             </div></div>
             <div className='d-flex'>
-           
+            
            <div> <h3>Anomaly Detection</h3>
             <p>Our state-of-the-art risk detection system helps us find malicious behaviour on our platform and keep your money safe. </p>
-            </div> </div>
-          </div>
+            </div> 
+            </div>
+            </div>
            <div className='col-lg-6 private_secure_section'>
            <div className='d-flex'>
-          
+           
           <div><h3>Mandatory 2FA</h3>
             <p>All accounts must have 2-Factor Authentication enabled for added protection. </p>
-            </div></div>
+            </div>
+            </div>
             <div className='d-flex'>
-          
-         <div>   <h3>Password Policy</h3>
+            
+           <div>  
+             <h3>Password Policy</h3>
             <p>You are required to create strong passwords and encouraged to use a password manager to keep your account secure.</p>
             </div></div>
             <div className='d-flex'>
-           
+          
           <div> <h3>Wallet Protect</h3>
             <p>Secure your money and get peace of mind. </p>
             </div>
             </div>
+            
           </div>
           </div> 
           </div> 

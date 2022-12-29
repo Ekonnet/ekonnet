@@ -1,27 +1,57 @@
-p{
-    color: white;
+.mobile h1{
+    margin-top: 150px;
+    color: darkblue;
+    font-size: 2.5rem;
+    font-family: 'Spectral', serif;
 }
-h4{
-    color: #ffffff;
+.mobile h4{
+    font-family: 'Spectral', serif;
+    font-size: 1.8rem;
+    color: cornflowerblue;
+    font-style: oblique;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.mobile p{
+    color: violet;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+.mobile img{
+    margin-top: 30px;
+}
+.mob h1{
+    margin-top: 50px;
+    color: darkblue;
+    font-size: 2.5rem;
+    font-family: 'Spectral', serif;
+    text-align: center;
 }
 .trade_btn{
     border-radius: 5px;
     background-color: rgb(209, 209, 22);
     margin: 80px;
 }
-.mob{
-    
-    background-color: #18189C;
-}
 .mob_desk h1{
-    font-size: 30px;
-    margin-left: 200px;
+    text-align: center;
+    margin-top: 50px;
+    color: violet;
+    font-size: 2rem;
+    font-family: 'Spectral', serif;
+    
 }
 .mob_desk email{
-    color: #ffffff;
-    margin-left: 183px;
-    font-size: 20px;
-    width: 25px;
-    height: 20px;
-    border: 1px solid;
+    color: cornflowerblue;
+    font-size: 1.2rem;
+    padding: 6px;
+    border: 1px solid darkblue;
+}
+.mob_desk p{
+    color: cornflowerblue;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid darkblue;
+    padding: 6px;
+    width: 242px;
 }
