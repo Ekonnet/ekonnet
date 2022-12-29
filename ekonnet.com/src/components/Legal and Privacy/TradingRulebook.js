@@ -20,52 +20,60 @@ const TradingRuleBook = () => {
             <div className='row'>
                 <div className='col-lg-4'>
                     <div className='section'>
-                    <button>General Notices & Terms</button>
+                    <Nav.Link as={Link} to={"/general-notice-and-terms"}><button>General Notices & Terms</button>
                     <ul>
                     <Nav.Link as={Link} to={"/general-notice-and-terms"}><li>Privacy Statement</li></Nav.Link> 
                     <Nav.Link as={Link} to={"/"}><li>Cookies Policy</li></Nav.Link>       
                     </ul >
-                    <button>Ekonnet Pay Terms</button> 
+                    </Nav.Link>
+                    <Nav.Link as={Link} to={"/ekonnet-pay-terms"}><button>Ekonnet Pay Terms</button> 
                     <ul>
                     <Nav.Link as={Link} to={"/ekonnet-pay-terms"}><li>Ekonnet Pay Terms</li></Nav.Link> 
                     <Nav.Link as={Link} to={"/"}><li>Cookies Policy</li></Nav.Link>       
                     </ul>
-                    
-                    <button>Exchange Terms</button>
+                    </Nav.Link>
+                    <Nav.Link as={Link} to={"/exchange-terms"}> <button>Exchange Terms</button>                    
                     <ul>
                     <Nav.Link as={Link} to={"/"}><li>Privacy Statement</li></Nav.Link> 
                     <Nav.Link as={Link} to={"/"}><li>Cookies Policy</li></Nav.Link>       
                     </ul>
-                    <button>Derivative Terms</button>
+                    </Nav.Link>
+                    <Nav.Link as={Link} to={"/derivative-terms"}><button>Derivative Terms</button>
                     <ul>
                     <Nav.Link as={Link} to={"/"}><li>Privacy Statement</li></Nav.Link> 
                     <Nav.Link as={Link} to={"/"}><li>Cookies Policy</li></Nav.Link>       
                     </ul>
-                    <button>Privacy</button>
+                    </Nav.Link>
+                    <Nav.Link as={Link} to={"/privacy"}><button>Privacy</button>
                     <ul>
                     <Nav.Link as={Link} to={"/"}><li>Privacy Statement</li></Nav.Link> 
                     <Nav.Link as={Link} to={"/"}><li>Cookies Policy</li></Nav.Link>       
                     </ul>
-                    <button>Cookies Policy</button>
+                    </Nav.Link>
+                    <Nav.Link as={Link} to={"/cookies-policy"}><button>Cookies Policy</button>
                     <ul>
                     <Nav.Link as={Link} to={"/"}><li>Privacy Statement</li></Nav.Link> 
                     <Nav.Link as={Link} to={"/"}><li>Cookies Policy</li></Nav.Link>       
                     </ul>
-                    <button>Cookies Preferences</button>
+                    </Nav.Link>
+                    <Nav.Link as={Link} to={"/cookies-preferences"}><button>Cookies Preferences</button>
                     <ul>
                     <Nav.Link as={Link} to={"/"}><li>Privacy Statement</li></Nav.Link> 
                     <Nav.Link as={Link} to={"/"}><li>Cookies Policy</li></Nav.Link>       
                     </ul>
-                    <button>Token Specific Terms</button>
+                    </Nav.Link>
+                    <Nav.Link as={Link} to={"/token-specific-terms"}><button>Token Specific Terms</button>    
                     <ul>
                     <Nav.Link as={Link} to={"/"}><li>Privacy Statement</li></Nav.Link> 
                     <Nav.Link as={Link} to={"/"}><li>Cookies Policy</li></Nav.Link>       
                     </ul>
-                    <button>Trading Rulebook</button>
+                    </Nav.Link>
+                    <Nav.Link as={Link} to={"/trading-rulebook"}><button>Trading Rulebook</button>
                     <ul>
                     <Nav.Link as={Link} to={"/"}><li>Privacy Statement</li></Nav.Link> 
                     <Nav.Link as={Link} to={"/"}><li>Cookies Policy</li></Nav.Link>       
                     </ul>
+                    </Nav.Link>
                     </div>
                 </div>
                 <div className='col-lg-8'>
