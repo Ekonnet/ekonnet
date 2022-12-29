@@ -6,7 +6,6 @@ import Margin from "../assets/MarginTrading.png";
 import FundingImg from "../assets/Funding.png";
 import DerivativesImg from "../assets/Derivatives.png";
 
-// import FundingImg from "../assets/Funding.png";
 
 
 
@@ -16,16 +15,17 @@ const Features = () => {
       <section id='features' className='features'>
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-6'>
+                <div className='col-lg-12 text-center'>
                     <h1>Platforms Features</h1>
                     <p>A crypto exchange platform is a marketplace where people trade cryptocurrencies such as Ether or Bitcoin. Platforms are not cryptocurrency market players, rather, they facilitate the buying and selling cryptocurrencies, and/or the exchange of 
                        digital coins to fiat currencies (USD, EUR, GBP etc.) and vice versa.
                     </p>
-                </div>
-                <div className='col-lg-6'>
                     <img src={MarketP} alt='' className='img-fluid'></img>
 
                 </div>
+                
+                    
+                
             </div>
 
         </div>

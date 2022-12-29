@@ -1,25 +1,100 @@
 .features{
     background-color: #18189C;
 }
-h1{
-    color: #ffffff;
-    margin-top: 130px;
-    font-size: 50px;
+.features h1{
+    color: cornflowerblue;
+    margin-top: 100px;
+    font-size: 3rem;
+    font-family: 'Spectral', serif;
 }
-p{
-    color: #ffffff;
-    font-size: 16px;
+.features p{
+    color: violet;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
 }
-img{
+.features img{
     width: 400px;
-    /* margin-left: 30px; */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 .exchange{
     background-color: #030361;
 }
+.exchange h1{
+    color: blueviolet;
+    margin-top: 130px;
+    font-size: 3rem;
+    font-family: 'Spectral', serif;
+}
+.exchange p{
+    color: darkturquoise;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.exchange img{
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
 .margin_trading{
     background-color: #18189C;
 }
+.margin_trading h1{
+    color: blueviolet;
+    margin-top: 130px;
+    font-size: 3rem;
+    font-family: 'Spectral', serif;
+}
+.margin_trading p{
+    color: darkturquoise;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.margin_trading img{
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
 .Derivatives{
     background-color: #18189C; 
+}
+.Derivatives h1{
+    color: blueviolet;
+    margin-top: 130px;
+    font-size: 3rem;
+    font-family: 'Spectral', serif;
+}
+.Derivatives p{
+    color: darkturquoise;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.Derivatives img{
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.margin_funding{
+    background-color: #030361;
+}
+.margin_funding h1{
+    color: blueviolet;
+    margin-top: 130px;
+    font-size: 3rem;
+    font-family: 'Spectral', serif;
+}
+.margin_funding p{
+    color: darkturquoise;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.margin_funding img{
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
 }
