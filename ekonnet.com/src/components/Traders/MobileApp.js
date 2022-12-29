@@ -11,7 +11,7 @@ const MobileApp = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6'>
-                  <h1>The World’s Fastest Growing Crypto App</h1>
+                  <h1>The World's Fastest Growing Crypto App</h1>
                   <h4>Buy crypto at true cost</h4>
                   <p>Buy and sell 250+ cryptocurrencies with 20+ fiat currencies using bank transfers or 
                      your credit/debit card.
@@ -33,11 +33,11 @@ const MobileApp = () => {
                     </h1>
                 </div>
                 <div className='d-flex'>
-                <div className='col-lg-6 mob_desk'>
+                <div className='col-lg-6 mob_desk text-center'>
                     <h1>Desktop</h1>
                     <email>www.ekonnet.com</email>
                  </div>
-                 <div className='col-lg-6'>
+                 <div className='col-lg-6 mob_desk'>
                     <h1>Mobile App</h1>
                     <div className='d-flex'>
                         <div className='col-lg-6'>
