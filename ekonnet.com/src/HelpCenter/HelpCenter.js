@@ -59,6 +59,7 @@ const HelpCenter = () => {
                             </Nav.Link>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12 box__heplcenter">
+                        <Nav.Link as={Link} to={"/trading-lending"}>
                             <div className='circle__icon'>
                                 <SiStartrek className='icon' size="2rem" />
                             </div>
@@ -67,7 +68,7 @@ const HelpCenter = () => {
                             <div className='d-flex justify-content-end'>
                             <IoArrowRedoCircle size={30} className="div__arrow-icon"/>
                             </div>
-
+                            </Nav.Link>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12 box__heplcenter">
                             <div className='circle__icon'>

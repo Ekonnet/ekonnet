@@ -185,7 +185,7 @@ color:rgba(5, 156, 178, 0.94);
 /* ====================================Getting started page start============== */
 .blur{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(2px);
 }
@@ -198,15 +198,22 @@ color:rgba(5, 156, 178, 0.94);
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 
 .gettingStartHeading{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     font-family: 'Spectral';
     color: rgb(5, 5, 41);
     background-color:rgba(5, 156, 178, 0.94);
     padding: 10px 20px;
-    border-radius: 10px 0 10px 0;
+    border-radius: 10px;
 }
+
+.sublink-getstart{
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+/* ====================================Getting started page ============== */

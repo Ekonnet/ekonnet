@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Contact from '../../components/Contacts/Contact';
 
-const GettingStarted = () => {
+const TradingLending = () => {
 
     const Background = {
         backgroundImage: `url(${background})`,
@@ -20,7 +20,7 @@ const GettingStarted = () => {
 
     const Section2 = {
         backgroundImage: `url(${section2})`,
-        height: 'auto',
+        height: "auto",
         marginTop: '0',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -37,7 +37,7 @@ const GettingStarted = () => {
                                     Welcome to the Ekonnet Help Center
                                 </h2>
                                 <div className="search__form search__icon-div ">
-                                    <span><BiSearchAlt2 /> search</span>
+                                    <span><BiSearchAlt2 /> Search</span>
                                 </div>
                             </div>
                         </div>
@@ -52,39 +52,39 @@ const GettingStarted = () => {
                         <div className="row">
          <div className=" contact__contact col-4 mx-auto text-center">
                 <div className="beforeLine"></div>
-                <span>HELP CENTER LINKS</span>
+                <span>TRADING & LENDING</span>
             </div>
                         </div>
                         <div className="row gx-1 pt-3 pb-5">
                
                             <div className="col getingStartedDiv">
                                 <h2 className="gettingStartHeading">
-                                    Getting Started
+                                Trading
                                 </h2>
                                 <div className="cover pt-5 ">
                                     <Nav.Link as={Link} to={""}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is Ekonnet</h5>
+                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to trade on Ekonnet</h5>
                                         </div>
                                     </Nav.Link>
                                     <Nav.Link as={Link} to={""}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to create an account on Ekonnet</h5>
+                                            <IoIosArrowDroprightCircle size={24} /> <h5 className='sublink-getstart'>Paper Trading at Ekonnet — test, learn and simulate trading strategies</h5>
                                         </div>
                                     </Nav.Link>
                                     <Nav.Link as={Link} to={""}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>A Beginner's guide to Ekonnet</h5>
+                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>Ekonnet Order Types and Order Options</h5>
                                         </div>
                                     </Nav.Link>
                                     <Nav.Link as={Link} to={""}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to earn on Ekonnet without trading</h5>
+                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>Understanding Ekonnet Over the Counter (OTC)</h5>
                                         </div>
                                     </Nav.Link>
                                     <Nav.Link as={Link} to={""}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>Tutorial: How to use Ekonnet</h5>
+                                            <IoIosArrowDroprightCircle size={22} /> <h5 className='sublink-getstart'>How to check you are paying the right trading fees on Ekonnet</h5>
                                         </div>
                                     </Nav.Link>
 
@@ -93,34 +93,30 @@ const GettingStarted = () => {
                             </div>
                             <div className="col  getingStartedDiv ">
                                 <h2 className="gettingStartHeading">
-                                    Mobile App
+                                Derivatives
                                 </h2>
                                 <div className="cover pt-5">
                                     <Nav.Link as={Link} to={""}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is SWAPiX on the Ekonnet Mobile App</h5>
+                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to move funds to the Derivatives wallet</h5>
                                         </div>
                                     </Nav.Link>
                                     <Nav.Link as={Link} to={""}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is Lending on Ekonnet Mobile Lite</h5>
+                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>Derivatives Trading on Ekonnet</h5>
                                         </div>
                                     </Nav.Link>
                                     <Nav.Link as={Link} to={""}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is a Limit Order on Ekonnet Mobile Lite</h5>
+                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>The Ekonnet Derivatives trading interface</h5>
                                         </div>
                                     </Nav.Link>
                                     <Nav.Link as={Link} to={""}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to sign up from the Ekonnet Mobile App</h5>
+                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is Termination on Ekonnet</h5>
                                         </div>
                                     </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to log in to the Ekonnet Mobile App</h5>
-                                        </div>
-                                    </Nav.Link>
+                                  
                                 </div>
 
 
@@ -129,25 +125,25 @@ const GettingStarted = () => {
 
                             <div className="col  getingStartedDiv ">
                                 <h2 className="gettingStartHeading">
-                                    Ekonnet Community
+                                Ekonnet Securities
                                 </h2>
                                 <div className="cover pt-5">
                                     <Nav.Link as={Link} to={""}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>The Ekonnet Affiliate Program</h5>
+                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is Ekonnet Securities</h5>
                                         </div>
                                     </Nav.Link>
                                     <Nav.Link as={Link} to={""}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is Bitrefill at Ekonnet</h5>
+                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to create a Ekonnet Securities account</h5>
                                         </div>
                                     </Nav.Link>
                                     <Nav.Link as={Link} to={""}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What are the Ekonnet Social Media Channels</h5>
+                                            <IoIosArrowDroprightCircle size={26} /> <h5 className='sublink-getstart'>Ekonnet Securities Restrictions: Prohibited Persons and Prohibited Jurisdictions</h5>
                                         </div>
                                     </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
+                                    {/* <Nav.Link as={Link} to={""}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
                                             <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is Ekonnet Pulse</h5>
                                         </div>
@@ -161,7 +157,7 @@ const GettingStarted = () => {
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
                                             <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to tip on Ekonnet Pulse</h5>
                                         </div>
-                                    </Nav.Link>
+                                    </Nav.Link> */}
                                     
 
                                 </div>
@@ -190,4 +186,4 @@ const GettingStarted = () => {
     )
 }
 
-export default GettingStarted
+export default TradingLending
