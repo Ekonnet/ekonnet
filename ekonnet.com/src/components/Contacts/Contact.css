@@ -1,0 +1,135 @@
+.contact__section{
+    background-color: #030B15;
+}
+
+.beforeLine{
+    width: 40px;
+    height: 5px;
+ margin-top: 80px;
+    background-color:#FF9700;
+    margin-left: 170px;
+    margin-bottom: 10px;
+}
+.contact__contact span
+{
+    color: #00C4F4;
+}
+.contact__contact h2{
+    color: white;
+}
+
+.outerciecle{
+    width: 107px;
+    height: 107px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 28px;
+    color: #FF9700;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+  
+     
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.icon-cercle{
+   position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #0B1D33;
+    border-radius: 50%;
+    border: 2px solid #FF9700;
+    /* border-color: #FF4581; */
+    z-index: -1;
+}
+
+.outerciecle2{
+    width: 107px;
+    height: 107px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 28px;
+    color: #FF4581;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+  
+     
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.icon-cercle2{
+   position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #0B1D33;
+    border-radius: 50%;
+    border: 2px solid #FF4581;
+    z-index: -1;
+}
+
+.outerciecle3{
+    width: 107px;
+    height: 107px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 28px;
+    color: #00C4F4;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+  
+     
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.icon-cercle3{
+   position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #0B1D33;
+    border-radius: 50%;
+    border: 2px solid #00C4F4;
+    z-index: -1;
+}
+
+
+/* .wrap::before{
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 44px;
+    background-image: url(../assets/line.png);
+    width: 122px;
+} */
+
+.contact__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact__content h6{
+    color: white;
+    font-size: 1.2rem;
+    
+}

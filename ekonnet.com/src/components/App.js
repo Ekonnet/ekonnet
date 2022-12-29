@@ -46,6 +46,7 @@ import Privacy from './Legal and Privacy/Privacy';
 import ExchangeTerms from './Legal and Privacy/ExchangeTerms';
 import EkonnetPayTerms from './Legal and Privacy/EkonnetPayTerms';
 import DerivativeTerms from './Legal and Privacy/DerivativeTerms';
+import TradingLending from '../HelpCenter/TradingLending/TradingLending';
 
 
 
@@ -88,6 +89,7 @@ const App = () => {
 
        <Route path='/help-center' element={<HelpCenter/>}/>
        <Route path='/getting-started' element={<GettingStarted/>}/>
+       <Route path='/trading-lending' element={<TradingLending/>}/>
 
        <Route path='/general-notice-and-terms' element={<GeneralNoticeAndTerms/>}/>
        <Route path='/ekonnet-pay-terms' element={<EkonnetPayTerms/>}/>
