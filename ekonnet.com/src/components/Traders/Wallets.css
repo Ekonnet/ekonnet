@@ -20,7 +20,7 @@
 
 }
 .bottom_section{
-    color: violet;
+    color: cadetblue;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -44,7 +44,7 @@
 }
 
 .private_secure p{
-    color: violet;
+    color: cadetblue;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -54,7 +54,7 @@
     margin: 50px;
 }
 .private_secure_section svg{
-    color: violet;
+    color: cadetblue;
     margin-top: 20px;
     width: 65px;
     height: 65px;
@@ -70,7 +70,7 @@
 }
 .private_secure_section p{
     padding-left: 20px;
-    color: violet;
+    color: cadetblue;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -90,7 +90,7 @@
     font-family: 'Spectral', serif;
 }
 .crypto_wallet p{
-    color: violet;
+    color: cadetblue;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -104,7 +104,7 @@
     font-family: 'Spectral', serif;
 }
 .crypto_section p{
-    color: violet;
+    color: cadetblue;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
     
