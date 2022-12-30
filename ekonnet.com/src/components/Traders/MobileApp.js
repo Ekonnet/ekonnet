@@ -2,6 +2,8 @@ import React from 'react'
 import './MobileApp.css';
 import Button from 'react-bootstrap/Button';
 import Mobile from "../assets/Mobile-app.png";
+import PlayStore from '../assets/playstore-img.png';
+
 
 
 const MobileApp = () => {
@@ -16,7 +18,7 @@ const MobileApp = () => {
                   <p>Buy and sell 250+ cryptocurrencies with 20+ fiat currencies using bank transfers or 
                      your credit/debit card.
                   </p>
-                  <Button size="lg" className='get-start'>Trad Now</Button>
+                  <Button className='get-start'>Trade Now</Button>
                 </div>
                 <div className='col-lg-6'>
                     <img src={Mobile} alt='' className='img-fluid'></img>
@@ -39,16 +41,7 @@ const MobileApp = () => {
                  </div>
                  <div className='col-lg-6 mob_desk'>
                     <h1>Mobile App</h1>
-                    <div className='d-flex'>
-                        <div className='col-lg-6'>
-                        <p>Download for App store</p>
-                        </div>
-                        <div className='col-lg-6'>
-                        <p>Download for Google pay</p>
-                        </div>
-
-                    </div>
-
+                    <img src={PlayStore} alt='playstore' className='img-fluid'></img>
                  </div>
                 </div>
 

@@ -202,7 +202,7 @@ const Home = () => {
               <Col className="col-lg-6 col-md-6 col-sm-12">
                 <div className='Content d-flex justify-content-center flex-column'>
                   <h2>How it Works</h2>
-                  <h3 className='pt-5'>We’ve built a platform to
+                  <h3 className='pt-5'>We've built a platform to
                     buy and sell Crypto.</h3>
                   <div className='d-flex gap-4 mt-4 easy-icon-para'>
                     <FaBraille className='easy-invest-icon' size="2rem" /> <h3>Decentralized Platform</h3>
