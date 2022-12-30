@@ -37,7 +37,8 @@ const TradingLending = () => {
                                     Welcome to the Ekonnet Help Center
                                 </h2>
                                 <div className="search__form search__icon-div ">
-                                    <span><BiSearchAlt2 /> Search</span>
+                                    <span><BiSearchAlt2 /></span>
+                                    <span> Search</span>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +48,7 @@ const TradingLending = () => {
 
 
             <section className="" style={Section2}>
-                <div className="blur">
+                <div className="content__blur">
                     <div className="container main-container">
                         <div className="row">
          <div className=" contact__contact col-4 mx-auto text-center">

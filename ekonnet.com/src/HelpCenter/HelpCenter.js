@@ -35,8 +35,9 @@ const HelpCenter = () => {
                                 Welcome to the Ekonnet Help Center
                             </h2>
                             <div className="search__form search__icon-div ">
-                                <span><BiSearchAlt2 /> search</span>
-                            </div>
+                                    <span><BiSearchAlt2 /></span>
+                                    <span> Search</span>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -52,7 +53,7 @@ const HelpCenter = () => {
                                 <SiStartrek className='icon' size="2rem" />
                             </div>
                             <h2 className="service__heplcenter">Getting Started</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <p className='text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <div className='d-flex justify-content-end'>
                             <IoArrowRedoCircle size={30} className="div__arrow-icon"/>
                             </div>
@@ -64,7 +65,7 @@ const HelpCenter = () => {
                                 <SiStartrek className='icon' size="2rem" />
                             </div>
                             <h2 className="service__heplcenter">Trading & Lending</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <p className='text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <div className='d-flex justify-content-end'>
                             <IoArrowRedoCircle size={30} className="div__arrow-icon"/>
                             </div>
@@ -75,7 +76,7 @@ const HelpCenter = () => {
                                 <SiStartrek className='icon' size="2rem" />
                             </div>
                             <h2 className="service__heplcenter">Api Documentation</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <p className='text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <div className='d-flex justify-content-end'>
                             <IoArrowRedoCircle size={30} className="div__arrow-icon"/>
                             </div>
