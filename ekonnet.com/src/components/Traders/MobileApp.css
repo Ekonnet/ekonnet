@@ -21,13 +21,6 @@
 .mobile img{
     margin-top: 30px;
 }
-.mob h1{
-    margin-top: 50px;
-    color: darkblue;
-    font-size: 2.5rem;
-    font-family: 'Spectral', serif;
-    text-align: center;
-}
 .mobile .get-start{
     border-radius: 5px;
     background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
@@ -36,25 +29,90 @@
     color: aqua !important;
 
 }
-.mob_desk h1{
-    text-align: center;
-    margin-top: 50px;
-    color: cadetblue;
-    font-size: 2rem;
+.ultimate_crypto h1{
+    font-size: 2.5rem;
     font-family: 'Spectral', serif;
-    
+    color: darkblue;
+    margin-top: 50px;
 }
-.mob_desk email{
-    color: cornflowerblue;
-    font-size: 1.2rem;
-    padding: 6px;
-    border: 1px solid darkblue;
+.ultimate_crypto h6{
+    color: blueviolet;
+    font-size: 1.6rem;
+    font-family: 'Spectral', serif;
+    margin-top: 20px;   
 }
-.mob_desk p{
-    color: cornflowerblue;
+.ultimate_crypto p{
+    color: cadetblue;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
-    border: 1px solid darkblue;
-    padding: 6px;
-    width: 242px;
+    margin-top: 20px;
+}
+.ultimate_crypto img{
+    height: 400px;
+    margin-left: 60px;
+    width: 450px;
+}
+.mobile1 img{
+    height: 350px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+.mobile1 h1{
+    font-size: 2.5rem;
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    margin-top: 130px;
+}
+.mobile1 p{
+    color: cadetblue;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+.mobile1 img{
+    height: 350px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+.mobile2 h1{
+    font-size: 2.5rem;
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    margin-top: 130px;
+}
+.mobile2 p{
+    color: cadetblue;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+.mobile2 img{
+    height: 350px;
+    width: 350px;
+    margin-top: 50px;
+    margin-right: 100px;
+    
+}
+.mobile3 h1{
+    font-size: 2.5rem;
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    margin-top: 130px;
+}
+.mobile3 p{
+    color: cadetblue;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+}
+.mobile3 img{
+    height: 350px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
 }
