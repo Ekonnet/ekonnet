@@ -7,6 +7,8 @@ import { IoIosArrowDroprightCircle } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Contact from '../../components/Contacts/Contact';
+import BreadCumbs from '../BreadCumbs/BreadCumbs';
+
 
 const GettingStarted = () => {
 
@@ -40,6 +42,12 @@ const GettingStarted = () => {
                                     <span><BiSearchAlt2 /> search</span>
                                 </div>
                             </div>
+                            
+                        </div>
+                        <div className="row">
+                        <div className=" col-lg-8 mx-auto d-flex justify-content-center align-items-center pt-4 breadcumbs text-center">
+                            <BreadCumbs className="breadcumb-color"/>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -62,7 +70,7 @@ const GettingStarted = () => {
                                     Getting Started
                                 </h2>
                                 <div className="cover pt-5 ">
-                                    <Nav.Link as={Link} to={""}>
+                                    <Nav.Link as={Link} to={"/getting-sub-pages"}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
                                             <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is Ekonnet</h5>
                                         </div>

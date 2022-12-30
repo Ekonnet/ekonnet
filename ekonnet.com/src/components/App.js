@@ -47,6 +47,8 @@ import ExchangeTerms from './Legal and Privacy/ExchangeTerms';
 import EkonnetPayTerms from './Legal and Privacy/EkonnetPayTerms';
 import DerivativeTerms from './Legal and Privacy/DerivativeTerms';
 import TradingLending from '../HelpCenter/TradingLending/TradingLending';
+import GSubpages from '../HelpCenter/Getting Startted/GSubpages';
+import ContactUs from './Contacts/ContactUs';
 
 
 
@@ -77,6 +79,7 @@ const App = () => {
        <Route path="/sign-up" element={<SignUp/>}/>
        <Route path='/affiliate' element={<Affiliate/>}/>
        <Route path='/about' element={<About/>}/>
+       <Route path='/contact-us' element={<ContactUs/>}/>
        <Route path='/career' element={<Career/>}/>
        <Route path='/fees' element={<Fees/>}/>
        <Route path='/credit-card' element={<CreditDebitCard/>}/>
@@ -90,7 +93,8 @@ const App = () => {
        <Route path='/help-center' element={<HelpCenter/>}/>
        <Route path='/getting-started' element={<GettingStarted/>}/>
        <Route path='/trading-lending' element={<TradingLending/>}/>
-
+       <Route path='/getting-sub-pages' element={<GSubpages/>}/>
+       
        <Route path='/general-notice-and-terms' element={<GeneralNoticeAndTerms/>}/>
        <Route path='/ekonnet-pay-terms' element={<EkonnetPayTerms/>}/>
        <Route path='/exchange-terms' element={<ExchangeTerms/>}/>

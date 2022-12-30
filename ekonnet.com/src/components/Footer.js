@@ -64,7 +64,7 @@ const Footer = () => {
                         {/* ------------4th section--------------- */}
                         <Col className='footer-services'>
                             <h2>Support</h2>
-                            <h5>Contact Us</h5>
+                            <Nav.Link as={Link} to={"/contact-us"}><h5>Contact Us</h5></Nav.Link>
                             <Nav.Link as={Link} to={"/help-center"}><h5>Help Center</h5></Nav.Link>
                         </Col>
                         {/* ------------5th section--------------- */}
