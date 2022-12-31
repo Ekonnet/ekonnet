@@ -3,13 +3,12 @@
     color: darkblue;
     font-size: 2.5rem;
     font-family: 'Spectral', serif;
+    font-weight: bold;
 }
 .mobile h4{
     font-family: 'Spectral', serif;
     font-size: 1.8rem;
-    color: cornflowerblue;
-    font-style: oblique;
-    font-weight: bold;
+    color: darkblue;
     margin-top: 20px;
 }
 .mobile p{
@@ -34,9 +33,10 @@
     font-family: 'Spectral', serif;
     color: darkblue;
     margin-top: 50px;
+    font-weight: bold;
 }
 .ultimate_crypto h6{
-    color: cornflowerblue;
+    color: darkblue;
     font-size: 1.6rem;
     font-family: 'Spectral', serif;
     margin-top: 20px;   
@@ -64,6 +64,7 @@
     font-family: 'Spectral', serif;
     color: darkblue;
     margin-top: 130px;
+    font-weight: bold;
 }
 .mobile1 p{
     color: blue;
@@ -83,6 +84,7 @@
     font-family: 'Spectral', serif;
     color: darkblue;
     margin-top: 130px;
+    font-weight: bold;
 }
 .mobile2 p{
     color: blue;
@@ -102,6 +104,7 @@
     font-family: 'Spectral', serif;
     color: darkblue;
     margin-top: 130px;
+    font-weight: bold;
 }
 .mobile3 p{
     color: blue;
