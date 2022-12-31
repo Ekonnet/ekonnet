@@ -100,8 +100,8 @@ const Home = () => {
           <Row>
             <Col className="col-lg-6 col-md-6 col-sm-12" >
               <div className='Content d-flex justify-content-center flex-column' data-aos="zoom-in-right" >
-                <h2>Trade</h2>
-                <p>An intuitive interface for trading all your assets. Trade any of the currencies supported by Ekonnet or over 100 other IOUs on the XRP Ledger decentralized exchange. Explore and analyze the markets.The new Trade page works for you whether you're a beginner or a seasoned trader.
+                <h2 className='text-white'>Trade</h2>
+                <p className='text-white'>An intuitive interface for trading all your assets. Trade any of the currencies supported by Ekonnet or over 100 other IOUs on the XRP Ledger decentralized exchange. Explore and analyze the markets.The new Trade page works for you whether you're a beginner or a seasoned trader.
                   Cryptocurrency trading is the act of speculating on cryptocurrency price movements via a CFD trading account, or buying and selling the underlying coins via an exchange.
                 </p>
               </div>
@@ -128,7 +128,7 @@ const Home = () => {
             <Col className="col-lg-6 col-md-6 col-sm-12">
               <div className='Content d-flex justify-content-center flex-column'>
                 <h2>Analytics</h2>
-                <p>An intuitive interface for trading all your assets. Trade any of the currencies supported by Ekonnet or over 100 other IOUs on the XRP Ledger decentralized exchange. Explore and analyze
+                <p className='text-white'>An intuitive interface for trading all your assets. Trade any of the currencies supported by Ekonnet or over 100 other IOUs on the XRP Ledger decentralized exchange. Explore and analyze
                   the markets.The new Trade page works for you whether you're a beginner or a seasoned trader.
                 </p>
               </div>
@@ -148,7 +148,7 @@ const Home = () => {
             <Col className="col-lg-6 col-md-6 col-sm-12">
               <div className='Content d-flex justify-content-center flex-column'>
                 <h2>Easy to invest</h2>
-                <p>By easy to use interface and fast transaction
+                <p className='text-white'>By easy to use interface and fast transaction
                   processing speed,  anyone can invest crypto
                   with Ekonnet
                 </p>
@@ -185,7 +185,7 @@ const Home = () => {
             <Col className="col-lg-6 col-md-6 col-sm-12">
               <div className='Content d-flex justify-content-center flex-column'>
                 <h2>Peer-to-peer</h2>
-                <p>An intuitive interface for trading all your assets. Trade any of the currencies supported by Ekonnet or over 100 other IOUs on the XRP Ledger decentralized exchange. Explore and analyze
+                <p className='text-white'>An intuitive interface for trading all your assets. Trade any of the currencies supported by Ekonnet or over 100 other IOUs on the XRP Ledger decentralized exchange. Explore and analyze
                   the markets.The new Trade page works for you whether you're a beginner or a seasoned trader.
                 </p>
               </div>

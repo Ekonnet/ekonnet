@@ -45,18 +45,29 @@ import TradingRuleBook from './Legal and Privacy/TradingRulebook';
 import Privacy from './Legal and Privacy/Privacy';
 import ExchangeTerms from './Legal and Privacy/ExchangeTerms';
 import EkonnetPayTerms from './Legal and Privacy/EkonnetPayTerms';
+import ContactUs from './Contacts/ContactUs';
 import DerivativeTerms from './Legal and Privacy/DerivativeTerms';
 import TradingLending from '../HelpCenter/TradingLending/TradingLending';
-import GSubpages from '../HelpCenter/Getting Startted/GSubpages';
-import ContactUs from './Contacts/ContactUs';
+
+// import Sidebar from '../HelpCenter/Getting Startted/Sidebar';
+// import WhatIsEkonnet from '../HelpCenter/Getting Startted/WhatIsEkonnet';
+// import AcountCreate from '../HelpCenter/Getting Startted/AcountCreate';
+// import HowToEarn from '../HelpCenter/Getting Startted/HowToEarn';
+// import BeginnersGuide from '../HelpCenter/Getting Startted/BeginnersGuide';
+// import HowToUse from '../HelpCenter/Getting Startted/HowToUse';
+// import HowToDeposite from '../HelpCenter/Getting Startted/HowToDeposite';
+// import HowToWithdrawal from '../HelpCenter/Getting Startted/HowToWithdrawal';
+
+
 
 
 
 const App = () => {
+
   return (
     <>
       <Routes>
-      <Route path="/" element={<Home/>}/> 
+       <Route path="/" element={<Home/>}/> 
        <Route path="/one-click-buy" element={<OneClickBuy/>}/> 
        <Route path="/spot" element={<Spot/>}/> 
        <Route path="/derivatives" element={<Derivatives/>}/> 
@@ -93,7 +104,7 @@ const App = () => {
        <Route path='/help-center' element={<HelpCenter/>}/>
        <Route path='/getting-started' element={<GettingStarted/>}/>
        <Route path='/trading-lending' element={<TradingLending/>}/>
-       <Route path='/getting-sub-pages' element={<GSubpages/>}/>
+       
        
        <Route path='/general-notice-and-terms' element={<GeneralNoticeAndTerms/>}/>
        <Route path='/ekonnet-pay-terms' element={<EkonnetPayTerms/>}/>
@@ -104,8 +115,22 @@ const App = () => {
        <Route path='/Cookies-Preferences' element={<CookiesPreferences/>}/>
        <Route path='/token-specific-terms' element={<TokenSpecificTerms/>}/>
        <Route path='/trading-rulebook' element={<TradingRuleBook/>}/>
-
+      
      </Routes>
+{/*   
+    <Sidebar>
+     <Routes>
+       <Route path='/what-is-ekonnet' element={<WhatIsEkonnet/>}/>
+       <Route path='/acount-create' element={<AcountCreate/>}/>
+       <Route path='/how-to-earn' element={<HowToEarn/>}/>
+       <Route path='/how-to-use' element={<HowToUse/>}/>
+       <Route path='/beginners-guide' element={<BeginnersGuide/>}/>
+       <Route path='/how-to-deposite' element={<HowToDeposite/>}/>
+       <Route path='/how-to-withdrawal' element={<HowToWithdrawal/>}/>
+     
+       </Routes>
+       </Sidebar> */}
+     
     </>
  
   )

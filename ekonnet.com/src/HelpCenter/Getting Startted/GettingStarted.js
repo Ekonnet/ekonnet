@@ -39,14 +39,15 @@ const GettingStarted = () => {
                                     Welcome to the Ekonnet Help Center
                                 </h2>
                                 <div className="search__form search__icon-div ">
-                                    <span><BiSearchAlt2 /> search</span>
+                                    <span><BiSearchAlt2 /></span>
+                                    <span> Search</span>
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div className="row">
-                        <div className=" col-lg-8 mx-auto d-flex justify-content-center align-items-center pt-4 breadcumbs text-center">
-                            <BreadCumbs className="breadcumb-color"/>
+                            <div className=" col-lg-8 mx-auto d-flex justify-content-center align-items-center pt-4 breadcumbs text-center">
+                                <BreadCumbs className="breadcumb-color" />
                             </div>
                         </div>
                     </div>
@@ -55,27 +56,27 @@ const GettingStarted = () => {
 
 
             <section className="" style={Section2}>
-                <div className="blur">
-                    <div className="container main-container">
+                <div className="content__blur">
+                    <div className="container">
                         <div className="row">
-         <div className=" contact__contact col-4 mx-auto text-center">
-                <div className="beforeLine"></div>
-                <span>HELP CENTER LINKS</span>
-            </div>
+                            <div className=" contact__contact col-4 mx-auto text-center">
+                                <div className="beforeLine"></div>
+                                <span>HELP CENTER LINKS</span>
+                            </div>
                         </div>
                         <div className="row gx-1 pt-3 pb-5">
-               
+
                             <div className="col getingStartedDiv">
                                 <h2 className="gettingStartHeading">
                                     Getting Started
                                 </h2>
                                 <div className="cover pt-5 ">
-                                    <Nav.Link as={Link} to={"/getting-sub-pages"}>
+                                    <Nav.Link as={Link} to={"/sidebar"}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
                                             <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is Ekonnet</h5>
                                         </div>
                                     </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
+                                    <Nav.Link as={Link} to={"/sidebar"}>
                                         <div className="d-flex gap-2 justify-content-start align-items-center">
                                             <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to create an account on Ekonnet</h5>
                                         </div>
@@ -170,25 +171,25 @@ const GettingStarted = () => {
                                             <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to tip on Ekonnet Pulse</h5>
                                         </div>
                                     </Nav.Link>
-                                    
+
 
                                 </div>
                             </div>
-                           
+
                         </div>
-                       
-                       
-                       
-                       
+
+
+
+
                     </div>
-                  
-                    
+
+
                 </div>
-               
+
             </section>
             <section>
-            <Contact/>
-           
+                <Contact />
+
             </section>
 
 

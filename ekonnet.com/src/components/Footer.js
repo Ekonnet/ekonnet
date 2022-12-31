@@ -88,7 +88,7 @@ const Footer = () => {
                         <Row className='d-flex justify-content-between'  >
 
                             <Col className='copyright col-6'>
-                                <p>Copyright © 2023 Ekonnet.  All rights reserved.</p>
+                                <p className='text-white'>Copyright © 2023 Ekonnet.  All rights reserved.</p>
                             </Col>
                             <Col className='social-icons col-6'>
                                 
