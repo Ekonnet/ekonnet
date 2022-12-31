@@ -4,6 +4,12 @@
     font-size: 2.5rem;
     font-family: 'Spectral', serif;
 }
+.security p{
+    color: blue;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .security_policy h1{
     margin-top: 100px;
     color: darkblue;
@@ -14,11 +20,10 @@
     color: cornflowerblue;
     font-size: 1.6rem;
     font-family: 'Spectral', serif;
-    font-style: italic;
     font-weight: bold;
 }
 .security_policy p{
-    color: cadetblue;
+    color: blue;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -29,12 +34,12 @@
     font-family: 'Spectral', serif;   
 }
 .account_protection span{
-    color: cadetblue;
+    color: blue;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
 .account_protection p{
-    color: cadetblue;
+    color: blue;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     margin-top: 12px;
@@ -43,7 +48,6 @@
     color: cornflowerblue;
     font-size: 1.5rem;
     font-family: 'Spectral', serif;
-    font-style: italic;
     font-weight: bold;
     margin-top: 20px;
 }
@@ -52,7 +56,7 @@
     padding-left: 20px;
 }
 .account_protection ul li{
-    color: cadetblue;
+    color: blue;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -63,7 +67,7 @@
     font-family: 'Spectral', serif;   
 }
 .crypto_storage p{
-    color: cadetblue;
+    color: blue;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -77,12 +81,11 @@
     color: cornflowerblue;
     font-size: 1.5rem;
     font-family: 'Spectral', serif;
-    font-style: italic;
     font-weight: bold;
     margin-top: 10px;
 }
 .system_security p{
-    color: cadetblue;
+    color: blue;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     margin-top: 12px;

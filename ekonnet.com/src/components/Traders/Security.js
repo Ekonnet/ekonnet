@@ -10,6 +10,7 @@ const Security = () => {
             <div className='row'>
                 <div className='col-lg-6'>
                     <h1>Your security is our priority</h1>
+                    <p>Our security team is continually improving our end-to-end security measures, improving auditing processes, and reducing the 'attack surface' of our infrastructure. Please note that we cannot disclose too many details of the security measures implemented on the platform for security and proprietary reasons.</p>
                 </div>
                 <div className='col-lg-6'>
                     <img src={FutureImg} alt='Security.png' className='img-fluid'></img>
