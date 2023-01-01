@@ -3,22 +3,28 @@
     color: darkblue;
     font-size: 2.5rem;
     font-family: 'Spectral', serif;
+    font-weight: bold;
 }
+.security p{
+    color: blue;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .security_policy h1{
     margin-top: 100px;
     color: darkblue;
     font-size: 2rem;
     font-family: 'Spectral', serif;   
-}
-.security_policy h4{
-    color: cornflowerblue;
-    font-size: 1.6rem;
-    font-family: 'Spectral', serif;
-    font-style: italic;
     font-weight: bold;
 }
+.security_policy h4{
+    color: darkblue;
+    font-size: 1.6rem;
+    font-family: 'Spectral', serif;
+}
 .security_policy p{
-    color: cadetblue;
+    color: blue;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -27,32 +33,32 @@
     color: darkblue;
     font-size: 2rem;
     font-family: 'Spectral', serif;   
+    font-weight: bold;
 }
 .account_protection span{
-    color: cadetblue;
+    color: blue;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
 .account_protection p{
-    color: cadetblue;
+    color: blue;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     margin-top: 12px;
 }
 .account_protection h3{
-    color: cornflowerblue;
+    color: darkblue;
     font-size: 1.5rem;
     font-family: 'Spectral', serif;
-    font-style: italic;
-    font-weight: bold;
     margin-top: 20px;
 }
 .account_protection ul{
     color: darkblue;
     padding-left: 20px;
+    list-style-type: disc;
 }
 .account_protection ul li{
-    color: cadetblue;
+    color: blue;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -61,9 +67,10 @@
     color: darkblue;
     font-size: 2rem;
     font-family: 'Spectral', serif;   
+    font-weight: bold;
 }
 .crypto_storage p{
-    color: cadetblue;
+    color: blue;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -72,17 +79,16 @@
     color: darkblue;
     font-size: 2rem;
     font-family: 'Spectral', serif;   
+    font-weight: bold;
 }
 .system_security h3{
-    color: cornflowerblue;
+    color: darkblue;
     font-size: 1.5rem;
     font-family: 'Spectral', serif;
-    font-style: italic;
-    font-weight: bold;
     margin-top: 10px;
 }
 .system_security p{
-    color: cadetblue;
+    color: blue;
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
     margin-top: 12px;

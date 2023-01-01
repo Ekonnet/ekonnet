@@ -3,13 +3,19 @@
     color: darkblue;
     margin-top: 80px;
     font-size: 1.8rem;
+    font-weight: bold;
 }
 .fees button{
     margin-left: 30px;
     margin-bottom: 20px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+}
+.fees button:hover{
+    color: aqua !important;
 }
 .fees p{
-    color: blueviolet;  
+    color: blue;  
     font-family: 'Open Sans', sans-serif;
     margin-top: 20px;
     font-size: 1rem;
