@@ -15,7 +15,7 @@ const Wallets = () => {
        <div className='container'>
         <div className='row'>
           <div className='col-lg-12'>
-            <img src={W1} alt='wallet' className='img-fluid mx-auto d-block' ></img>
+            <img src={W1} alt='wallet' className='img-fluid mx-auto' ></img>
           </div>
           </div> 
        </div>
