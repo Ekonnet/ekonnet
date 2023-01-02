@@ -49,14 +49,14 @@ const Future = () => {
       <section id='flexibility' className='flexibility '>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-6  futur-common'>
+            <div className='col-lg-6 futur-common'>
               <h2>Flexibility in risk management</h2>
               <p>Ekonnet Futures offers leverage, allowing you to amplify your buying or selling power.
                 Risk management is a vital element of success for any trader in any market. No matter the size of the capital you’re trading with or investing in, losses are going to be inevitable, particularly in highly volatile markets like cryptocurrency
               </p>
             </div>
             <div className='col-lg-6'>
-              <img src={risk} alt='phone' className='img-fluid icons_img'></img>
+              <img src={risk} alt='phone' className='img-fluid icon_img'></img>
             </div>
           </div>
         </div>
@@ -67,7 +67,7 @@ const Future = () => {
             <div className='col-lg-6'>
               <img src={currency} alt='phone' className='img-fluid icons_img'></img>
             </div>
-            <div className='col-lg-6'>
+            <div className='col-lg-6 futur-common'>
               <h2>Trade a range of currency pairs</h2>
               <p>Gain exposure to a variety of pairs using your multi-collateral futures wallet with 10 different collateral options.
                 The most versatile cryptocurrency pairs to trade are usually BTC and ETH, as they're offered by most exchanges. Many crypto exchanges offer pairings for cryptocurrencies and fiat currencies like the U.S. dollar (USD), while some do not.

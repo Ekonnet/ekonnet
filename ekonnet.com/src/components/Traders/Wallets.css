@@ -10,9 +10,10 @@
     width: 40px;
     height: 40px;
     color: darkblue;
+    
 }
 .app_icons h2{
-    color: cornflowerblue;
+    color: blue;
     font-size: 1.1rem;
     padding-left: 6px;
     padding-top: 2px;
@@ -20,7 +21,7 @@
 
 }
 .bottom_section{
-    color: cadetblue;
+    color: blue;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -29,11 +30,13 @@
     margin-top: 30px;
     width: 40px;
     height: 40px;
+    margin-left: 260px;
 }
 .crypto_section h1{
-    color: #ffffff;
+    color: darkblue;
     margin-top: 175px;
-    font-size: 30px;
+    font-size: 2rem;
+    font-weight: bold;
     font-family: 'Spectral', serif;
 }
 .private_secure h1{
@@ -41,10 +44,11 @@
     color: darkblue;
     font-size: 2.5rem;
     font-family: 'Spectral', serif;
+    font-weight: bold;
 }
 
 .private_secure p{
-    color: cadetblue;
+    color: blue;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -54,7 +58,7 @@
     margin: 50px;
 }
 .private_secure_section svg{
-    color: cadetblue;
+    color: blue;
     margin-top: 20px;
     width: 65px;
     height: 65px;
@@ -70,8 +74,8 @@
 }
 .private_secure_section p{
     padding-left: 20px;
-    color: cadetblue;
-    font-size: 1rem;
+    color: blue;
+    font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
 .crypto_wallet img{
@@ -88,9 +92,10 @@
     color: darkblue;
     font-size: 2.5rem;
     font-family: 'Spectral', serif;
+    font-weight: bold;
 }
 .crypto_wallet p{
-    color: cadetblue;
+    color: blue;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
 }
@@ -104,7 +109,7 @@
     font-family: 'Spectral', serif;
 }
 .crypto_section p{
-    color: cadetblue;
+    color: blue;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
     

@@ -20,14 +20,9 @@ const Features = () => {
                     <p>A crypto exchange platform is a marketplace where people trade cryptocurrencies such as Ether or Bitcoin. Platforms are not cryptocurrency market players, rather, they facilitate the buying and selling cryptocurrencies, and/or the exchange of 
                        digital coins to fiat currencies (USD, EUR, GBP etc.) and vice versa.
                     </p>
-                    <img src={MarketP} alt='' className='img-fluid'></img>
-
-                </div>
-                
-                    
-                
+                    <img src={MarketP} alt='Features.png' className='img-fluid mx-auto'></img>
+                </div>          
             </div>
-
         </div>
       </section>
       <section id='exchange' className='exchange'>
