@@ -4,10 +4,10 @@ import '../HelpCenter__main.css'
 import {motion} from 'framer-motion'
 
 
-
 import HelpCommonHeader from '../HelpCommonHeader'
 
-const Sidebar = ({children}) => {
+ const Sidebar = ({children}) => {
+  
   const MenuItem = [
     {
       path:"/what-is-ekonnet",
@@ -47,6 +47,7 @@ const Sidebar = ({children}) => {
         <div className="top__section flex items-center px-20px py-20px text-xs">
           <h5 className='article__section'>Articles in this section</h5>
         </div>
+        
         {MenuItem.map((item,index)=>(
           <NavLink to={item.path} key={index} className="link flex  mt-2 pb-3 align-center  no-underline" activeclassName="active">
             <div className="link_text">
@@ -55,14 +56,16 @@ const Sidebar = ({children}) => {
           </NavLink>
         ))
         }
-      
       </motion.div>
+
       <main className='main-data'>{children}</main>
-    </div>
-    </section>
-    
     
      
+       
+     
+    </div>
+    </section>
+   
     </>
   )
 }

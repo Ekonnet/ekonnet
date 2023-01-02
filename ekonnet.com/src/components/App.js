@@ -2,7 +2,7 @@ import React from 'react';
 
 // import Future from '../components/Future/Future.js';
 
-import Home from './Home/Home';
+// import Home from './Home/HomeOld';
 import OneClickBuy from './BuyCrypto/OneClickBuy';
 import OneClickSell from './BuyCrypto/OneClickSell';
 import P2pTradingFees from './BuyCrypto/P2pTradingFees';
@@ -48,16 +48,20 @@ import EkonnetPayTerms from './Legal and Privacy/EkonnetPayTerms';
 import ContactUs from './Contacts/ContactUs';
 import DerivativeTerms from './Legal and Privacy/DerivativeTerms';
 import TradingLending from '../HelpCenter/TradingLending/TradingLending';
+import Home from './Home/Home';
+
+
 
 import Sidebar from '../HelpCenter/Getting Startted/Sidebar';
-import WhatIsEkonnet from '../HelpCenter/Getting Startted/WhatIsEkonnet';
-import AcountCreate from '../HelpCenter/Getting Startted/AcountCreate';
-import HowToEarn from '../HelpCenter/Getting Startted/HowToEarn';
-import BeginnersGuide from '../HelpCenter/Getting Startted/BeginnersGuide';
-import HowToUse from '../HelpCenter/Getting Startted/HowToUse';
-import HowToDeposite from '../HelpCenter/Getting Startted/HowToDeposite';
-import HowToWithdrawal from '../HelpCenter/Getting Startted/HowToWithdrawal';
-import Home2 from './Home/Home2';
+import SidebarRoot from '../HelpCenter/Getting Startted/SidebarRoot';
+// import WhatIsEkonnet from '../HelpCenter/Getting Startted/WhatIsEkonnet';
+// import AcountCreate from '../HelpCenter/Getting Startted/AcountCreate';
+// import HowToEarn from '../HelpCenter/Getting Startted/HowToEarn';
+// import BeginnersGuide from '../HelpCenter/Getting Startted/BeginnersGuide';
+// import HowToUse from '../HelpCenter/Getting Startted/HowToUse';
+// import HowToDeposite from '../HelpCenter/Getting Startted/HowToDeposite';
+// import HowToWithdrawal from '../HelpCenter/Getting Startted/HowToWithdrawal';
+
 
 
 
@@ -68,7 +72,7 @@ const App = () => {
   return (
     <>
       <Routes>
-       <Route path="/" element={<Home/>}/> 
+       {/* <Route path="/" element={<Home/>}/>  */}
        <Route path="/one-click-buy" element={<OneClickBuy/>}/> 
        <Route path="/spot" element={<Spot/>}/> 
        <Route path="/derivatives" element={<Derivatives/>}/> 
@@ -116,12 +120,18 @@ const App = () => {
        <Route path='/Cookies-Preferences' element={<CookiesPreferences/>}/>
        <Route path='/token-specific-terms' element={<TokenSpecificTerms/>}/>
        <Route path='/trading-rulebook' element={<TradingRuleBook/>}/>
-       <Route path='/home2' element={<Home2/>}/>
+       <Route path='/' element={<Home/>}/>
+       <Route path='/sidebar' element={<Sidebar/>}/>
+       <Route path='/sidebar-route' element={<SidebarRoot/>}/>
+
       
+
+       
      </Routes>
   
-    <Sidebar>
-     <Routes>
+  
+     {/* <Sidebar>
+      <Routes>
        <Route path='/what-is-ekonnet' element={<WhatIsEkonnet/>}/>  
        <Route path='/acount-create' element={<AcountCreate/>}/>
        <Route path='/how-to-earn' element={<HowToEarn/>}/>
@@ -129,9 +139,8 @@ const App = () => {
        <Route path='/beginners-guide' element={<BeginnersGuide/>}/>
        <Route path='/how-to-deposite' element={<HowToDeposite/>}/>
        <Route path='/how-to-withdrawal' element={<HowToWithdrawal/>}/>
-     
        </Routes>
-       </Sidebar>
+       </Sidebar> */}
      
     </>
  

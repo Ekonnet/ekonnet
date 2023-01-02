@@ -1,0 +1,394 @@
+.app{
+    text-align:start;
+  }
+  .app .text-wrapper{
+    padding: 28px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 50%;
+    height: 100vh;
+  
+  }
+  .app .text-wrapper h1{
+    color: var(--cyan-color);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 2.5rem;
+    font-family: 'Spectral';
+   
+  }
+  .app video{
+    position: relative;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+  }
+
+  .section-part{
+    position: relative;
+  }
+  
+  
+
+  /* swipper css start */
+  .slider-div{
+    /* margin-top: 30px; */
+  }
+  /* .slider-div img{
+    padding: 5px;
+  } */
+  .digital-assets{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  .login-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 40px; */
+    gap: 1.5rem;
+  }
+  .sign-in{
+  background-color: var(--Cyan-perple-gradient);
+  
+  border-radius: none !important;
+  }
+  .slider{
+    background: #0a0acf;
+  width: 100%;
+  height: 60vh;
+  }
+  
+
+ 
+
+     /*  common style Section start here */
+
+  .Common_style h2{
+    color: white;
+    padding-top: 40px;
+    margin-top: 50px;
+    font-family: 'spectral';
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    position: relative;
+  }
+  .Common_style h2::before{
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    top: 100%;
+    border-radius: 50%;
+    left: 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    background:linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+  }
+  .Common_style h2::after{
+    content: "";
+    position: absolute;
+    margin-top: 10px;
+    top: 107%;
+    left: 0.8rem;
+   
+    min-width: 5rem;
+   height: 0.2rem;
+   border-radius: 0  10px 10px 0;
+   
+    background:linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+  }
+
+
+.Common_style p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  padding-top: 40px;
+}
+
+.Common_style .img-fluid{
+  width: 400px;
+  height: auto;
+}
+
+ /*  CoinList Api Section start here */
+
+ .api{
+  border: 1px solid white;
+  height: 90vh;
+
+ }
+
+
+
+
+#Coinlist{
+  background: #0a0acf;
+  width: 100%;
+  height: 120vh;
+  /* margin-top: 80px; */
+}
+/* #Coinlist h2{
+  border-bottom: 2px solid #3d23c3;
+  border-radius: 10px;
+  width: 23%;
+} */
+
+#trade{
+  background: #030361;
+       width: 100%;
+       height: 80vh;   
+       /* margin-top: 80px; */
+ }
+ /* #trade h2{
+   border-bottom: 4px solid #3d23c3;
+   border-radius: 10px;
+   width: 14%;
+   line-height: 40px;
+ } */
+ 
+#analytics{
+ background: #0a0acf;
+      width: 100%;
+      height: 70vh;   
+}
+/* #analytics h2{
+  border-bottom: 4px solid #3d23c3;
+  border-radius: 10px;
+  width: 23%;
+  line-height: 40px;
+} */
+
+  #Easy_to_invest{
+    background: #030361;
+         width: 100%;
+         height: 70vh;
+   }
+   /* #Easy_to_invest h2{
+    border-bottom: 4px solid #3d23c3;
+    border-radius: 10px;
+    width: 33%;
+    line-height: 40px;
+  } */
+.easy-invest-icon{
+  background:linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+  color: white;
+  border-radius: 50%;
+  
+  
+}
+.easy-icon-para h3{
+  font-size: 1rem;
+  color: white;
+}
+
+#Trading-platform{
+  background: #0a0acf;
+  width: 100%;
+  height: auto;
+  padding-bottom: 60px;
+}
+
+
+   #Peer-to-peer{
+    background: #0a0acf;
+         width: 100%;
+         height: 70vh;
+   }
+   /* #Peer-to-peer h2{
+    border-bottom: 4px solid #3d23c3;
+    border-radius: 10px;
+    width: 33%;
+    line-height: 40px;
+  } */
+   
+
+  #how-it-is-work{
+    background: #030361;
+         width: 100%;
+         height: 70vh;
+  }
+  #how-it-is-work h3{
+    color: white;
+    font-size: 1rem;
+    
+  }
+  #how-it-is-work .how-work-heading{
+ 
+  }
+
+  #mobile-app{
+    background: #030361;
+    width: 100%;
+    height: 85vh;
+  }
+.mobile-app-heading{
+  color: #fff;
+  font-size: 1.5rem !important;
+  /* padding-bottom: 20px; */
+  font-family: 'spectral';
+}
+.mobile-app-subheading{
+  color: white;
+  font-size: 0.8rem !important;
+  font-family: 'Open Sans', 'sans-serif';
+}
+.mobile-app-img{
+  padding-left: 100px !important;
+  padding-top: 30px;
+  width: 80px;
+  height: 35px;
+}
+#invest-now{
+  background: #0a0acf;
+  width: 100%;
+  height: 70vh;
+}
+.invest-heading{
+  color: white;
+  padding-top: 60px;
+}
+.invest-heading h4{
+  font-size: 1rem;
+}
+
+
+.invest{
+  color: white;
+  font-size: 1rem;
+    flex-direction: column;
+    align-items: center;
+
+}
+.invest h3{
+  font-size: 1.2rem;
+}
+.invest .icons{
+ color: aqua !important;
+ background: rgb(160,25,224);
+background: radial-gradient(circle, rgba(160,25,224,0.8841911764705882) 0%, rgba(230,118,211,0.9458158263305322) 100%);
+ border: 1px solid transparent;
+ border-radius: 10%;
+ width: 40px;
+ height: 40px;
+}
+.invest-btn{
+  background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+}
+.invest-btn:hover{
+color: aqua !important;
+
+}
+
+#join-cumunity{
+  background: #030361;
+  width: 100%;
+  height: 70vh;
+
+}
+.join-community-heading{
+  font-size: 2.5rem !important;
+  font-family: 'spectral';
+  margin-top: 30px;
+}
+.join-community-para{
+  font-size: 1rem !important;
+  padding-top: 15px;
+  font-family: 'open sans';
+}
+
+
+.com-twitter{
+  width:min-content;
+  height: 58px;
+  padding: 0 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap:1rem;
+  background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+  color: white;
+  font-size: 1.5rem;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: all linear 0.3s;
+}
+
+.com-twitter:hover{
+  box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+ 
+}
+/* .com-twitter .navstyle:hover{
+color: white;
+} */
+
+    /* @media  css start here */
+
+
+
+    @media screen and (max-width: 576px) {
+        .app .text-wrapper h1{
+            color: var(--cyan-color);
+            display: inline-block;
+            padding: 0;
+            font-size: 0.5rem;
+            margin-top: 0;
+            font-family: 'Spectral';
+          }
+         
+      }
+
+        /* @media  css start here */
+    @media only screen and (max-width: 786px) {
+        .app .text-wrapper h1{
+            color: var(--cyan-color);
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.3rem;
+            margin-top: 0;
+            font-family: 'Spectral';
+          }
+         
+      }
+
+      @media only screen and (max-width: 992px) {
+        .app .text-wrapper h1{
+            color: var(--cyan-color);
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.5rem;
+            margin-top: 0;
+            font-family: 'Spectral';
+          }
+         
+      }
+      @media only screen and (max-width: 1200px) {
+        .app .text-wrapper h1{
+            color: var(--cyan-color);
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 2rem;
+            margin-top: 0;
+            font-family: 'Spectral';
+          }
+         
+      }
+
+      @media only screen and (max-width: 1400px) {
+        .app .text-wrapper h1{
+            color: var(--cyan-color);
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 2.2rem;
+            margin-top: 0;
+            font-family: 'Spectral';
+          }
+         
+      }
+

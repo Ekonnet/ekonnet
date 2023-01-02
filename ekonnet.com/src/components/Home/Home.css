@@ -32,363 +32,300 @@
   .section-part{
     position: relative;
   }
-  
-  
 
-  /* swipper css start */
-  .slider-div{
-    /* margin-top: 30px; */
-  }
-  /* .slider-div img{
-    padding: 5px;
-  } */
-  .digital-assets{
-    color: white;
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-  }
-  .login-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin-top: 40px; */
-    gap: 1.5rem;
-  }
-  .sign-in{
-  background-color: var(--Cyan-perple-gradient);
-  
-  border-radius: none !important;
-  }
-  .slider{
-    background: #0a0acf;
-  width: 100%;
-  height: 60vh;
-  }
-  
-
- 
-
-     /*  common style Section start here */
-
-  .Common_style h2{
-    color: white;
-    padding-top: 40px;
-    margin-top: 50px;
-    font-family: 'spectral';
-    font-size: 1.8rem;
-    text-transform: capitalize;
-    position: relative;
-  }
-  .Common_style h2::before{
-    content: "";
-    position: absolute;
-    margin-top: 10px;
-    top: 100%;
-    border-radius: 50%;
-    left: 0;
-    width: 0.8rem;
-    height: 0.8rem;
-    background:linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
-  }
-  .Common_style h2::after{
-    content: "";
-    position: absolute;
-    margin-top: 10px;
-    top: 107%;
-    left: 0.8rem;
-   
-    min-width: 5rem;
-   height: 0.2rem;
-   border-radius: 0  10px 10px 0;
-   
-    background:linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
-  }
+/* ============================ */
 
 
-.Common_style p{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
-  padding-top: 40px;
+.main-content-wraper{
+  padding: 28px;
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  top: 124px;
+  height: 100vh;
+  max-width: 540px;
 }
-
-.Common_style .img-fluid{
-  width: 400px;
-  height: auto;
-}
-
- /*  CoinList Api Section start here */
-
- .api{
-  border: 1px solid white;
-  height: 90vh;
-
- }
-
-
-
-
-#Coinlist{
-  background: #0a0acf;
-  width: 100%;
-  height: 120vh;
-  /* margin-top: 80px; */
-}
-/* #Coinlist h2{
-  border-bottom: 2px solid #3d23c3;
-  border-radius: 10px;
-  width: 23%;
-} */
-
-#trade{
-  background: #030361;
-       width: 100%;
-       height: 80vh;   
-       /* margin-top: 80px; */
- }
- /* #trade h2{
-   border-bottom: 4px solid #3d23c3;
-   border-radius: 10px;
-   width: 14%;
-   line-height: 40px;
- }
-  */
-#analytics{
- background: #0a0acf;
-      width: 100%;
-      height: 70vh;   
-}
-/* #analytics h2{
-  border-bottom: 4px solid #3d23c3;
-  border-radius: 10px;
-  width: 23%;
-  line-height: 40px;
-} */
-
-  #Easy_to_invest{
-    background: #030361;
-         width: 100%;
-         height: 70vh;
-   }
-   /* #Easy_to_invest h2{
-    border-bottom: 4px solid #3d23c3;
-    border-radius: 10px;
-    width: 33%;
-    line-height: 40px;
-  } */
-.easy-invest-icon{
-  background:linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
-  color: white;
+.doller{
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  
-  
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.easy-icon-para h3{
-  font-size: 1rem;
-  color: white;
+.discover{
+  background:linear-gradient(90deg, rgba(56, 42, 131, 0.57) 0%, rgba(56, 42, 131, 0.86) 50%, rgba(56, 42, 131, 0.71) 100%);
+  width: fit-content;
+  border-radius: 30px;
+  padding: 4px 15px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
 }
 
-#Trading-platform{
-  background: #0a0acf;
-  width: 100%;
+.Trade-text-main{
+  color: white;
+  font-family: 'Popins';
+  font-size: 2;
+    font-size: 2rem;
+    padding: 21px 0;
+    line-height: 2rem;
+
+}
+.trade-para{
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Spectral';
+}
+.main-btn{
+  color: red;
+}
+
+
+/* =============test new idea ============ */
+.hero{
+  background-color: #160141;
   height: auto;
   padding-bottom: 60px;
 }
 
+.outervideo{
+  max-width: 570px;
+  height: 324px;
+  position: relative;
+  /* border: 2px solid #25CBD3; */
+  border-radius: 30px;
+}
 
-   #Peer-to-peer{
-    background: #0a0acf;
-         width: 100%;
-         height: 70vh;
-   }
-   /* #Peer-to-peer h2{
-    border-bottom: 4px solid #3d23c3;
-    border-radius: 10px;
-    width: 33%;
-    line-height: 40px;
-  } */
-   
-
-  #how-it-is-work{
-    background: #030361;
-         width: 100%;
-         height: 70vh;
-  }
-  #how-it-is-work h3{
-    color: white;
-    font-size: 1rem;
-    
-  }
-  #how-it-is-work .how-work-heading{
+.innervideo{
+  max-width: 583px;
+  left: 0px;
+  height: 290px;
+  position: absolute;
+  top: 0;
  
-  }
+}
+.videostyle{
+  border-radius: 30px;
+  border: 2px solid #25CBD3;
+}
+.top-main-content{
+  padding-top: 40px;
+}
+.main-btn{
+ 
+  color: white;
+  background:linear-gradient(90deg, rgba(56, 42, 131, 0.57) 0%, rgba(56, 42, 131, 0.86) 50%, rgba(56, 42, 131, 0.71) 100%);
+  padding: 10px 31px;
+  border: 1px solid #25CBD3;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+}
+.main-btn:hover{
+ 
+ background-color:#25CBD3 ;
+ border: none;
+}
 
-  #mobile-app{
-    background: #030361;
-    width: 100%;
-    height: 85vh;
-  }
-.mobile-app-heading{
-  color: #fff;
-  font-size: 1.5rem !important;
-  /* padding-bottom: 20px; */
-  font-family: 'spectral';
-}
-.mobile-app-subheading{
-  color: white;
-  font-size: 0.8rem !important;
-  font-family: 'Open Sans', 'sans-serif';
-}
-.mobile-app-img{
-  padding-left: 100px !important;
-  padding-top: 30px;
-  width: 80px;
-  height: 35px;
-}
-#invest-now{
-  background: #0a0acf;
-  width: 100%;
-  height: 70vh;
-}
-.invest-heading{
-  color: white;
+/* --------------media section------- */
+
+
+/* --------------media section end here------- */
+
+
+.slider__section__main{
+  background-color: #160141;
+  height: auto;
+  padding-bottom: 60px;
   padding-top: 60px;
 }
-.invest-heading h4{
-  font-size: 1rem;
+.color1{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
 }
-
-
-.invest{
-  color: white;
-  font-size: 1rem;
-    flex-direction: column;
-    align-items: center;
-
+.color2{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color:purple;
 }
-.invest h3{
-  font-size: 1.2rem;
+.color3{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color:blue;
 }
-.invest .icons{
- color: aqua !important;
- background: rgb(160,25,224);
-background: radial-gradient(circle, rgba(160,25,224,0.8841911764705882) 0%, rgba(230,118,211,0.9458158263305322) 100%);
- border: 1px solid transparent;
- border-radius: 10%;
- width: 40px;
- height: 40px;
+.color4{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color:green;
 }
-.invest-btn{
-  background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+.color5{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color:orangered;
 }
-.invest-btn:hover{
-color: aqua !important;
-
+.color6{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color:rosybrown;
 }
-
-#join-cumunity{
-  background: #030361;
-  width: 100%;
-  height: 70vh;
-
-}
-.join-community-heading{
-  font-size: 2.5rem !important;
-  font-family: 'spectral';
-  margin-top: 30px;
-}
-.join-community-para{
-  font-size: 1rem !important;
-  padding-top: 15px;
-  font-family: 'open sans';
-}
-
-
-.com-twitter{
-  width:min-content;
-  height: 58px;
-  padding: 0 30px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  gap:1rem;
-  background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
-  color: white;
+.main__common__heading{
+  font-family: 'Spectral';
   font-size: 1.5rem;
-  border: 2px solid transparent;
-  border-radius: 10px;
-  transition: all linear 0.3s;
+
+}
+.main__common__para{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: 'Spectral';
+}
+.main__image__common{
+  max-width: 100%;
+  /* border: 1px dashed white; */
 }
 
-.com-twitter:hover{
-  box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+
+/* ================================WordClass Trading Style start=========================== */
+
+.Outer__wordclass{
+
+  background:linear-gradient(90deg, rgba(56, 42, 131, 0.57) 0%, rgba(56, 42, 131, 0.86) 50%, rgba(56, 42, 131, 0.71) 100%);
+  border-radius: 18px;
+  border-bottom: 5px solid #25CBD3;
  
+
 }
-/* .com-twitter .navstyle:hover{
-color: white;
-} */
+.Outer__wordclass:hover{
 
-    /* @media  css start here */
+ transform: translateY(-10px);
+ transition: all 0.5s ease-in-out;
+ transition-duration: 500ms;
+}
 
 
 
-    @media screen and (max-width: 576px) {
-        .app .text-wrapper h1{
-            color: var(--cyan-color);
-            display: inline-block;
-            padding: 0;
-            font-size: 0.5rem;
-            margin-top: 0;
-            font-family: 'Spectral';
-          }
-         
-      }
+.wordClass__image{
 
-        /* @media  css start here */
-    @media only screen and (max-width: 786px) {
-        .app .text-wrapper h1{
-            color: var(--cyan-color);
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 1.3rem;
-            margin-top: 0;
-            font-family: 'Spectral';
-          }
-         
-      }
+padding: 40px 60px;
+}
+.wordClass__image img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+ background-color: #25CBD3;
 
-      @media only screen and (max-width: 992px) {
-        .app .text-wrapper h1{
-            color: var(--cyan-color);
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 1.5rem;
-            margin-top: 0;
-            font-family: 'Spectral';
-          }
-         
-      }
-      @media only screen and (max-width: 1200px) {
-        .app .text-wrapper h1{
-            color: var(--cyan-color);
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 2rem;
-            margin-top: 0;
-            font-family: 'Spectral';
-          }
-         
-      }
+  }
+.word__trading__section{
 
-      @media only screen and (max-width: 1400px) {
-        .app .text-wrapper h1{
-            color: var(--cyan-color);
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 2.2rem;
-            margin-top: 0;
-            font-family: 'Spectral';
-          }
-         
-      }
+  background-color: #160141;
+  height: auto;
+  padding-bottom: 60px;
+}
+.inner__worldClass__content{
+  padding: 20px;
+  color: white;
+}
+.inner__wordclass__heading{
+  font-size: 1.3rem;
+ word-wrap: break-word;
+  padding-bottom: 15px;
+}
 
+
+.inner__wordclass__heading::before
+
+{
+ 
+      display: inline-block;
+      content: "";
+      border-top: .3rem solid #25CBD3;
+      width: 4rem;
+      margin: -0.8rem 1rem -0.8rem 0;
+      transform: translateY(-1rem);
+
+  
+}
+
+
+
+.mobile-platform__section{
+  background-color: #160141;
+  height: auto;
+  padding-bottom: 80px;
+}
+.mobile-image{
+  max-width: max-content;
+}
+.mobile__para{
+  padding-top: 30px;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+
+
+.how-invest{
+  background-color: #160141;
+  height: auto;
+  padding-bottom: 80px;
+}
+
+.invest__outer{
+
+  background:linear-gradient(90deg, rgba(56, 42, 131, 0.57) 0%, rgba(56, 42, 131, 0.86) 50%, rgba(56, 42, 131, 0.71) 100%);
+  border-radius: 18px;
+  border-right: 5px solid #25CBD3;
+}
+
+.invest__outer:hover{
+  transform: translateY(-10px);
+  transition: all 0.5s ease-in;
+  transition-duration: 600ms;
+  cursor: pointer;
+}
+
+.invest__circle{
+  width: 100px;
+  height: 100px;
+  color: white;
+  border-radius: 50%;
+  border: 2px solid #25CBD3;
+ 
+  background:linear-gradient(258deg, rgba(171, 130, 238, 0.82) 0%, rgba(0, 130, 255, 0.82) 99%);
+}
+.invest__outer:hover .invest__circle{
+ 
+  border: 2px solid #25CBD3;
+  background: none;
+  transition: all 0.3s linear;
+}
+
+.invest__content{
+  padding: 30px 20px;
+  color: white;
+}
+.invest__account-heading{
+  font-size: 1.3rem;
+}
+.invest__account-para{
+  font-size: 1rem;
+}
+
+
+.socialmedia__section{
+  background-color: #160141;
+  height: auto;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
