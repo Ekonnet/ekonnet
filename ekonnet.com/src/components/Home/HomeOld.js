@@ -395,7 +395,7 @@ const Home = () => {
           <Row>
             <Col className='d-flex justify-content-center gap-5 mt-5 community-social'>
               <div className='com-twitter'>
-                <BsTwitter className='community-icon ' size="1.5rem" /><NavLink as={Link} to={"/"} >Twitter</NavLink>
+                <BsTwitter className='community-icon leading-10 ' size="1.5rem" /><NavLink as={Link} to={"/"} >Twitter</NavLink>
               </div>
               <div className='com-twitter'>
                 <FaFacebookF className='community-icon' size="1.5rem" /><NavLink as={Link} to={"/"}>Facebook</NavLink>

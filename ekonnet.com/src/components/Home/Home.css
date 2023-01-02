@@ -1,42 +1,45 @@
-.app{
-    text-align:start;
-  }
-  .app .text-wrapper{
-    padding: 28px;
-    display: inline-block;
-    position: absolute;
-    left: 0;
-    top: 100px;
-    width: 50%;
-    height: 100vh;
-  
-  }
-  .app .text-wrapper h1{
-    color: var(--cyan-color);
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 2.5rem;
-    font-family: 'Spectral';
-   
-  }
-  .app video{
-    position: relative;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80vh;
-    object-fit: cover;
-  }
+.app {
+  text-align: start;
+}
 
-  .section-part{
-    position: relative;
-  }
+.app .text-wrapper {
+  padding: 28px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 50%;
+  height: 100vh;
+
+}
+
+.app .text-wrapper h1 {
+  color: var(--cyan-color);
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 2.5rem;
+  font-family: 'Spectral';
+
+}
+
+.app video {
+  position: relative;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.section-part {
+  position: relative;
+}
 
 /* ============================ */
 
 
-.main-content-wraper{
+.main-content-wraper {
   padding: 28px;
   display: inline-block;
   position: absolute;
@@ -45,7 +48,8 @@
   height: 100vh;
   max-width: 540px;
 }
-.doller{
+
+.doller {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -54,8 +58,9 @@
   justify-content: center;
   align-items: center;
 }
-.discover{
-  background:linear-gradient(90deg, rgba(56, 42, 131, 0.57) 0%, rgba(56, 42, 131, 0.86) 50%, rgba(56, 42, 131, 0.71) 100%);
+
+.discover {
+  background: linear-gradient(90deg, rgba(56, 42, 131, 0.57) 0%, rgba(56, 42, 131, 0.86) 50%, rgba(56, 42, 131, 0.71) 100%);
   width: fit-content;
   border-radius: 30px;
   padding: 4px 15px;
@@ -66,33 +71,35 @@
   gap: 0.8rem;
 }
 
-.Trade-text-main{
+.Trade-text-main {
   color: white;
   font-family: 'Popins';
   font-size: 2;
-    font-size: 2rem;
-    padding: 21px 0;
-    line-height: 2rem;
+  font-size: 2rem;
+  padding: 21px 0;
+  line-height: 2rem;
 
 }
-.trade-para{
+
+.trade-para {
   color: white;
   font-size: 1.2rem;
   font-family: 'Spectral';
 }
-.main-btn{
+
+.main-btn {
   color: red;
 }
 
 
 /* =============test new idea ============ */
-.hero{
+.hero {
   background-color: #160141;
   height: auto;
   padding-bottom: 60px;
 }
 
-.outervideo{
+.outervideo {
   max-width: 570px;
   height: 324px;
   position: relative;
@@ -100,34 +107,38 @@
   border-radius: 30px;
 }
 
-.innervideo{
+.innervideo {
   max-width: 583px;
   left: 0px;
   height: 290px;
   position: absolute;
   top: 0;
- 
+
 }
-.videostyle{
+
+.videostyle {
   border-radius: 30px;
   border: 2px solid #25CBD3;
 }
-.top-main-content{
+
+.top-main-content {
   padding-top: 40px;
 }
-.main-btn{
- 
+
+.main-btn {
+
   color: white;
-  background:linear-gradient(90deg, rgba(56, 42, 131, 0.57) 0%, rgba(56, 42, 131, 0.86) 50%, rgba(56, 42, 131, 0.71) 100%);
+  background: linear-gradient(90deg, rgba(56, 42, 131, 0.57) 0%, rgba(56, 42, 131, 0.86) 50%, rgba(56, 42, 131, 0.71) 100%);
   padding: 10px 31px;
   border: 1px solid #25CBD3;
   border-radius: 40px;
   transition: all 0.3s ease;
 }
-.main-btn:hover{
- 
- background-color:#25CBD3 ;
- border: none;
+
+.main-btn:hover {
+
+  background-color: #25CBD3;
+  border: none;
 }
 
 /* --------------media section------- */
@@ -136,59 +147,68 @@
 /* --------------media section end here------- */
 
 
-.slider__section__main{
+.slider__section__main {
   background-color: #160141;
   height: auto;
   padding-bottom: 60px;
   padding-top: 60px;
 }
-.color1{
+
+.color1 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: red;
 }
-.color2{
+
+.color2 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color:purple;
+  background-color: purple;
 }
-.color3{
+
+.color3 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color:blue;
+  background-color: blue;
 }
-.color4{
+
+.color4 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color:green;
+  background-color: green;
 }
-.color5{
+
+.color5 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color:orangered;
+  background-color: orangered;
 }
-.color6{
+
+.color6 {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color:rosybrown;
+  background-color: rosybrown;
 }
-.main__common__heading{
+
+.main__common__heading {
   font-family: 'Spectral';
   font-size: 1.5rem;
 
 }
-.main__common__para{
+
+.main__common__para {
   font-size: 1.2rem;
   line-height: 2rem;
   font-family: 'Spectral';
 }
-.main__image__common{
+
+.main__image__common {
   max-width: 100%;
   /* border: 1px dashed white; */
 }
@@ -196,78 +216,83 @@
 
 /* ================================WordClass Trading Style start=========================== */
 
-.Outer__wordclass{
+.Outer__wordclass {
 
-  background:linear-gradient(90deg, rgba(56, 42, 131, 0.57) 0%, rgba(56, 42, 131, 0.86) 50%, rgba(56, 42, 131, 0.71) 100%);
+  background: linear-gradient(90deg, rgba(56, 42, 131, 0.57) 0%, rgba(56, 42, 131, 0.86) 50%, rgba(56, 42, 131, 0.71) 100%);
   border-radius: 18px;
   border-bottom: 5px solid #25CBD3;
- 
+
 
 }
-.Outer__wordclass:hover{
 
- transform: translateY(-10px);
- transition: all 0.5s ease-in-out;
- transition-duration: 500ms;
+.Outer__wordclass:hover {
+
+  transform: translateY(-10px);
+  transition: all 0.5s ease-in-out;
+  transition-duration: 500ms;
 }
 
 
 
-.wordClass__image{
+.wordClass__image {
 
-padding: 40px 60px;
+  padding: 40px 60px;
 }
-.wordClass__image img{
+
+.wordClass__image img {
   max-width: 100%;
   height: auto;
   border-radius: 15px;
   overflow-clip-margin: content-box;
   overflow: clip;
- background-color: #25CBD3;
+  background-color: #25CBD3;
 
-  }
-.word__trading__section{
+}
+
+.word__trading__section {
 
   background-color: #160141;
   height: auto;
   padding-bottom: 60px;
 }
-.inner__worldClass__content{
+
+.inner__worldClass__content {
   padding: 20px;
   color: white;
 }
-.inner__wordclass__heading{
+
+.inner__wordclass__heading {
   font-size: 1.3rem;
- word-wrap: break-word;
+  word-wrap: break-word;
   padding-bottom: 15px;
 }
 
 
-.inner__wordclass__heading::before
+.inner__wordclass__heading::before {
 
-{
- 
-      display: inline-block;
-      content: "";
-      border-top: .3rem solid #25CBD3;
-      width: 4rem;
-      margin: -0.8rem 1rem -0.8rem 0;
-      transform: translateY(-1rem);
+  display: inline-block;
+  content: "";
+  border-top: .3rem solid #25CBD3;
+  width: 4rem;
+  margin: -0.8rem 1rem -0.8rem 0;
+  transform: translateY(-1rem);
 
-  
+
 }
 
 
 
-.mobile-platform__section{
+.mobile-platform__section {
   background-color: #160141;
   height: auto;
   padding-bottom: 80px;
 }
-.mobile-image{
+
+.mobile-image {
   max-width: max-content;
 }
-.mobile__para{
+
+.mobile__para {
   padding-top: 30px;
   font-size: 1.2rem;
   line-height: 2rem;
@@ -275,57 +300,162 @@ padding: 40px 60px;
 
 
 
-.how-invest{
+.how-invest {
   background-color: #160141;
   height: auto;
   padding-bottom: 80px;
 }
 
-.invest__outer{
+.invest__outer {
 
-  background:linear-gradient(90deg, rgba(56, 42, 131, 0.57) 0%, rgba(56, 42, 131, 0.86) 50%, rgba(56, 42, 131, 0.71) 100%);
+  background: linear-gradient(90deg, rgba(56, 42, 131, 0.57) 0%, rgba(56, 42, 131, 0.86) 50%, rgba(56, 42, 131, 0.71) 100%);
   border-radius: 18px;
   border-right: 5px solid #25CBD3;
 }
 
-.invest__outer:hover{
+.invest__outer:hover {
   transform: translateY(-10px);
   transition: all 0.5s ease-in;
   transition-duration: 600ms;
   cursor: pointer;
 }
 
-.invest__circle{
+.invest__circle {
   width: 100px;
   height: 100px;
   color: white;
   border-radius: 50%;
   border: 2px solid #25CBD3;
- 
-  background:linear-gradient(258deg, rgba(171, 130, 238, 0.82) 0%, rgba(0, 130, 255, 0.82) 99%);
+
+  background: linear-gradient(258deg, rgba(171, 130, 238, 0.82) 0%, rgba(0, 130, 255, 0.82) 99%);
 }
-.invest__outer:hover .invest__circle{
- 
+
+.invest__outer:hover .invest__circle {
+
   border: 2px solid #25CBD3;
   background: none;
   transition: all 0.3s linear;
 }
 
-.invest__content{
+.invest__content {
   padding: 30px 20px;
   color: white;
 }
-.invest__account-heading{
+
+.invest__account-heading {
   font-size: 1.3rem;
 }
-.invest__account-para{
+
+.invest__account-para {
   font-size: 1rem;
 }
 
+/* ----------------------------social icons----------- */
 
-.socialmedia__section{
+
+.socialmedia__section {
   background-color: #160141;
   height: auto;
   padding-bottom: 80px;
   padding-top: 80px;
+}
+
+.social__weapper .social__button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 5px;
+  background: #fff;
+  border-right: 3px solid #25CBD3;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+.social__weapper .social__button:hover {
+  width: 200px;
+}
+
+.social__button .icon {
+  display: inline-block;
+  height: 60px !important;
+  width: 60px !important;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 0px;
+  text-align: center !important;
+  transition: all 0.3s ease-out;
+}
+
+.social__button .icon .community-icon {
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+margin: 17px;
+}
+
+.social__button:hover .icon .community-icon {
+  color: #ffff;
+}
+
+.social__button span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-left: 30px;
+  padding-bottom: 30px;
+  transition: all 0.3s ease-out;
+}
+
+.social__weapper .social__button:nth-child(1):hover .icon {
+  background: #4267B2;
+
+}
+
+.social__weapper .social__button:nth-child(2):hover .icon {
+  background: #1DA1F2;
+
+}
+
+.social__weapper .social__button:nth-child(3):hover .icon {
+  background: #E1306C;
+
+}
+
+.social__weapper .social__button:nth-child(4):hover .icon {
+  background: #333;
+
+}
+
+.social__weapper .social__button:nth-child(5):hover .icon {
+  background: #ff0000;
+
+}
+
+
+
+.social__weapper .social__button:nth-child(1) span {
+  color: #4267B2;
+
+}
+
+.social__weapper .social__button:nth-child(2) span {
+  color: #1DA1F2;
+
+}
+
+.social__weapper .social__button:nth-child(3) span {
+  color: #E1306C;
+
+}
+
+.social__weapper .social__button:nth-child(4) span {
+  color: #333;
+
+}
+
+.social__weapper .social__button:nth-child(5) span {
+  color: #ff0000;
+
 }

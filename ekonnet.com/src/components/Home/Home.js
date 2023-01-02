@@ -14,6 +14,14 @@ import GoogleStore from '../assets/google-store-btn.png'
 import { BsPlusCircleDotted } from 'react-icons/bs';
 import { MdOutlineInsights } from 'react-icons/md';
 import { AiOutlineBank } from 'react-icons/ai';
+import { BsTwitter } from 'react-icons/bs';
+import { FaFacebookF } from 'react-icons/fa';
+import { AiFillInstagram } from 'react-icons/ai';
+import { AiFillGithub } from 'react-icons/ai';
+import { AiFillYoutube } from 'react-icons/ai';
+
+import { NavLink } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 // import Button from '@mui/material/Button';
 
 const Home = () => {
@@ -232,7 +240,7 @@ const Home = () => {
                                 </div>
                                 <div className='inner__worldClass__content'>
                                     <h3 className="inner__wordclass__heading">
-                                    Margin trading
+                                        Margin trading
                                     </h3>
                                     <p className="inner__worldClass__para">
                                         Ekonnet offers order books with top tier liquidity,
@@ -251,7 +259,7 @@ const Home = () => {
                                 </div>
                                 <div className='inner__worldClass__content'>
                                     <h3 className="inner__wordclass__heading">
-                                    Margin funding
+                                        Margin funding
                                     </h3>
                                     <p className="inner__worldClass__para">
                                         Ekonnet offers order books with top tier liquidity,
@@ -276,7 +284,7 @@ const Home = () => {
                                 </div>
                                 <div className='inner__worldClass__content'>
                                     <h3 className="inner__wordclass__heading">
-                                    Security
+                                        Security
                                     </h3>
                                     <p className="inner__worldClass__para">
                                         Ekonnet offers order books with top tier liquidity,
@@ -295,7 +303,7 @@ const Home = () => {
                                 </div>
                                 <div className='inner__worldClass__content'>
                                     <h3 className="inner__wordclass__heading">
-                                    Order Type
+                                        Order Type
                                     </h3>
                                     <p className="inner__worldClass__para">
                                         Ekonnet offers order books with top tier liquidity,
@@ -314,7 +322,7 @@ const Home = () => {
                                 </div>
                                 <div className='inner__worldClass__content'>
                                     <h3 className="inner__wordclass__heading">
-                                    Customizable Interface
+                                        Customizable Interface
                                     </h3>
                                     <p className="inner__worldClass__para">
                                         Ekonnet offers order books with top tier liquidity,
@@ -339,10 +347,10 @@ const Home = () => {
                     <div className="row flex justify-centyer items-center pt-5">
                         <div className="col">
                             <div className="mobile_circule_outer">
-        
+
                             </div>
                             <div className="mobile-image">
-                            <img src={Mobile} alt='mobile' />
+                                <img src={Mobile} alt='mobile' />
                             </div>
                         </div>
                         <div className="col">
@@ -359,12 +367,12 @@ const Home = () => {
                                     The Ekonnet Mobile application allows you to connect to your ekonnet trading account and provide live information about your open orders as well as the status of your account. Wherever you are, you can easily make changes to your trades and never have to miss an opportunity again.
                                 </p>
                                 <p className="mobile__para text-white">
-                                The dawn of a better world that is freer. Send or receive any amount of money from anywhere on the planet!
-                            </p>
-                            <div className='flex justify-start gap-4 pt-3'>
-                            <img src={AppStore} alt='mobile' />
-                            <img src={GoogleStore} alt='mobile' />
-                            </div>
+                                    The dawn of a better world that is freer. Send or receive any amount of money from anywhere on the planet!
+                                </p>
+                                <div className='flex justify-start gap-4 pt-3'>
+                                    <img src={AppStore} alt='mobile' />
+                                    <img src={GoogleStore} alt='mobile' />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -375,10 +383,10 @@ const Home = () => {
                     <div className="row">
                         <div className="col flex justify-center items-center flex-column mb-5">
                             <h2 className="invest__heading text-white">
-                            Get started in a few minutes
+                                Get started in a few minutes
                             </h2>
                             <p className="invest__sub-heading text-white">
-                            Start your crypto investment with Ekonnet now !
+                                Start your crypto investment with Ekonnet now !
                             </p>
                         </div>
                     </div>
@@ -386,53 +394,53 @@ const Home = () => {
 
                         <div className="col ">
                             <div className="invest__outer ">
-                            <div className="flex justify-center items-center pt-5">
-                                <div className="invest__circle flex justify-center items-center">
-                                <BsPlusCircleDotted className='icons' size="4rem" />
-                                </div>
+                                <div className="flex justify-center items-center pt-5">
+                                    <div className="invest__circle flex justify-center items-center">
+                                        <BsPlusCircleDotted className='icons' size="4rem" />
+                                    </div>
                                 </div>
                                 <div className="invest__content flex justify-center items-center flex-column">
-                                <h2 className='invest__account-heading'>Create an account</h2>
-                                <p className='invest__account-para'>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, iste?
-                                </p>
+                                    <h2 className='invest__account-heading'>Create an account</h2>
+                                    <p className='invest__account-para'>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, iste?
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col">
                             <div className="invest__outer">
-                            <div className="flex justify-center items-center pt-5">
-                                <div className="invest__circle flex justify-center items-center">
-                                <AiOutlineBank className='icons' size="4rem" />
-                                </div>
+                                <div className="flex justify-center items-center pt-5">
+                                    <div className="invest__circle flex justify-center items-center">
+                                        <AiOutlineBank className='icons' size="4rem" />
+                                    </div>
                                 </div>
                                 <div className="invest__content flex justify-center items-center flex-column">
-                                <h2 className='invest__account-heading'>Link your bank account</h2>
-                                <p className='invest__account-para'>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, iste?
-                                </p>
+                                    <h2 className='invest__account-heading'>Link your bank account</h2>
+                                    <p className='invest__account-para'>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, iste?
+                                    </p>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col">
                             <div className="invest__outer">
-                               <div className="flex justify-center items-center pt-5">
-                                <div className="invest__circle flex justify-center items-center">
-                                <MdOutlineInsights className='icons' size="4rem" />
-                                </div>
+                                <div className="flex justify-center items-center pt-5">
+                                    <div className="invest__circle flex justify-center items-center">
+                                        <MdOutlineInsights className='icons' size="4rem" />
+                                    </div>
                                 </div>
                                 <div className="invest__content flex justify-center items-center flex-column">
-                                <h2 className='invest__account-heading'>Start buying & selling</h2>
-                                <p className='invest__account-para'>
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, iste?
-                                </p>
+                                    <h2 className='invest__account-heading'>Start buying & selling</h2>
+                                    <p className='invest__account-para'>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, iste?
+                                    </p>
                                 </div>
-                                
+
                             </div>
                         </div>
-                      
+
 
 
                     </div>
@@ -442,14 +450,56 @@ const Home = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                        <div className="col flex justify-center items-center flex-column mb-5">
-                            <h2 className="invest__heading text-white">
-                            Join Our Community
-                            </h2>
-                            <p className="invest__sub-heading text-white">
-                            Ekonnet is Global .Join The Conversation in any of our woldwide communities.
-                            </p>
+                            <div className="col flex justify-center items-center flex-column mb-5">
+                                <h2 className="invest__heading text-white">
+                                    Join Our Community
+                                </h2>
+                                <p className="invest__sub-heading text-white">
+                                    Ekonnet is Global .Join The Conversation in any of our woldwide communities.
+                                </p>
+                            </div>
                         </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col flex justify-center items-center">
+                            <div className="social__weapper">
+                                <div className="social__button">
+                                    <div className="icon ">
+                                    <FaFacebookF className='community-icon' size="1.5rem" /><NavLink as={Link} to={"/"}></NavLink>
+                                    </div>
+                                    <span>Facebook</span>
+                                </div>
+
+                                <div className="social__button">
+                                    <div className="icon">
+                                        <BsTwitter className='community-icon ' size="1.5rem" /><NavLink as={Link} to={"/"} ></NavLink>
+                                    </div>
+                                    <span>Twitter</span>
+                                </div>
+
+                                <div className="social__button">
+                                    <div className="icon">
+                                    <AiFillInstagram className='community-icon' size="1.5rem" /><NavLink as={Link} to={"/"}></NavLink>
+                                    </div>
+                                    <span>Instagram</span>
+                                </div>
+
+                                <div className="social__button">
+                                    <div className="icon">
+                                    
+                                        <AiFillGithub className='community-icon ' size="1.5rem" /><NavLink as={Link} to={"/"} ></NavLink>
+                                    </div>
+                                    <span>Github</span>
+                                </div>
+
+                                <div className="social__button">
+                                    <div className="icon">
+                                        <AiFillYoutube className='community-icon ' size="1.5rem" /><NavLink as={Link} to={"/"} ></NavLink>
+                                    </div>
+                                    <span>Youtube</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
