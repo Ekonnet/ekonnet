@@ -22,6 +22,7 @@ function HeaderNav() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto main-nav">
           <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
+          <Nav.Link as={Link} to={"/home2"}>home2</Nav.Link>
             <NavDropdown title="Buy Crypto" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to={"/one-click-buy"}>One-Click Buy</NavDropdown.Item>
               <NavDropdown.Divider />

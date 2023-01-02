@@ -41,6 +41,7 @@ import PlayStore from '../assets/playstore-img.png';
 
 import TradingInfoCard from '../CardComponents/TradingInfoCard';
 import { NavLink } from 'react-bootstrap';
+// import CardHoverEffect from '../CardComponents/CardHoverEffect';
 
 
 const Home = () => {
@@ -235,6 +236,8 @@ const Home = () => {
               <h2 className=''>World ClassTradingPlatform</h2>
             </Col>
           </Row>
+
+         
           <Row className='pt-5'>
             <Col >
               <TradingInfoCard
@@ -306,6 +309,7 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
+    
       </section>
 
 
@@ -410,7 +414,7 @@ const Home = () => {
         </Container>
       </section>
 
-
+      {/* <CardHoverEffect/> */}
 
 
 

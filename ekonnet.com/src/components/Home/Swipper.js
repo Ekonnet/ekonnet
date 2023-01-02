@@ -19,38 +19,34 @@ export default function Swipper() {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 4
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2
+      items: 3
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1
+      items: 2
     }
   };
   return (
     <>
-    <section className="slider-div">
-    <Carousel responsive={responsive}>
-      
-  <div>
+   
+<div className="row">
+  <div className="col">
+  <Carousel responsive={responsive}>
     <img src={Slider01} alt="slider1" className="img-fluid"/>
-  </div>
-  <div>
     <img src={Slider02} alt="slider2" className="img-fluid"/>
-  </div>
-  <div>
     <img src={Slider03} alt="slider3" className="img-fluid"/>
-  </div>
-  <div>
     <img src={Slider04} alt="slider4" className="img-fluid"/>
-  </div>
- 
-
+    <img src={Slider03} alt="slider3" className="img-fluid"/>
 </Carousel>;
-</section>
+
+  </div>
+</div>
+
+
     </>
   );
 }
