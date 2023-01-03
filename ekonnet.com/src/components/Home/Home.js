@@ -369,10 +369,14 @@ const Home = () => {
                                 <p className="mobile__para text-white">
                                     The dawn of a better world that is freer. Send or receive any amount of money from anywhere on the planet!
                                 </p>
-                                <div className='flex justify-start gap-4 pt-3'>
+                                <div className="row flex justify-start gap-4 pt-3">
+                                <div className='col '>
                                     <img src={AppStore} alt='mobile' />
+                                    </div>
+                                    <div className="col">
                                     <img src={GoogleStore} alt='mobile' />
-                                </div>
+                                    </div>
+                                </div>  
                             </div>
                         </div>
                     </div>
