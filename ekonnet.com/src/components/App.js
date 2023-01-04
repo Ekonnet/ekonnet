@@ -31,6 +31,7 @@ import {Route,Routes} from "react-router-dom";
 import Derivatives from './Markets/Derivatives';
 import CreditDebitCard from './CreditDebitCard';
 import Otc from './Otc';
+
 import OtcSell from './OtcSell';
 import TwoWay from './TwoWay';
 
@@ -54,6 +55,7 @@ import Home from './Home/Home';
 
 import Sidebar from '../HelpCenter/Getting Startted/Sidebar';
 import SidebarRoot from '../HelpCenter/Getting Startted/SidebarRoot';
+import Exchange from './Exchange';
 // import WhatIsEkonnet from '../HelpCenter/Getting Startted/WhatIsEkonnet';
 // import AcountCreate from '../HelpCenter/Getting Startted/AcountCreate';
 // import HowToEarn from '../HelpCenter/Getting Startted/HowToEarn';
@@ -103,6 +105,7 @@ const App = () => {
        <Route path='/ekonnet-pay' element={<EkonnetPay/>}/>
        <Route path='/staking' element={<Staking/>}/>
        <Route path='/otc' element={<Otc/>}/>
+       <Route path='/exchange' element={<Exchange/>}/>
        <Route path='/otc-sell' element={<OtcSell/>}/>
        <Route path='/two-way' element={<TwoWay/>}/>
 

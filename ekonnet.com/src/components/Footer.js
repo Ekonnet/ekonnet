@@ -37,7 +37,7 @@ const Footer = () => {
                         {/* ------------1st section--------------- */}
                         <Col className='footer-services'>
                             <h2>Services</h2>
-                            <h5>Exchange</h5>
+                            <Nav.Link as={Link} to={"/exchange"}><h5>Exchange</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/otc"}><h5>Otc</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/staking"}><h5>Staking</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/security"}><h5>Security & Protection</h5></Nav.Link>

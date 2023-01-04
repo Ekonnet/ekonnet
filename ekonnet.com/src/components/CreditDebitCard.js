@@ -283,7 +283,7 @@ h2{
                             </div>
                         </div>
                         <h4 className="last-head">
-                        Order Your Card
+                        Go to Deposit, choose Payment Cards.
                         </h4>
                     </div>
 
