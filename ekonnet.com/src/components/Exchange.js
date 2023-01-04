@@ -30,7 +30,7 @@ const Exchange = () => {
                             initial={{ x: 9 }}
                             animate={{ x: 20 }}
                             exit={{ x: 9 }}
-                            transition={{ repeat: Infinity, duration: 3, repeatType: "reverse", type: "tween", bounce: 0.25 }}
+                            transition={{ repeat: Infinity, duration: 2, repeatType: "reverse", type: "tween", bounce: 0.25 }}
                             className="two">
                             <img src={BannerTwo} alt='two' />
                         </motion.div>
@@ -42,7 +42,11 @@ const Exchange = () => {
                     <div className="container">
                         <div className="row pt-5">
                             <dic className="col-xxl-6 col-xl-6 col-lg-6 col-md-4">
-                                <motion.div animate={{ x: 100, y: 80 }} className="banner-content__exchange">
+                                <motion.div
+                                     initial={{y:100,opacity:0}}
+                                     animate={{y:0,x:100,opacity:1}}
+                                     transition={{  duration: 2, type: "tween", bounce: 0.25 }}
+                                 className="banner-content__exchange">
                                     <h3 className="subtitle ">Fast and Convenient</h3>
                                     <h2 className="head__exchange">
                                         Cryptocurrency Exchange
@@ -53,7 +57,13 @@ const Exchange = () => {
                                 </motion.div>
                             </dic>
                             <div className="col-4">
-                                <div className="exchange" style={{backgroundImage: `url(${ExchangeBg})`}}>
+                                <motion.div 
+                                initial={{x:300,opacity:0.8}}
+                                 animate={{x:0,opacity:1}}
+                                 transition={{  duration: 2, type: "tween", bounce: 0.25 }}
+                                
+                                
+                                className="exchange" style={{backgroundImage: `url(${ExchangeBg})`}}>
                                     <h5 className="head__heading-exchange">
                                     Cryptocurrency
                                     <br/>
@@ -64,7 +74,7 @@ const Exchange = () => {
                                             <p className="text-selector"> You Change </p>
                                             <div className="coin-img flex items-center">
                                                 {/* <img src={BtcImg} alt='btc-img' className='btc__img-coin'/> */}
-                                                <div className="language__select" style={{display:""}}>
+                                                <div  className="language__select" style={{display:""}}>
                                                     <select name="" id="" className='select-bar none'>
                                                         <option value="">BTC</option>
                                                         <option value="">USD</option>
@@ -106,7 +116,7 @@ const Exchange = () => {
                                     <div className="rotate">
                                         {/* <img src={RotateImg} alt='rotate-img' className=''/>   */}
                                     </div>
-                                </div>
+                                </motion.div>
                             </div>
                             <div className="col-2"></div>
                         </div>
