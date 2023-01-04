@@ -41,7 +41,7 @@ const Exchange = () => {
                 <div className="hero-area__exchange">
                     <div className="container">
                         <div className="row pt-5">
-                            <dic className="col-xl-7 col-lg-6">
+                            <dic className="col-xxl-6 col-xl-6 col-lg-6 col-md-4">
                                 <motion.div animate={{ x: 100, y: 80 }} className="banner-content__exchange">
                                     <h3 className="subtitle ">Fast and Convenient</h3>
                                     <h2 className="head__exchange">
@@ -52,10 +52,12 @@ const Exchange = () => {
                                     </p>
                                 </motion.div>
                             </dic>
-                            <div className="col-xl-4  col-lg-6">
+                            <div className="col-4">
                                 <div className="exchange" style={{backgroundImage: `url(${ExchangeBg})`}}>
                                     <h5 className="head__heading-exchange">
-                                    Cryptocurrency Exchange
+                                    Cryptocurrency
+                                    <br/>
+                                     Exchange
                                     </h5>
                                     <div className="exchange-box">
                                         <div className="selector flex justify-between items-center pb-2">
@@ -106,6 +108,7 @@ const Exchange = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="col-2"></div>
                         </div>
                     </div>
                 </div>
