@@ -13,8 +13,8 @@ const Ekonnetpay = () => {
                     <h3>Accept online payments on the Bitcoin</h3>
                     <p>Cryptocurrencies are being adopted globally and rapidly. Only ten years after the 
                        Genesis Block was mined, the first cryptocurrency, Bitcoin has grown to become the 
-                       world’s sixth-largest currency in circulation, thus becoming one of the largest 
-                       contributors to the world’s money supply. The technology behind cryptocurrency
+                       world's sixth-largest currency in circulation, thus becoming one of the largest 
+                       contributors to the world's money supply. The technology behind cryptocurrency
                        allows transactions without intermediaries, thereby enabling crypto to reach the
                        unbanked and people in remote and marginalised areas. New emerging developments,
                        such as the Lightning Network, have been working to make blockchain technology
