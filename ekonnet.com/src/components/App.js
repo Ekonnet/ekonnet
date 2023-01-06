@@ -50,6 +50,7 @@ import ContactUs from './Contacts/ContactUs';
 import DerivativeTerms from './Legal and Privacy/DerivativeTerms';
 import TradingLending from '../HelpCenter/TradingLending/TradingLending';
 import Home from './Home/Home';
+import Blog from './Blog';
 
 
 
@@ -103,6 +104,7 @@ const App = () => {
        <Route path='/credit-card' element={<CreditDebitCard/>}/>
        <Route path='/news-letter' element={<NewsLetter/>}/>
        <Route path='/ekonnet-pay' element={<EkonnetPay/>}/>
+       <Route path='/blog' element={<Blog/>}/>
        <Route path='/staking' element={<Staking/>}/>
        <Route path='/otc' element={<Otc/>}/>
        <Route path='/exchange' element={<Exchange/>}/>
