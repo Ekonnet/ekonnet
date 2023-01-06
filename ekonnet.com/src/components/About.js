@@ -8,6 +8,7 @@ import  BoxImg2 from './assets/img_blog3.png'
 import  OurValue from './assets/our-value.png'
 import { NavLink } from 'react-router-dom';
 import {Link} from "react-router-dom";
+import { motion, AnimatePresence } from 'framer-motion'
 
 import './About.css';
 
@@ -22,7 +23,16 @@ const About = () => {
 
                         </div>
                         <div className='col-lg-6'>
+                        <AnimatePresence>
+                        <motion.div
+                            initial={{ x: 100 }}
+                            animate={{ x: 20 }}
+                            exit={{ x: 100 }}
+                            transition={{ repeat: Infinity, duration: 2, repeatType: "reverse", type: "tween", bounce: 0.25 }}
+                            className="two">
                             <img src={AboutMainSection} alt='About.png' className='img-fluid'></img>
+                            </motion.div>
+                            </AnimatePresence>
                         </div>
                     </div>
                 </div>
@@ -199,7 +209,16 @@ const About = () => {
 
                         </div>
                         <div className="col-lg-6 flex justify-end items-end ">
-                            <img src={OurValue} alt='About.png' className='img-fluid  '></img>
+                        <AnimatePresence>
+                        <motion.div
+                            initial={{ y: 100 }}
+                            animate={{ y: 20 }}
+                            exit={{ y: 100 }}
+                            transition={{ repeat: Infinity, duration: 2, repeatType: "reverse", type: "tween", bounce: 0.25 }}>
+                            <img src={OurValue} alt='About.png' className='img-fluid'/>
+                        
+                            </motion.div>
+                            </AnimatePresence>
                         </div>
                     </div>
                 </div>
@@ -211,7 +230,7 @@ const About = () => {
                             <h4 className='text-[#25CBD3] '>News</h4>
                             <h2 className='text-white pt-4'>From the blog</h2>
                             <p className='text-white pt-2'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
-                            <button className='btn view-btn' >View More</button>
+                            <button className='btn view-btn text-white' >View More</button>
                         </div>
                         <div className="col">
                             <div className="row grid grid-cols-2 gap-4">
