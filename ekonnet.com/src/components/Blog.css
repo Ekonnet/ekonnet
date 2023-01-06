@@ -26,7 +26,8 @@
     font-family: 'Spectral', serif;
     color: darkblue;
     font-size: 1.8rem;
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    padding: 10px;
     margin-left: 20px;
     font-weight: bold;
 }

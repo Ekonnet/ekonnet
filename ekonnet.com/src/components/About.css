@@ -1,51 +1,63 @@
-.about_hero{
-    margin-top: 60px;
-}
+/* .about_hero{
+  
+
+} */
 .about_hero h1{
-    margin-top: 110px;
     font-family: 'Spectral', serif;
-    color: darkblue;
-    font-size: 1.8rem;
+  
 }
-.about_hero p{
-    color: darkmagenta;  
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;  
-}
+
 .about_product h1{
-    margin-top: 60px;
+    /* margin-top: 60px; */
     font-size: 1.8rem;
     font-family: 'Spectral', serif;
-    color: darkblue;
+    color: white;
     margin-bottom: 30px;
    
 }
 .product{
-    height: 250px;
-    border: 1px solid darkblue;
-    width: 320px;
     padding: 36px;
-    margin-left: 20px;
-    margin-top: 10px;
-    box-shadow: 10px 10px 5px 0px rgba(16,20,110,1);
+}
+
+.circle-product{
+    width: 80px;
+    height: 80px;
+    background-color: #00D2A0;
+    border-radius: 50%;
 }
 
 .about_product h3{
-    color: darkblue;
-    font-size: 1.2rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
     font-family: 'Spectral', serif;
-    text-align: center;
+  
+  
 }
+
+.product:hover  h3{
+   
+    background: linear-gradient( to left, #00D2A0 50%, #fff 50%);
+    background-size: 200%, 100%;
+    background-position: 100%;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: .5s;
+    cursor: pointer;
+   
+    
+}
+
 .about_product p{
-    color: darkmagenta;  
+    color: white;  
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;  
 }
 .about_value h1{
     margin-top: 60px;
-    font-size: 1.8rem;
+  
     font-family: 'Spectral', serif;
-    color: darkblue;
+   
     margin-bottom: 30px;
    
 }
@@ -54,13 +66,59 @@
     font-size: 1.2rem;
     font-family: 'Spectral', serif;
     text-align: center; 
-    margin-top: 10px;
+   
     
 }
 .about_value p{
-    color: darkmagenta;  
+    color: black;  
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;  
     text-align: justify;
-    font-style: italic;
+    
+}
+
+
+
+.view-btn{
+    margin-top: 20px;
+    border-radius: 50px;
+    max-width: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 10px 20px;
+    color: #ffffff;
+    background: linear-gradient(45deg, #3e19ff 0%, #903eff 100%);
+    box-shadow: 0px 7px 13px 0px rgb(153 99 255 / 59%);
+    transition: all 0.3s linear;
+}
+
+.view-btn:hover{
+    color: #ffffff;
+    background: linear-gradient(45deg, #903eff 0%, #f1f0f7 100%);
+    transition: all 0.3s linear;
+}
+.main-card{
+    background: linear-gradient(45deg, #e7e7ea 10%, #903eff 10%);
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px 0px 34px 0px;
+
+}
+.img-w-img{
+    position: relative;
+    
+    border-radius: 10px ;
+}
+.card-content{
+    padding: 20px;
+}
+.anchor-text{
+    text-decoration: none;
+    color:#25CBD3;
+}
+.anchor-text:hover{
+    text-decoration: none;
+    color:#25CBD3;
 }
