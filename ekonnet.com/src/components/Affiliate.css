@@ -174,5 +174,6 @@ cursor: pointer;
 .inner-box-affiliate:hover{
     background: linear-gradient(45deg, #903eff 0%, #3e19ff 100%);
     cursor: pointer;
-    transition: all 0.3s ease-out;
+    transition: all 0.5s ease-out;
+    box-shadow: none;
 }
