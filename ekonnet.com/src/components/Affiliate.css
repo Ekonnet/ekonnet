@@ -98,6 +98,8 @@ cursor: pointer;
 }
 
 
+
+
 .affiliate_income{
     padding-top: 60px;
 }
@@ -125,9 +127,8 @@ cursor: pointer;
     margin-top: 40px;
     color: var(--h1-color);
 }
-.why_affiliate{
-    margin-top: 40px;
-}
+
+
 .why_affiliate h1{
     color: var(--h1-color);
     margin-top: 110px;
@@ -136,46 +137,42 @@ cursor: pointer;
 }
 .why_affiliate span{
     font-size: 1.4rem;
-    font-family: 'Spectral', serif;
-    color: var(--p-color);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-top: 20px;
 }
 .why_affiliate p{
     margin-top: 0px;
-    color: var(--p-color);  
+    color: #c6c5c9;  
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;  
     
 }
 .why_affiliate h3{
-    color: var(--h1-color);
-    margin-top: 90px;
-    font-family: 'Spectral', serif;
-    font-size: 1.5rem;
-}
-.affiliate_work{
-    margin-top: 60px;
-}
-.affiliate_work h1{
-    color: var(--h1-color);
-    margin-top: 110px;
-    font-family: 'Spectral', serif;
-    font-size: 1.8rem;
-}
-.affiliate_work span{
-    font-size: 1.4rem;
-    font-family: 'Spectral', serif;
-    color: var(--p-color);
-}
-.affiliate_work h3{
-    color: var(--h1-color);
-    margin-top: 90px;
-    font-family: 'Spectral', serif;
-    font-size: 1.5rem;
-}
-.affiliate_work p{
-    margin-top: 0px;
-    color: var(--p-color);  
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;  
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    /* padding-top: 90px; */
     
+    font-family: 'Spectral', serif;
+ 
+}
+
+.why-affiliate__box{
+    background-color: #903eff;
+    border-radius: 20px;
+    padding: 40px;
+  margin-top: 60px;
+}
+.inner-box-affiliate{
+    background: linear-gradient(45deg, #3e19ff 0%, #903eff 100%);
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 12px -1px rgba(224,197,224,1);
+}
+
+.inner-box-affiliate:hover{
+    background: linear-gradient(45deg, #903eff 0%, #3e19ff 100%);
+    cursor: pointer;
+    transition: all 0.3s ease-out;
 }
