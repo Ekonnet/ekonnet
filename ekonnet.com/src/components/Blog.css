@@ -39,7 +39,7 @@
     padding-left: 20px;
 }
 .blog_img .blog_icons svg{
-    margin-left: 20px;
+    margin-left: 15px;
     color: cornflowerblue;
 }
 .blog_img .blog_icons span{
@@ -59,24 +59,70 @@
     padding-top: 6px;
     font-size: 1.3rem;
 }
+.search_btn input{
+    margin-top: 30px;
+    height: 51px;
+    width: 270px;
+    padding: 15px;
+    color: darkblue;
+    background-color: lightsteelblue;
+}
 
-.img-div{
-    position: relative;
-    z-index: 1;
+.search_btn button{
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 100px;
+    background-color: darkblue;
+    color: aliceblue;
+    border: transparent;
 }
-.img-style{
-    width: 100%;
-    border-radius: 8px 8px;
+.search_btn h3{
+    margin-top: 20px;
+    color: darkblue;
+    font-size: 1.5rem;
+    border-bottom: 1px solid lightsteelblue;
+    padding-bottom: 10px;
+    font-weight: bold;
 }
-.news-content{
-    position: absolute;
-    z-index: 1;
-    background: rgba(145, 205, 218, 0.9);
-    /* padding: 24px 30px 5px; */
-    bottom: 30px;
-    left: 129px;
-    /* right: 508px; */
-    border-radius: 0 0 8px 8px;
-    transition: .5s;
-    max-width: 508px;
+.search_btn h5{
+    color: darkblue;
+    font-size: 1.2rem;
+    padding-right: 38px;
+    border-bottom: 1px solid lightsteelblue;
+    padding-bottom: 10px;
+}
+.sidebar_iconss{
+    border-bottom: 1px solid lightsteelblue;
+    padding-bottom: 10px;
+}
+.sidebar_iconss svg{
+    font-size: 2.5rem;
+    color: darkorange;
+    margin-right: 14px;
+    margin-top: 10px;
+}
+ .sidebar_iconss h6{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 6px;
+    margin-left: 10px;
+} 
+ .sidebar_iconss h6 span{
+    color: darkblue;
+    font-size: 1rem;
+}
+.sidebar_ico svg{
+    margin-top: -5px;
+    color: darkblue;
+    font-size: 1.6rem;
+    margin-right: 0px;
+
+}
+.sidebar_iconss h4{
+    color: darkblue;
+    margin-left: 0px;
+    font-size: 1rem;
+    margin-top: 22px;
+
 }
