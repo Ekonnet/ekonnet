@@ -1,6 +1,6 @@
 import React from 'react'
 import './Blog.css';
-import btc from './assets/btc.png';
+import btc from './assets/crypto-news.jpg';
 import {FaRegCalendarAlt, FaRegUser, FaRegComments, FaArrowRight} from 'react-icons/fa';
 
 const Blog = () => {
@@ -18,11 +18,11 @@ const Blog = () => {
     <section id='blog_img' className='blog_img'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-8 d-flex'>
-            <div className=''>
-              <img src={btc} alt='blog-img' className='img-fluid'></img>
+          <div className='col-lg-8 d-flex box-outer'>
+            <div className='img-div'>
+              <img src={btc} alt='blog-img' className='img-style'></img>
             </div>   
-            <div>
+            <div className='news-content'>
               <h1>What is Bitcoin Mining</h1>
               <div className='d-flex blog_icons'>
               <FaRegCalendarAlt/>
