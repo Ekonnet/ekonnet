@@ -13,8 +13,8 @@
     background: linear-gradient(
             to right, #f32170, #ff6b08,
              #cf23cf, #eedd44);
-             -webkit-text-fill-color: transparent;
-             -webkit-background-clip: text;
+             /* -webkit-text-fill-color: transparent;
+             -webkit-background-clip: text; */
              font-family: 'Spectral', serif;
             
 
@@ -29,12 +29,79 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;   
 }
-.affiliate_hero .btn-primary{
+.affiliate_hero .affiliateBtn,.affiliateBtn{
+    margin-top: 20px;
     border-radius: 50px;
+    max-width: 100%;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 10px 20px;
+    color: #ffffff;
+    background: linear-gradient(45deg, #3e19ff 0%, #903eff 100%);
+    box-shadow: 0px 7px 13px 0px rgb(153 99 255 / 59%);
+    transition: all 0.3s linear;
 }
+.affiliate_hero .affiliateBtn:hover,
+.affiliateBtn:hover{
+    color: #ffffff;
+    background: linear-gradient(45deg, #903eff 0%, #3e19ff 100%);
+    transition: all 0.3s linear;
+}
+
+.reffer-content{
+    padding-top: 60px;
+
+}
+
+.reffer-div{
+    background-color: #171531;
+    /* width: 100%; */
+    border: 1px solid #2d295e;
+    padding: 20px 30px;
+    border-radius: 25px;
+
+}
+.reffer-div:hover{
+  background-color: #5b2ed9;
+  transition: all 0.5 ease-out;
+cursor: pointer;
+ transition-duration: 2s;
+
+}
+
+/* .reffer-circle{
+
+} */
+
+.reffer-heading{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.reffer-para{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2rem;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.affiliate-incom-trade{
+    background-color: #903eff;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+
+
+
 .affiliate_income{
-    margin-top: 60px;
+    padding-top: 60px;
 }
 .affiliate_income span{
     font-size: 2rem;
@@ -60,9 +127,8 @@
     margin-top: 40px;
     color: var(--h1-color);
 }
-.why_affiliate{
-    margin-top: 40px;
-}
+
+
 .why_affiliate h1{
     color: var(--h1-color);
     margin-top: 110px;
@@ -71,46 +137,43 @@
 }
 .why_affiliate span{
     font-size: 1.4rem;
-    font-family: 'Spectral', serif;
-    color: var(--p-color);
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-top: 20px;
 }
 .why_affiliate p{
     margin-top: 0px;
-    color: var(--p-color);  
+    color: #c6c5c9;  
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;  
     
 }
 .why_affiliate h3{
-    color: var(--h1-color);
-    margin-top: 90px;
-    font-family: 'Spectral', serif;
-    font-size: 1.5rem;
-}
-.affiliate_work{
-    margin-top: 60px;
-}
-.affiliate_work h1{
-    color: var(--h1-color);
-    margin-top: 110px;
-    font-family: 'Spectral', serif;
-    font-size: 1.8rem;
-}
-.affiliate_work span{
-    font-size: 1.4rem;
-    font-family: 'Spectral', serif;
-    color: var(--p-color);
-}
-.affiliate_work h3{
-    color: var(--h1-color);
-    margin-top: 90px;
-    font-family: 'Spectral', serif;
-    font-size: 1.5rem;
-}
-.affiliate_work p{
-    margin-top: 0px;
-    color: var(--p-color);  
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;  
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    /* padding-top: 90px; */
     
+    font-family: 'Spectral', serif;
+ 
+}
+
+.why-affiliate__box{
+    background-color: #903eff;
+    border-radius: 20px;
+    padding: 40px;
+  margin-top: 60px;
+}
+.inner-box-affiliate{
+    background: linear-gradient(45deg, #3e19ff 0%, #903eff 100%);
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 12px -1px rgba(224,197,224,1);
+}
+
+.inner-box-affiliate:hover{
+    background: linear-gradient(45deg, #903eff 0%, #3e19ff 100%);
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    box-shadow: none;
 }
