@@ -26,9 +26,9 @@
     font-family: 'Spectral', serif;
     color: darkblue;
     font-size: 1.8rem;
-    /* margin-top: 80px; */
+    margin-top: 80px;
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
     font-weight: bold;
 }
 .blog_img p{
@@ -77,13 +77,14 @@
     border: transparent;
 }
 .search_btn h3{
-    margin-top: 20px;
+    margin-top: 40px;
     color: darkblue;
     font-size: 1.5rem;
     border-bottom: 1px solid lightsteelblue;
     padding-bottom: 10px;
     font-weight: bold;
 }
+
 .search_btn h5{
     color: darkblue;
     font-size: 1.2rem;
@@ -124,5 +125,38 @@
     margin-left: 0px;
     font-size: 1rem;
     margin-top: 22px;
-
+}
+.sidebar_title h2{
+    font-size: 1rem;
+    color: darkblue;
+}
+.sidebar_title svg{
+    font-size: 25px;
+    margin-top: -4px;
+}
+.paggination{
+    margin-top: 60px;
+    margin-left: 250px;
+}
+.paggination ul li a{
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    border-radius: 0px;
+}
+.paggination ul li{
+    border: 1px solid darkblue;
+    margin-left: 10px;
+    
+}
+.paggination ul li:hover{
+     border-left: none;
+     border-radius: 5px;
+}
+.paggination ul li a:hover{
+    border-left: 1px solid darkblue;
+    background-color: transparent;
+    color: darkblue;
+    cursor: pointer;
+    border-radius: 5px;
 }

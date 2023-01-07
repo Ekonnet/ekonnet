@@ -4,6 +4,7 @@ import btc from './assets/crypto-news.jpg';
 import {FaRegCalendarAlt, FaRegUser, FaRegComments, FaArrowRight} from 'react-icons/fa';
 import {SiBitcoinsv,SiEthereum} from 'react-icons/si';
 import {TbCurrencyDollar} from 'react-icons/tb';
+import {CgChevronDoubleRight} from 'react-icons/cg';
 
 
 const Blog = () => {
@@ -59,7 +60,49 @@ const Blog = () => {
               <button className='btn btn-primary d-flex'>Continue Reading<FaArrowRight/>
               </button>
             </div> 
+            <div>
+            </div>         
            </div>
+           <div className='paggination'>
+           {/* <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </li>
+  </ul>
+</nav> */}
+<nav aria-label="Page navigation example">
+  <ul class="pagination pg-blue">
+    <li class="page-item">
+      <a class="page-link" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link">1</a></li>
+    <li class="page-item"><a class="page-link">2</a></li>
+    <li class="page-item"><a class="page-link">3</a></li>
+    <li class="page-item">
+      <a class="page-link" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+</div>
            </div>
           <div className='col-lg-3 search_btn'>
           <input type='text' placeholder='Search...'></input>
@@ -114,9 +157,32 @@ const Blog = () => {
           <h6>ApeCoin <span>(APE)</span></h6>
           <h4 className='d-flex sidebar_ico'><TbCurrencyDollar/>0.23586</h4>
           </div>
+          <div className='sidebar_title'>
+          <h3>Recent Posts</h3>
+          <h2 className='d-flex'><CgChevronDoubleRight/>What is Bitcoin Mining</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>Bitcoin vs Ethereum</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>The Government versus Bitcoin</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>Bitcoin domination</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>Benefit from Blockchain</h2>
+          </div>
+          <div className='sidebar_title'>
+          <h3>Recent Comments</h3>
+          <h2 className='d-flex'><CgChevronDoubleRight/>user on What is Bitcoin Mining</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>user on Bee Coin</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>Robert Downey on Bitcoin domination</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>A Commenter on Bitcoin domination</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>LearnPress on How to Mine Bitcoin on a Mac</h2>
+          </div>
+          <div className='sidebar_title'>
+          <h3>Archives</h3>
+          <h2 className='d-flex'><CgChevronDoubleRight/>January 2018</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>December 2017</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>October 2017</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>May 2017</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>April 2017</h2>
           </div>
           </div>
-          
+          </div>  
           </div> 
     </section>
     </>
