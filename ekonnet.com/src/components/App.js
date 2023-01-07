@@ -51,6 +51,7 @@ import DerivativeTerms from './Legal and Privacy/DerivativeTerms';
 import TradingLending from '../HelpCenter/TradingLending/TradingLending';
 import Home from './Home/Home';
 import Blog from './Blog';
+import SingleBlogPage from './SingleBlogPage';
 
 
 
@@ -105,6 +106,7 @@ const App = () => {
        <Route path='/news-letter' element={<NewsLetter/>}/>
        <Route path='/ekonnet-pay' element={<EkonnetPay/>}/>
        <Route path='/blog' element={<Blog/>}/>
+       <Route path='/single-blog' element={<SingleBlogPage/>}/>
        <Route path='/staking' element={<Staking/>}/>
        <Route path='/otc' element={<Otc/>}/>
        <Route path='/exchange' element={<Exchange/>}/>
