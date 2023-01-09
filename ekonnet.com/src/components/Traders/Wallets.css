@@ -1,119 +1,100 @@
-.app_icons{
-    width: 156px;
-    height: 55px;
-    border: 1px solid darkblue;
-    margin-left: 16px;
-    padding-left: 5px;
-    margin-top: 10px;
+.wallet_hero h1{
+    font-size: 1.9rem;
+    font-family: 'Spectral', serif;
+    color: white;
+    margin-top: 100px;
 }
-.app_icons svg{
-    width: 40px;
-    height: 40px;
-    color: darkblue;
-    
-}
-.app_icons h2{
-    color: blue;
+.wallet_hero p{
+    color: white;  
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.1rem;
-    padding-left: 6px;
-    padding-top: 2px;
-    font-family: 'Spectral', serif;
-
+     margin-top: 20px; 
 }
-.bottom_section{
-    color: blue;
-    margin-top: 30px;
-    margin-bottom: 40px;
-}
-.bottom_section svg{
-    color: darkblue;
-    margin-top: 30px;
-    width: 40px;
-    height: 40px;
-    margin-left: 260px;
-}
-.crypto_section h1{
-    color: darkblue;
-    margin-top: 175px;
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: 'Spectral', serif;
-}
-.private_secure h1{
-    margin-top: 100px;
-    color: darkblue;
-    font-size: 2.5rem;
-    font-family: 'Spectral', serif;
-    font-weight: bold;
-}
-
-.private_secure p{
-    color: blue;
-    font-size: 1.2rem;
-    font-family: 'Open Sans', sans-serif;
-}
-.private_secure_img{
-    width: 180px;
-    height: 180px;
-    margin: 50px;
-}
-.private_secure_section svg{
-    color: blue;
+.wallet_hero button{
     margin-top: 20px;
-    width: 65px;
-    height: 65px;
-    border: 1px solid darkblue;
-    padding: 12px;
+    height: 50px;
+    width: 146px;
+    font-size: 0.9rem;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
 }
-.private_secure_section h3{
-    padding-left: 20px;
-    margin-top: 6px;
-    color: darkblue;
-    font-size: 1.6rem;
-    font-family: 'Spectral', serif;
+.wallet_hero button:hover{
+    color: aqua !important;
 }
-.private_secure_section p{
-    padding-left: 20px;
-    color: blue;
-    font-size: 1.2rem;
-    font-family: 'Open Sans', sans-serif;
-}
-.crypto_wallet img{
-    height: 450px;
-    width: 367px;
-    
-    margin-left: 90px;
-}
-.wallet img{
-    margin-top: 30px;
-}
-.crypto_wallet h1{
+.wallet_hero img{
     margin-top: 100px;
-    color: darkblue;
-    font-size: 2.5rem;
+    width: 350px;
+    margin: 100px;
+}
+.wallet_feature h1{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Spectral', serif;
+    text-align: center;
+}
+.wallet_feature span{
+    color: white;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.wallet_feature p{
+    color: white;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+.wallet_feature h2{
+    font-size: 1.9rem;
+    font-family: 'Spectral', serif;
+    color: white;
+    margin-top: 100px;
+}
+.wallet_feature img{
+    width: 430px;
+    height: 300px;
+    margin-top: 40px;
+}
+.our_wallet h1{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Spectral', serif;
+    text-align: center;
+}
+.our_wallet span{
+    color: white;  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.wallet_icons{
+    border-bottom: 2px solid black;
+    padding-left: 5px;
+    padding-bottom: 20px;
+} 
+
+.wallet_box{
+    background-color: white;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 15px;
+   
+    
+}
+.wallet_icons h1{
+    color: black;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-top: 15px;
     font-family: 'Spectral', serif;
     font-weight: bold;
+   
 }
-.crypto_wallet p{
-    color: blue;
-    font-size: 1.2rem;
+.wallet_box p{
+    color: black;  
     font-family: 'Open Sans', sans-serif;
-}
-.crypto img{
-    margin-top: 60px;
-}
-.crypto_section h1{
-    margin-top: 150px;
-    color: darkblue;
-    font-size: 2.5rem;
-    font-family: 'Spectral', serif;
-}
-.crypto_section p{
-    color: blue;
-    font-size: 1.2rem;
-    font-family: 'Open Sans', sans-serif;
-    
-}
-.bottom_section{
-    border-bottom: 1px solid darkblue;
+    font-size: 0.9rem; 
+    padding-top: 20px;
+    padding-left: 5px;
 }
