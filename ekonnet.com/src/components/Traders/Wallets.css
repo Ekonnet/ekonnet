@@ -20,6 +20,30 @@
     font-family: 'Spectral', serif;
 
 }
+.button-stacking{
+    color: white;
+    background: linear-gradient(45deg, #3e19ff 0%, #903eff 100%);
+    padding: 10px 20px;
+    border-radius: 30px;
+   
+    box-shadow: 0px 7px 13px 0px rgb(153 99 255 / 59%);
+    transition: all 0.3s linear;
+}
+.button-stacking:hover{
+    color: white;
+    background: linear-gradient(45deg, #903eff 0%, #3e19ff 100%);
+    transition: all 0.3s linear;
+}
+
+.stacking-head-content{
+    border: 2px solid  #124EE8;
+    padding: 50px 30px;
+    border-radius: 10px;
+   
+}
+
+
+
 .bottom_section{
     color: blue;
     margin-top: 30px;

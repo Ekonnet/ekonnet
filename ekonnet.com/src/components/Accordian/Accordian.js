@@ -7,7 +7,7 @@ const  Accordian = () => {
    <div className='container'>
     <Accordion>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Header className="text-[#1E0C23]">Accordion Item #1</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
