@@ -5,6 +5,8 @@ import {FaRegCalendarAlt, FaRegUser, FaRegComments, FaArrowRight} from 'react-ic
 import {SiBitcoinsv,SiEthereum} from 'react-icons/si';
 import {TbCurrencyDollar} from 'react-icons/tb';
 import {CgChevronDoubleRight} from 'react-icons/cg';
+import {Link} from "react-router-dom";
+import Nav from 'react-bootstrap/Nav';
 
 
 const Blog = () => {
@@ -19,23 +21,26 @@ const Blog = () => {
             </div>
         </div>
     </section>
+    
     <section id='blog_img' className='blog_img'>
       <div className='container'>
         <div className='row'>
           <div className='col-lg-9'>
             <div className='d-flex'>
+
             <div>
               <img src={btc} alt='blog-img' className='img-fluid'></img>
-            </div>   
+            </div>  
+
             <div className='news-content'>
-              <h1>What is Bitcoin Mining</h1>
+            <Nav.Link as={Link} to={"/single-blog"}><h1>What is Bitcoin Mining</h1></Nav.Link>
               <div className='d-flex blog_icons'>
-              <FaRegCalendarAlt/>
-              <span> January 3, 2023</span>
-              <FaRegUser/>
-              <span>Robert Downey</span>
-              <FaRegComments/>
-              <span>1</span>
+               <FaRegCalendarAlt/>
+               <span> January 3, 2023</span>
+               <FaRegUser/>
+               <span>Robert Downey</span>
+               <FaRegComments/>
+               <span>1</span>
               </div>  
               <p>Nemo enim ipsam voluptatem quia volup tas sit aspernatur aut odit aut fu sed quia conse quun tur magni dolor quia. In scelerisque turpis vel bibendum […]</p>
               <button className='btn btn-primary d-flex'>Continue Reading<FaArrowRight/>
@@ -64,25 +69,6 @@ const Blog = () => {
             </div>         
            </div>
            <div className='paggination'>
-           {/* <nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class="page-item">
-      <a class="page-link" href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-        <span class="sr-only">Previous</span>
-      </a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-        <span class="sr-only">Next</span>
-      </a>
-    </li>
-  </ul>
-</nav> */}
 <nav aria-label="Page navigation example">
   <ul class="pagination pg-blue">
     <li class="page-item">
