@@ -19,11 +19,24 @@
 .staking .btn-primary:hover{
     color: aqua !important;
 }
+.input-coin{
+    background-color: #efefef;
+    padding: 6px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.reward-div{
+    background-color: #400d88;
+    border-radius: 5px;
+    color: white;
+}
 
 .staking h3{
     font-family: 'Spectral', serif;
     font-size: 1.4rem;
-    color: darkblue;
+    color: rgb(139, 0, 14);
     margin-top: 100px;
     font-weight: bold;
 }
@@ -31,19 +44,15 @@
     margin-top: 15px;
     width: 150px;
 }
-.staking input{
-    margin-top: 15px;
-    border: 1px solid darkblue;
-    padding-left: 10px;
-}
+
 .potential_reward h5{
     margin-top: 20px;
-    color: darkblue;
+    color: white;
     font-family: 'Spectral', serif;
     font-size: 1.2rem;
 }
 .potential_reward p{
-    color: blue;  
+    color: rgb(183, 183, 186);  
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
 }
@@ -104,7 +113,7 @@
 .digital_token button{
     margin-bottom: 30px;
     border-radius: 5px;
-    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+    background:linear-gradient(90deg, rgba(103, 58, 183, 0.94) 0%, rgba(238, 130, 238, 0.95) 100%);
 }
 .acco h1{
     font-family: 'Spectral', serif;
@@ -113,3 +122,60 @@
     margin-top: 80px;
     font-weight: bold;
 }
+
+
+
+/* =================== */
+.card-coin{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px black;
+    transition: all 0.3s;
+    padding: 30px 50px;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+    }
+    
+    .card-coin:hover{
+        height:250px;
+    }
+    .imgbox{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    transform: translateY(-20px);
+    z-index: 1;
+    }
+    /* img{
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0px 5px 20px black;
+       
+    } */
+    .content-coin{
+        padding: 10px 20px;
+        text-align:center;
+        transform:translateZ(-450px);
+      opacity:0;
+      transition:0.3s;
+        
+    }
+    .card-coin:hover .content-coin{
+        opacity:1;
+        transform:translateY(20px);
+    }
+    .content h2{
+        color:rgb(48, 7, 102);
+    }
+
+    .circlebasecoin{
+        width: 60px;
+        height: 60px;
+        background-color: aliceblue;
+        border-radius: 50px;
+    }
+    .card-coin:hover .circlebasecoin{
+        background:#8A248A;
+        transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
