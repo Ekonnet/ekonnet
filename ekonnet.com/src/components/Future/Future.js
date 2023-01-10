@@ -28,7 +28,7 @@ const Future = () => {
         </Container>
       </section>
 
-      <section id='leverage' className='leverage  bg-[#131128] pt-[150px'>
+      <section id='leverage' className='leverage  bg-[#131128] pt-[100px]'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-6'>
@@ -43,7 +43,7 @@ const Future = () => {
           </div>
         </div>
       </section>
-      <section id='flexibility' className='flexibility  bg-[#131128] pt-[100px '>
+      <section id='flexibility' className='flexibility  bg-[#131128] pt-[100px] '>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-6 future-levrage mt-5 mb-5'>
@@ -58,7 +58,7 @@ const Future = () => {
           </div>
         </div>
       </section>
-      <section id='currency' className='leverage  bg-[#131128] pt-[100px'>
+      <section id='currency' className='leverage  bg-[#131128] pt-[100px]'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-6'>
