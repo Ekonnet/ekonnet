@@ -25,8 +25,11 @@ import { Link } from "react-router-dom";
 // import Button from '@mui/material/Button';
 
 const Home = () => {
+    
+      
     return (
         <>
+                
             {/* <section className="hero">
                 <div className='app'>
                     <video loop muted>
