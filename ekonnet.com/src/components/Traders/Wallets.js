@@ -24,7 +24,7 @@ const Wallets = () => {
                   <div className='col-lg-6'>
                      <h1>The CryptoWallets<br/>You will need it!</h1>
                      <p>CryptoWallet is very simple, secure and with lots cool features. It provides an easy way to buy and send cryptocurrencies all over the world.</p>
-                     <button className='btn btn-primary'>GET YOUR WALLET</button>
+                     <button className='btn btn-primary'>Get Your Wallet</button>
                   </div>
                   <div className='col-lg-6'>
                     <img src={sclargei} alt='wallet-img' className='img-fluid'></img>
