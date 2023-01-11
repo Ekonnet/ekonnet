@@ -1,7 +1,7 @@
 import React from 'react'
 import './Blog.css';
 import btc from './assets/crypto-news.jpg';
-import {FaRegCalendarAlt, FaRegUser, FaRegComments, FaArrowRight} from 'react-icons/fa';
+import {FaRegCalendarAlt, FaRegUser, FaRegComments} from 'react-icons/fa';
 import {AiFillTag} from 'react-icons/ai';
 import {SiBitcoinsv,SiEthereum} from 'react-icons/si';
 import {TbCurrencyDollar} from 'react-icons/tb';
