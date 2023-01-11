@@ -1,13 +1,12 @@
 
 .features h1{
     margin-top: 100px;
-    color: darkblue;
     font-size: 2.5rem;
     font-family: 'Spectral', serif;
-    font-weight: bold;
+    color: white;
 }
 .features p{
-    color: blue;
+    color: white;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
     margin-top: 10px;
@@ -16,83 +15,92 @@
     height: 400px;
     width: 400px;
 }
-
-.exchange h1{
-    margin-top: 100px;
-    color: darkblue;
-    font-size: 2.5rem;
+.ex{
+    background-color: #903eff;
+    border-radius: 20px;
+    height: 350px;
+    margin-bottom: 40px;
+}
+.exchangee h1{
+    color: white;
+    font-size: 2rem;
     font-family: 'Spectral', serif;
-    font-weight: bold;
+    padding: 40px 40px 0px 40px;
 }
-.exchange p{
-    color: blue;
-    font-size: 1.2rem;
+.exchangee p{
+    color: white;
+    font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 10px;
+    padding: 0px 40px 40px 40px;
+    line-height: 30px;
 }
-.exchange img{
-    width: 400px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    margin-left: 20px;
+.exchangee img{
+    width: 380px;
+    height: 350px;
 }
 
 .margin_trading h1{
-    margin-top: 100px;
-    color: darkblue;
-    font-size: 2.5rem;
+    color: white;
+    font-size: 2rem;
     font-family: 'Spectral', serif;
-    font-weight: bold;
+    padding: 40px 40px 0px 40px;
 }
 .margin_trading p{
-    color: blue;
-    font-size: 1.2rem;
+    color: white;
+    font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 10px;
+    padding: 0px 40px 40px 40px;
+    line-height: 30px;
 }
 .margin_trading img{
-    width: 400px;
+    /* width: 400px;
     margin-bottom: 30px;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 20px; */
+    width: 380px;
+    height: 350px;
 }
 
 .Derivatives h1{
-    margin-top: 100px;
-    color: darkblue;
-    font-size: 2.5rem;
+    color: white;
+    font-size: 2rem;
     font-family: 'Spectral', serif;
-    font-weight: bold;
+    padding: 40px 40px 0px 40px;
 }
 .Derivatives p{
-    color: blue;
-    font-size: 1.2rem;
+    color: white;
+    font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 10px;
+    padding: 0px 40px 40px 40px;
+    line-height: 30px;
 }
 .Derivatives img{
-    width: 400px;
+    /* width: 400px;
     margin-bottom: 30px;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 20px; */
+    width: 380px;
+    height: 350px;
 }
 
 .margin_funding h1{
-    margin-top: 100px;
-    color: darkblue;
-    font-size: 2.5rem;
+    color: white;
+    font-size: 2rem;
     font-family: 'Spectral', serif;
-    font-weight: bold;
+    padding: 40px 40px 0px 40px;
 }
 .margin_funding p{
-    color: blue;
-    font-size: 1.2rem;
+    color: white;
+    font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 10px;
+    padding: 0px 40px 40px 40px;
+    line-height: 30px;
 }
 .margin_funding img{
-    width: 400px;
+    /* width: 400px;
     margin-bottom: 30px;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 20px; */
+    width: 380px;
+    height: 350px;
 }

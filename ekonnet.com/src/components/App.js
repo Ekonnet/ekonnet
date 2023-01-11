@@ -58,6 +58,7 @@ import SingleBlogPage from './SingleBlogPage';
 import Sidebar from '../HelpCenter/Getting Startted/Sidebar';
 import SidebarRoot from '../HelpCenter/Getting Startted/SidebarRoot';
 import Exchange from './Exchange';
+
 // import WhatIsEkonnet from '../HelpCenter/Getting Startted/WhatIsEkonnet';
 // import AcountCreate from '../HelpCenter/Getting Startted/AcountCreate';
 // import HowToEarn from '../HelpCenter/Getting Startted/HowToEarn';
@@ -112,7 +113,6 @@ const App = () => {
        <Route path='/exchange' element={<Exchange/>}/>
        <Route path='/otc-sell' element={<OtcSell/>}/>
        <Route path='/two-way' element={<TwoWay/>}/>
-
        <Route path='/help-center' element={<HelpCenter/>}/>
        <Route path='/getting-started' element={<GettingStarted/>}/>
        <Route path='/trading-lending' element={<TradingLending/>}/>

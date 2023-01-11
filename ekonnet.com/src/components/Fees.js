@@ -1,11 +1,12 @@
 import React from 'react';
 import './Fees.css';
 import maingraph from './assets/main-graph.png';
+import AffiliateImg from './assets/home-banner-bg.png';
 
 const Fees = () => {
   return (
     <>
-    <section id='fees' className='fees'>
+    <section id='fees' className='fees' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-12 text-center'>
@@ -18,16 +19,20 @@ const Fees = () => {
                        Withdrawals rates are determined by the blockchain network and can fluctuate without notice due to factors such as network congestion. Please check the most recent data listed on each withdrawal page.</p>
                     <button className='btn btn-primary'>Search</button>
                 </div>
+                </div>
+        </div>
+    </section>
+    <section id='fees_img' className='fees_img bg-[#131128] pt-[70px]'>
+        <div className='container'>
+            <div className='row'>
+                <div>
                  
 
-
-                    <img src={maingraph} alt='fees' className='img-fluid'></img>
-               
+                <img src={maingraph} alt='fees' className='img-fluid'></img>
                 </div>
 
-
+            </div>
         </div>
-
     </section>
     </>
   )

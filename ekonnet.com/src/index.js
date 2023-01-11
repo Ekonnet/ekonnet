@@ -8,7 +8,7 @@ import "swiper/css/bundle";
 import Footer from './components/Footer';
 import '@coreui/coreui/dist/css/coreui.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Top from './components/Traders/Top';
 
 
 
@@ -17,6 +17,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <BrowserRouter>
+   <Top />
    <HeaderNav />
    <App/>
    <Footer/>

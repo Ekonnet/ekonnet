@@ -2,106 +2,73 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
 
-.futur-common h2{
-    position: relative;
-}
-.futur-common h2::before{
-    content: "";
-    position: absolute;
-    margin-top: 10px;
-    top: 100%;
-    border-radius: 50%;
-    left: 0;
-    width: 0.8rem;
-    height: 0.8rem;
-    background:linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
-  }
-  .futur-common h2::after{
-    content: "";
-    position: absolute;
-    margin-top: 10px;
-    top: 111%;
-    left: 0.8rem;
-    min-width: 5rem;
-   height: 0.2rem;
-   border-radius: 0  10px 10px 0;
-    background:linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
-  }
-
 .future h1{
+    font-size: 2.5rem;
     font-family: 'Spectral', serif;
-    font-style: normal;
-    font-size: 60px;
-    line-height: 124.02%;
-    letter-spacing: 0.1em;
-    color: darkblue;
-    margin-top: 100px;
-    font-weight: bold;
-}
-.future strong{
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 60px;
-    color: blue;
-    margin-top: 140px;
-    background: linear-gradient(
-            to right, #f32170, #ff6b08,
-             #cf23cf, #eedd44);
-             -webkit-text-fill-color: transparent;
-             -webkit-background-clip: text;
-
-        
+    color: white;
+    margin-top: 190px;
 }
 .future p{
 font-family: 'Open Sans', sans-serif;
-font-size: 1.5rem;
-color: blue;
+font-size: 1.2rem;
+color: white;
+}
+.future Button{
+    margin-right: 22px;
 }
 
 .future_img{
     width: 400px;
     height:400px;
+    margin-top: 100px;
     margin: 70px;
 }
 
 .icons_img{
-    margin-top: 10px;
+    margin-top: 20px;
     width: 350px;
     height: 300px;
+    margin-bottom: 60px;
 }
-.icon_img{
-    margin-top: 10px;
+.icon_img img{
+    margin-top: 20px;
     width: 350px;
     height: 350px;
     margin-left: 120px;
+    margin-bottom: 60px;
+}
+.future-levrage{
+    background-color: #903eff;
+    border-radius: 20px;
 }
 .leverage h2{
     font-family: 'Spectral', serif;
-    margin-top: 40px;
+    padding: 40px 40px 0px 40px;
     font-size:2rem;
-    color: darkblue;
-    font-weight: bold;
+    color: white;
     
 }
 .leverage p{
     font-family: 'Open Sans', sans-serif;
-    margin-top:50px ;
-    font-size: 1.2rem;
-    color: blue;
+    font-size: 1rem;
+    color: white;
+    padding: 0px 40px 40px 40px;
+    line-height: 30px;
 }
 .flexibility h2{
     font-family: 'Spectral', serif;
-    margin-top: 60px;
+    padding: 40px 40px 0px 40px;
     font-size: 2rem;   
-    color: darkblue;
-    font-weight: bold;
+    color: white;
 }
 .flexibility p{
     font-family: 'Open Sans', sans-serif;
-    margin-top:50px ;
-    font-size: 1.2rem;
-    color: darkblue;
+    font-size: 1rem;
+    color: white;
+    line-height: 30px;
+    padding: 0px 40px 40px 40px;
 }
-#login{
-    margin-top: 30px;
-}
+
+
+
+
