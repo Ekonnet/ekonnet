@@ -66,7 +66,7 @@ const Home = () => {
                         <div className="col-lg-6 ">
                             <div className="discover text-white">
                                 <div className="doller"><BiDollar /> </div>
-                                <h6 className='discover-text'> Discover a new ways to enjoy wold </h6>
+                                <h6 className='discover-text'> Discover a new ways to enjoy world </h6>
                             </div>
                             <div className="trade-wrape-div">
                                 <h3 className='Trade-text-main'>Trade like a legend on the legendary
@@ -113,7 +113,7 @@ const Home = () => {
 
 
                     <div className="row flex justify-center items-center pt-5">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-md-6 col-sm-12 home-content-wrapper">
                             <div className="col flex justify-start items-center text-center flex-row gap-1">
                                 <div className='color1'></div> <div className='color2'></div> <div className='color3'></div> <div className='color4'></div> <div className='color5'></div> <div className='color6'></div>
                             </div>
@@ -127,7 +127,7 @@ const Home = () => {
                             <button className='main-btn'>Read more</button>
                         </div>
 
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-md-6 col-sm-12">
                             <div className="main__image__common">
                                 <img src={TradeImg} alt='' className='img-fluid'></img>
                             </div>
@@ -136,14 +136,14 @@ const Home = () => {
 
 
 
-                    <div className="row flex justify-center items-center pt-5">
-                        <div className="col-lg-6">
+                    <div className="row flex justify-center items-center pt-2">
+                        <div className="col-lg-6 col-md-6 col-sm-12">
                             <div className="main__image__common">
                                 <img src={analysisImg} alt='' className='img-fluid'></img>
                             </div>
 
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-md-6 col-sm-12 home-content-wrapper">
                             <div className="col flex justify-start items-center text-center flex-row gap-1">
                                 <div className='color1'></div> <div className='color2'></div> <div className='color3'></div> <div className='color4'></div> <div className='color5'></div> <div className='color6'></div>
                             </div>
@@ -159,8 +159,8 @@ const Home = () => {
                     </div>
 
 
-                    <div className="row flex justify-center items-center pt-5">
-                        <div className="col-lg-6">
+                    <div className="row flex justify-center items-center pt-2">
+                        <div className="col-lg-6 col-md-6 col-sm-12 home-content-wrapper">
                             <div className="col flex justify-start items-center text-center flex-row gap-1">
                                 <div className='color1'></div> <div className='color2'></div> <div className='color3'></div> <div className='color4'></div> <div className='color5'></div> <div className='color6'></div>
                             </div>
@@ -174,7 +174,7 @@ const Home = () => {
                             <button className='main-btn'>Read more</button>
                         </div>
 
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-md-6 col-sm-12">
                             <div className="main__image__common">
                                 <img src={p2pImg} alt='' className='img-fluid'></img>
                             </div>
@@ -183,14 +183,14 @@ const Home = () => {
 
 
 
-                    <div className="row flex justify-center items-center pt-5">
-                        <div className="col-lg-6">
+                    <div className="row flex justify-center items-center pt-2">
+                        <div className="col-lg-6 col-md-6 col-sm-12">
                             <div className="main__image__common">
                                 <img src={EasyToInvest} alt='' className='img-fluid'></img>
                             </div>
 
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-md-6 col-sm-12 home-content-wrapper">
                             <div className="col flex justify-start items-center text-center flex-row gap-1">
                                 <div className='color1'></div> <div className='color2'></div> <div className='color3'></div> <div className='color4'></div> <div className='color5'></div> <div className='color6'></div>
                             </div>
@@ -210,15 +210,15 @@ const Home = () => {
 
             <section className="word__trading__section">
                 <div className="container">
-                    <div className="row">
+                    <div className="row justify-center">
                         <div className="col flex justify-start items-center text-center flex-row gap-1">
                             <div className='color1'></div> <div className='color2'></div> <div className='color3'></div> <div className='color4'></div> <div className='color5'></div> <div className='color6'></div>
                         </div>
                         <h2 className="wordCLass__heading text-white pt-3">
                             World ClassTradingPlatform
                         </h2>
-                        <div className="row grid gap-x-8 gap-y-4 grid-cols-3 mt-5">
-                            <div className="col Outer__wordclass">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-5">
+                            <div className="Outer__wordclass">
                                 <div className="wordClass__image">
                                     <img src={p2pImg} alt="test" />
                                 </div>
@@ -237,11 +237,11 @@ const Home = () => {
                                 </div>
 
                             </div>
-                            <div className="col Outer__wordclass">
-                                <div className="wordClass__image">
+                            <div className=" Outer__wordclass">
+                                <div className="wordClass__image ">
                                     <img src={p2pImg} alt="test" />
                                 </div>
-                                <div className='inner__worldClass__content'>
+                                <div className='inner__worldClass__content '>
                                     <h3 className="inner__wordclass__heading">
                                         Margin trading
                                     </h3>
@@ -256,7 +256,7 @@ const Home = () => {
                                 </div>
 
                             </div>
-                            <div className="col Outer__wordclass">
+                            <div className=" Outer__wordclass">
                                 <div className="wordClass__image">
                                     <img src={p2pImg} alt="test" />
                                 </div>
@@ -275,13 +275,13 @@ const Home = () => {
                                 </div>
 
                             </div>
-                        </div>
+                        
 
 
 
 
-                        <div className="row grid gap-x-8 gap-y-4 grid-cols-3 mt-5">
-                            <div className="col Outer__wordclass">
+                       
+                            <div className=" Outer__wordclass">
                                 <div className="wordClass__image">
                                     <img src={p2pImg} alt="test" />
                                 </div>
@@ -300,7 +300,7 @@ const Home = () => {
                                 </div>
 
                             </div>
-                            <div className="col Outer__wordclass">
+                            <div className=" Outer__wordclass">
                                 <div className="wordClass__image">
                                     <img src={p2pImg} alt="test" />
                                 </div>
@@ -319,7 +319,7 @@ const Home = () => {
                                 </div>
 
                             </div>
-                            <div className="col Outer__wordclass">
+                            <div className=" Outer__wordclass">
                                 <div className="wordClass__image">
                                     <img src={p2pImg} alt="test" />
                                 </div>
@@ -347,7 +347,7 @@ const Home = () => {
 
             <section className="mobile-platform__section">
                 <div className="container">
-                    <div className="row flex justify-centyer items-center pt-5">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols- gap-4 pt-4 trusted-platform">
                         <div className="col">
                             <div className="mobile_circule_outer">
 
@@ -372,14 +372,14 @@ const Home = () => {
                                 <p className="mobile__para text-white">
                                     The dawn of a better world that is freer. Send or receive any amount of money from anywhere on the planet!
                                 </p>
-                                <div className="row flex justify-start gap-4 pt-3">
-                                <div className='col '>
-                                    <img src={AppStore} alt='mobile' />
+                                <div className="row flex justify-start gap-4 pt-3 appStoreBtn">
+                                    <div className='col '>
+                                        <img src={AppStore} alt='mobile' />
                                     </div>
                                     <div className="col">
-                                    <img src={GoogleStore} alt='mobile' />
+                                        <img src={GoogleStore} alt='mobile' />
                                     </div>
-                                </div>  
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -397,7 +397,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="row flex justify-center items-center">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
                         <div className="col ">
                             <div className="invest__outer ">
@@ -473,7 +473,7 @@ const Home = () => {
                             <div className="social__weapper">
                                 <div className="social__button">
                                     <div className="icon ">
-                                    <FaFacebookF className='community-icon' size="1.5rem" /><NavLink as={Link} to={"/"}></NavLink>
+                                        <FaFacebookF className='community-icon' size="1.5rem" /><NavLink as={Link} to={"/"}></NavLink>
                                     </div>
                                     <span>Facebook</span>
                                 </div>
@@ -487,14 +487,14 @@ const Home = () => {
 
                                 <div className="social__button">
                                     <div className="icon">
-                                    <AiFillInstagram className='community-icon' size="1.5rem" /><NavLink as={Link} to={"/"}></NavLink>
+                                        <AiFillInstagram className='community-icon' size="1.5rem" /><NavLink as={Link} to={"/"}></NavLink>
                                     </div>
                                     <span>Instagram</span>
                                 </div>
 
                                 <div className="social__button">
                                     <div className="icon">
-                                    
+
                                         <AiFillGithub className='community-icon ' size="1.5rem" /><NavLink as={Link} to={"/"} ></NavLink>
                                     </div>
                                     <span>Github</span>
