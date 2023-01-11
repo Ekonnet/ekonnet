@@ -119,11 +119,6 @@
     position: relative;
 
 }
-.option h1::after{
-    border: 2px solid green;
-    content: '';
-    position: absolute;
-}
 .option p{
     color: white;  
     font-family: 'Open Sans', sans-serif;

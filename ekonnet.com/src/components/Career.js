@@ -1,11 +1,12 @@
 import React from 'react'
 import './Career.css';
 import FutureImg from './assets/FutureImg.png';
+import AffiliateImg from './assets/home-banner-bg.png';
 
 const Career = () => {
   return (
     <>
-     <section id='career_hero' className='career_hero'>
+     <section id='career_hero' className='career_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-12 text-center'>
@@ -16,7 +17,7 @@ const Career = () => {
             </div>
         </div>
      </section>
-     <section id='career' className='career'>
+     <section id='career' className='career bg-[#131128] pt-[70px]'>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 text-center'>
@@ -33,19 +34,19 @@ const Career = () => {
             </div>
         </div>
      </section>
-     <section id='openings' className='openings'>
+     <section id='openings' className='openings bg-[#131128] pt-[70px]'>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-12 text-center'>
                     <h1>Current Opening</h1>
-                    <h6>We’re working to make money better—for everyone.</h6>
-                    <p>Whether it’s your paycheck, pension, or piggy bank savings, money matters to us all. So, rather than relying on banks—with their fees, delays, and fraud risk—we stand for money without limits. 
-                     That’s why we support Bitcoin Cash, a global digital currency that only you can control.</p>
+                    <h6>We're working to make money better—for everyone.</h6>
+                    <p>Whether it's your paycheck, pension, or piggy bank savings, money matters to us all. So, rather than relying on banks—with their fees, delays, and fraud risk—we stand for money without limits. 
+                     That's why we support Bitcoin Cash, a global digital currency that only you can control.</p>
                 </div>
                 <div className='col-lg-6'>
                 <h3>Current Job Openings</h3>
                 <h6>Departments</h6>
-                <button className='btn btn-primary dropdown-toggle'>All Department</button>
+                <button className='btn btn-primary'>All Department</button>
                 </div>
             </div>
 

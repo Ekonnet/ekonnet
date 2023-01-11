@@ -1,31 +1,36 @@
-.career_hero{
-    margin-top: 80px;
-}
 .career_hero h3{
-    color: darkblue;
+    color: white;
     font-size: 1.7rem;
     font-family: 'Spectral', serif;
+    margin-top: 80px;
 }
 .career_hero strong{
     color: brown;
 }
 .career_hero h1{
-    color: blueviolet;
+    color: white;
     font-size: 1.4rem;
     font-family: 'Spectral', serif;
 }
-.career{
-    margin-top: 60px;
+.career_hero button{
+    margin-top: 10px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+    margin-bottom: 30px;
+}
+.career_hero button:hover{
+    color: aqua !important;
 }
 .career h1{
     font-family: 'Spectral', serif;
     font-size: 1.8rem;
-    color: darkblue;
+    color: white;
+    margin-top: 80px;
 }
 .career h3{
     font-family: 'Spectral', serif;
     font-size: 1.4rem;
-    color: cornflowerblue;
+    color: white;
     margin-top: 20px;
     font-style: oblique;
     font-weight: bold;
@@ -33,7 +38,7 @@
 
 
 .career p{
-    color: blueviolet;  
+    color: white;  
     font-family: 'Open Sans', sans-serif;
     margin-top: 20px;
     text-align: justify;
@@ -42,34 +47,35 @@
 .career .img-fluid{
     margin-left: 100px;
 }
-.openings{
-    margin-top: 60px;   
-}
 .openings h1{
     font-family: 'Spectral', serif;
-    color: darkblue;
+    color: white;
     font-size: 1.8rem;
 }
 .openings h6{
     font-family: 'Spectral', serif;
-    color: cornflowerblue;
+    color: white;
     margin-top: 10px;
-    font-style: oblique;
-    font-weight: bold;
     font-size: 1.4rem;
 }
 .openings p{
-    color: blueviolet;  
+    color: white;  
     font-family: 'Open Sans', sans-serif;
     margin-top: 20px;
     font-size: 1rem;
 }
 .openings h3{
     font-family: 'Spectral', serif;
-    color: darkblue;
+    color: white;
     margin-top: 20px;
     font-size: 1.8rem;
 }
 .openings button{
     margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+}
+.openings button:hover{
+    color: aqua !important; 
 }
