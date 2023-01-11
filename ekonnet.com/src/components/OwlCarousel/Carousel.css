@@ -81,20 +81,19 @@ color: #fff;
     padding-top: 5px;
     padding-bottom: 10px;
 }
-.Trade-button{
-   padding-top: 10px;
+.Trade-btnS{
+  
+   background: #07198f;
+   border: 2px solid transparent;
+   border-radius: 30px;
+   /* padding: 5px 15px; */
+   color: #fff;
+   font-weight: 500;
+   transition: all 0.3s ease;
+   cursor: pointer;
 }
-.trade-now{
-    background: #07198f;
-    border: 2px solid transparent;
-    border-radius: 20px;
-    padding: 5px 20px;
-    color: #fff;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-.trade-now:hover{
+
+.Trade-btnS:hover{
     background: #040f52;
    
 }
@@ -102,4 +101,41 @@ color: #fff;
 .trade-now .arrow{
     color: #fff;
     /* padding-left: 5px; */
+}
+
+
+
+
+/*====================== media section =============================*/
+
+
+/* ----------------------- WideScreens xxl (1400px) ------------------------- */
+@media only screen and (max-width: 1400px) {
+
+
+}
+/* ----------------------- Desktops and laptops (1200px) ------------------------- */
+@media only screen and (max-width: 1200px) {
+
+
+}
+
+/* ----------------------- Tablet And ipads(992px) ------------------------- */
+
+@media only screen and (max-width: 992px) {
+  
+
+}
+
+/* ----------------------- Mobile phones (768px) ------------------------- */
+
+@media only screen and (max-width: 786px) {
+
+
+}
+
+/* ----------------------- small devices (576px) ------------------------- */
+@media only screen and (max-width: 576px) {
+
+
 }

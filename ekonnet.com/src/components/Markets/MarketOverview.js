@@ -27,8 +27,6 @@ export default function MarketOverview() {
           <Row>
             <h2 className='new-listing-heading'>New Listing</h2>
             <Col><MarketCarousel /></Col>
-
-
           </Row>
         </Container>
       </section>
@@ -41,14 +39,14 @@ export default function MarketOverview() {
           <Row>
             <Col>
               <div className='d-flex justify-content-start gap-3'>
-              
+
                 <Nav.Link as={Link} to={"/market-overview"}><button className='market-nav'>Favorites</button></Nav.Link>
                 <Nav.Link as={Link} to={"/spot"} ><button className='market-nav'>Spot </button></Nav.Link>
                 <Nav.Link as={Link} to={"/darivatives"}> <button className='market-nav'>Darivatives</button></Nav.Link>
               </div>
-            
+
             </Col>
-              {/* <TabsDatavalues/> */}
+            {/* <TabsDatavalues/> */}
           </Row>
           <Row>
             <Col>
@@ -79,7 +77,7 @@ export default function MarketOverview() {
               <BoxDiv />
             </Col>
           </Row>
-                        
+
         </Container>
       </section>
 
@@ -88,7 +86,7 @@ export default function MarketOverview() {
         <Container>
           <Row>
             <h2 className='new-listing-heading'>News</h2>
- <NewsFeedComponets/>
+            <NewsFeedComponets />
 
 
 

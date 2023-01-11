@@ -99,22 +99,7 @@
   padding-bottom: 60px;
 }
 
-.outervideo {
-  max-width: 570px;
-  height: 324px;
-  position: relative;
-  /* border: 2px solid #25CBD3; */
-  border-radius: 30px;
-}
 
-.innervideo {
-  max-width: 583px;
-  left: 0px;
-  height: 290px;
-  position: absolute;
-  top: 0;
-
-}
 
 .videostyle {
   border-radius: 30px;
@@ -141,10 +126,7 @@
   border: none;
 }
 
-/* --------------media section------- */
 
-
-/* --------------media section end here------- */
 
 
 .slider__section__main {
@@ -194,6 +176,9 @@
   height: 10px;
   border-radius: 50%;
   background-color: rosybrown;
+}
+.home-content-wrapper{
+  padding: 40px;
 }
 
 .main__common__heading {
@@ -457,5 +442,110 @@ margin: 17px;
 
 .social__weapper .social__button:nth-child(5) span {
   color: #ff0000;
+
+}
+
+
+
+/*====================== media section =============================*/
+
+
+/* ----------------------- WideScreens xxl (1400px) ------------------------- */
+@media only screen and (max-width: 1400px) {
+
+
+}
+/* ----------------------- Desktops and laptops (1200px) ------------------------- */
+@media only screen and (max-width: 1200px) {
+
+
+}
+
+/* ----------------------- Tablet And ipads(992px) ------------------------- */
+
+@media only screen and (max-width: 992px) {
+
+
+  .main__common__heading {
+    font-family: 'Josefin';
+    font-size: 1.5rem;
+    font-weight: bold;
+  
+  }
+  
+  .main__common__para {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'Roboto';
+    
+  }
+  
+  .main__image__common {
+    max-width: 100%;
+   height: auto;
+   
+  }
+  /* ----------------------------------------------- */
+
+  /* .inner__worldClass__content {
+    padding: 10px 20px;
+  }
+  .inner__wordclass__heading {
+    font-size: 1.2rem;
+  font-family: 'Josefin';
+    padding-bottom: 15px;
+  }
+  .inner__worldClass__para{
+    font-size: 0.8rem;
+    font-family: 'Roboto';
+  }
+  
+  .inner__wordclass__heading::before {
+    width: 2rem;
+  }
+  .wordClass__image {
+    padding: 20px 30px;
+  } */
+
+/* --------------------------------------------------- */
+.trusted-platform{
+  padding-top: 20px;
+}
+.mobile-image {
+ padding: 50px;
+}
+.mobile__content {
+  padding: 30px;
+}
+.mobile__heading{
+  font-size: 1.5rem;
+}
+.mobile__para {
+  padding-top: 10px;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+.appStoreBtn{
+  padding: 40px 40px 0 40px;
+}
+
+
+
+}
+
+/* ----------------------- Mobile phones (768px) ------------------------- */
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+  .main__image__common img {
+    display: block;
+    }
+
+}
+
+/* ----------------------- small devices (576px) ------------------------- */
+@media only screen and (max-width: 576px) {
+  .main__image__common img {
+    display: none;
+    }
 
 }
