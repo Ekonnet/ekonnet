@@ -9,10 +9,6 @@ import mobile_crypto2 from "../assets/process-man.png"
 import mobile_crypto3 from "../assets/mobileApp-section3.png"
 import mobile_crypto4 from "../assets/Bitcoin-app.png"
 import CoinAnimate from "../assets/coin.png";
-import BtcIcon from "../assets/about-icon.png";
-import mobile1 from "../assets/mobile1.png";
-import mobile2 from "../assets/mobile2.png";
-import mobile3 from "../assets/mobile3.png";
 
 import { motion, AnimatePresence } from 'framer-motion'
 import AOS from 'aos';

@@ -13,7 +13,7 @@ Founded in 2012, Ekonnet was one of the first professional platforms set up to a
 
 In addition to a suite of advanced trading features and charting tools, Ekonnet provides access to Exchange Trading, Margin Trading & Funding (peer-to-peer financing) Over the Counter (OTC), and Derivatives Trading* for a wide selection of digital assets. 
 
-Ekonnet’s strategy focuses on providing unparalleled support, tools, and innovation for professional traders and liquidity providers worldwide.
+Ekonnet's strategy focuses on providing unparalleled support, tools, and innovation for professional traders and liquidity providers worldwide.
 
 * The derivatives platform is provided by iFinex Financial Technologies Limited. References to Ekonnet Derivatives in this post are references to iFinex Financial Technologies Limited.
 

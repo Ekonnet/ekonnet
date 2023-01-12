@@ -195,28 +195,8 @@
     box-shadow: none;
 }
 
-/*====================== media section =============================*/
 
 
-/* ----------------------- WideScreens 2xl (1536px) ------------------------- */
-@media only screen and (min-width: 1536px) {}
-
-/* ----------------------- Desktops and laptops xl (1280px) ------------------------- */
-@media only screen and (min-width: 1280px) {}
-
-/* ----------------------- Tablet And ipads lg (1024px) ------------------------- */
-
-@media only screen and (min-width: 1024px) {}
-
-/* ----------------------- Mobile phones md (768px) ------------------------- */
-
-@media only screen and (min-width: 768px) {}
-
-/* ----------------------- small devices sm (640px) ------------------------- */
-@media only screen and (min-width: 640px) {}
-
-/* ----------------------- small devices xm (480px) ------------------------- */
-@media only screen and (min-width: 480px) {}
 
 /* ----------------------- Extra  small devices (0px to 575px) ------------------------- */
 @media (min-width: 1px) and (max-width: 480px) {
@@ -267,5 +247,6 @@
     padding: 10px 8px;
     text-align: center;
 }
+
 
 }
