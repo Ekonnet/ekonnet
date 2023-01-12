@@ -17,8 +17,8 @@
 .ex{
     background-color: #903eff;
     border-radius: 20px;
-    height: 350px;
-    margin-bottom: 40px;
+    width: 100%;
+    height: auto;
 }
 .exchangee h1{
     color: white;
@@ -94,22 +94,22 @@
 
 
 
-@media only screen and (max-width: 1024px){
+ @media only screen and (max-width: 1024px){
     .features h1{
-        margin-top: 15px;
+        margin-top: 25px;
         font-size: 1.9rem;
     }
-    .ex{
-        height: 420px;
-    }
-}
+    
+} 
 
 
 
 
-@media only screen and (max-width: 768px){
-    .ex{
-        height: 320px;
+
+
+ @media only screen and (max-width: 768px){
+    .features h1{
+        margin-top: 15px;
     }
 }
 
@@ -120,7 +120,7 @@
         margin-top: 15px;
         font-size: 1.9rem;
     }
-    .features p{
+     .features p{
 
         font-size: 1rem;
         margin-top: 10px;
@@ -161,18 +161,7 @@
         padding: 0px 5px 0px 5px;
         font-size: 0.9rem;
     }
-    .ex{
-        height: 315px;
-        margin-bottom: 0px;
-    }
     
 }
 
 
-@media only screen and (max-width: 380px){
-
-    .ex{
-        height: 390px;
-        
-    }
-}

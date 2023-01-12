@@ -28,13 +28,13 @@ const Future = () => {
         </Container>
       </section>
 
-      <section id='leverage' className='leverage  bg-[#131128] pt-[50px]'>
+      <section id='leverage' className='leverage  bg-[#131128] pt-[30px]'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-6'>
+            <div className='col-lg-6 order-lg-1 order-2'>
               <img src={lavragImg} alt='phone' className='img-fluid icons_img'></img>
             </div>
-            <div className='col-lg-6 future-levrage mt-5 mb-5'>
+            <div className='col-lg-6 future-levrage mt-5 mb-5 order-lg-2 order-1'>
               <h2>Futures trading with leverage</h2>
               <p>Ekonnet Futures offers leverage, allowing you to amplify your buying or selling power.
                 Thus you could buy/sell a lot more shares of futures than equity with a certain amount of money. For example, if the margin is fixed at 20% for futures in a stock, one could buy/sell 5x times more shares in futures than in equity. This ratio is called leverage. Thus, with 20% margin, the leverage is 5.
@@ -43,7 +43,7 @@ const Future = () => {
           </div>
         </div>
       </section>
-      <section id='flexibility' className='flexibility  bg-[#131128] pt-[50px] '>
+      <section id='flexibility' className='flexibility  bg-[#131128] pt-[30px] '>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-6 future-levrage mt-5 mb-5'>
@@ -58,13 +58,13 @@ const Future = () => {
           </div>
         </div>
       </section>
-      <section id='currency' className='leverage  bg-[#131128] pt-[50px]'>
+      <section id='currency' className='leverage  bg-[#131128] pt-[30px]'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-6'>
+            <div className='col-lg-6 order-lg-1 order-2'>
               <img src={currency} alt='phone' className='img-fluid icons_img'></img>
             </div>
-            <div className='col-lg-6  future-levrage mt-5 mb-5'>
+            <div className='col-lg-6  future-levrage mt-5 mb-5 order-lg-2 order-1'>
               <h2>Trade a range of currency pairs</h2>
               <p>Gain exposure to a variety of pairs using your multi-collateral futures wallet with 10 different collateral options.
                 The most versatile cryptocurrency pairs to trade are usually BTC and ETH, as they're offered by most exchanges. Many crypto exchanges offer pairings for cryptocurrencies and fiat currencies like the U.S. dollar (USD), while some do not.

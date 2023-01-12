@@ -68,32 +68,70 @@ color: white;
 }
 
 
+@media only screen and (max-width: 992px){
+    .future h1{
+        margin-top: 15px;
+        font-size: 2rem;
+    }
+    .icons_img{
+        margin-left: 120px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .future h1{
+        margin-top: 15px;
+        font-size: 2rem;
+    }
+    .icons_img{
+        margin-left: 120px;
+    }
+}
+
+
 
 @media only screen and (max-width: 640px){
-.future h1{
-    margin-top: 10px;
-    font-size: 2rem;
-}
-.future_img{
-    height:400px;
-    margin: 0px 70px 0px 70px;
-}
-.future p{
-    font-size: 0.9rem;
-}
-/* .icon_img img{
-    margin-top: 20px;
-    width: 350px;
-    height: 350px;
-    margin-left: 120px;
-}  
-.icons_img{
-    width: 350px;
-    height: 300px;
-}
-    */
+    .future h1{
+        margin-top: 15px;
+        font-size: 2rem;
+    }
+    .future p{
+        font-size: 0.9rem;
+    }
+    .future_img{
+        width: 400px;
+        height:400px;
+        margin: 0px;
+    }
+    .icons_img{
+        width: 350px;
+        height: 350px;
+        margin: 0px;
 
+    }
+    .icon_img img{
+    
+        width: 350px;
+        height: 350px;
+        margin: 0px;
+    }
+    .leverage h2{
+        font-size: 1.5rem;
+    }
+    .leverage p{
+        font-size: 1rem;
+    }
+    .flexibility h2{
+        font-size: 1.5rem;
+    }
+    .flexibility p{
+        font-size: 1rem;
+    }
 }
+
+
+
 
 
 
