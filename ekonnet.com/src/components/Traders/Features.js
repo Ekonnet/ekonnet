@@ -34,8 +34,7 @@ const Features = () => {
                 <div className='col-lg-6 ex'>
                     <h1>Exchange</h1>
                     <p>Ekonnet offers order books with top tier liquidity, allowing users to easily exchange Bitcoin, Ethereum, EOS, Litecoin, Ripple, NEO and many other digital assets 
-                       with minimal slippage. <br/>Ekonnet also boasts a suite of order types to help traders take advantage of every situation.<br/>
-                       Ekonnet also boasts a suite of order types to help traders take advantage of every situation.
+                       with minimal slippage. <br/>Ekonnet also boasts a suite of order types to help traders take advantage of every situation.
                     </p>
                 </div>
                 <div className='col-lg-6'>
