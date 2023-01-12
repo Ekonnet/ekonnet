@@ -8,10 +8,7 @@
 
 
 .security h1{
-    /* margin-top: 180px; */
     color: darkblue;
-    font-size: 5rem;
-    line-height: 6.5rem;
     text-align: center;
     font-family: 'Spectral', serif;
     font-weight: bold;
@@ -25,8 +22,7 @@
 .security p{
     /* color: blue; */
     color: rgb(25, 25, 59);
-    font-size: 1.3rem;
-    line-height: 2rem;
+ 
     font-family: 'Spectral';
     padding-top: 20px;
    
@@ -46,20 +42,20 @@
 .security_policy h1{
     /* margin-top: 100px; */
     color: darkblue;
-    font-size: 2rem;
+  
     font-family: 'Spectral', serif;
     font-weight: bold;
 }
 .security_policy h4{
     color: darkblue;
-    font-size: 1.6rem;
+    
     font-family: 'Spectral', serif;
 }
 .security_policy p{
     color: rgb(25, 25, 59);
-    font-size: 1.2rem;
+  
     font-family: 'Spectral';
-    line-height: 2rem;
+  
 }
 
 
@@ -111,28 +107,28 @@ cursor: pointer;
 .account_protection h1{
     margin-top: 60px;
     color: darkblue;
-    font-size: 2.2rem;
+
     font-family: 'Spectral', serif;   
     font-weight: bold;
 }
 .account_protection span{
     /* color: blue; */
     color: rgb(25, 25, 59);
-    font-size: 1.1rem;
+  
     font-family: 'Spectral';
     text-align: justify;
 }
 .account_protection p{
     /* color: blue; */
     color: rgb(25, 25, 59);
-    font-size: 1rem;
+   
     font-family: 'Spectral';
-    margin-top: 12px;
-    padding: 10px 20px;
+    margin-top: 10px;
+  
 }
 .account_protection h3{
     color: darkblue;
-    font-size: 1.5rem;
+  
     font-family: 'Spectral', serif;
     margin-top: 20px;
 }
@@ -144,7 +140,7 @@ cursor: pointer;
 .account_protection ul li{
     /* color: blue; */
     color: rgb(25, 25, 59);
-    font-size: 1rem;
+    /* font-size: 1rem; */
     font-family: 'Open Sans', sans-serif;
 }
 .crypto_storage h1{

@@ -22,8 +22,8 @@ const MobileApp = () => {
         <>
             <section id='mobile' className='mobile bg-no-repeat bg-cover' style={{ backgroundImage: `url(${Bg2})` }}>
                 <div className='container'>
-                    <div className='row'>
-                        <div className='col-lg-6'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+                        <div className=''>
                             <h4 className='text-[#25CBD3]'>Buy crypto at true cost</h4>
                             <h1 className='text-white'>The World's Fastest Growing Crypto App</h1>
 
@@ -32,7 +32,7 @@ const MobileApp = () => {
                             </p>
                             <Button className='get-start'>Trade Now</Button>
                         </div>
-                        <div className='col-lg-6 ' data-aos="zoom-in-up">
+                        <div className=' ' data-aos="zoom-in-up">
                             <div className="mobileApp-img">
                                 <div className="innerMobile">
                                     <img src={Mobile} alt='' className='img-fluid'></img>
