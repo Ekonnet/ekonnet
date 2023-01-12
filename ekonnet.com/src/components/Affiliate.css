@@ -177,3 +177,19 @@ cursor: pointer;
     transition: all 0.5s ease-out;
     box-shadow: none;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+    .affiliate_hero h1{
+        margin-top: 10px;
+        font-family: 'Spectral', serif;
+        color: var(--h1-color);
+    }
+
+
+}

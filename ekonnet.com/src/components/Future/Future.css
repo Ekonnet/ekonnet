@@ -13,9 +13,7 @@ font-family: 'Open Sans', sans-serif;
 font-size: 1.2rem;
 color: white;
 }
-.future Button{
-    margin-right: 22px;
-}
+
 
 .future_img{
     width: 400px;
@@ -69,6 +67,33 @@ color: white;
     padding: 0px 40px 40px 40px;
 }
 
+
+
+@media only screen and (max-width: 640px){
+.future h1{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+.future_img{
+    height:400px;
+    margin: 0px 70px 0px 70px;
+}
+.future p{
+    font-size: 0.9rem;
+}
+/* .icon_img img{
+    margin-top: 20px;
+    width: 350px;
+    height: 350px;
+    margin-left: 120px;
+}  
+.icons_img{
+    width: 350px;
+    height: 300px;
+}
+    */
+
+}
 
 
 
