@@ -17,8 +17,12 @@ import { AiOutlineBank } from 'react-icons/ai';
 import { BsTwitter } from 'react-icons/bs';
 import { FaFacebookF } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
-import { AiFillGithub } from 'react-icons/ai';
-import { AiFillYoutube } from 'react-icons/ai';
+// import { AiFillGithub } from 'react-icons/ai';
+// import { AiFillYoutube } from 'react-icons/ai';
+// import Col from 'react-bootstrap/Col';
+// import Row from 'react-bootstrap/Row';
+// import Container from 'react-bootstrap/Container';
+import { FaBloggerB } from 'react-icons/fa';
 
 import { NavLink } from 'react-bootstrap';
 import { Link } from "react-router-dom";
@@ -73,7 +77,7 @@ const Home = () => {
                                     crypto exchange</h3>
                                 <p className="trade-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quasi esse fugit modi hic quae, reprehenderit ipsam? Fugit aut eos rerum suscipit labore at necessitatibus dignissimos, sit officia error assumenda.</p>
                             </div>
-                            <div className="front-btn flex justify-start gap-2 ">
+                            <div className="front-btn flex justify-start gap-4 ">
                                 <button className="main-btn"> Get Started</button>
                                 <button className="main-btn"> Get Started</button>
                             </div>
@@ -453,15 +457,66 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className='socialmedia__section'>
+
+            <section className='Common_style bg-[#160141] pt-[40px] pb-[40px]' id='join-cumunity'>
+                <div className="container">
+
+               
+     
+
+       
+            <div className='d-flex justify-content-center  flex-column text-center invest-heading'>
+              <h3 className='join-community-heading text-white font-bold text-[20px] md:text-[30px] '>Join Our Community</h3>
+              <h4 className='join-community-para text-white text-[15px] md:text-[20px]'>Ekonnet is Global .Join The Conversation in any of our woldwide communities.</h4>
+            </div>
+       
+        
+            <div className='grid grid-cols-8 mx-auto  place-content-center place-items-center justify-items-center pt-3'>
+            <div className=' col-span-2 '>
+              <div className="com-twitter flex justify-center items-center sm:gap-1 md:gap-2 lg:gap-3">
+                <FaFacebookF className='community-icon sm:size-1rem md:size-1.2rem lg:size-1.5rem'  />
+                <NavLink as={Link} to={"/"} className="sm:text-1rem md:text-1.2rem lg:text-1.5rem">Facebook</NavLink>
+                </div>
+              </div>
+              <div className='col-span-2 '>
+                <div className=" com-twitter flex justify-center items-center sm:gap-1 md:gap-2 lg:gap-3">
+                <BsTwitter className='community-icon sm:size-1rem md:size-1.2rem lg:size-1.5rem '  />
+                <NavLink as={Link} to={"/"} className="sm:text-1rem md:text-1.2rem lg:text-1.5rem" >Twitter</NavLink>
+                </div>
+              </div> 
+              <div className=' col-span-2 '>
+              <div className=" com-twitter flex justify-center items-center sm:gap-1 md:gap-2 lg:gap-3">
+                <FaBloggerB className='community-icon sm:size-1rem md:size-1.2rem lg:size-1.5rem'  />
+                <NavLink as={Link} to={"/"} className="sm:text-1rem md:text-1.2rem lg:text-1.5rem">Blog</NavLink>
+              </div>
+              </div>
+              <div className=' col-span-2 '>
+              <div className=" com-twitter flex justify-center items-center sm:gap-1 md:gap-2 lg:gap-3">
+                <AiFillInstagram className='community-icon sm:size-1rem md:size-1.2rem lg:size-1.5rem'  />
+                <NavLink as={Link} to={"/"} className="sm:text-1rem md:text-1.2rem lg:text-1.5rem">Instagram</NavLink>
+              </div>
+              </div>
+            </div>
+            </div>
+
+
+
+       
+      </section>
+
+
+
+
+
+            {/* <section className='socialmedia__section'>
                 <div className="container">
                     <div className="row">
                         <div className="col">
                             <div className="col flex justify-center items-center flex-column mb-5">
-                                <h2 className="invest__heading text-white">
+                                <h2 className="invest__heading text-white ">
                                     Join Our Community
                                 </h2>
-                                <p className="invest__sub-heading text-white">
+                                <p className="invest__sub-heading text-white text-center">
                                     Ekonnet is Global .Join The Conversation in any of our woldwide communities.
                                 </p>
                             </div>
@@ -510,7 +565,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
         </>

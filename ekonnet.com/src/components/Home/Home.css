@@ -336,7 +336,22 @@
 }
 
 /* ----------------------------social icons----------- */
+.com-twitter{
+  padding: 5px 10px;
+ 
+  background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+  color: white;
+  font-size: 1.5rem;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: all linear 0.3s;
+}
 
+
+.com-twitter:hover{
+  box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.75);
+ 
+}
 
 .socialmedia__section {
   background-color: #160141;
@@ -540,6 +555,16 @@ margin: 17px;
     display: block;
     }
 
+    .com-twitter{
+      padding: 5px 10px;
+     
+ 
+      font-size: 1.2rem;
+   
+    }
+
+
+
 }
 
 /* ----------------------- small devices (576px) ------------------------- */
@@ -548,4 +573,12 @@ margin: 17px;
     display: none;
     }
 
+    .com-twitter{
+      padding: 3px 7px;
+      font-size: 1rem;
+     
+    }
 }
+
+
+
