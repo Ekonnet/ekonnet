@@ -59,6 +59,7 @@ const Blog = () => {
               <FaRegUser/>
               <span>Robert Downey</span>
               <FaRegComments/>
+              
               <span>1</span>
               </div>  
               <p>Nemo enim ipsam voluptatem quia volup tas sit aspernatur aut odit aut fu sed quia conse quun tur magni dolor quia. In scelerisque turpis vel bibendum […]</p>
@@ -101,7 +102,7 @@ const Blog = () => {
           <div className='d-flex sidebar_iconss'>
           <SiBitcoinsv/>
           <h6>Bitcoin <span>(BTC)</span></h6>
-          <h4 className='d-flex sidebar_ico'><TbCurrencyDollar/>6855.83</h4>
+          <h4 className='d-flex sidebar_ico align-items-justify'><TbCurrencyDollar/>6855.83</h4>
           </div>
           <div className='d-flex sidebar_iconss'>
           <SiEthereum/>

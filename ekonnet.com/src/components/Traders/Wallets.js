@@ -31,8 +31,8 @@ const Wallets = () => {
                   </div>
                 </div>
               </div>
-            </section>
-            <section id='wallet_feature' className='wallet_feature bg-[#131128] pt-[100px]'>
+            </section> 
+            <section id='wallet_feature' className='wallet_feature bg-[#131128] pt-[50px]'>
               <div className='container'>
                 <div className='row'>
                   <h1>Wallet Features</h1>
@@ -44,13 +44,25 @@ const Wallets = () => {
                   <div className='col-lg-6'>
                     <img src={gfx} alt='gfx-img' className='img-fluid'></img>
                   </div>
-                  <div className='col-lg-6'>
+                  </div>
+                  </div>
+                  </section>
+                  <section id='wallet_feature' className='wallet_feature bg-[#131128] pt-[30px]'>
+                    <div className='container'>
+                      <div className='row'>
+                      <div className='col-lg-6 order-lg-1 order-2'>
                     <img src={gfx1} alt='gfx-img' className='img-fluid'></img>
                   </div>
-                  <div className='col-lg-6'>
+                  <div className='col-lg-6 order-lg-2 order-1'>
                    <h2>Multi-currency & Cryptocurrency<br/>exchange without limits</h2>
                    <p>Tempore, cum soluta nobis est eligendi optiocum que nihilmod maxime placeat facere ad minim veni eoam, quis nostrud ute exercitation ullamco architecto beatae vitae dicta.</p>
                   </div>
+                  </div>
+                  </div>
+                  </section>
+                  <section id='wallet_feature' className='wallet_feature bg-[#131128] pt-[30px]'>
+                    <div className='container'>
+                      <div className='row'>
                   <div className='col-lg-6'>
                    <h2>Multi-currency & Cryptocurrency<br/>exchange without limits</h2>
                    <p>Tempore, cum soluta nobis est eligendi optiocum que nihilmod maxime placeat facere ad minim veni eoam, quis nostrud ute exercitation ullamco architecto beatae vitae dicta.</p>
@@ -61,7 +73,7 @@ const Wallets = () => {
                 </div>
               </div>
             </section>
-            <section id='our_wellet' className='our_wallet bg-[#131128] pt-[100px]'>
+            <section id='our_wellet' className='our_wallet bg-[#131128] pt-[30px]'>
               <div className='container'>
                 <div className='row'>
                 <h1>Our Wallet Features</h1>

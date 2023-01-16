@@ -1,5 +1,4 @@
 import React from 'react'
-// import FutureImg from '../assets/FutureImg.png';
 import SecurityImg from '../assets/feature-img-1.png'
 import SecurityImg2 from '../assets/banner-bg-2.png'
 import { SiSpringsecurity } from 'react-icons/si';

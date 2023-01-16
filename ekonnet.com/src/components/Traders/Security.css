@@ -4,11 +4,11 @@
     padding: 30px;
     border-radius: 20px;
     box-shadow: 1px 3px 17px 2px rgba(0,0,0,0.7);
+    margin-top: 30px;
 }
 
 
 .security h1{
-    /* margin-top: 180px; */
     color: darkblue;
     font-size: 5rem;
     line-height: 6.5rem;
@@ -23,7 +23,6 @@
 
 
 .security p{
-    /* color: blue; */
     color: rgb(25, 25, 59);
     font-size: 1.3rem;
     line-height: 2rem;
@@ -76,7 +75,6 @@
 }
 .protection__box:hover{
     transform: translateY(-10px);
-    /* transition: all 0.10S ease-out; */
     transition: all 0.2s ease-in-out 0s;
 }
 
@@ -123,7 +121,6 @@ cursor: pointer;
     text-align: justify;
 }
 .account_protection p{
-    /* color: blue; */
     color: rgb(25, 25, 59);
     font-size: 1rem;
     font-family: 'Spectral';
@@ -188,10 +185,27 @@ cursor: pointer;
     margin-top: 10px;
 }
 .system_security p{
-    /* color: blue; */
     color: rgb(50, 46, 46);
     font-size: 1rem;
     font-family: 'Spectral';
     margin-top: 12px;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

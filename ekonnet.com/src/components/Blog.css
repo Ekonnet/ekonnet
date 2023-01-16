@@ -65,7 +65,7 @@
 .search_btn input{
     margin-top: 30px;
     height: 51px;
-    width: 270px;
+    width: 245px;
     padding: 15px;
     color: darkblue;
     background-color: lightsteelblue;
@@ -282,4 +282,142 @@
 }
 #SingleBlogPage button{
     margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .blog .container{
+        margin-top: 10px;
+        
+    }
+    .blog_img h1{
+        
+        font-size: 1.2rem;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        
+    }
+    .search_btn button{
+        margin-left: 20px;margin-top: 0px;
+    }
+    .search_btn h5{
+        
+        padding-right: 255px;
+        
+    }
+    .sidebar_iconss h4{
+        margin-left: 195px;
+       
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 640px){
+    
+    .blog span{
+        font-size: 2rem;
+    }
+    .blog .container{
+        margin-top: 25px;
+        
+    }
+    .blog_img h1{
+        
+        font-size: 1.2rem;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        
+    }
+    .paggination{
+        margin-top: 40px;
+        margin-left: 120px;
+    }
+    .search_btn button{
+        margin-left: 20px;
+    }
+    .search_btn input{
+    
+        height: 51px;
+    }
+    .sidebar_iconss h6{
+        font-size: 1.2rem;
+        margin-top: 20px;
+        margin-left: 0px;
+        
+    } 
+    .search_btn h5{
+        
+        padding-right: 165px;
+        
+    }
+    .sidebar_iconss h4{
+        margin-left: 132px;
+       
+    }
+    #SingleBlogPage button{
+        margin-top: 0px;
+    }
+    #sidebar_iconss svg {
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+    #sidebar_iconss h5 {
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+    #coin_list h6 {
+        margin-right: 175px;
+        
+    }
+    #comments input{
+       
+        width: 355px;
+       
+    }
+}
+@media only screen and (max-width: 480px){
+    .search_btn h5{
+        
+        padding-right: 95px;
+        
+    }
+    .sidebar_iconss h4{
+        margin-left: 45px;
+    }
+    .search_btn button {
+        margin-left: 6px;
+        margin-top: 2px;
+    }
+    .paggination{
+        margin-top: 40px;
+        margin-left: 45px;
+    }
+    .search_btn input{
+    
+        width: 230px;
+    }
+    #coin_list{
+        display: none;
+    }
+    #comments input{
+       
+        width: 282px;
+       
+    }
+    #SingleBlogPage button {
+        margin-top: 17px;
+    }
 }
