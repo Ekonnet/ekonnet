@@ -9,7 +9,7 @@ import  OurValue from './assets/our-value.png'
 import { NavLink } from 'react-router-dom';
 import {Link} from "react-router-dom";
 import { motion, AnimatePresence } from 'framer-motion'
-
+import { HiOutlineCursorArrowRipple } from 'react-icons/hi2';
 import './About.css';
 
 const About = () => {
@@ -17,19 +17,19 @@ const About = () => {
         <>
             <section id='about_hero' className='about_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
                 <div className='container'>
-                    <div className='row grid grid-cols-2'>
-                        <div className='col-lg-6 flex justify-center items-center'>
-                            <h1 className='text-white text-[60px] font-bold'>About-US</h1>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 '>
+                        <div className='flex justify-center items-center'>
+                            <h1 className='text-white text-[40px] pt-3 md:text-[60px] lg:text-[60px] xl:text-[60px] 2xltext-[60px] font-bold'>About-US</h1>
 
                         </div>
-                        <div className='col-lg-6'>
+                        <div className='  flex justify-center items-center'>
                         <AnimatePresence>
                         <motion.div
-                            initial={{ x: 100 }}
+                            initial={{ x: -50 }}
                             animate={{ x: 20 }}
                             exit={{ x: 100 }}
                             transition={{ repeat: Infinity, duration: 2, repeatType: "reverse", type: "tween", bounce: 0.25 }}
-                            className="two">
+                            className="two p-50px">
                             <img src={AboutMainSection} alt='About.png' className='img-fluid'></img>
                             </motion.div>
                             </AnimatePresence>
@@ -38,31 +38,33 @@ const About = () => {
                 </div>
             </section>
 
-            <section className="crypto-platform bg-[#131128] pt-[100px]">
-                <div className="row">
-                    <div className="col-lg-4 mx-auto flex justify-center items-center">
+            <section className="crypto-platform bg-[#131128] pt-[60px]">
+                <div className="container">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
+                    <div className="  flex justify-center items-center">
                         <img src={AboutPlatform} alt='About.png' className='img-fluid'></img>
                     </div>
-                    <div className="col-lg-4 mx-auto flex justify-center items-start flex-column">
+                    <div className="  flex justify-center items-start flex-column">
                         <h4 className='text-[#25CBD3] '>About Ekonnet?</h4>
                         <h2 className='text-white pt-4'>We Built a Crypto Platform</h2>
                         <h2 className='text-white'>To Buy & Sell Shares</h2>
-                        <p className='text-white pt-2'>Progressively predominate performance based internal or "orga sources before high standards in architectures. Interactively ini transparent functionalities via efficient ROI.</p>
+                        <p className='text-white text-[20px] pt-2'>Progressively predominate performance based internal or "orga sources before high standards in architectures. Interactively ini transparent functionalities via efficient ROI.</p>
 
                     </div>
                 </div>
+                </div>
             </section>
 
-            <section id='about_product' className='about_product bg-[#131128] pt-[100px]'>
+            <section id='about_product' className='about_product bg-[#131128] pt-[60px]'>
                 <div className='container'>
                     <div className='text-center'>
                         <h1 className='font-bold'> Ekonnet Products</h1>
                     </div>
-                    <div className='row grid grid-cols-3 px-3  content-justify-center'>
-                        <div className='col-lg-4 '>
+                    <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 px-3  content-justify-center'>
+                        <div className=' '>
                             <div className='product'>
                                 <div className="circle-wrapper flex justify-center items-start gap-2 flex-column">
-                                    <div className="circle-product"></div>
+                                    <div className="circle-product flex justify-center items-center"><HiOutlineCursorArrowRipple className='text-yellow' size="2rem"/></div>
                                     <h3>Ekonnet</h3>
                                 </div>
                                 <p>Ekonnet seeks to provide deep and reliable liquidity in the cryptocurrency ecosystem. We deliver a variety of
@@ -70,10 +72,10 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='col-lg-4'>
+                        <div className=''>
                             <div className='product'>
                                 <div className="circle-wrapper flex justify-center items-start gap-2 flex-column">
-                                    <div className="circle-product"></div>
+                                  <div className="circle-product flex justify-center items-center"><HiOutlineCursorArrowRipple className='text-yellow' size="2rem"/></div>
                                     <h3>Ekonnet Pay</h3>
                                 </div>
 
@@ -82,10 +84,10 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='col-lg-4'>
+                        <div className=''>
                             <div className='product'>
                                 <div className="circle-wrapper flex justify-center items-start gap-2 flex-column">
-                                    <div className="circle-product"></div>
+                                  <div className="circle-product flex justify-center items-center"><HiOutlineCursorArrowRipple className='text-yellow' size="2rem"/></div>
                                     <h3>Ekonnet Borrow</h3>
                                 </div>
 
@@ -94,10 +96,10 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='col-lg-4'>
+                        <div className=''>
                             <div className='product'>
                                 <div className="circle-wrapper flex justify-center items-start gap-2 flex-column">
-                                    <div className="circle-product"></div>
+                                  <div className="circle-product flex justify-center items-center"><HiOutlineCursorArrowRipple className='text-yellow' size="2rem"/></div>
                                     <h3>UNUS SED LEO</h3>
                                 </div>
 
@@ -106,10 +108,10 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='col-lg-4'>
+                        <div className=''>
                             <div className='product'>
                                 <div className="circle-wrapper flex justify-center items-start gap-2 flex-column">
-                                    <div className="circle-product"></div>
+                                  <div className="circle-product flex justify-center items-center"><HiOutlineCursorArrowRipple className='text-yellow' size="2rem"/></div>
                                     <h3>Ekonnet payment</h3>
                                 </div>
 
@@ -118,11 +120,11 @@ const About = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className='col-lg-4'>
+                        <div className=''>
 
                             <div className='product'>
                                 <div className="circle-wrapper flex justify-center items-start gap-2 flex-column">
-                                    <div className="circle-product"></div>
+                                  <div className="circle-product flex justify-center items-center"><HiOutlineCursorArrowRipple className='text-yellow' size="2rem"/></div>
                                     <h3>Affiliate Program</h3>
                                 </div>
 
@@ -134,10 +136,10 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <section id='about_value' className='about_value bg-[#131128] pt-[100px]'>
+            <section id='about_value' className='about_value bg-[#131128] pt-[60px]'>
                 <div className='container'>
-                    <div className='row flex jutify-center items-center'>
-                        <div className="col-lg-6">
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 justify-center items-center'>
+                        <div className="">
                             <div className="row flex jutify-center items-center ">
                                 <h1 className='text-white font-bold text-[36px]'>Our Values</h1>
                                 <Accordion defaultActiveKey="0">
@@ -208,7 +210,7 @@ const About = () => {
                             </div>
 
                         </div>
-                        <div className="col-lg-6 flex justify-end items-end ">
+                        <div className=" flex justify-end items-end ">
                         <AnimatePresence>
                         <motion.div
                             initial={{ y: 100 }}
@@ -225,37 +227,37 @@ const About = () => {
             </section>
             <section className="news__blog bg-[#131128] pt-[100px]">
                 <div className="container">
-                    <div className="row">
-                        <div className="col">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
+                        <div className="">
                             <h4 className='text-[#25CBD3] '>News</h4>
                             <h2 className='text-white pt-4'>From the blog</h2>
                             <p className='text-white pt-2'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
                             <button className='btn view-btn text-white' >View More</button>
                         </div>
-                        <div className="col">
-                            <div className="row grid grid-cols-2 gap-4">
-                                <div className="col">
+                        <div className="">
+                            <div className=" grid grid-cols-2 gap-4">
+                                <div className="">
                                     <div className="main-card">
                                         <div className="img-w-img">
                                             <img src={BoxImg1} alt='About.png' className='img-fluid rounded-t-xl'></img>
                                         </div>
                                         <div className="card-content">
-                                            <h5 className='text-white font-bold pt-4'>From the blog</h5>
-                                            <p className='text-white pt-2'>It is a long established fact that a reader will be distracted </p>
-                                            <NavLink className='anchor-text' as={Link} to={"/"}><h5 > Read More</h5></NavLink>
+                                            <h5 className='text-white font-bold pt-1  text-[18px] md:text-[18px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px]'>From the blog</h5>
+                                            <p className='text-white pt-1  text-[15px] md:text-[15px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px]'>It is a long established fact that a reader will be distracted </p>
+                                            <NavLink className='anchor-text text-white font-bold pt-2  text-[10px] md:text-[12px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px]' as={Link} to={"/"}><h5 > Read More</h5></NavLink>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col">
+                                <div className="">
                                 <div className="main-card">
                                         <div className="img-w-img">
                                             <img src={BoxImg2} alt='About.png' className='img-fluid rounded-t-xl  '></img>
                                         </div>
                                         <div className="card-content">
-                                            <h5 className='text-white font-bold pt-4'>From the blog</h5>
-                                            <p className='text-white pt-2'>It is a long established fact that a reader will be distracted</p>
+                                            <h5 className='text-white font-bold pt-1 text-[18px] md:text-[18px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px] '>From the blog</h5>
+                                            <p className='text-white pt-1 text-[18px] md:text-[18px] lg:text-[18px] xl:text-[20px] 2xl:text-[20px]'>It is a long established fact that a reader will be distracted</p>
                                     
-                                            <NavLink className='anchor-text' as={Link} to={"/"}><h5 > Read More</h5></NavLink>
+                                            <NavLink className='anchor-text text-white font-bold pt-2  text-[10px] md:text-[12px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px]' as={Link} to={"/"}><h5 > Read More</h5></NavLink>
                                         </div>
                                     </div>
                                 </div>
