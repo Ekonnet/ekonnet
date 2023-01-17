@@ -196,11 +196,11 @@
 }
 
 
-.one_click_buy button {
+/* .one_click_buy button {
     margin-right: 5px;
-}
+} */
 .fiat button{
-    margin-right: 0px;
+    margin-right: 28px;
     width:80px;
 }
 
