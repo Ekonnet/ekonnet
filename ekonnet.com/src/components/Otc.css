@@ -92,3 +92,105 @@
     margin-right: 107px;
     width: 124px;
 }
+
+
+
+
+
+@media only screen and (max-width: 640px){
+    .otc_input input{
+        width: 280px;
+        height: 38px;
+        margin-left: 53px;
+    }
+    .otc_input label{
+        
+        margin-left: 53px;
+    
+    }
+    .otc_input button{
+        margin-left: 52px;
+    }
+    .otc_button button{
+        width: 100px;
+        margin-left: 50px;
+    }
+    #Buy_active{
+        width: 100px;
+    }
+    #sell_active{
+        width: 100px;
+    }
+    #twoway_active{
+        width: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    .otc_input label{
+        
+        margin-left: 5px;
+    }
+    .otc_input input{
+        width: 240px;
+        margin-left: 5px;
+    }
+    .otc_input button{
+        margin-left: 5px;
+
+    }
+    #Buy_active{
+        width: 95px;
+    }
+    #sell_active{
+        width: 95px;
+    }
+    #twoway_active{
+        width: 95px;
+    }
+    .otc_button button{
+        width: 95px;
+        margin-left: 10px;
+    }
+        .otc_quato button {
+
+            margin-left: 115px;
+            margin-right: 74px;
+            
+        }
+}
+/* @media only screen and (max-width: 768px){
+    .otc_input label{
+        
+        margin-left: 100px;
+    }
+    .otc_input input{
+        width: 240px;
+        margin-left: 100px;
+    }
+    .otc_input button{
+        margin-left: 5px;
+
+    }
+    #Buy_active{
+        width: 120px;
+        margin-left: 90px;
+    }
+    #sell_active{
+        width: 120px;
+    }
+    #twoway_active{
+        width: 120px;
+    }
+    .otc_button button{
+        width: 120px;
+        margin-left: 50px;
+    }
+        .otc_quato button {
+
+            margin-left: 115px;
+            margin-right: 74px;
+            
+        }
+} */

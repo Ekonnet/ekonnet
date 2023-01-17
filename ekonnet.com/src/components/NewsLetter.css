@@ -75,3 +75,33 @@
   float: left; 
   overflow: hidden;
 }
+
+
+@media only screen and (max-width: 640px){
+
+    .news_section {
+        width: 529px;
+        height: 508px;
+    }
+}
+@media only screen and (max-width: 768px){
+
+    .news_section {
+        width: 650px;
+        height: 585px;
+    }
+}
+@media only screen and (max-width: 480px){
+
+    .news_section{
+        width: 355px;
+        height: 416px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+.news_section {
+    width: 302px;
+    height: 390px;
+}
+}

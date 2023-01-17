@@ -28,7 +28,7 @@ import Career from './Career';
 import EkonnetPay from './EkonnetPay';
 import Staking from './Staking';
 import {Route,Routes} from "react-router-dom";
-import Derivatives from './Markets/Derivatives';
+import Derivatives from '../components/Markets/Derivatives';
 import CreditDebitCard from './CreditDebitCard';
 import Otc from './Otc';
 
@@ -80,7 +80,7 @@ const App = () => {
        {/* <Route path="/" element={<Home/>}/>  */}
        <Route path="/one-click-buy" element={<OneClickBuy/>}/> 
        <Route path="/spot" element={<Spot/>}/> 
-       <Route path="/derivatives" element={<Derivatives/>}/> 
+       <Route path="/darivatives" element={<Derivatives/>}/> 
        <Route path="/one-click-sell" element={<OneClickSell/>}/> 
        <Route path="/p2p-trading-Fees" element={<P2pTradingFees/>}/>
        <Route path="/fiat-deposite" element={<FiatDeposite/>}/>

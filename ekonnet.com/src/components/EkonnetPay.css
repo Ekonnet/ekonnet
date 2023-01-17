@@ -139,3 +139,54 @@
     font-size: 1rem;
     text-align: start;
 }
+
+
+@media only screen and (max-width: 768px){
+    .flax{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .flip-card{
+        margin-left: 208px;
+    }
+}
+
+
+@media only screen and (max-width: 991px){
+    .flip-card{
+        width:255px;
+    }
+    .flax{
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px){
+    .flip-card{
+        width:255px;
+    }
+    .flax{
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 640px){
+    .flax{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .flip-card{
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    
+    .flip-card{
+        margin-left: 50px;
+    }
+}

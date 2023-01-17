@@ -12,7 +12,7 @@ const Otc = () => {
                 <div className='col-lg-12 text-center'>
                     <h1>Ekonnet OTC trading</h1>
                     <p>Over-the-counter (OTC) trading lets you buy and sell crypto without slippage. 
-                     Get deep liquidity, quick executions, and minimal market impact.</p>
+                     <br/>Get deep liquidity, quick executions, and minimal market impact.</p>
                 </div>
             </div>
         </div>

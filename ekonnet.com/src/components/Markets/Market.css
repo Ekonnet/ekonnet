@@ -53,6 +53,7 @@
     border-radius: 10px;
     font-family: 'spectral';
     font-size: 1rem;
+    margin-right: 8px;
 }
 .market-nav:hover{
     background-color: #02021d;

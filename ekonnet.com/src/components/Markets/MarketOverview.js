@@ -4,18 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './Market.css'
-
 import { Link } from "react-router-dom";
 import BoxDiv from '../OwlCarousel/BoxDiv';
 import NewsFeedComponets from '../Markets/NewsFeedComponets';
-// import TabsDatavalues from '../Markets/TabsDataValues';
-// import Button from '@mui/material/Button';
-
-// import Col from 'react-bootstrap/Col';
-// import { Link } from "react-router-dom";
-
-// import styled from 'styled-components'
 import Nav from 'react-bootstrap/Nav';
+
 
 export default function MarketOverview() {
 
@@ -38,7 +31,7 @@ export default function MarketOverview() {
           </Row>
           <Row>
             <Col>
-              <div className='d-flex justify-content-start gap-3'>
+              <div className='d-flex justify-content-start'>
 
                 <Nav.Link as={Link} to={"/market-overview"}><button className='market-nav'>Favorites</button></Nav.Link>
                 <Nav.Link as={Link} to={"/spot"} ><button className='market-nav'>Spot </button></Nav.Link>

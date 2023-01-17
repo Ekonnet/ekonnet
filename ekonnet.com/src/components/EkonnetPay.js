@@ -46,7 +46,7 @@ const Ekonnetpay = () => {
                 <div className='col-lg-12 text-center'>
                  <h1>Why Ekonnet Pay ?</h1>
                 </div>
-                <div className='col-lg-3'>
+                <div className='col-lg-3 mb-3'>
                 <div class="flip-card">
                     <div className='flip-card-inner'>
                     <div className='flip-card-front'>
@@ -58,7 +58,7 @@ const Ekonnetpay = () => {
                     </div>
                 </div>    
                 </div>
-                <div className='col-lg-3'>
+                <div className='col-lg-3 mb-3'>
                 <div class="flip-card">
                     <div className='flip-card-inner'>
                     <div className='flip-card-front'>
@@ -70,7 +70,7 @@ const Ekonnetpay = () => {
                 </div>
                 </div> 
                 </div>  
-                <div className='col-lg-3'>
+                <div className='col-lg-3 mb-3'>
                 <div class="flip-card">
                     <div className='flip-card-inner'>
                     <div className='flip-card-front'>
@@ -83,7 +83,7 @@ const Ekonnetpay = () => {
                 </div>
                 
                 </div> 
-                <div className='col-lg-3'>
+                <div className='col-lg-3 mb-3'>
                 <div class="flip-card">
                     <div className='flip-card-inner'>
                     <div className='flip-card-front'>
@@ -104,7 +104,7 @@ const Ekonnetpay = () => {
                 <div className='col-lg-12 text-center'>
                     <h1>Flexible and Scalable</h1>
                 </div>
-                <div className='col-lg-5 text-center flax  mr-5 mt-5 mb-5'>
+                <div className='col-lg-5 text-center flax div-black mr-5 mt-5 mb-5'>
                     <h3>Ekonnet on React</h3>
                     <p>Lorem Ipsum is simply dummy text of the<br/> printing and typesetting industry.</p>
                 </div>
