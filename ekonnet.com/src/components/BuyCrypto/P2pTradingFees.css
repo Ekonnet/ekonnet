@@ -1,12 +1,13 @@
 .p_to_p{
-    margin:150px 400px 30px 400px;   
+    margin:150px 0px 30px 0px;   
 }
 .p_to_p_button button{
-    width: 180px;
-    height: 54px;
+    width: 120px;
+    height: 40px;
     box-shadow: 10px 10px 15px -11px rgba(0,0,0,0.53);
-    font-size: 1.5rem;
-    margin: 16px;
+    font-size: 0.9rem;
+    margin: 16px 25px 16px 0px;
+    font-weight: bold;
     border: 1px solid #6c757d;
     border-radius: 50px;
     color: rgba(0, 0, 0, 0.87);
@@ -18,10 +19,11 @@
     border-color: black;
 }
  #p2p_active{
-    width: 180px;
-    height: 54px;
-    font-size: 1.5rem;
-    margin: 16px;
+    width: 110px;
+    height: 40px;
+    font-size: 0.9rem;
+    margin: 16px 25px 16px 0px;
+    font-weight: bold;
     border: 1px solid #6c757d;
     border-radius: 50px;
     color: white;
@@ -35,10 +37,10 @@
     border-color: black;
 }
 .p_to_p_buy{
-    width: 600px;
+    /* width: 600px; */
     height: 527px;
     border: 1px solid transparent;
-    margin: 40px 430px 40px 430px; 
+    /* margin: 40px 430px 40px 430px;  */
 }
 .p_to_p_buy h1{
     color:rgba(0, 0, 0, 0.87);
@@ -53,19 +55,19 @@ border-bottom: 3px solid #01B0EA;
     border-bottom: 3px solid #01B0EA;
 }
 .p_to_p_buy label{
-    padding-left: 40px;
+    padding-left: 17px;
     font-size: 1.2rem;
     font-family: 'Spectral', serif;
     margin-top: 15px;
 
 }
 .p_to_p_buy input{
-    margin-left: 40px;
-    margin-right: 43px;
+    margin-left: 17px;
+    /* margin-right: 43px; */
     font-size: 1.2rem;
     background-color: transparent;
     border: 1px solid #6c757d;
-    width: 500px;
+    width: 302px;
     height: 50px;
     padding-left:10px;
     color: rgba(0, 0, 0, 0.87);
@@ -77,9 +79,9 @@ border-bottom: 3px solid #01B0EA;
     margin-top: 25px;
 }
 .p_to_p_buy_button button{
-    margin: 20px 40px 20px 40px;
+    margin: 20px 0px 20px 17px;
     background-color: #01B0EA;
-    width: 500px;
+    width: 302px;
     color: #ffffff;
     font-size: 1.2rem ;
     box-shadow: 10px 10px 14px -7px rgba(0,0,0,0.75);
@@ -96,3 +98,110 @@ border-bottom: 3px solid #01B0EA;
 }
 
     
+
+
+@media only screen and (max-width: 768px){
+    .p_to_p {
+        margin: 50px 145px 30px 157px;
+    }
+    .p_to_p_buy h1 {
+    
+        margin-right: 110px;
+        margin-left: 150px;
+    }
+    .p_to_p_buy label{
+        padding-left: 132px;
+        font-size: 1rem;
+        
+    }
+    .p_to_p_buy input {
+        width: 350px;
+        margin-left: 132px;
+    }
+    .p_to_p_buy_button button{
+
+        margin-left: 132px; 
+        width: 350px;
+    }
+    .p_to_p_buy h6{
+        margin-left: 150px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 640px){
+    
+    .p_to_p {
+        margin: 50px 145px 30px 80px;
+    }
+    .p_to_p_buy h1 {
+    
+        margin-right: 153px;
+        margin-left: 68px;
+    }
+    .p_to_p_buy label{
+        padding-left: 83px;
+        font-size: 1rem;
+        
+    }
+    .p_to_p_buy input {
+        width: 350px;
+        margin-left: 83px;
+    }
+    .p_to_p_buy_button button{
+
+        margin-left: 83px; 
+        width: 350px;
+    }
+    .p_to_p_buy h6{
+        margin-left: 100px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 480px){
+    .p_to_p {
+        margin: 50px 0px 30px 24px;
+    
+    }
+    .p_to_p_buy h1 {
+    
+        margin-right: 52px;
+        margin-left: 68px;
+    }
+    #p2p_active{
+   
+        margin: 16px 9px 16px 0px;
+        font-size: 0.7rem;
+        width: 100px;
+    }
+    .p_to_p_button button{
+        margin: 16px 9px 16px 0px;
+        font-size: 0.7rem;
+        width: 100px;
+    }
+    .p_to_p_buy label{
+        padding-left: 83px;
+        font-size: 1rem;
+        
+    }
+    .p_to_p_buy input {
+        width: 252px;
+        margin-left: 83px;
+    }
+    .p_to_p_buy_button button{
+
+        margin-left: 83px; 
+        width: 252px;
+    }
+    .p_to_p_buy h6{
+        margin-left: 100px;
+    }
+    
+}
+
+

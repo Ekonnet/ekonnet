@@ -9,20 +9,23 @@ const OneClickBuy = () => {
     <section id='one_click' className='one_click'>
       <div className='container'>
         <div className='row'>
-         <div className='col-lg-12'>
+         <div className='col-lg-4'></div>
+         <div className='col-lg-4'>
           <div className='one_click_button d-flex'>
             <Nav.Link as={Link} to={""}><button id='one_click_active'>One-Click Buy</button></Nav.Link> 
             <Nav.Link as={Link} to={"/P2p-trading-fees"}><button>P2P</button></Nav.Link> 
             <Nav.Link as={Link} to={"/fiat-deposite"}><button>Fiat-Deposite</button></Nav.Link> 
           </div>
          </div>
+         <div className='col-lg-4'></div>
         </div>
       </div>
     </section>
     <section id='one_click_buy' className='one_click_buy'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-12'>
+        <div className='col-lg-4'></div>
+          <div className='col-lg-4'>
             <div className=' d-flex text-center'>
               <div className='col-lg-6'>
               <h1 id='one_click_buy_border'>Buy</h1>
@@ -57,12 +60,14 @@ const OneClickBuy = () => {
               <option value="Phonepe"/>
               <option value="Local Card"/>
              </datalist>
-              </div>
-              
-            </div>
-            <div className='one_click_buy_login'>
+             <div className='one_click_buy_login'>
             <Nav.Link as={Link} to={"/sign-in"}><button>Sign In</button></Nav.Link> 
             </div>
+              </div> 
+                       
+            </div>
+           
+            <div className='col-lg-4'></div>
         </div>
       </div>
     </section>

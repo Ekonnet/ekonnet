@@ -9,20 +9,23 @@ const OneClickSell = () => {
     <section id='one_click' className='one_click'>
       <div className='container'>
         <div className='row'>
-         <div className='col-lg-12'>
+        <div className='col-lg-4'></div>
+         <div className='col-lg-4'>
           <div className='one_click_button d-flex'>
-            <button id="one_click_active">One-Click Buy</button>
+            <Nav.Link as={Link} to={""}><button id='one_click_active'>One-Click Buy</button></Nav.Link> 
             <Nav.Link as={Link} to={"/P2p-trading-fees"}><button>P2P</button></Nav.Link> 
             <Nav.Link as={Link} to={"/fiat-deposite"}><button>Fiat-Deposite</button></Nav.Link> 
           </div>
          </div>
+         <div className='col-lg-4'></div>
         </div>
       </div>
     </section>
     <section id='one_click_buy' className='one_click_buy'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-12'>
+        <div className='col-lg-4'></div>
+          <div className='col-lg-4'>
             <div className=' d-flex text-center'>
               <div className='col-lg-6'>
               <Nav.Link as={Link} to={"/one-click-buy"}><h1>Buy</h1></Nav.Link>
@@ -48,11 +51,13 @@ const OneClickSell = () => {
               <div>
               <button className='dropdown-toggle'>BTC</button>
               </div>
-              </div>    
-            </div>
-            <div className='one_click_sell_login'>
+              </div>  
+              <div className='one_click_sell_login'>
               <button>Sign In</button>
+            </div>  
             </div>
+           
+            <div className='col-lg-4'></div>
         </div>
       </div>
     </section>

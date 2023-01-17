@@ -55,7 +55,7 @@ const MobileApp = () => {
             <section id='ultimate_crypto' className='ultimate_crypto bg-[#14151B] pt-[100px] pb-[100px]' >
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-6' data-aos="zoom-in-up">
+                        <div className='col-lg-6 order-lg-1 order-2' data-aos="zoom-in-up">
                             <div className="outer-finger ">
                                 <div className="innerImg1">
                                     <img src={mobile_crypto} alt='mobile_crypto' className='img-fluid'></img>
@@ -75,7 +75,7 @@ const MobileApp = () => {
 
                             </div>
                         </div>
-                        <div className='col-lg-6'>
+                        <div className='col-lg-6 order-lg-2 order-1'>
                             <div className="box-crypto-app bg-no-repeat bg-cover" style={{ backgroundImage: `url(${BgSection2})` }} >
                                 <div className="inner-content-app ">
                                     <h1>The ultimate crypto experience at your fingertips</h1>

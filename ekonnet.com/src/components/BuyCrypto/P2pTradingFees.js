@@ -9,20 +9,23 @@ const P2pTradingFees = () => {
     <section id='p_to_p' className='p_to_p'>
       <div className='container'>
         <div className='row'>
-         <div className='col-lg-12'>
+        <div className='col-lg-4'></div>
+         <div className='col-lg-4'>
           <div className='p_to_p_button d-flex'>
-            <Nav.Link as={Link} to={"/one-click-buy"}><button>one-Click Buy</button></Nav.Link> 
+            <Nav.Link as={Link} to={"/one-click-buy"}><button>One-Click Buy</button></Nav.Link> 
             <Nav.Link as={Link} to={""}><button id='p2p_active'>P2P</button></Nav.Link> 
             <Nav.Link as={Link} to={"/fiat-deposite"}><button>Fiat-Deposite</button></Nav.Link> 
           </div>
          </div>
+         <div className='col-lg-4'></div>
         </div>
       </div>
     </section>
     <section id='p_to_p_buy' className='p_to_p_buy'>
       <div className='container'>
         <div className='row'>
-          <div className='col-lg-12'>
+        <div className='col-lg-4'></div>
+          <div className='col-lg-4'>
             <div className=' d-flex text-center'>
               <div className='col-lg-6'>
               <h1 id='one_click_buy_border'>Buy</h1>
@@ -53,6 +56,7 @@ const P2pTradingFees = () => {
               <h6>Fee:0.00%</h6>
             </div>
           </div>
+          <div className='col-lg-4'></div>
         </div>
       </div>
     </section>
