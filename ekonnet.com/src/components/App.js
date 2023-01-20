@@ -51,13 +51,38 @@ import DerivativeTerms from './Legal and Privacy/DerivativeTerms';
 import TradingLending from '../HelpCenter/TradingLending/TradingLending';
 import Home from './Home/Home';
 import Blog from './Blog';
+import BuyBitcoin from './BuyBitcoin';
+import BuyCardano from './BuyCardano';
+import BuyBinance from './BuyBinance';
+import BuyTether from './BuyTether';
 import SingleBlogPage from './SingleBlogPage';
-
-
-
 import Sidebar from '../HelpCenter/Getting Startted/Sidebar';
 import SidebarRoot from '../HelpCenter/Getting Startted/SidebarRoot';
 import Exchange from './Exchange';
+import Papertrading from './PaperTrading/Papertrading';
+import Question1 from './PaperTrading/Question1';
+import Question2 from './PaperTrading/Question2';
+import Question3 from './PaperTrading/Question3';
+import Question4 from './PaperTrading/Question4';
+import Question5 from './PaperTrading/Question5';
+import Question6 from './PaperTrading/Question6';
+import Question7 from './PaperTrading/Question7';
+import Question8 from './PaperTrading/Question8';
+import Question9 from './PaperTrading/Question9';
+import Question10 from './PaperTrading/Question10';
+import Question11 from './PaperTrading/Question11';
+import Question12 from './PaperTrading/Question12';
+import Question13 from './PaperTrading/Question13';
+import Question14 from './PaperTrading/Question14';
+import Question15 from './PaperTrading/Question15';
+import Question16 from './PaperTrading/Question16';
+import Question17 from './PaperTrading/Question17';
+import Question18 from './PaperTrading/Question18';
+import Question19 from './PaperTrading/Question19';
+import Question20 from './PaperTrading/Question20';
+import Question21 from './PaperTrading/Question21';
+
+
 
 // import WhatIsEkonnet from '../HelpCenter/Getting Startted/WhatIsEkonnet';
 // import AcountCreate from '../HelpCenter/Getting Startted/AcountCreate';
@@ -130,10 +155,32 @@ const App = () => {
        <Route path='/' element={<Home/>}/>
        <Route path='/sidebar' element={<Sidebar/>}/>
        <Route path='/sidebar-route' element={<SidebarRoot/>}/>
-
-      
-
-       
+       <Route path='/buy-bitcoin' element={<BuyBitcoin/>}/>
+       <Route path='/buy-tether' element={<BuyTether/>}/>
+       <Route path='/buy-binance' element={<BuyBinance/>}/>
+       <Route path='/buy-cardano' element={<BuyCardano/>}/>
+       <Route path='/paper-trading' element={<Papertrading/>}/>
+       <Route path='/que1' element={<Question1/>}/>
+       <Route path='/que2' element={<Question2/>}/>
+       <Route path='/que3' element={<Question3/>}/>
+       <Route path='/que4' element={<Question4/>}/>
+       <Route path='/que5' element={<Question5/>}/>
+       <Route path='/que6' element={<Question6/>}/>
+       <Route path='/que7' element={<Question7/>}/>
+       <Route path='/que8' element={<Question8/>}/>
+       <Route path='/que9' element={<Question9/>}/>
+       <Route path='/que10' element={<Question10/>}/>
+       <Route path='/que11' element={<Question11/>}/>
+       <Route path='/que12' element={<Question12/>}/>
+       <Route path='/que13' element={<Question13/>}/>
+       <Route path='/que14' element={<Question14/>}/>
+       <Route path='/que15' element={<Question15/>}/>
+       <Route path='/que16' element={<Question16/>}/>
+       <Route path='/que17' element={<Question17/>}/>
+       <Route path='/que18' element={<Question18/>}/>
+       <Route path='/que19' element={<Question19/>}/>
+       <Route path='/que20' element={<Question20/>}/>
+       <Route path='/que21' element={<Question21/>}/> 
      </Routes>
   
   

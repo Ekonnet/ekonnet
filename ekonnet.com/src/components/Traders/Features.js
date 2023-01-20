@@ -79,7 +79,7 @@ const Features = () => {
                 <div className='col-lg-6 order-lg-1 order-2'>
                 <img src={DerivativesImg} alt='' className='img-fluid mx-auto'></img>
                 </div>
-                <div className='col-lg-6  order-lg-2 order-1 ex'>
+                <div className='col-lg-6  order-lg-2 order-1 ex mb-5'>
                     <h1>Derivatives</h1>
                     <p>Users wishing to mitigate the risks associated with the volatility of Digital Tokens may trade Derivative Products on the Derivatives Site. Perpetual contracts are already available and further Derivative Products are under development.<br />
                        Derivative Products can be traded using a Derivative Wallet credited with USDt0, a Digital Token which can be obtained by converting USDt, as explained in more details on our Knowledge Base.

@@ -5,6 +5,16 @@
     font-family: 'Spectral', serif;
     color: white;
 }
+.features button{
+    border-radius: 10px;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+}
+.features button:hover{
+    color: aqua !important;
+
+}
+
+
 .features p{
     color: white;
     font-size: 1.2rem;

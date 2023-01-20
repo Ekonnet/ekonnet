@@ -66,7 +66,18 @@ const Footer = () => {
                             <h2>Support</h2>
                             <Nav.Link as={Link} to={"/contact-us"}><h5>Contact Us</h5></Nav.Link>
                             <Nav.Link as={Link} to={"/help-center"}><h5>Help Center</h5></Nav.Link>
+                             <br/><br/>
+                             <br/>
+
+
+                            <h2>How to buy cryptocurrencies</h2>
+                            <Nav.Link as={Link} to={"/paper-trading"}><h5>Paper Trading</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-bitcoin"}><h5>How to Buy Bitcoin(BTC)</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-tether"}><h5>How to buy Tether (USDT)</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-binance"}><h5>How to buy Binance Coin(BNB)</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-cardano"}><h5>How to buy Cardano (ADA)</h5></Nav.Link>
                         </Col>
+                        
                         {/* ------------5th section--------------- */}
                         <Col className='footer-services'>
                             <h2>Legal & Privacy</h2>             
