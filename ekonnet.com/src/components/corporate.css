@@ -1,7 +1,7 @@
 .corporate_hero h6{
   color: white;
   font-family: 'Spectral', serif;
-  margin-top: 200px;
+  margin-top: 150px;
   font-size: 0.9rem;
 }
 .corporate_hero h2{
@@ -12,6 +12,7 @@
   }
   .corporate_hero button{
     border-radius: 10px;
+    margin-bottom: 30px;
     background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
   }
   .corporate_hero button:hover{
@@ -20,7 +21,8 @@
 
   .corporate_hero img{
     
-    margin-top: 30px;
+    margin-top: 80px;
+    margin-bottom: 30px;
   }
   .corporate1 h3{
     color: aqua;

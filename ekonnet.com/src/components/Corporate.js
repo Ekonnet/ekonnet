@@ -1,6 +1,6 @@
 import React from 'react'
 import AffiliateImg from './assets/home-banner-bg.png';
-import corporate from './assets/corporate.png'
+import corporate from './assets/cor.jpg'
 import professional from './assets/professional.png'
 import './corporate.css'
 
@@ -16,7 +16,7 @@ const Corporate = () => {
        <button className='btn btn-primary'>open account</button>
        </div>
        <div className='col-lg-6'>
-        <img src={corporate} alt='Professional.png' className='img-fluid'></img>
+        <img src={corporate} alt='Professional.png' className='img-fluid rounded-5'></img>
        </div>
        </div>
        </div>
