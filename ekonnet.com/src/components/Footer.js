@@ -43,7 +43,7 @@ const Footer = () => {
                         <Nav.Link as={Link} to={"/security"}><h5>Security & Protection</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/credit-card"}><h5>Credit & Debit Card</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/web-socket"}><h5>API & WebSockets</h5></Nav.Link>
-                         
+                        <Nav.Link as={Link} to={"/corporate-professional"}><h5>Corporate & Professional</h5></Nav.Link> 
                         </Col>
                         {/* ------------2nd section--------------- */}
                         <Col className='footer-services'>
