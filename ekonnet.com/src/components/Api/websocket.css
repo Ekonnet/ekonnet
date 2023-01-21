@@ -1,13 +1,4 @@
-.paper_hero h1{
-    /* margin-top: 60px; */
-    color: white;
-    font-size: 2.8rem;
-    font-weight: 300;
-    padding-top: 60px;
-    padding-bottom: 20px;
-    font-family: 'Spectral', serif;
-}
-.paper_hero input{
+.web_hero input{
     border-radius: 30px;
     box-sizing: border-box;
     color: #999;
@@ -17,22 +8,46 @@
     width: 60%;
     border: 1px solid #ffff;
     margin-bottom: 70px;
+    margin-top: 10px; 
 }
-
-.question{
-    width: 300px;
-    height: 975px;
-    border: 1px solid black;
-    margin-top: 100px;
-    /* background-color: darkblue; */
-    background-color: rgba(0, 7, 61)
-   
+.web_hero h1{
+    /* margin-top: 60px; */
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 300;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: 'Spectral', serif;
 }
-.question button{
+.web h6{
     width: 298px;
     border-radius: 0px;
     background-color: transparent;
     height: 45px;
+    border-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 25px;
+    font-family: 'Spectral';
+    transition: all 0.5s;
+    gap: 2rem;
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+.web{
+    width: 300px;
+    height: 784px;
+    border: 1px solid black;
+    margin-top: 100px;
+    background-color: rgba(0, 7, 61)
+   
+}
+.web button{
+    width: 298px;
+    border-radius: 0px;
+    background-color: transparent;
+    height: 35px;
     border-color: transparent;
     color: white;
     font-size: 0.9rem;
@@ -43,7 +58,7 @@
     gap: 2rem;
     
 }
-.question button:hover, .question button:focus{
+.web button:hover, .web button:focus{
     border-color: #0d6efd;
     background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
     color: white;
@@ -53,28 +68,29 @@
     background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
     color: white;
 }
-.summary h2{
+.socket h2{
     margin-top: 100px;
     color: darkblue;
     font-family: 'Spectral';
     font-weight: bold;
+    margin-bottom: 50px;
 }
-.summary h5{
+/* .socket h5{
     margin-top: 30px;
     color: darkblue;
     font-family: 'Spectral';
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
-}
-.summary h3{
+} */
+.socket h3{
     margin-top: 30px;
     color: darkblue;
     font-family: 'Spectral';
+    font-size: 1.4rem;
 }
-.summary p{
+.socket p{
     color: blue;  
     font-family: 'Spectral';
-    margin-top: 20px;
     font-size: 1rem;
     line-height: 2rem;
 }
@@ -83,34 +99,43 @@
 
 
 @media only screen and (max-width: 640px){
-    .question{
+    .web{
         display: none;
     }
-    /* .summary h2{
+    .socket h2{
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    /* .socket h2{
         display: none;
     }
-    .summary h3{
+    .socket h3{
         display: none;
     }
-    .summary h5{
+    .socket h5{
         display: none;
     } */
 
 }
 @media only screen and (max-width: 768px){
-    .question{
+    .web{
         display: none;
     }
-    /* .summary h2{
+    .socket h2{
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    /* .socket h2{
         display: none;
     }
-    .summary h3{
+    .socket h3{
         display: none;
     }
-    .summary h5{
+    .socket h5{
         display: none;
     } */
 }
+
 
 
 

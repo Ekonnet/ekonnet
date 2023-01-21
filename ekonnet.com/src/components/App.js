@@ -81,6 +81,25 @@ import Question18 from './PaperTrading/Question18';
 import Question19 from './PaperTrading/Question19';
 import Question20 from './PaperTrading/Question20';
 import Question21 from './PaperTrading/Question21';
+import WebSocket from './Api/websocket';
+import Web1 from './Api/Web1';
+import Web2 from './Api/Web2';
+import Web3 from './Api/Web3';
+import Web4 from './Api/Web4';
+import Web5 from './Api/Web5';
+import Web6 from './Api/Web6';
+import Web7 from './Api/Web7';
+import Web8 from './Api/Web8';
+import Web9 from './Api/Web9';
+import Web10 from './Api/Web10';
+import Web11 from './Api/Web11';
+import Web12 from './Api/Web12';
+import Web13 from './Api/Web13';
+import Web14 from './Api/Web14';
+import Web15 from './Api/Web15';
+import Web16 from './Api/Web16';
+import Web17 from './Api/Web17';
+
 
 
 
@@ -181,6 +200,25 @@ const App = () => {
        <Route path='/que19' element={<Question19/>}/>
        <Route path='/que20' element={<Question20/>}/>
        <Route path='/que21' element={<Question21/>}/> 
+       <Route path='/web-socket' element={<WebSocket/>}/>
+       <Route path='/web1' element={<Web1/>}/>
+       <Route path='/web2' element={<Web2/>}/>
+       <Route path='/web3' element={<Web3/>}/>
+       <Route path='/web4' element={<Web4/>}/>
+       <Route path='/web5' element={<Web5/>}/>
+       <Route path='/web6' element={<Web6/>}/>
+       <Route path='/web7' element={<Web7/>}/>
+       <Route path='/web8' element={<Web8/>}/>
+       <Route path='/web9' element={<Web9/>}/>
+       <Route path='/web10' element={<Web10/>}/>
+       <Route path='/web11' element={<Web11/>}/>
+       <Route path='/web12' element={<Web12/>}/>
+       <Route path='/web13' element={<Web13/>}/>
+       <Route path='/web14' element={<Web14/>}/>
+       <Route path='/web15' element={<Web15/>}/>
+       <Route path='/web16' element={<Web16/>}/>
+       <Route path='/web17' element={<Web17/>}/>
+       
      </Routes>
   
   
