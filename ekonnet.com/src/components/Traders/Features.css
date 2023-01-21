@@ -101,6 +101,12 @@
     width: 380px;
     height: 350px;
 }
+.coin{
+    background-color: darkslateblue;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+}
 
 
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import './Traders/Features.css';
 import AffiliateImg from './assets/home-banner-bg.png';
-import bit from "./assets/bitcoin.png";
-import Exchange from "./assets/CoinExchange.png";
-import Margin from "./assets/MarginTrading.png";
-import FundingImg from "./assets/Funding.png";
+import bit from "./assets/proxy.jpg";
+import Exchange from "./assets/bit1.png";
+import Margin from "./assets/bit2.png";
+import FundingImg from "./assets/bit4.png";
 
 
 
@@ -22,7 +22,7 @@ const BuyBitcoin = () => {
                     <button className='btn btn-primary'>Get Started</button>
                     </div>
                     <div className='col-lg-6'>
-                    <img src={bit} alt='Bitcoin.png' className='img-fluid mx-auto mb-5 rounded-5'></img>
+                    <img src={bit} alt='Bitcoin.png' className='img-fluid mx-auto mb-5 rounded-5 mt-5'></img>
                 </div>          
             </div>
         </div>
@@ -30,7 +30,7 @@ const BuyBitcoin = () => {
       <section id='exchangee' className='exchangee bg-[#131128] pt-[70px] ' >
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-6 ex'>
+                <div className='col-lg-6 coin'>
                     <h1>What is Bitcoin?</h1>
                     <p >Bitcoin is the first crypto created on the blockchain and currently the most popular cryptocurrency in the world.
                     <br/><br/>
@@ -38,7 +38,7 @@ const BuyBitcoin = () => {
                     <br/><br/>Bitcoin is open-source, which means anyone can participate in developing the network. Bitcoin ticker code, BTC, is widely used in online social conversations as a reference to the cryptocurrency.</p>
                 </div>
                 <div className='col-lg-6'>
-                    <img src={Exchange} alt='' className='img-fluid mx-auto'></img>
+                    <img src={Exchange} alt='' className='img-fluid mx-auto mt-5'></img>
                 </div>
             </div>
         </div>
@@ -47,9 +47,9 @@ const BuyBitcoin = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 order-lg-1 order-2'>
-                <img src={Margin} alt='' className='img-fluid mx-auto'></img>
+                <img src={Margin} alt='' className='img-fluid mx-auto mt-5'></img>
                 </div>
-                <div className='col-lg-6 ex odrer-lg-2 order-1'>
+                <div className='col-lg-6 coin odrer-lg-2 order-1'>
                     <h1>Why Bitcoin</h1>
                     <p>As a decentralized network, Bitcoin doesn't have an authoritative party that controls the network. Instead, it relies on participants, or more familiar as nodes, to determine what should or shouldn't happen to the blockchain.<br /><br/>
                     In this respect, Bitcoin can offer more control over financial assets as an alternative to the widely-used centralized payment systems.<br/><br/>
@@ -62,7 +62,7 @@ const BuyBitcoin = () => {
       <section id='margin_funding' className='margin_funding bg-[#131128] pt-[70px]'>
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-6 ex mb-5'>
+                <div className='col-lg-6 coin mb-5'>
                     <h1>How to buy Bitcoin on Ekonnet</h1>
                     <p>As a decentralized network, Bitcoin doesn't have an authoritative party that controls the network. Instead, it relies on participants, or more familiar as nodes, to determine what should or shouldn't happen to the blockchain.<br /><br/>
                     In this respect, Bitcoin can offer more control over financial assets as an alternative to the widely-used centralized payment systems.<br/><br/>
@@ -70,7 +70,7 @@ const BuyBitcoin = () => {
                     </p>
                 </div>
                 <div className='col-lg-6'>
-                    <img src={FundingImg} alt='' className='img-fluid mx-auto'></img>
+                    <img src={FundingImg} alt='' className='img-fluid mx-auto mt-5'></img>
                 </div>
             </div>
         </div>

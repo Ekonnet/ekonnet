@@ -10,6 +10,7 @@ const Web6 = () => {
         <div className='container'>
             <div className='row'>
                  <div className='col-lg-12 text-center'>
+                 <h1>Welcome to the Ekonnet API & WebSocket</h1>
                     <form>
                     <input type='search' placeholder='Search' id="search" name="search"></input>
                     </form>

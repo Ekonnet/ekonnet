@@ -100,6 +100,7 @@ import Web15 from './Api/Web15';
 import Web16 from './Api/Web16';
 import Web17 from './Api/Web17';
 import Corporate from './Corporate';
+import Bugbounty from './Bugbounty';
 
 
 
@@ -220,6 +221,7 @@ const App = () => {
        <Route path='/web15' element={<Web15/>}/>
        <Route path='/web16' element={<Web16/>}/>
        <Route path='/web17' element={<Web17/>}/>
+       <Route path='/bug-bounty' element={<Bugbounty/>}/>
        <Route path='/corporate-professional' element={<Corporate/>}/>
        
      </Routes>

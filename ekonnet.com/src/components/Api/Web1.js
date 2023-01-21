@@ -10,6 +10,7 @@ const Web1 = () => {
         <div className='container'>
             <div className='row'>
                  <div className='col-lg-12 text-center'>
+                 <h1>Welcome to the Ekonnet API & WebSocket</h1>
                     <form>
                     <input type='search' placeholder='Search' id="search" name="search"></input>
                     </form>
@@ -68,7 +69,7 @@ const Web1 = () => {
                     <h3>What is an API?</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                      </p>
-                     <h3>What is the intended use of the Bitfinex API?</h3>
+                     <h3>What is the intended use of the Ekonnet API?</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                      </p>
                      <h3>What makes our API special?</h3>

@@ -67,6 +67,7 @@ const Footer = () => {
                             <h2>Support</h2>
                             <Nav.Link as={Link} to={"/contact-us"}><h5>Contact Us</h5></Nav.Link>
                             <Nav.Link as={Link} to={"/help-center"}><h5>Help Center</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/bug-bounty"}><h5>Bug Bounty</h5></Nav.Link>
                              <br/><br/>
                              <br/>
 

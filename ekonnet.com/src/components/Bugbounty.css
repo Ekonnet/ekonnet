@@ -1,0 +1,51 @@
+.bug_hero h6{
+  color: white;
+  font-family: 'Spectral', serif;
+  margin-top: 150px;
+  font-size: 0.9rem;
+}
+.bug_hero h2{
+    color: white;
+    font-family: 'Spectral', serif;
+    margin-top: 10px;
+    font-size: 3rem;
+  }
+.bug_hero button{
+    border-radius: 10px;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+  }
+.bug_hero button:hover{
+        color: aqua !important;
+  }
+.bug1 h1{
+    color: aqua;
+    font-family: 'Spectral', serif;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+.bug1 span{
+    color: white;
+    font-family: 'Spectral', serif;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+.bug1 p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+.bug2 h1{
+    color: aqua;
+    font-family: 'Spectral', serif;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+.bug2 span{
+    color: white;
+    font-family: 'Spectral', serif;
+    font-size: 1.3rem;
+    
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Traders/Features.css';
 import AffiliateImg from './assets/home-banner-bg.png';
-import tether from "./assets/tether.jpeg";
+import tether from "./assets/tether2.jpg";
 import Exchange from "./assets/CoinExchange.png";
 import Margin from "./assets/MarginTrading.png";
 import FundingImg from "./assets/Funding.png";
@@ -30,7 +30,7 @@ const BuyTether = () => {
       <section id='exchangee' className='exchangee bg-[#131128] pt-[70px] ' >
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-6 ex'>
+                <div className='col-lg-6 coin'>
                     <h1>What is Tether?</h1>
                     <p >Tether is the first crypto created on the blockchain and currently the most popular cryptocurrency in the world.
                     <br/><br/>
@@ -49,7 +49,7 @@ const BuyTether = () => {
                 <div className='col-lg-6 order-lg-1 order-2'>
                 <img src={Margin} alt='' className='img-fluid mx-auto'></img>
                 </div>
-                <div className='col-lg-6 ex odrer-lg-2 order-1'>
+                <div className='col-lg-6 coin odrer-lg-2 order-1'>
                     <h1>Why Tether</h1>
                     <p>As a decentralized network, Tether doesn't have an authoritative party that controls the network. Instead, it relies on participants, or more familiar as nodes, to determine what should or shouldn't happen to the blockchain.<br /><br/>
                     In this respect, Tether can offer more control over financial assets as an alternative to the widely-used centralized payment systems.<br/><br/>
@@ -62,7 +62,7 @@ const BuyTether = () => {
       <section id='margin_funding' className='margin_funding bg-[#131128] pt-[70px]'>
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-6 ex mb-5'>
+                <div className='col-lg-6 coin mb-5'>
                     <h1>How to buy Tether on Ekonnet</h1>
                     <p>As a decentralized network, Tether doesn't have an authoritative party that controls the network. Instead, it relies on participants, or more familiar as nodes, to determine what should or shouldn't happen to the blockchain.<br /><br/>
                     In this respect, Tether can offer more control over financial assets as an alternative to the widely-used centralized payment systems.<br/><br/>
