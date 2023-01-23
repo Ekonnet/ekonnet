@@ -2,9 +2,9 @@ import React from 'react';
 import './Traders/Features.css';
 import AffiliateImg from './assets/home-banner-bg.png';
 import binance from "./assets/binancecoin.jpeg";
-import Exchange from "./assets/CoinExchange.png";
-import Margin from "./assets/MarginTrading.png";
-import FundingImg from "./assets/Funding.png";
+import Exchange from "./assets/b5.png";
+import Margin from "./assets/b2.png";
+import FundingImg from "./assets/b3.png";
 
 
 
@@ -30,7 +30,7 @@ const BuyBinance = () => {
       <section id='exchangee' className='exchangee bg-[#131128] pt-[70px] ' >
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-6 ex'>
+                <div className='col-lg-6 coin'>
                     <h1>What is Binance?</h1>
                     <p >Binance is the first crypto created on the blockchain and currently the most popular cryptocurrency in the world.
                     <br/><br/>
@@ -38,7 +38,7 @@ const BuyBinance = () => {
                     <br/><br/>Binance is open-source, which means anyone can participate in developing the network. Binance ticker code, BTC, is widely used in online social conversations as a reference to the cryptocurrency.</p>
                 </div>
                 <div className='col-lg-6'>
-                    <img src={Exchange} alt='' className='img-fluid mx-auto'></img>
+                    <img src={Exchange} alt='' className='img-fluid mx-auto mt-5'></img>
                 </div>
             </div>
         </div>
@@ -46,10 +46,10 @@ const BuyBinance = () => {
       <section id='margin_trading' className='margin_trading bg-[#131128] pt-[70px]'>
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-6 order-lg-1 order-2'>
+                <div className='col-lg-6 order-lg-1 order-2 mt-5'>
                 <img src={Margin} alt='' className='img-fluid mx-auto'></img>
                 </div>
-                <div className='col-lg-6 ex odrer-lg-2 order-1'>
+                <div className='col-lg-6 coin odrer-lg-2 order-1'>
                     <h1>Why Binance</h1>
                     <p>As a decentralized network, Binance doesn't have an authoritative party that controls the network. Instead, it relies on participants, or more familiar as nodes, to determine what should or shouldn't happen to the blockchain.<br /><br/>
                     In this respect, Binance can offer more control over financial assets as an alternative to the widely-used centralized payment systems.<br/><br/>
@@ -62,7 +62,7 @@ const BuyBinance = () => {
       <section id='margin_funding' className='margin_funding bg-[#131128] pt-[70px]'>
         <div className='container'>
             <div className='row'>
-                <div className='col-lg-6 ex mb-5'>
+                <div className='col-lg-6 coin mb-5'>
                     <h1>How to buy Binance on Ekonnet</h1>
                     <p>As a decentralized network, Binance doesn't have an authoritative party that controls the network. Instead, it relies on participants, or more familiar as nodes, to determine what should or shouldn't happen to the blockchain.<br /><br/>
                     In this respect, Binance can offer more control over financial assets as an alternative to the widely-used centralized payment systems.<br/><br/>
@@ -70,7 +70,7 @@ const BuyBinance = () => {
                     </p>
                 </div>
                 <div className='col-lg-6'>
-                    <img src={FundingImg} alt='' className='img-fluid mx-auto'></img>
+                    <img src={FundingImg} alt='' className='img-fluid mx-auto mt-5'></img>
                 </div>
             </div>
         </div>

@@ -2,9 +2,9 @@ import React from 'react';
 import './Traders/Features.css';
 import AffiliateImg from './assets/home-banner-bg.png';
 import tether from "./assets/tether2.jpg";
-import Exchange from "./assets/CoinExchange.png";
-import Margin from "./assets/MarginTrading.png";
-import FundingImg from "./assets/Funding.png";
+import Exchange from "./assets/t1.png";
+import Margin from "./assets/t2.png";
+import FundingImg from "./assets/t4.png";
 
 
 
@@ -38,7 +38,7 @@ const BuyTether = () => {
                     <br/><br/>Tether is open-source, which means anyone can participate in developing the network. Tether ticker code, BTC, is widely used in online social conversations as a reference to the cryptocurrency.</p>
                 </div>
                 <div className='col-lg-6'>
-                    <img src={Exchange} alt='' className='img-fluid mx-auto'></img>
+                    <img src={Exchange} alt='' className='img-fluid mx-auto mt-5'></img>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@ const BuyTether = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 order-lg-1 order-2'>
-                <img src={Margin} alt='' className='img-fluid mx-auto'></img>
+                <img src={Margin} alt='' className='img-fluid mx-auto mt-5'></img>
                 </div>
                 <div className='col-lg-6 coin odrer-lg-2 order-1'>
                     <h1>Why Tether</h1>
@@ -70,7 +70,7 @@ const BuyTether = () => {
                     </p>
                 </div>
                 <div className='col-lg-6'>
-                    <img src={FundingImg} alt='' className='img-fluid mx-auto'></img>
+                    <img src={FundingImg} alt='' className='img-fluid mx-auto mt-5'></img>
                 </div>
             </div>
         </div>
