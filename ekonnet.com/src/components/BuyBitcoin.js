@@ -18,7 +18,7 @@ const BuyBitcoin = () => {
             <div className='row'>
                 <div className='col-lg-6'>
                     <h1>How to Buy Bitcoin</h1>
-                    <p>BUYING CRYPTOCURRENCY ON EkONNET</p>
+                    <p>BUYING CRYPTOCURRENCY ON EKONNET</p>
                     <button className='btn btn-primary'>Get Started</button>
                     </div>
                     <div className='col-lg-6'>

@@ -101,6 +101,22 @@ import Web16 from './Api/Web16';
 import Web17 from './Api/Web17';
 import Corporate from './Corporate';
 import Bugbounty from './Bugbounty';
+import Terminal from './Terminal';
+import Terminal1 from './Terminal/Terminal1';
+import Terminal2 from './Terminal/Terminal2';
+import Terminal3 from './Terminal/Terminal3';
+import Terminal4 from './Terminal/Terminal4';
+import Terminal5 from './Terminal/Terminal5';
+import Terminal6 from './Terminal/Terminal6';
+import Terminal7 from './Terminal/Terminal7';
+import Terminal8 from './Terminal/Terminal8';
+import Terminal9 from './Terminal/Terminal9';
+import Terminal10 from './Terminal/Terminal10';
+import Terminal11 from './Terminal/Terminal11';
+import Terminal12 from './Terminal/Terminal12';
+import Terminal13 from './Terminal/Terminal13';
+import Terminal14 from './Terminal/Terminal14';
+import Terminalpage from './Terminal/Terminalpage';
 
 
 
@@ -221,7 +237,23 @@ const App = () => {
        <Route path='/web15' element={<Web15/>}/>
        <Route path='/web16' element={<Web16/>}/>
        <Route path='/web17' element={<Web17/>}/>
+       <Route path='/ekonnet-terminal' element={<Terminal/>}/>
        <Route path='/bug-bounty' element={<Bugbounty/>}/>
+       <Route path='/terminal-page' element={<Terminalpage/>}/>
+       <Route path='/terminal1' element={<Terminal1/>}/>
+       <Route path='/terminal2' element={<Terminal2/>}/>
+       <Route path='/terminal3' element={<Terminal3/>}/>
+       <Route path='/terminal4' element={<Terminal4/>}/>
+       <Route path='/terminal5' element={<Terminal5/>}/>
+       <Route path='/terminal6' element={<Terminal6/>}/>
+       <Route path='/terminal7' element={<Terminal7/>}/>
+       <Route path='/terminal8' element={<Terminal8/>}/>
+       <Route path='/terminal9' element={<Terminal9/>}/>
+       <Route path='/terminal10' element={<Terminal10/>}/>
+       <Route path='/terminal11' element={<Terminal11/>}/>
+       <Route path='/terminal12' element={<Terminal12/>}/>
+       <Route path='/terminal13' element={<Terminal13/>}/>
+       <Route path='/terminal14' element={<Terminal14/>}/>
        <Route path='/corporate-professional' element={<Corporate/>}/>
        
      </Routes>
