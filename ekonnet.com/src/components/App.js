@@ -52,9 +52,13 @@ import TradingLending from '../HelpCenter/TradingLending/TradingLending';
 import Home from './Home/Home';
 import Blog from './Blog';
 import BuyBitcoin from './BuyBitcoin';
-import BuyCardano from './BuyCardano';
-import BuyBinance from './BuyBinance';
 import BuyTether from './BuyTether';
+import BuyGold from './BuyGold';
+import BuyShiba from './BuyShiba';
+import BuyXrp from './BuyXrp';
+import BuySilver from './BuySilver';
+import BuyEthereum from './BuyEthereum';
+
 import SingleBlogPage from './SingleBlogPage';
 import Sidebar from '../HelpCenter/Getting Startted/Sidebar';
 import SidebarRoot from '../HelpCenter/Getting Startted/SidebarRoot';
@@ -195,8 +199,11 @@ const App = () => {
        <Route path='/sidebar-route' element={<SidebarRoot/>}/>
        <Route path='/buy-bitcoin' element={<BuyBitcoin/>}/>
        <Route path='/buy-tether' element={<BuyTether/>}/>
-       <Route path='/buy-binance' element={<BuyBinance/>}/>
-       <Route path='/buy-cardano' element={<BuyCardano/>}/>
+       <Route path='/buy-ethereum' element={<BuyEthereum/>}/>
+       <Route path='/buy-gold' element={<BuyGold/>}/>
+       <Route path='/buy-shiba' element={<BuyShiba/>}/>
+       <Route path='/buy-silver' element={<BuySilver/>}/>
+       <Route path='/buy-xrp' element={<BuyXrp/>}/>
        <Route path='/paper-trading' element={<Papertrading/>}/>
        <Route path='/que1' element={<Question1/>}/>
        <Route path='/que2' element={<Question2/>}/>

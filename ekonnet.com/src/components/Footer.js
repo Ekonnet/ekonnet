@@ -75,10 +75,13 @@ const Footer = () => {
 
                             <h2>How to buy cryptocurrencies</h2>
                             <Nav.Link as={Link} to={"/paper-trading"}><h5>Paper Trading</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-bitcoin"}><h5>How to Buy Bitcoin(BTC)</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-bitcoin"}><h5>How to Buy Bitcoin (BTC)</h5></Nav.Link>
                             <Nav.Link as={Link} to={"/buy-tether"}><h5>How to buy Tether (USDT)</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-binance"}><h5>How to buy Binance Coin(BNB)</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-cardano"}><h5>How to buy Cardano (ADA)</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-ethereum"}><h5>How to buy Ethereum Coin (ETH)</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-xrp"}><h5>How to buy XRP (XRP)</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-shiba"}><h5>How to buy Shiba Inu (SHIB)</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-gold"}><h5>How to buy Gold</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-silver"}><h5>How to buy Silver</h5></Nav.Link>
                         </Col>
                         
                         {/* ------------5th section--------------- */}
