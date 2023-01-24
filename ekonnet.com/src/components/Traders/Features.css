@@ -102,12 +102,24 @@
     height: 350px;
 }
 .coin{
-    background-color: darkslateblue;
+    background-color: #C2E1A5;
     border-radius: 20px;
     width: 100%;
     height: auto;
 }
-
+#bit p{
+    color: darkblue;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 40px 40px 40px;
+    line-height: 30px;
+}
+#bit h1{
+    color: #306060;
+    font-size: 2rem;
+    font-family: 'Spectral', serif;
+    padding: 40px 40px 0px 40px;
+}
 
 
  @media only screen and (max-width: 1024px){

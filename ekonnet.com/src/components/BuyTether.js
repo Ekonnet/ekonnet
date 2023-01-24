@@ -27,7 +27,7 @@ const BuyTether = () => {
             </div>
         </div>
       </section>
-      <section id='exchangee' className='exchangee bg-[#131128] pt-[70px] ' >
+      <section id='bit' className='exchangee bg-[#131128] pt-[70px] ' >
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 coin'>
@@ -43,7 +43,7 @@ const BuyTether = () => {
             </div>
         </div>
       </section>
-      <section id='margin_trading' className='margin_trading bg-[#131128] pt-[70px]'>
+      <section id='bit' className='margin_trading bg-[#131128] pt-[70px]'>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 order-lg-1 order-2'>
@@ -59,7 +59,7 @@ const BuyTether = () => {
             </div>
         </div>
       </section>
-      <section id='margin_funding' className='margin_funding bg-[#131128] pt-[70px]'>
+      <section id='bit' className='margin_funding bg-[#131128] pt-[70px]'>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 coin mb-5'>

@@ -128,7 +128,7 @@ const Bugbounty = () => {
             <div className=" grp col-lg-6 col-sm-12 d-flex justify-content-start align-items-center mt-5">
             <input className='input' type="text" name="name" placeholder='Name*' />
             </div>
-            <div className=" grp col-lg-6 col-sm-12 d-flex justify-content-start align-items-center">
+            <div className=" grp col-lg-6 col-sm-12 d-flex justify-content-start align-items-center mt-5">
             <input className='input' type="email" name="name" placeholder='Email*' />
             </div>
             <div className=" grp col-lg-6 col-sm-12 d-flex justify-content-start align-items-center mt-5">

@@ -27,12 +27,12 @@ const BuyBinance = () => {
             </div>
         </div>
       </section>
-      <section id='exchangee' className='exchangee bg-[#131128] pt-[70px] ' >
+      <section id='bit' className='exchangee bg-[#131128] pt-[70px] ' >
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 coin'>
                     <h1>What is Binance?</h1>
-                    <p >Binance is the first crypto created on the blockchain and currently the most popular cryptocurrency in the world.
+                    <p>Binance is the first crypto created on the blockchain and currently the most popular cryptocurrency in the world.
                     <br/><br/>
                     The concept was initially introduced as a peer-to-peer (P2P) electronic cash system that was meant as a solution to the double-spending issues in digital currency at the time. The Binance whitepaper was made public by its pseudonymous inventor, Satoshi Nakamoto, in a cryptography mailing list back in 2008; however, it wasn’t until 3rd January 2009 the first block of Binance was created, or more commonly known as the genesis block.
                     <br/><br/>Binance is open-source, which means anyone can participate in developing the network. Binance ticker code, BTC, is widely used in online social conversations as a reference to the cryptocurrency.</p>
@@ -43,7 +43,7 @@ const BuyBinance = () => {
             </div>
         </div>
       </section>
-      <section id='margin_trading' className='margin_trading bg-[#131128] pt-[70px]'>
+      <section id='bit' className='margin_trading bg-[#131128] pt-[70px]'>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 order-lg-1 order-2 mt-5'>
@@ -59,7 +59,7 @@ const BuyBinance = () => {
             </div>
         </div>
       </section>
-      <section id='margin_funding' className='margin_funding bg-[#131128] pt-[70px]'>
+      <section id='bit' className='margin_funding bg-[#131128] pt-[70px]'>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 coin mb-5'>
