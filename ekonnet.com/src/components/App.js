@@ -122,6 +122,7 @@ import Terminal13 from './Terminal/Terminal13';
 import Terminal14 from './Terminal/Terminal14';
 import Terminalpage from './Terminal/Terminalpage';
 import TellFriend from './TellFriend';
+import Best from './Best';
 
 
 
@@ -263,6 +264,7 @@ const App = () => {
        <Route path='/terminal13' element={<Terminal13/>}/>
        <Route path='/terminal14' element={<Terminal14/>}/>
        <Route path='/tell-friend' element={<TellFriend/>}/>
+       <Route path='/best' element={<Best/>}/>
        <Route path='/corporate-professional' element={<Corporate/>}/>
        
      </Routes>

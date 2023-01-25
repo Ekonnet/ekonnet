@@ -11,9 +11,9 @@ const TellFriend = () => {
     <div className='container'>
     <div className='row'>
     <div className='col-lg-12 text-center'>
-     <h1>Invite friends, earn rewards.</h1>
+     <h1>Refferal friends & earn bonus points.</h1>
      <h2>Ekonnet's Tell-a-Friend programme.</h2>
-     <p>€2 for you and €2 for your friend. Our Tell-a-Friend programme makes it easy to share the love. Simply invite your friends with your referral link. Each friend then needs to sign up, be verified, complete a fiat deposit of at least €25 and trade a minimum of €25. That's it.</p>
+     <p>$2 for you and $2 for your friend. Our Tell-a-Friend programme makes it easy to share the love. Simply invite your friends with your referral link. Each friend then needs to sign up, be verified, complete a fiat deposit of at least $25 and trade a minimum of $25. That's it.</p>
     </div>
     </div>
     </div>
@@ -63,8 +63,8 @@ const TellFriend = () => {
                <GiReceiveMoney/>
                </div>
              <div>
-                 <h3>Receive €2*</h3>
-                 <p>Your friend has to be a new user, complete the sign up process, verify their account, make a deposit of at least €25 and trade a minimum of €25.</p>
+                 <h3>Receive $2*</h3>
+                 <p>Your friend has to be a new user, complete the sign up process, verify their account, make a deposit of at least $25 and trade a minimum of $25.</p>
              </div>
             </div>
             </div>

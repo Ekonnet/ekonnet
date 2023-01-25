@@ -1,0 +1,86 @@
+.best_hero h1{
+    font-family: 'Spectral', serif;
+    color: white;
+    font-size: 3rem;
+    margin-top: 100px;
+}
+.best_hero strong{
+    font-family: 'Spectral', serif;
+    color: white;
+    font-size: 3rem;
+    margin-top: 100px;
+}
+.best_hero p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+}
+.best_hero button{
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+  }
+.best_hero button:hover{
+        color: aqua !important;
+  }
+  .best1 h2{
+    font-family: 'Spectral', serif;
+    color: white;
+    font-size: 2rem;
+    margin-top: 40px;
+  }
+  .best1 p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+}
+.best2 h2{
+    font-family: 'Spectral', serif;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 70px;
+  }
+  .best2 p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+}
+.best3 h2{
+    font-family: 'Spectral', serif;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 70px;
+  }
+  .best3 p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+}
+.best4 span{
+    font-family: 'Spectral', serif;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 70px;
+  }
+.best4 p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: white;
+}
+.best5 h2{
+    font-family: 'Spectral', serif;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 70px;
+  }
+  .best5 p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+}
