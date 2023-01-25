@@ -36,7 +36,7 @@ const Footer = () => {
                     <Row>
                         {/* ------------1st section--------------- */}
                         <Col className='footer-services'>
-                            <h2>Services</h2>
+                            <h2>Services & Support</h2>
                             <Nav.Link as={Link} to={"/exchange"}><h5>Exchange</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/otc"}><h5>Otc</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/staking"}><h5>Staking</h5></Nav.Link>
@@ -44,6 +44,9 @@ const Footer = () => {
                         <Nav.Link as={Link} to={"/credit-card"}><h5>Credit & Debit Card</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/web-socket"}><h5>API & WebSockets</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/corporate-professional"}><h5>Corporate & Professional</h5></Nav.Link> 
+                        <Nav.Link as={Link} to={"/contact-us"}><h5>Contact Us</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/help-center"}><h5>Help Center</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/bug-bounty"}><h5>Bug Bounty</h5></Nav.Link>
                         </Col>
                         {/* ------------2nd section--------------- */}
                         <Col className='footer-services'>
@@ -53,6 +56,7 @@ const Footer = () => {
                         <Nav.Link as={Link} to={"/ekonnet-pay"}><h5>Ekonnet Pay</h5></Nav.Link>       
                         <Nav.Link as={Link} to={"/wallets"}><h5>Wallet</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/ekonnet-terminal"}><h5>Ekonnet Terminal</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/tell-friend"}><h5>Tell-a-Friend</h5></Nav.Link>
                         </Col>
                         {/* ------------3rd section--------------- */}
                         <Col className='footer-services'>
@@ -65,21 +69,13 @@ const Footer = () => {
                         </Col>
                         {/* ------------4th section--------------- */}
                         <Col className='footer-services'>
-                            <h2>Support</h2>
-                            <Nav.Link as={Link} to={"/contact-us"}><h5>Contact Us</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/help-center"}><h5>Help Center</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/bug-bounty"}><h5>Bug Bounty</h5></Nav.Link>
-                             <br/><br/>
-                             <br/>
-
-
-                            <h2>How to buy cryptocurrencies</h2>
+                            <h2>Read</h2>
                             <Nav.Link as={Link} to={"/paper-trading"}><h5>Paper Trading</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-bitcoin"}><h5>How to Buy Bitcoin (BTC)</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-tether"}><h5>How to buy Tether (USDT)</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-ethereum"}><h5>How to buy Ethereum Coin (ETH)</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-xrp"}><h5>How to buy XRP (XRP)</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-shiba"}><h5>How to buy Shiba Inu (SHIB)</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-bitcoin"}><h5>How to Buy Bitcoin</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-tether"}><h5>How to buy Tether</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-ethereum"}><h5>How to buy Ethereum</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-xrp"}><h5>How to buy XRP</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/buy-shiba"}><h5>How to buy Shiba Inu</h5></Nav.Link>
                             <Nav.Link as={Link} to={"/buy-gold"}><h5>How to buy Gold</h5></Nav.Link>
                             <Nav.Link as={Link} to={"/buy-silver"}><h5>How to buy Silver</h5></Nav.Link>
                         </Col>

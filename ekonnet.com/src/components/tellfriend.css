@@ -1,0 +1,66 @@
+.tell_hero h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 3.62rem;
+    margin-top: 100px;
+    font-weight: 600;
+}
+.tell_hero h2{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 2.62rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.tell_hero p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    font-size: 1rem;
+    color: darkblue;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+.tell1 em{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    color: darkblue;
+    opacity: 0.5;
+    font-weight: 500;
+}
+.tell2 span{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 3rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.tell_icon{
+    color: darkblue;
+    font-size: 2.5rem;
+    padding-right: 13px;
+    
+}
+.tell_box{
+    background-color: hsl(203, 92%, 75%);
+    box-shadow: 10px 10px 5px 0px rgba(38,23,115,0.75);
+    margin-bottom: 60px;
+}
+.tell_box h3{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.tell_box p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: darkblue;
+    opacity: 0.6; 
+}
+.tell2 h1{
+    font-family: 'Spectral', serif;
+    color: darkblue;
+    font-size: 2.62rem;
+    margin-top: 60px;
+    font-weight: 600;
+}
