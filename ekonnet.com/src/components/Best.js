@@ -132,9 +132,7 @@ const Best = () => {
            <div className='col-lg-4'> 
         </div>
         </div>
-     
-        </div>
-    </section> */}
+    </section>
     </>
   )
 }
