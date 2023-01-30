@@ -17,7 +17,7 @@ const Career = () => {
             </div>
         </div>
      </section>
-     <section id='career' className='career bg-[#131128] pt-[70px]'>
+     <section id='career' className='career'>
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-6 text-center'>
