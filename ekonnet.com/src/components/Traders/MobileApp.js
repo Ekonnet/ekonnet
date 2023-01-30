@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './MobileApp.css';
 import Button from 'react-bootstrap/Button';
-import Mobile from "../assets/mobile-img.png";
+import Mobile from "../assets/m1.png";
 import Bg2 from "../assets/service-bg.png";
 import BgSection2 from "../assets/icon-bg.png";
 import mobile_crypto from "../assets/process-main.png";
