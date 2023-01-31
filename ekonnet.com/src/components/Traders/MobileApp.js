@@ -25,7 +25,7 @@ const MobileApp = () => {
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                         <div className=''>
                             <h4 className='text-[#25CBD3]'>Buy crypto at true cost</h4>
-                            <h1 className='text-white'>The World's Fastest Growing Crypto App</h1>
+                            <h1 className='text-white'>The World's Fastest Growing Crypto iOS and Android apps.</h1>
 
                             <p>Buy and sell 250+ cryptocurrencies with 20+ fiat currencies using bank transfers or
                                 your credit/debit card.

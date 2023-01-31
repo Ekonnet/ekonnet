@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /ekonnet/
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule ./ekonnet/index.html [L]
+#   RewriteEngine on
+# RewriteCond %{HTTP_HOST} ^imeigs.com$ [NC,OR]
+# RewriteCond %{HTTP_HOST} ^www.imeigs.com$
+# RewriteCond %{REQUEST_URI} !ekonnet/
+# RewriteRule (.*) /ekonnet/$1 [L]
+</IfModule>

@@ -28,7 +28,12 @@
     font-family: 'Spectral', serif;
     color: white;
     font-size: 2rem;
-    margin-top: 40px;
+    margin-top: 70px;
+  }
+  .best1 img{
+    margin-top: 50px;
+    width: 100%;
+    height: 25%;
   }
   .best1 p{
     font-family: 'Open Sans', sans-serif;
@@ -52,7 +57,7 @@
     font-family: 'Spectral', serif;
     color: white;
     font-size: 2.5rem;
-    margin-top: 70px;
+    margin-top: 40px;
   }
   .best3 p{
     font-family: 'Open Sans', sans-serif;
