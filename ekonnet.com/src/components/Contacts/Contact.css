@@ -7,7 +7,7 @@
     height: 5px;
  margin-top: 80px;
     background-color:#FF9700;
-    margin-left: 170px;
+    margin-left: 158px;
     margin-bottom: 10px;
 }
 .contact__contact span
@@ -150,6 +150,7 @@
     font-weight: 400;
     padding: 18px 20px;
     height: 65px;
+
 }
 .textarea{
     width: 100%;
@@ -174,4 +175,47 @@
 }
 .btn button:hover{
     color: #00a0d2;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .beforeLine{
+        margin-left: 88px;  
+    }
+    .input{
+       margin-top: 40px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 640px){
+    .beforeLine{
+        margin-left: 60px;  
+    }
+    .input{
+       margin-top: 40px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 480px){
+    .beforeLine{
+        margin-left: 37px;  
+    }
+    .input{
+       margin-top: 40px;
+    }
+
+
 }
