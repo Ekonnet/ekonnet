@@ -1,7 +1,7 @@
 {
   "name": "ekonnet.com",
   "version": "0.1.0",
-  "homepage": "https://imeigs.com/ekonnet/",
+  "homepage": "/ekonnet",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.8.0",

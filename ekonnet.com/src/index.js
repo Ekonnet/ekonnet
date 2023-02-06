@@ -16,7 +16,7 @@ import Top from './components/Traders/Top';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-   <BrowserRouter>
+   <BrowserRouter basename={'/ekonnet'}>
    <Top />
    <HeaderNav />
    

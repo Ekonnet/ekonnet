@@ -69,7 +69,7 @@
 
 
 
-@media only screen and (max-width: 640px){
+/* @media only screen and (max-width: 640px){
     .legal_hero h1{
         display: none;
     }
@@ -79,8 +79,8 @@
     .side_section h2{
         margin-top: 50px;
     }
-}
-@media only screen and (max-width: 768px){
+} */
+/* @media only screen and (max-width: 768px){
     .legal_hero h1{
         display: none;
     }
@@ -90,4 +90,4 @@
     .side_section h2{
         margin-top: 50px;
     }
-}
+} */

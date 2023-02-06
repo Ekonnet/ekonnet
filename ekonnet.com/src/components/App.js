@@ -27,7 +27,7 @@ import NewsLetter from './NewsLetter';
 import Career from './Career';
 import EkonnetPay from './EkonnetPay';
 import Staking from './Staking';
-import {Route,Routes} from "react-router-dom";
+import {Route,Routes, BrowserRouter} from "react-router-dom";
 import Derivatives from '../components/Markets/Derivatives';
 import CreditDebitCard from './CreditDebitCard';
 import Otc from './Otc';
@@ -268,7 +268,6 @@ const App = () => {
        <Route path='/corporate-professional' element={<Corporate/>}/>
        
      </Routes>
-  
   
      {/* <Sidebar>
       <Routes>

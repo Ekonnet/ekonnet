@@ -111,11 +111,11 @@
 
 
 
-@media only screen and (max-width: 640px){
+/* @media only screen and (max-width: 640px){
     .question{
         display: none;
     }
-    /* .summary h2{
+    .summary h2{
         display: none;
     }
     .summary h3{
@@ -123,14 +123,14 @@
     }
     .summary h5{
         display: none;
-    } */
+    }
 
-}
-@media only screen and (max-width: 768px){
+} */
+/* @media only screen and (max-width: 768px){
     .question{
         display: none;
     }
-    /* .summary h2{
+    .summary h2{
         display: none;
     }
     .summary h3{
@@ -138,8 +138,8 @@
     }
     .summary h5{
         display: none;
-    } */
-}
+    }
+} */
 
 
 

@@ -98,7 +98,7 @@
 
 
 
-@media only screen and (max-width: 640px){
+/* @media only screen and (max-width: 640px){
     .web{
         display: none;
     }
@@ -106,7 +106,7 @@
         margin-top: 30px;
         margin-bottom: 25px;
     }
-    /* .socket h2{
+    .socket h2{
         display: none;
     }
     .socket h3{
@@ -114,7 +114,7 @@
     }
     .socket h5{
         display: none;
-    } */
+    }
 
 }
 @media only screen and (max-width: 768px){
@@ -125,7 +125,7 @@
         margin-top: 30px;
         margin-bottom: 25px;
     }
-    /* .socket h2{
+    .socket h2{
         display: none;
     }
     .socket h3{
@@ -133,9 +133,9 @@
     }
     .socket h5{
         display: none;
-    } */
+    }
 }
 
 
 
-
+ */

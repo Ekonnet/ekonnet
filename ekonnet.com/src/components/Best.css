@@ -95,3 +95,41 @@
     font-size: 2.5rem;
     margin-top: 70px;
   }
+
+
+  
+
+
+  @media only screen and (max-width: 640px){
+    .best_hero h1{
+      font-size: 2rem;
+      margin-top: 50px;
+  }
+  .best1 img{
+    margin-top: 0px;
+  }
+  .best1 h2{ 
+    margin-top: 20px;
+  }
+  .best2 h2{
+    margin-top: -70px;
+  }
+  }
+
+
+
+  @media only screen and (max-width: 768px){
+    .best_hero h1{
+      font-size: 2rem;
+      margin-top: 50px;
+  }
+  .best1 img{
+    margin-top: 0px;
+  }
+  .best1 h2{ 
+    margin-top: 20px;
+  }
+  .best2 h2{
+    margin-top: -215px;
+  }
+  }
