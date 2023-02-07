@@ -17,11 +17,8 @@ import Top from './components/Traders/Top';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <BrowserRouter>
-   {/* <BrowserRouter basename={'/ekonnet'}> */}
-   {/* <BrowserRouter basename={'/ekonnet.com'}> */}
    <Top />
    <HeaderNav />
-   
    <App/>
    <Footer/>
    </BrowserRouter>

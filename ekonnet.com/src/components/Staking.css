@@ -12,11 +12,11 @@
     font-size: 1rem;
     text-align: center;
 }
-.staking .btn-primary{
+.stacking-head-content button{
     border-radius: 5px;
     background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
 }
-.staking .btn-primary:hover{
+.stacking-head-content button:hover{
     color: aqua !important;
 }
 .input-coin{
@@ -122,13 +122,17 @@
     margin-top: 80px;
     font-weight: bold;
 }
+.crypto-stacking img{
+    max-width: 65%;
+}
 
 
 
 /* =================== */
 .card-coin{
     position: relative;
-    width: 300px;
+    width: 270px;
+    margin-top: 30px;
     height: 150px;
     border-radius: 10px;
     box-shadow: 0px 5px 20px black;

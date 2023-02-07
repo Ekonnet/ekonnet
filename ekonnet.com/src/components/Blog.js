@@ -2,7 +2,7 @@ import React from 'react'
 import './Blog.css';
 import btc from './assets/crypto-news.jpg';
 import {FaRegCalendarAlt, FaRegUser, FaRegComments, FaArrowRight} from 'react-icons/fa';
-import {SiBitcoinsv,SiEthereum} from 'react-icons/si';
+import {SiBitcoinsv,SiEthereum,SiLitecoin,SiMonero,SiRipple,SiDogecoin,SiChainlink,SiBitcoincash,SiStellar} from 'react-icons/si';
 import {TbCurrencyDollar} from 'react-icons/tb';
 import {CgChevronDoubleRight} from 'react-icons/cg';
 import {Link} from "react-router-dom";
@@ -110,38 +110,38 @@ const Blog = () => {
           <h4 className='d-flex sidebar_ico'><TbCurrencyDollar/>416.979</h4>
           </div>
           <div className='d-flex sidebar_iconss'>
-          <SiBitcoinsv/>
-          <h6>Algorand <span>(ALGO)</span></h6>
+          <SiDogecoin/>
+          <h6>Dogecoin <span>(DOGE)</span></h6>
           <h4 className='d-flex sidebar_ico'><TbCurrencyDollar/>0.48167</h4>
           </div>
           <div className='d-flex sidebar_iconss'>
-          <SiBitcoinsv/>
-          <h6>Toncoin <span>(TON)</span></h6>
+          <SiRipple/>
+          <h6>Ripple <span>(XRP)</span></h6>
           <h4 className='d-flex sidebar_ico'><TbCurrencyDollar/>652.101</h4>
           </div>
           <div className='d-flex sidebar_iconss'>
-          <SiBitcoinsv/>
+          <SiLitecoin/>
           <h6>Litecoin <span>(LTC)</span></h6>
           <h4 className='d-flex sidebar_ico'><TbCurrencyDollar/>114.335</h4>
           </div>
           <div className='d-flex sidebar_iconss'>
-          <SiBitcoinsv/>
-          <h6>Cardano <span>(ADA)</span></h6>
+          <SiChainlink/>
+          <h6>Chainlink <span>(LINK)</span></h6>
           <h4 className='d-flex sidebar_ico'><TbCurrencyDollar/>0.15502</h4>
           </div>
           <div className='d-flex sidebar_iconss'>
-          <SiBitcoinsv/>
+          <SiMonero/>
           <h6>Monero <span>(XMR)</span></h6>
           <h4 className='d-flex sidebar_ico'><TbCurrencyDollar/>166.379</h4>
           </div>
           <div className='d-flex sidebar_iconss'>
-          <SiBitcoinsv/>
-          <h6>Polygon <span>  (MATIC)</span></h6>
+          <SiStellar/>
+          <h6>Stellar <span>  (XLM)</span></h6>
           <h4 className='d-flex sidebar_ico'><TbCurrencyDollar/>301.285</h4>
           </div>
           <div className='d-flex sidebar_iconss'>
-          <SiBitcoinsv/>
-          <h6>ApeCoin <span>(APE)</span></h6>
+          <SiBitcoincash/>
+          <h6>BitcoinCash <span>(BCH)</span></h6>
           <h4 className='d-flex sidebar_ico'><TbCurrencyDollar/>0.23586</h4>
           </div>
           <div className='sidebar_title'>

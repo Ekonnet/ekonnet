@@ -237,7 +237,7 @@ const About = () => {
                         <div className="">
                             <div className=" grid grid-cols-2 gap-4">
                                 <div className="">
-                                    <div className="main-card">
+                                    <div className="main-card mb-5">
                                         <div className="img-w-img">
                                             <img src={BoxImg1} alt='About.png' className='img-fluid rounded-t-xl'></img>
                                         </div>
@@ -249,13 +249,13 @@ const About = () => {
                                     </div>
                                 </div>
                                 <div className="">
-                                <div className="main-card">
+                                <div className="main-card mb-4">
                                         <div className="img-w-img">
                                             <img src={BoxImg2} alt='About.png' className='img-fluid rounded-t-xl  '></img>
                                         </div>
                                         <div className="card-content">
                                             <h5 className='text-white font-bold pt-1 text-[18px] md:text-[18px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px] '>From the blog</h5>
-                                            <p className='text-white pt-1 text-[18px] md:text-[18px] lg:text-[18px] xl:text-[20px] 2xl:text-[20px]'>It is a long established fact that a reader will be distracted</p>
+                                            <p className='text-white pt-1 text-[15px] md:text-[15px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px]'>It is a long established fact that a reader will be distracted</p>
                                     
                                             <NavLink className='anchor-text text-white font-bold pt-2  text-[10px] md:text-[12px] lg:text-[18px] xl:text-[18px] 2xl:text-[18px]' as={Link} to={"/"}><h5 > Read More</h5></NavLink>
                                         </div>

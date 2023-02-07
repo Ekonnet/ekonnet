@@ -133,3 +133,11 @@
     margin-top: -215px;
   }
   }
+
+
+
+  @media only screen and (max-width: 768px){
+    .best2 h2{
+      margin-top: 0px !important;
+    }
+  }

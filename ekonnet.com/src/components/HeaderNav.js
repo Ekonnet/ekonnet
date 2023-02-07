@@ -35,9 +35,9 @@ function HeaderNav() {
             <NavDropdown title="Markets" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to={"/market-overview"}>Market Overview</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to={"/market-data"}>
+              {/* <NavDropdown.Item as={Link} to={"/market-data"}>
                Market Data
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
             </NavDropdown>
             <Nav.Link as={Link} to={"/future"}>Future</Nav.Link>
             <NavDropdown title="Traders" id="basic-nav-dropdown">

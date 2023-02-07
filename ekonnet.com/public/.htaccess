@@ -13,14 +13,25 @@
 # # RewriteRule (.*) /ekonnet/$1 [L]
 # </IfModule>
 
-<!-- <IfModule mod_rewrite.c>
-  Options -MultiViews
-  RewriteEngine On
-  RewriteBase /ekonnet/
+# <IfModule mod_rewrite.c>
+ # Options -MultiViews
+ # RewriteEngine On
+ # RewriteBase /ekonnet/
   # RewriteRule ^index\.html$ - [L]
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_FILENAME} !-l
+ # RewriteCond %{REQUEST_FILENAME} !-f
+ # RewriteCond %{REQUEST_FILENAME} !-d
+ # RewriteCond %{REQUEST_FILENAME} !-l
   # RewriteRule ./ekonnet/index.html [L]
-  RewriteRule ^ /ekonnet/index.html [QSA,L]
-</IfModule>  -->
+ # RewriteRule ^ /ekonnet/index.html [QSA,L]
+# </IfModule> 
+
+
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule . /index.html [L]
+</IfModule>

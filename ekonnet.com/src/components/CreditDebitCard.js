@@ -264,9 +264,9 @@ h2{
                     <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="0.3s">
                         <div className="step-box">
                             <div className="thumb-box flex justify-center items-center">
-                                <img src={Arrow1} alt="arrow" className='arrow'/>
+                                <img src={Arrow1} alt="arrow" className='img-fluid'/>
                                 
-                                <img src={Step1} alt="Step-1" className='step1stImg2' />   
+                                <img src={Step1} alt="Step-1" className='img-fluid' />   
                                 
                             </div>
                         </div>
@@ -278,8 +278,8 @@ h2{
                     <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="0.3s">
                         <div className="step-box">
                             <div className="thumb-box2 flex justify-center items-center">
-                                <img src={Arrow2} alt="arrow" className='arrow'/>
-                                <img src={Step2} alt="Step-1" className='step1stImg' />   
+                                <img src={Arrow2} alt="arrow" className='img-fluid'/>
+                                <img src={Step2} alt="Step-1" className='img-fluid' />   
                             </div>
                         </div>
                         <h4 className="last-head">
@@ -291,8 +291,8 @@ h2{
                     <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInDown" data-wow-duration="0.3s">
                         <div className="step-box">
                             <div className="thumb-box3 flex justify-center items-center">
-                                <img src={Arrow3} alt="arrow" className='arrow'/>
-                                <img src={Step3} alt="Step-1" className='step1stImg' />   
+                                <img src={Arrow3} alt="arrow" className='img-fluid'/>
+                                <img src={Step3} alt="Step-1" className='img-fluid' />   
                             </div>
                         </div>
                         <h4 className="last-head">
@@ -305,7 +305,7 @@ h2{
                         <div className="step-box">
                             <div className="thumb-box4 flex justify-center items-center">
                              
-                                <img src={Step4} alt="Step-1" className='step1stImg' />   
+                                <img src={Step4} alt="Step-1" className='img-fluid' />   
                             </div>
                         </div>
                         <h4 className="last-head">
@@ -325,11 +325,11 @@ h2{
 
                 <div className="row mt-5 flex justify-center items-center">
                     <div className="col">
-                    <img src={EasyImage} alt="Step-1" className='step1stImg' />  
+                    <img src={EasyImage} alt="Step-1" className='img-fluid' />  
                     </div>
                     <div className="col">
                         <div className="circle__card flex justify-center items-center">
-                        <img src={Icon1} alt="Step-1" className='step1stImg' />   
+                        <img src={Icon1} alt="Step-1" className='img-fluid' />   
                         </div>
                         <h2 className="card__heading">Easy and Hassle-free</h2>
                         <p className="card__para">With your Visa, Mastercard,
@@ -345,7 +345,7 @@ h2{
                 <div className="row mt-5 flex justify-center items-center">
                     <div className="col">
                         <div className="circle__card flex justify-center items-center">
-                        <img src={Icon1} alt="Step-1" className='step1stImg' />   
+                        <img src={Icon1} alt="Step-1" className='img-fluid' />   
                         </div>
                         <h2 className="card__heading">Reasonable Fees</h2>
                         <p className="card__para">The new payment option comes
@@ -355,18 +355,18 @@ h2{
                         <button className="card__btn2">Buy Crypto</button>
                     </div>
                     <div className="col">
-                    <img src={Fees3} alt="Step-1" className='step1stImg' />  
+                    <img src={Fees3} alt="Step-1" className='img-fluid' />  
                     </div>
                 </div>
 
 
                 <div className="row mt-5 flex justify-center items-center">
                     <div className="col">
-                    <img src={Fees2} alt="Step-1" className='step1stImg' />  
+                    <img src={Fees2} alt="Step-1" className='img-fluid' />  
                     </div>
                     <div className="col">
                         <div className="circle__card flex justify-center items-center">
-                        <img src={Icon1} alt="Step-1" className='step1stImg' />   
+                        <img src={Icon1} alt="Step-1" className='img-fluid' />   
                         </div>
                         <h2 className="card__heading">Instant Delivery</h2>
                         <p className="card__para">You will receive the crypto

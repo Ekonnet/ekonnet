@@ -568,7 +568,7 @@ margin: 17px;
 }
 
 /* ----------------------- small devices (576px) ------------------------- */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
   .main__image__common img {
     display: none;
     }

@@ -13,17 +13,17 @@ const Staking = () => {
 
             <section className="crypto-stacking bg-cover pt-[60px] pb-[60px]" style={{ backgroundImage: `url(${StackingSectionImg})` }}>
                 <div className="container">
-                    <div className="grid grid-cols-3 gap-20 ">
-                        <div className="col">
+                    <div className="grid grid-cols-1 gap-10">
+                        <div className="col order-1">
                             <div className="stacking-head-content">
-                                <h1 className='text-white text-[30px] font-bold '>Earn Staking rewards on  Ekonnet </h1>
-                                <p className='text-white pt-3'>Our soft-staking program allows you to easily generate rewards by simply holding your digital tokens on
+                                <h1 className='text-white text-[40px] font-bold'>Earn Staking rewards on  Ekonnet </h1>
+                                <p className='text-white pt-3 text-[19px]'>Our soft-staking program allows you to easily generate rewards by simply holding your digital tokens on
                                     Ekonnet. Staking rewards can be as high as 8%* per year for supported Digital Tokens. Please read the FAQs for details.</p>
-                                <button className='button-stacking'>Deposite Now</button>
+                                <button className='button-stacking btn btn-primary'>Deposite Now</button>
                             </div>
                         </div>
-                        <div className="col-span-2">
-                            <img src={Stackingright} alt='' className='cover' />
+                        <div className="col-span-1 order-4">
+                            <img src={Stackingright} alt='' className='img-fluid mx-auto' />
                         </div>
                     </div>
                 </div>
@@ -32,11 +32,11 @@ const Staking = () => {
             <section id='staking' className='staking bg-[#090A1C]'>
                 <div className='container cover bg-no-repeat pt-[40px] pb-[40px] ' style={{ backgroundImage: `url(${Stackindiv})` }}>
                     <div className='row flex  items-center flex-column '>
-                        <div className='col-6'>
+                        <div className='col-12 text-center'>
                             <h2 className='text-white text-[30px] font-bold'>Calculate your potential rewards</h2>
                         </div>
                         <div className='col-6 btn_coin'>
-                            <div className=" flex  items-center">
+                            <div className=" flex  align-items-center justify-content-center">
                                 <button className='btn btn-primary'>Tron</button>
                                 <input type='text' placeholder='1 Trx' className='input-coin' ></input>
                             </div>

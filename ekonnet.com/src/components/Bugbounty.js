@@ -124,7 +124,7 @@ const Bugbounty = () => {
           <li>make sure the language of the video is in English to help us quickly identify the problem.</li>
           <li>include a copy of the text in your message explaining what it relates to, if a large amount of text appears in your video.</li>
          </ul>
-         <div className="row mar-top d-flex justify-content-evenly align-items-center mt-5">
+         <div className="row mar-top d-flex justify-content-evenly align-items-center">
             <div className=" grp col-lg-6 col-sm-12 d-flex justify-content-start align-items-center mt-5">
             <input className='input' type="text" name="name" placeholder='Name*' />
             </div>

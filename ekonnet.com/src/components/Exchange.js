@@ -41,31 +41,31 @@ const Exchange = () => {
                 <div className="illustration">
                     <AnimatePresence>
                         <motion.div
-                            initial={{ y: -9 }}
+                            initial={{ y: -7 }}
                             animate={{ y: 20 }}
-                            exit={{ y: -9 }}
+                            exit={{ y: -7 }}
                             transition={{ repeat: Infinity, repeatDelay: 0, duration: 3, repeatType: "reverse", type: "tween", bounce: 0.25 }}
-                            className="one">
+                            className="one img-fluid">
                             <img src={BannerOne} alt='one' />
                         </motion.div>
                     </AnimatePresence>
                     <AnimatePresence>
                         <motion.div
-                            initial={{ x: 9 }}
-                            animate={{ x: 20 }}
-                            exit={{ x: 9 }}
+                            initial={{ x: 5 }}
+                            animate={{ x: -9 }}
+                            exit={{ x: 5 }}
                             transition={{ repeat: Infinity, duration: 2, repeatType: "reverse", type: "tween", bounce: 0.25 }}
-                            className="two">
+                            className="two img-fluid">
                             <img src={BannerTwo} alt='two' />
                         </motion.div>
                     </AnimatePresence>
-                    <img src={BannerThree} alt='three' className='three' />
+                    <img src={BannerThree} alt='three' className='three img-fluid' />
                 </div>
 
                 <div className="hero-area__exchange">
                     <div className="container">
                         <div className="row pt-5">
-                            <dic className="col-xxl-6 col-xl-6 col-lg-6 col-md-4">
+                            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-4">
                                 <motion.div
                                     initial={{ y: 100, opacity: 0 }}
                                     animate={{ y: 0, x: 100, opacity: 1 }}
@@ -76,13 +76,13 @@ const Exchange = () => {
                                         Cryptocurrency Exchange
                                     </h2>
                                     <p className="text__exchange ">
-                                        We are trusted by more than 140 thousands of people from 45 countries worldwide.
+                                        We are trusted by more than 140 thousands<br/>of people from 45 countries worldwide.
                                     </p>
                                 </motion.div>
-                            </dic>
+                            </div>
                             <div className="col-4">
                                 <motion.div
-                                    initial={{ x: 300, opacity: 0.8 }}
+                                    initial={{ x: 200, opacity: 0.8 }}
                                     animate={{ x: 0, opacity: 1 }}
                                     transition={{ duration: 2, type: "tween", bounce: 0.25 }}
 
@@ -156,14 +156,14 @@ const Exchange = () => {
                         className="col flex justify-center items-center flex-column mt-5">
                         <h3 className="how-does-work text-[#6342ff] font-Josefine text-[24px] leading-9  font-bold">How does it work?</h3>
                         <h2 className="title__exchange text-[#33276a] font-Josefine text-[50px] leading-10 py-3 font-bold">It's really easy!</h2>
-                        <p className="exchange-second-para text-[#5d5779] font-Josefine text-[18px] leading-7  font-normal">It's easier than you think.Follow 3 simple easy steps</p>
+                        <p className="exchange-second-para text-[#5d5779] font-Josefine text-[18px] leading-7  font-normal text-center">It's easier than you think.Follow 3 simple easy steps</p>
                     </motion.div>
                 </div>
                 <div className="row flex justify-evenly pt-5 ">
                     <div className="col flex justify-center items-center">
                         <div className="box-feature">
                             <motion.div
-                                initial={{ x: -100 }}
+                                initial={{ x: -70 }}
                                 whileInView={{ x: 0 }}
                                 transition={{ delay: 0, duration: 1, type: "spring", stiffness: 50 }}
                                 className="thumb-box">
@@ -199,7 +199,7 @@ const Exchange = () => {
                         <div className="col flex justify-center items-center">
                             <div className="box-feature">
                                 <motion.div
-                                    initial={{ x: 100 }}
+                                    initial={{ x: 0 }}
                                     whileInView={{ x: 0 }}
                                     transition={{ delay: 0, duration: 1, type: "spring", stiffness: 50 }}
                                     className="thumb-box">
@@ -231,9 +231,9 @@ const Exchange = () => {
                             <img src={Circle} alt='' className='circle-img' />
                         </motion.div>
                         <motion.div
-                            initial={{ x: 100, opacity: 0 }}
+                            initial={{ x: 0, opacity: 0 }}
                             whileInView={{ x: 0, opacity: 1 }}
-                            transition={{ delay: 1, duration: 4, type: "spring", stiffness: 20 }}
+                            transition={{ delay: 1, duration: 4, type: "spring", stiffness: 10 }}
 
                             className="col flex justify-center items-center flex-column text-start max-w-md pl-5">
                             <h3 className="how-does-work text-[#6342ff] font-Josefine text-[24px] leading-9  font-bold">About us</h3>
