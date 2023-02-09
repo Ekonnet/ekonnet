@@ -27,7 +27,7 @@ import NewsLetter from './NewsLetter';
 import Career from './Career';
 import EkonnetPay from './EkonnetPay';
 import Staking from './Staking';
-import {Route,Routes, BrowserRouter} from "react-router-dom";
+import {Route,Routes} from "react-router-dom";
 import Derivatives from '../components/Markets/Derivatives';
 import CreditDebitCard from './CreditDebitCard';
 import Otc from './Otc';
@@ -123,7 +123,9 @@ import Terminal14 from './Terminal/Terminal14';
 import Terminalpage from './Terminal/Terminalpage';
 import TellFriend from './TellFriend';
 import Best from './Best';
-
+import Marginfunding from './Marginfunding';
+import Margintrades from './Margintrades';
+import Exchangetrades from './Exchangetrades';
 
 
 
@@ -266,7 +268,9 @@ const App = () => {
        <Route path='/tell-friend' element={<TellFriend/>}/>
        <Route path='/best' element={<Best/>}/>
        <Route path='/corporate-professional' element={<Corporate/>}/>
-       
+       <Route path='/margin-trades' element={<Margintrades/>}/>
+       <Route path='/margin-funding' element={<Marginfunding/>}/>
+       <Route path='/exchange-trades' element={<Exchangetrades/>}/>
      </Routes>
   
      {/* <Sidebar>

@@ -3,12 +3,13 @@ import './Home.css'
 import { BiDollar } from 'react-icons/bi';
 import Swipper from './Swipper';
 import Maingraph from "../assets/main-graph.png";
-import Video from '../assets/Header_Video.mp4';
+//import Video from '../assets/Header_Video.mp4';
 import TradeImg from "../assets/Trade.png";
 import analysisImg from "../assets/analysis.png";
 import p2pImg from "../assets/p2pImage.png";
 import EasyToInvest from "../assets/Easy-to-invest.png";
 import Mobile from '../assets/mobile.png'
+import h1 from '../assets/home.png'
 import AppStore from '../assets/app-store-btn.png'
 import GoogleStore from '../assets/google-store-btn.png'
 import { BsPlusCircleDotted } from 'react-icons/bs';
@@ -83,13 +84,15 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                            <div className="outervideo">
+                        <img className='mt-5' src={h1} alt="main-heading" width="2900px" height="700px" />
+
+                            {/* <div className="outervideo">
 
                                 <video autoPlay loop muted className='videostyle'>
                                     <source src={Video} type="video/mp4" />
                                 </video>
 
-                            </div>
+                            </div> */}
                         </div>
 
 
