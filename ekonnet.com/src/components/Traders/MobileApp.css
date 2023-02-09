@@ -172,3 +172,29 @@
     height:200px;
    top: -30px;
 }
+
+
+@media only screen and (max-width: 480px){
+    .ultimate_crypto img{
+        margin-left: 0px !important;
+        margin-top: 25px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .ultimate_crypto img{
+        margin-top: 25px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .ultimate_crypto img{
+        margin-left: 45px;
+    }
+}
+
+
+@media only screen and (max-width: 640px){
+    .ultimate_crypto img{
+        margin-left: 0px;
+        margin-top: 25px;
+    }
+}

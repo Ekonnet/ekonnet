@@ -28,54 +28,46 @@ const Terminal = () => {
             <div className='row gy-4'>
             <div className='col-lg-4 d-flex '>
             <div className='terminal_box p-3'>
-            <h1>1</h1>
+            {/* <h1>1</h1> */}
             <h4>Develop trading strategies</h4>
             <p>Download or use live Bitfinex Market Data streams directly as an input for your trading strategies.</p>
             </div>
             </div>
             <div className='col-lg-4 d-flex '>
             <div className='terminal_box p-3'>
-            <h1>2</h1>
+            {/* <h1>2</h1> */}
             <h4>Backtest trading strategies</h4>
             <p>Backtesting your trading strategies on historical trade Bitfinex Market Data becomes easy, just select the timeframes you need and start with an immediate, ordered stream of Bitfinex Market Data items.</p>
             </div>
             </div>
             <div className='col-lg-4 d-flex '>
             <div className='terminal_box p-3'>
-            <h1>3</h1>
+            {/* <h1>3</h1> */}
             <h4>Machine learning</h4>
             <p>Subscribe to streams for orderbook Bitfinex Market Data, indexes, pricing, and other granular Bitfinex Market Data. Use any aspect of the market to train your Machine Learning algorithms.</p>
             </div>
             </div>
             <div className='col-lg-4 d-flex '>
             <div className='terminal_box p-3'>
-            <h1>4</h1>
+            {/* <h1>4</h1> */}
             <h4>Data science – statistics and analysis</h4>
             <p>Crunch our datasets to learn more about trading and financial markets.</p>
             </div>
             </div>
             <div className='col-lg-4 d-flex '>
             <div className='terminal_box p-3'>
-            <h1>5</h1>
+            {/* <h1>5</h1> */}
             <h4>Bitfinex Terminal as an oracle</h4>
             <p>Bitfinex Terminal streams are cryptographically signed and verifiable append-only logs. Ask us about how customers can use this new service to power smart contracts and Discreet Log Contracts (DLCs).</p>
             </div>
             </div>
             <div className='col-lg-4 d-flex '>
             <div className='terminal_box p-3'>
-            <h1>6</h1>
+            {/* <h1>6</h1> */}
             <h4>Research purposes</h4>
             <p>Our growing Bitfinex Market Data set begins a great archive for researchers looking to correlate market changes and create deeper analysis on market events.</p>
             </div>
-            </div>
-            <div className='col-lg-4 d-flex'></div>
-            <div className='col-lg-4 d-flex '>
-            <div className='terminal_box p-3'>
-            <h1>7</h1>
-            <h4>Local-first analysis</h4>
-            <p>With Bitfinex Terminal's Historical FRR (Flash Return Rate) feature, you can store the historical market data locally, which means you can access and analyse the information even when you're offline. It gives you the benefits of a faster and more stable data access with enhanced privacy that is crucial when you run a myriad of analysis.</p>
-            </div>
-            </div>
+            </div>  
             </div>
             </div>
             </section>

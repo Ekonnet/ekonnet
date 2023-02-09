@@ -16,7 +16,7 @@ function HeaderNav() {
    <>
     <Navbar className='navbg' expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand as={Link} to={"/"} className='logo'>Ekonnet.com</Navbar.Brand>
+        {/* <Navbar.Brand as={Link} to={"/"} className='logo'>Ekonnet.com</Navbar.Brand> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-white text-black' />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto main-nav">
@@ -31,14 +31,14 @@ function HeaderNav() {
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to={"/fiat-deposite"}>Fiat Deposite</NavDropdown.Item>
             </NavDropdown>
-
-            <NavDropdown title="Markets" id="basic-nav-dropdown">
+            <Nav.Link as={Link} to={"/market-overview"}>Market Overview</Nav.Link>
+            {/* <NavDropdown title="Markets" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to={"/market-overview"}>Market Overview</NavDropdown.Item>
               <NavDropdown.Divider />
-              {/* <NavDropdown.Item as={Link} to={"/market-data"}>
+              <NavDropdown.Item as={Link} to={"/market-data"}>
                Market Data
-              </NavDropdown.Item> */}
-            </NavDropdown>
+              </NavDropdown.Item>
+            </NavDropdown> */}
             <Nav.Link as={Link} to={"/future"}>Future</Nav.Link>
             <NavDropdown title="Traders" id="basic-nav-dropdown">
               <NavDropdown.Item as={Link} to={"/features"}>Features</NavDropdown.Item>

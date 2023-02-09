@@ -155,11 +155,11 @@ const Exchange = () => {
                         transition={{ delay: 0, duration: 2, type: "spring", stiffness: 30 }}
                         className="col flex justify-center items-center flex-column mt-5">
                         <h3 className="how-does-work text-[#6342ff] font-Josefine text-[24px] leading-9  font-bold">How does it work?</h3>
-                        <h2 className="title__exchange text-[#33276a] font-Josefine text-[50px] leading-10 py-3 font-bold">It's really easy!</h2>
+                        <h2 className="title__exchange text-[#33276a] font-Josefine text-[41px] leading-10 py-3 font-bold">It's really easy!</h2>
                         <p className="exchange-second-para text-[#5d5779] font-Josefine text-[18px] leading-7  font-normal text-center">It's easier than you think.Follow 3 simple easy steps</p>
                     </motion.div>
                 </div>
-                <div className="row flex justify-evenly pt-5 ">
+                <div className="row flex justify-evenly pt-5">
                     <div className="col flex justify-center items-center">
                         <div className="box-feature">
                             <motion.div
@@ -237,7 +237,7 @@ const Exchange = () => {
 
                             className="col flex justify-center items-center flex-column text-start max-w-md pl-5">
                             <h3 className="how-does-work text-[#6342ff] font-Josefine text-[24px] leading-9  font-bold">About us</h3>
-                            <h2 className="title__exchange text-[#33276a] font-Josefine text-[40px] leading-10 py-3 font-bold">The Online Cryptocurrency Exchange Platform</h2>
+                            <h2 className="title__exchange text-[#33276a] font-Josefine text-[35px] leading-10 py-3 font-bold">The Online Cryptocurrency Exchange Platform</h2>
                             <p className="exchange-second-para text-[#5d5779] font-Josefine text-[18px] leading-7  font-normal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet laborum ratione adipisci commodi et culpa recusandae esse quaerat? Commodi, ducimus? <br /> Eveniet laborum ratione adipisci commodi et culpa recusandae esse quaerat? Commodi, ducimus?</p>
                         </motion.div>
                     </div>

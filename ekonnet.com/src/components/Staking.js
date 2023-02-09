@@ -139,8 +139,20 @@ const Staking = () => {
                     </div>
 
                     <div className="row">
-
-
+                        <div className='col-lg-3'>
+                            <div class="card-coin">
+                                <div class="imgbox">
+                                    <div className="circlebasecoin flex justify-center items-center">
+                                        <img src={TronCoin} alt='' className='cover w-10 h-10 text-center pl-3' />
+                                    </div>
+                                    <h2 className='text-white ' >Tron (TRX)</h2>
+                                    <div class="content-coin">
+                                        <p className='text-white'>Estimated annual staking rewards* 6% - 8%</p>
+                                        <button className='btn btn-primary'>Deposit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div className='col-lg-3'>
                             <div class="card-coin">
                                 <div class="imgbox">

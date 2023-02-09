@@ -12,7 +12,7 @@ import CryptoNews from '../assets/Crypto-News-Img.jpeg';
 export default function NewsFeedComponets() {
   return (
     <MDBContainer className="py-5">
-      <MDBRow className="gx-5">
+      <MDBRow className="gx-4">
         <MDBCol md="6" className="mb-4">
           <MDBRipple
             className="bg-image hover-overlay ripple shadow-2-strong rounded-5"
@@ -21,7 +21,7 @@ export default function NewsFeedComponets() {
           >
             <img
               src={CryptoNews}
-              className="w-100"
+              className="w-94"
               alt="crypto"
             />
             <a href="#!">

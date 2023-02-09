@@ -43,23 +43,16 @@
         padding-left: 15px;
     }
 
-
-
-
-
-
-/* ======================================Search styling end =================================== */
-
 .box__heplcenter{
 
-    width: "auto";
+    width: 32% !important;
     height: "auto";
     background:radial-gradient(circle at 15% 40%, rgba(62, 53, 121, 1) 0%, rgba(5, 74, 84, 0.91) 100%);
 
     border: 2px solid transparent;
     border-radius: 20px;
     box-shadow: 3px 3px 9px 0px rgba(18,161,168,1);
-  
+    text-align: start;
 }
 .box__heplcenter:hover{
     background:linear-gradient(90deg, rgba(26, 18, 81, 1) 0%, rgba(1, 21, 24, 0.91) 100%);
@@ -125,10 +118,10 @@ color:rgba(5, 156, 178, 0.94);
 .acount-main-heading::after{
     content:"";
     position: absolute;
-    left: 630px;
+    left: 529px;
     top: 40px;
    
-    width: 60px;
+    width: 86px;
     border: 4px solid rgba(5, 74, 84, 0.91) ;
     border-color: radial-gradient(circle at 15% 40%, rgba(62, 53, 121, 1) 0%, rgba(5, 74, 84, 0.91) 100%);
   
@@ -153,6 +146,7 @@ color:rgba(5, 156, 178, 0.94);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 33% !important;
 }
 .accountDiv .arrow-icon{
     color: #ffff;
@@ -167,7 +161,7 @@ color:rgba(5, 156, 178, 0.94);
 }
 
 .footer__data{
-    padding-top: 110px;
+    padding-top: 30px;
 }
 
 .footer__data h2{
@@ -279,17 +273,148 @@ background:linear-gradient(258deg, rgba(171, 130, 238, 0.82) 0%, rgba(0, 130, 25
 }
 
 
-
-
-
-
-
-/* ====================================Getting Sidebar page ============== */
-
 #common-search-hero{
     background:linear-gradient(258deg, rgba(171, 130, 238, 0.82) 0%, rgba(0, 130, 255, 0.82) 99%);
     height: 40vh;
     margin-top: 0;
     background-size: cover;
 
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 640px){
+    .acount-main-heading::after{
+        left: 228px;
+    }
+    .wellcome__ekonnet{
+    
+    font-size:1.9rem;
+    
+    }
+    .search__form{
+       
+        height: 35px;
+        
+    }
+    .service__heplcenter {
+        
+        font-size: 21px;
+    }
+    .footer__contaioner{
+        
+       
+        height: 90vh;
+       
+    }
+    .acount__heading{
+        font-size: 1rem;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    .acount-main-heading::after{
+        left: 317px;
+    }
+    .footer__contaioner{
+        
+       
+        height: 25vh;
+       
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .acount-main-heading::after{
+        left: 438px;
+    }
+    .footer__contaioner{
+        
+       
+        height: 25vh;
+       
+    }
+}
+
+
+
+@media only screen and (max-width: 480px){
+    .acount-main-heading::after{
+        left: 157px;
+    }
+    .wellcome__ekonnet{
+    
+    font-size:1.2rem;
+    
+    }
+    .search__form{
+       
+        height: 65px;
+        width: 80%;
+    }
+    .service__heplcenter {
+        
+        font-size: 15px;
+    }
+    .footer__contaioner{
+        
+       
+        height: 50vh;
+       
+    }
+    .acount__heading {
+        font-size: 0.7rem;
+    }
+    .box__heplcenter{
+
+       
+       
+        box-shadow: none;
+       
+    }
+    .acount-main-heading{
+       
+        margin: 40px 0px 30px 0px;
+       
+    }
+}
+    /* @media only screen and (max-width: 640px){
+    .acount-main-heading::after{
+        left: 228px;
+    }
+    .wellcome__ekonnet{
+    
+    font-size:1.9rem;
+    
+    }
+    .search__form{
+       
+        height: 45px;
+        
+    }
+    .service__heplcenter {
+        
+        font-size: 21px;
+    }
+    .footer__contaioner{
+        
+       
+        height: 90vh;
+       
+    }
+} */
+@media only screen and (max-width: 360px){
+    .acount-main-heading::after{
+        left: 137px;
+    }
+    .footer__contaioner{
+        
+       
+        height: 65vh;
+       
+    }
 }

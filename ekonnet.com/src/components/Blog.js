@@ -154,19 +154,19 @@ const Blog = () => {
           </div>
           <div className='sidebar_title'>
           <h3>Recent Comments</h3>
-          <h2 className='d-flex'><CgChevronDoubleRight/>user on What is Bitcoin Mining</h2>
-          <h2 className='d-flex'><CgChevronDoubleRight/>user on Bee Coin</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>User on What is Bitcoin Mining</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>User on Bee Coin</h2>
           <h2 className='d-flex'><CgChevronDoubleRight/>Robert Downey on Bitcoin domination</h2>
           <h2 className='d-flex'><CgChevronDoubleRight/>A Commenter on Bitcoin domination</h2>
           <h2 className='d-flex'><CgChevronDoubleRight/>LearnPress on How to Mine Bitcoin on a Mac</h2>
           </div>
           <div className='sidebar_title'>
           <h3>Archives</h3>
-          <h2 className='d-flex'><CgChevronDoubleRight/>January 2018</h2>
-          <h2 className='d-flex'><CgChevronDoubleRight/>December 2017</h2>
-          <h2 className='d-flex'><CgChevronDoubleRight/>October 2017</h2>
-          <h2 className='d-flex'><CgChevronDoubleRight/>May 2017</h2>
-          <h2 className='d-flex'><CgChevronDoubleRight/>April 2017</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>January 2023</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>February 2023</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>January 2023</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>December 2022</h2>
+          <h2 className='d-flex'><CgChevronDoubleRight/>January 2023</h2>
           </div>
           </div>
           </div>  

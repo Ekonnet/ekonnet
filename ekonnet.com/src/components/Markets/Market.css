@@ -16,7 +16,7 @@
 .new-listing-heading::before {
    content: "";
    bottom: -10;
-   left: 45%;
+   left: 46%;
    width: 100px;
    /* height: 1px; */
    border: 1px dotted red;
@@ -64,6 +64,27 @@
 }
 
 
+@media only screen and (max-width: 1024px){
+    .new-listing-heading::before {
+        bottom: 57;
+        left: 45%;
+     
+     }
+     .Market-section {
+           
+        height: 40vh;
+    }
+    .Market-fav-section {
+       
+        height: 55vh;
+    }
+    .Market-news-section {
+       
+        height: 50vh;
+    }
+
+}
+
 
 @media only screen and (max-width: 768px){
 .Main-card .Main-card-content {
@@ -84,7 +105,7 @@
 }
 .Market-fav-section {
    
-    height: 115vh;
+    height: 125vh;
 }
 .Market-news-section {
    
@@ -102,15 +123,15 @@
      }
      .Market-section {
        
-        height: 95vh;
+        height: 115vh;
     }
     .Market-fav-section {
        
-        height: 200vh;
+        height: 280vh;
     }
     .Market-news-section {
        
-        height: 130vh;
+        height: 175vh;
     }
      
 }
@@ -120,20 +141,24 @@
 @media only screen and (max-width: 480px){
     .new-listing-heading::before {
         bottom: 57;
-        left: 38%;
+        left: 37%;
      
      }
+     
      .Market-section {
        
         height: 80vh;
     }
+     
+
     .Market-fav-section {
        
-        height: 345vh;
+        height: 370vh;
+        width: 100%;
     }
     .Market-news-section {
        
         height: 110vh;
     }
-     
+    
 }

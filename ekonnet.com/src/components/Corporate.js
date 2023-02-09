@@ -59,7 +59,7 @@ const Corporate = () => {
      <section id='corporate3' className='corporate3  bg-[#131128] pt-[1px]'>
      <div className='container'>
      <div className='row'>
-     <span>Wider benefits of trading with Bitfinex include:</span>
+     <span>Wider benefits of trading with Ekonnet include:</span>
      <div className='col-lg-4'>
      <h3>Access to Green Lane</h3>
      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

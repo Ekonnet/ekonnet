@@ -10,8 +10,8 @@ const Career = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-lg-12 text-center'>
-                    <h3>EXCITING OPPORTUNITIES<strong> . </strong>GREAT PEOPLE</h3>
-                    <h1>Work at Ekonnet.com</h1>
+                    <h3>EXCITING OPPORTUNITIES GREAT PEOPLE</h3>
+                    <h1>Work at Ekonnet</h1>
                     <button className='btn btn-primary'>View Jobs</button>
                 </div>
             </div>

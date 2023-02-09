@@ -98,6 +98,9 @@ font-size: 60px;
 .second__exchange-section h3{
     margin-top: 20px;
 }
+.second__exchange-section .row {
+    margin: 0 !important;
+}
 
 .offer{
     padding: 70px;
@@ -130,11 +133,12 @@ font-size: 60px;
       
         font-size: 1rem;    
     }
+    
     .second__exchange-section h3{
-        margin-top: 270px;
+        margin-top: 450px;
     }
     .exchange{
-        width: 250%;
+        min-width: fit-content;
     }
     .banner-content__exchange .head__exchange{
        
@@ -146,6 +150,21 @@ font-size: 60px;
             line-height: 1.8rem;
             padding-top: 5px;
         }
+        .second__exchange-section .row {
+            margin: 0 !important;
+        }
+        
+        .banner-content__exchange {
+            max-width: 445px;
+        }
+        .hero-area__exchange{
+            position: absolute;
+            z-index: 1;
+        }
+        .banner-content__exchange .subtitle {
+            font-size: 1rem;
+            margin-top: 45px;
+        }
 }
 
 
@@ -154,21 +173,35 @@ font-size: 60px;
       
         font-size: 1rem;    
     }
+    .banner-content__exchange .subtitle {
+        
+        margin-top: 120px;
+    }
     .second__exchange-section h3{
-        margin-top: 65px;
+        margin-top: px !important;
+    }
+    .About-us__exchange .about-image{
+        display: none;
     }
     .exchange{
-        width: 300%;
+        min-width: fit-content;
+        margin-left: 0px !important;
     }
     .banner-content__exchange .head__exchange{
        
-        font-size: 20px;
+        font-size: 20px !important;
         }
         .text__exchange{
           
             font-size: 0.7rem;
             line-height: 1.8rem;
             padding-top: 5px;
+        }
+        .second__exchange-section .row {
+            margin: 0 !important;
+        }
+        .banner-content__exchange {
+            max-width: 200px;
         }
 }
 
@@ -191,6 +224,10 @@ font-size: 60px;
         line-height: 1.8rem;
         padding-top: 15px;
     }
+    .second__exchange-section .row {
+        margin: 0 !important;
+    }
+    
 }
 
 
@@ -213,3 +250,64 @@ font-size: 60px;
         padding-top: 15px;
     }
 } */
+@media only screen and (max-width: 768px){
+    .exchange {
+        margin-left: 83px;
+        width: 114%;
+    }
+    .illustration .three{
+        left: -14%;
+        bottom: -5%;
+           z-index: 1;
+           position: inherit;
+       } 
+       .hero-area__exchange{
+        position: relative;
+        z-index: 1;
+        margin-top: -260px;
+    }
+    .exchange__section{
+       
+        height: 53vh;
+    }
+    .second__exchange-section h3 {
+        margin-top: 85px;
+    }
+    .offer-head {
+        font-size: 26px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    .exchange {
+        margin-left: 83px;
+        width: 114%;
+    }
+    .illustration .three{
+        left: -14%;
+        bottom: -5%;
+           z-index: 1;
+           position: inherit;
+       } 
+       .hero-area__exchange{
+        position: relative;
+        z-index: 1;
+        margin-top: -260px;
+    }
+    .exchange__section{
+       
+        height: 100vh;
+    }
+    .banner-content__exchange .head__exchange {
+       
+        font-size: 30px;
+    }
+    .text__exchange {
+        font-size: 1.4rem;
+    }
+    .second__exchange-section h3 {
+        margin-top: 220px;
+    }
+}

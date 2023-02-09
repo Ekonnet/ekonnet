@@ -26,7 +26,7 @@ const About = () => {
                         <AnimatePresence>
                         <motion.div
                             initial={{ x: -50 }}
-                            animate={{ x: 20 }}
+                            animate={{ x: 10 }}
                             exit={{ x: 100 }}
                             transition={{ repeat: Infinity, duration: 2, repeatType: "reverse", type: "tween", bounce: 0.25 }}
                             className="two p-50px">
