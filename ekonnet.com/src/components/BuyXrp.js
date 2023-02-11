@@ -5,7 +5,7 @@ import card from "./assets/x1.jpg";
 import Exchange from "./assets/x2.png";
 import Margin from "./assets/x3.png";
 import FundingImg from "./assets/x4.png";
-
+import { Helmet } from 'react-helmet';
 
 
 
@@ -13,6 +13,9 @@ import FundingImg from "./assets/x4.png";
 const BuyXRP = () => {
   return (
     <>
+    <Helmet>
+        <title>Ekonnet | XRP </title>
+      </Helmet>
       <section id='features' className='features' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>

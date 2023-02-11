@@ -3,11 +3,14 @@ import './papertrading.css';
 import AffiliateImg from '../assets/home-banner-bg.png';
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
-
+import { Helmet } from 'react-helmet';
 
 const papertrading = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | PaperTrading </title>
+      </Helmet>
       <section id='paper_hero' className='paper_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>
@@ -26,7 +29,6 @@ const papertrading = () => {
             <div className='row'>
                 <div className='col-lg-4'>
                     <div className='question'>
-                    
                     <Nav.Link as={Link} to={"/que1"}><button>Currency Switch Tool on Ekonnet</button>             
                     </Nav.Link> 
                     <Nav.Link as={Link} to={"/que2"}><button>How to trade on Ekonnet</button>

@@ -5,12 +5,14 @@ import StackingSectionImg from './assets/footer-bg.jpg'
 import Stackingright from './assets/stacking.png'
 import Stackindiv from './assets/tranding-5.png'
 import TronCoin from './assets/tron.png'
-
+import { Helmet } from 'react-helmet';
 
 const Staking = () => {
     return (
         <>
-
+          <Helmet>
+        <title>Ekonnet | Staking </title>
+      </Helmet>
             <section className="crypto-stacking bg-cover pt-[60px] pb-[60px]" style={{ backgroundImage: `url(${StackingSectionImg})` }}>
                 <div className="container">
                     <div className="grid grid-cols-1 gap-10">

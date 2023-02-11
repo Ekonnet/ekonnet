@@ -8,7 +8,7 @@ import { IoArrowRedoCircle } from 'react-icons/io5';
 import HelpCenterImg from '../components/assets/HelpCenter-Footer.png'
 import {Link} from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
-
+import { Helmet } from 'react-helmet';
 
 
 const HelpCenter = () => {
@@ -27,6 +27,9 @@ const HelpCenter = () => {
 
     return (
         <>
+        <Helmet>
+        <title>Ekonnet | HelpCenter </title>
+      </Helmet>
             <section className="hepcenter__front" style={Background}>
                 <div className="container">
                     <div className="row">

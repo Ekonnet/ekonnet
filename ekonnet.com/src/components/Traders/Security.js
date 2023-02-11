@@ -3,10 +3,13 @@ import SecurityImg from '../assets/feature-img-1.png'
 import SecurityImg2 from '../assets/banner-bg-2.png'
 import { SiSpringsecurity } from 'react-icons/si';
 import './Security.css';
-
+import { Helmet } from 'react-helmet';
 const Security = () => {
   return (
     <>
+    <Helmet>
+        <title>Ekonnet | Security </title>
+      </Helmet>
       <section id='security' className='security pt-[40px]'>
         <div className='container'>
           <div className="cover__security-section">

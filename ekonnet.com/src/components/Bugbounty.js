@@ -2,9 +2,13 @@ import React from 'react'
 import AffiliateImg from './assets/home-banner-bg.png';
 import bug from "./assets/bugbounty.png";
 import './Bugbounty.css'
+import { Helmet } from 'react-helmet';
 const Bugbounty = () => {
   return (
     <>
+    <Helmet>
+        <title>Ekonnet | Bugbounty </title>
+      </Helmet>
      <section id='bug_hero' className='bug_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>

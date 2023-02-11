@@ -7,10 +7,14 @@ import handshake3 from './assets/h7.gif'
 import handshake4 from './assets/h8.gif'
 import handshake5 from './assets/h8.png'
 import handshake6 from './assets/h9.png'
+import { Helmet } from 'react-helmet';
 
 const Best = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | Best </title>
+      </Helmet>
     <section id='best_hero' className='best_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
     <div className='container'>
     <div className='row'>

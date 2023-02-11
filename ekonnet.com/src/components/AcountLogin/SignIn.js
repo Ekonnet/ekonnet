@@ -13,6 +13,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import '../AcountLogin/login.css';
+import { Helmet } from 'react-helmet';
 
 function Copyright(props) {
   return (
@@ -40,6 +41,10 @@ export default function SignIn() {
   };
 
   return (
+    <>
+       <Helmet>
+        <title>Ekonnet | SignIn </title>
+      </Helmet>
     
     <ThemeProvider theme={theme}>
 <section id='bgcolor'>
@@ -110,6 +115,7 @@ export default function SignIn() {
       </Container>
       </section>
     </ThemeProvider>
+    </>
     
   );
 }

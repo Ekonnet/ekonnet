@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import BoxDiv from '../OwlCarousel/BoxDiv';
 import NewsFeedComponets from '../Markets/NewsFeedComponets';
 import Nav from 'react-bootstrap/Nav';
+import { Helmet } from 'react-helmet';
 
 
 export default function MarketOverview() {
@@ -15,6 +16,9 @@ export default function MarketOverview() {
 
   return (
     <>
+    <Helmet>
+        <title>Ekonnet | Market Overview</title>
+      </Helmet>
       <section className='Market-section'>
         <Container>
           <Row>

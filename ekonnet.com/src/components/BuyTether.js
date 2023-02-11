@@ -5,7 +5,7 @@ import tether from "./assets/tether2.jpg";
 import Exchange from "./assets/t1.png";
 import Margin from "./assets/t2.png";
 import FundingImg from "./assets/t4.png";
-
+import { Helmet } from 'react-helmet';
 
 
 
@@ -13,6 +13,9 @@ import FundingImg from "./assets/t4.png";
 const BuyTether = () => {
   return (
     <>
+    <Helmet>
+        <title>Ekonnet | Tether </title>
+      </Helmet>
       <section id='features' className='features' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>

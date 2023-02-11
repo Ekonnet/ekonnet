@@ -7,11 +7,14 @@ import {TbCurrencyDollar} from 'react-icons/tb';
 import {CgChevronDoubleRight} from 'react-icons/cg';
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
-
+import { Helmet } from 'react-helmet';
 
 const Blog = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | Blog </title>
+      </Helmet>
     <section id='blog' className='blog'>
         <div className='container'>
             <div className='row'>

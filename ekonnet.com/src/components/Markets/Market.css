@@ -153,6 +153,33 @@
 
     .Market-fav-section {
        
+        height: 340vh;
+        width: 100%;
+    }
+    .Market-news-section {
+       
+        height: 110vh;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 360px){
+    .new-listing-heading::before {
+        bottom: 57;
+        left: 37%;
+     
+     }
+     
+     .Market-section {
+       
+        height: 80vh;
+    }
+     
+
+    .Market-fav-section {
+       
         height: 370vh;
         width: 100%;
     }

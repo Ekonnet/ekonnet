@@ -11,10 +11,13 @@ import {Link} from "react-router-dom";
 import { motion, AnimatePresence } from 'framer-motion'
 import { HiOutlineCursorArrowRipple } from 'react-icons/hi2';
 import './About.css';
-
+import { Helmet } from 'react-helmet';
 const About = () => {
     return (
         <>
+        <Helmet>
+        <title>Ekonnet | About</title>
+      </Helmet>
             <section id='about_hero' className='about_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
                 <div className='container'>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 '>

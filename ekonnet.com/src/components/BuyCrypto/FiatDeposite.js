@@ -2,10 +2,14 @@ import React from 'react';
 import './FiatDeposite.css';
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
+import { Helmet } from 'react-helmet';
 
 const FiatDeposite = () => {
   return (
     <>
+    <Helmet>
+        <title>Ekonnet | Fait Deposite</title>
+      </Helmet>
     <section id='fiat_deposite' className='fiat_deposite'>
       <div className='container'>
         <div className='row'>

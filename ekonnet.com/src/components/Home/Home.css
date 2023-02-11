@@ -13,6 +13,7 @@
 
 }
 
+
 .app .text-wrapper h1 {
   color: var(--cyan-color);
   display: inline-block;
@@ -21,6 +22,7 @@
   font-family: 'Spectral';
 
 }
+
 
 .app video {
   position: relative;
@@ -94,16 +96,19 @@
 
 /* =============test new idea ============ */
 .hero {
-  background-color: #160141;
+  background-color: #160C72;
   height: auto;
   padding-bottom: 60px;
 }
-
-
+/* .hero img{
+  padding-right: 154px;
+} */
 
 .videostyle {
   border-radius: 30px;
-  border: 2px solid #25CBD3;
+  border: 1px solid #25CBD3;
+  margin-top: 10px;
+  
 }
 
 .top-main-content {

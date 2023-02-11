@@ -2,10 +2,14 @@ import React from 'react'
 import FutureImg from './assets/FutureImg.png';
 import './EkonnetPay.css';
 import AffiliateImg from './assets/home-banner-bg.png';
+import { Helmet } from 'react-helmet';
 
 const Ekonnetpay = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | EkonnetPay </title>
+      </Helmet>
     <section id='ekonnet_hero' className='ekonnet_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>

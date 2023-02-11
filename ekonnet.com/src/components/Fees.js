@@ -2,10 +2,13 @@ import React from 'react';
 import './Fees.css';
 import maingraph from './assets/main-graph.png';
 import AffiliateImg from './assets/home-banner-bg.png';
-
+import { Helmet } from 'react-helmet';
 const Fees = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | Fees </title>
+      </Helmet>
     <section id='fees' className='fees' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>

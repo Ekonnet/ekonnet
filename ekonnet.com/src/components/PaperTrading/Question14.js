@@ -2,10 +2,13 @@ import React from 'react'
 import AffiliateImg from '../assets/home-banner-bg.png';
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
-
+import { Helmet } from 'react-helmet';
 const Question14 = () => {
   return (
     <>
+    <Helmet>
+        <title>Ekonnet | PaperTrading </title>
+      </Helmet>
     <section id='paper_hero' className='paper_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>

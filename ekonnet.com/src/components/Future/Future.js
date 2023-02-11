@@ -7,10 +7,15 @@ import lavragImg from "../assets/lavrage.png";
 import risk from "../assets/risk-m.png";
 import currency from "../assets/currency-pair.png";
 import Buttons from '../ButtonComponents/Buttons';
+import { Helmet } from 'react-helmet';
+
 
 const Future = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | Future</title>
+      </Helmet>
       <section id='future' className='future' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <Container>
           <div className='row'>

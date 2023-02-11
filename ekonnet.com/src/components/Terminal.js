@@ -5,10 +5,13 @@ import card from "./assets/world.png";
 import Accordian from './Accordian/Accordian.js'
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
-
+import { Helmet } from 'react-helmet';
 const Terminal = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | OTC </title>
+      </Helmet>
     <section id='terminel_hero' className='terminal_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>

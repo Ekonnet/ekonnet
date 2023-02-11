@@ -3,7 +3,7 @@ import './Home.css'
 import { BiDollar } from 'react-icons/bi';
 import Swipper from './Swipper';
 import Maingraph from "../assets/main-graph.png";
-//import Video from '../assets/Header_Video.mp4';
+import Video from '../assets/Header_Video.mp4';
 import TradeImg from "../assets/Trade.png";
 import analysisImg from "../assets/analysis.png";
 import p2pImg from "../assets/p2pImage.png";
@@ -27,6 +27,7 @@ import { FaBloggerB } from 'react-icons/fa';
 
 import { NavLink } from 'react-bootstrap';
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 // import Button from '@mui/material/Button';
 
 const Home = () => {
@@ -34,6 +35,9 @@ const Home = () => {
       
     return (
         <>
+        <Helmet>
+        <title>Ekonnet | Home</title>
+      </Helmet>
                 
             {/* <section className="hero">
                 <div className='app'>
@@ -84,15 +88,17 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                        <img className='mt-5' src={h1} alt="main-heading" width="2900px" height="700px" />
+                        <div className="outervideo">
 
-                            {/* <div className="outervideo">
+<video autoPlay loop muted className='videostyle'>
+    <source src={Video} type="video/mp4" />
+</video>
 
-                                <video autoPlay loop muted className='videostyle'>
-                                    <source src={Video} type="video/mp4" />
-                                </video>
-
-                            </div> */}
+</div>
+                        <div>
+                        <img src={h1} alt="main-heading" className='img-fluid mx-auto' />
+                        </div>
+                           
                         </div>
 
 

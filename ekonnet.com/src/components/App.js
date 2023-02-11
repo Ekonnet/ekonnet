@@ -126,6 +126,15 @@ import Best from './Best';
 import Marginfunding from './Marginfunding';
 import Margintrades from './Margintrades';
 import Exchangetrades from './Exchangetrades';
+import MarketOrder from './MultiTradeOrder/MarketOrder';
+import BookOrder from './MultiTradeOrder/BookOrder';
+import FillOrder from './MultiTradeOrder/FillOrder';
+import ImmediateOrder from './MultiTradeOrder/ImmediateOrder';
+import LimitOrder from './MultiTradeOrder/LimitOrder';
+import ProOrder from './MultiTradeOrder/ProOrder';
+import StopLimitOrder from './MultiTradeOrder/StopLimitOrder';
+import StopOrder from './MultiTradeOrder/StopOrder';
+import TrailingOrder from './MultiTradeOrder/TrailingOrder';
 
 
 
@@ -271,6 +280,15 @@ const App = () => {
        <Route path='/margin-trades' element={<Margintrades/>}/>
        <Route path='/margin-funding' element={<Marginfunding/>}/>
        <Route path='/exchange-trades' element={<Exchangetrades/>}/>
+       <Route path='/market-order' element={<MarketOrder/>}/>
+       <Route path='/book-order' element={<BookOrder/>}/>
+       <Route path='/fill-order' element={<FillOrder/>}/>
+       <Route path='/immediate-order' element={<ImmediateOrder/>}/>
+       <Route path='/limit-order' element={<LimitOrder/>}/>
+       <Route path='/pro-order' element={<ProOrder/>}/>
+       <Route path='/stop-limit-order' element={<StopLimitOrder/>}/>
+       <Route path='/stop-order' element={<StopOrder/>}/>
+       <Route path='/trailing-order' element={<TrailingOrder/>}/>
      </Routes>
   
      {/* <Sidebar>

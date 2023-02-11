@@ -6,13 +6,16 @@ import Exchange from "../assets/CoinExchange.png";
 import Margin from "../assets/MarginTrading.png";
 import FundingImg from "../assets/Funding.png";
 import DerivativesImg from "../assets/Derivatives.png";
-
+import { Helmet } from 'react-helmet';
 
 
 
 const Features = () => {
   return (
     <>
+    <Helmet>
+        <title>Ekonnet | Features</title>
+      </Helmet>
       <section id='features' className='features' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>

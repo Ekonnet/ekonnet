@@ -16,7 +16,7 @@ function HeaderNav() {
    <>
     <Navbar className='navbg' expand="lg" sticky="top">
       <Container>
-        {/* <Navbar.Brand as={Link} to={"/"} className='logo'>Ekonnet.com</Navbar.Brand> */}
+        <Navbar.Brand as={Link} to={"/"} className='logo'>Ekonnet</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-white text-black' />
         <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="me-auto main-nav">

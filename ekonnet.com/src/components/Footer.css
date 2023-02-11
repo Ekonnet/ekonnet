@@ -26,7 +26,7 @@
 .center-div{
     text-align: center;
 }
-
+ 
 .footer-color{
     
     background: rgb(2,0,36);
@@ -52,6 +52,13 @@
     font-size: 1rem;
     font-family: 'Open Sans', sans-serif;
 }
+.footer-services h5:hover{
+   color:  #09D3FF;
+}
+.footer-services h5:active{
+    color:  #ff096f !important;
+ }
+ 
 .hr{
  color:white;
 }

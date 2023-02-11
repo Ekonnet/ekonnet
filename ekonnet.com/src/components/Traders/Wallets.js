@@ -11,13 +11,16 @@ import mobileapp1 from '../assets/mobile-app 1.svg';
 import cash1 from '../assets/cash 1.svg';
 import cart1 from '../assets/shopping-cart 1.svg';
 import team1 from '../assets/team 1.svg';
-
+import { Helmet } from 'react-helmet';
 
 
 
 const Wallets = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | Wallet</title>
+      </Helmet>
       <section id='wallet_hero' className='wallet_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
               <div className='container'>
                 <div className='row'>

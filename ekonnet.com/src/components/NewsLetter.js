@@ -1,11 +1,14 @@
 import React from 'react'
 import './NewsLetter.css';
 import Card_Crypto from './assets/Card_Crypto.png';
-
+import { Helmet } from 'react-helmet';
 
 const NewsLetter = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | News </title>
+      </Helmet>
     <section id='mar_section' className='mar_section'>
     <marquee loop='infinite'> IOT  $2.555 DAS $769.22 BTC $11.039232 ETH $1.2792 GAME $11.039232 LBC $0.588418 NEO $161.511 IOT $2.555 DAS $769.22 BTC $11.039232 ETH $1.2792 GAME $11.039232 LBC $0.588418 NEO $161.511</marquee>
     </section>

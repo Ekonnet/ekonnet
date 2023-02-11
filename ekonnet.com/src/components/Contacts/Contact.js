@@ -4,10 +4,13 @@ import { IoMdMailUnread } from 'react-icons/io';
 
 import { IoCall } from 'react-icons/io5';
 import {FaMapMarkerAlt } from 'react-icons/fa';
-
+import { Helmet } from 'react-helmet';
 const Contact = () => {
   return (
    <>
+    <Helmet>
+        <title>Ekonnet | Contact </title>
+      </Helmet>
   <section className="contact__section">
     <div className="container">
         <div className="row">

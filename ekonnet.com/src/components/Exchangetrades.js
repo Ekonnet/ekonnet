@@ -1,8 +1,12 @@
 import React from 'react'
 import exchange from '../components/assets/exchange.png';
+import { Helmet } from 'react-helmet';
 const Exchangetrades = () => {
   return (
     <>
+    <Helmet>
+        <title>Ekonnet | ExchangeTrades </title>
+      </Helmet>
       {/* <section id='exchange_trade' className='exchange_trade'>
       <div className='container-fluid'>
       <div className='row'>

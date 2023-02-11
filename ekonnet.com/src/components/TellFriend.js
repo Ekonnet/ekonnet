@@ -4,9 +4,13 @@ import Accordian from './Accordian/Accordian.js'
  import { AiOutlineLogin } from "react-icons/ai";
  import { MdInsertInvitation } from "react-icons/md";
  import { GiReceiveMoney } from "react-icons/gi";
+ import { Helmet } from 'react-helmet';
 const TellFriend = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | TellFriend </title>
+      </Helmet>
     <section id='tell_hero' className='tell_hero'>
     <div className='container'>
     <div className='row'>

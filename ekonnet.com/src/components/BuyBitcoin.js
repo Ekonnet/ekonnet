@@ -5,7 +5,7 @@ import bit from "./assets/proxy.jpg";
 import Exchange from "./assets/bit1.png";
 import Margin from "./assets/bit2.png";
 import FundingImg from "./assets/bit4.png";
-
+import { Helmet } from 'react-helmet';
 
 
 
@@ -13,6 +13,9 @@ import FundingImg from "./assets/bit4.png";
 const BuyBitcoin = () => {
   return (
     <>
+    <Helmet>
+        <title>Ekonnet | Bitcoin </title>
+      </Helmet>
       <section id='features' className='features' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>

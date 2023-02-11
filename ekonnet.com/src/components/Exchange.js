@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import MainBanner from '../components/assets/exchange-main-baner.png';
 import BannerOne from '../components/assets/exchange-left-banner.png';
 import BannerTwo from '../components/assets/exchange-right-banner.png';
-
+import { Helmet } from 'react-helmet';
 import BannerThree from '../components/assets/exchange-bottom-banner.png';
 import ExchangeBg from '../components/assets/exchange-bg.png';
 import FBox1 from '../components/assets/feature-icon-1.png';
@@ -37,6 +37,9 @@ const Exchange = () => {
    
     return (
         <>
+        <Helmet>
+        <title>Ekonnet | Exchange </title>
+      </Helmet>
             <section className="exchange__section" style={{ backgroundImage: `url(${MainBanner})` }}>
                 <div className="illustration">
                     <AnimatePresence>

@@ -10,12 +10,15 @@ import Reffer2 from './assets/invite.png'
 import Reffer3 from './assets/earn.png'
 import WhyAffiliate from './assets/why-affiliate1.png'
 import TradeAffiliate from './assets/trade-affiliate.png'
-
+import { Helmet } from 'react-helmet';
 const Affiliate = () => {
 
 
   return (
     <>
+    <Helmet>
+        <title>Ekonnet | Affiliate</title>
+      </Helmet>
       <section id='affiliate_hero' className='affiliate_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:col-span-2 pb-5 gap-4'>

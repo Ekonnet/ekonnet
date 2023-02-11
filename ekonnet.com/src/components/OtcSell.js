@@ -2,10 +2,13 @@ import React from 'react'
 import './Otc.css';
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
-
+import { Helmet } from 'react-helmet';
 const OtcSell = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | OTC </title>
+      </Helmet>
       <section id='otc_hero' className='otc_hero'>
         <div className='container'>
             <div className='row'>

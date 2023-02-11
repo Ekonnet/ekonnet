@@ -2,10 +2,13 @@ import React from 'react'
 import './Career.css';
 import FutureImg from './assets/FutureImg.png';
 import AffiliateImg from './assets/home-banner-bg.png';
-
+import { Helmet } from 'react-helmet';
 const Career = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | Career </title>
+      </Helmet>
      <section id='career_hero' className='career_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>

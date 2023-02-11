@@ -1,6 +1,6 @@
 import React from 'react'
 import style from 'styled-components'
-
+import { Helmet } from 'react-helmet'
 import Arrow1 from '../components/assets/arrow-1.png'
 import Step1 from '../components/assets/step-1.png'
 import Arrow2 from '../components/assets/arrow-2.png'
@@ -233,7 +233,9 @@ h2{
 
     return (
         <>
-
+          <Helmet>
+        <title>Ekonnet | CreditDebitCard </title>
+      </Helmet>
             <Wrapper>
                 <div className="container-fluid" style={{ backgroundImage: `url(${Banner})` }}>
                     <div className='row pt-5 pb-5 pl-4'>

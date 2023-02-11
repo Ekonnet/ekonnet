@@ -12,9 +12,11 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { Helmet } from 'react-helmet';
 
 function Copyright(props) {
   return (
+  
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
       <Link color="inherit" href="/">
@@ -29,6 +31,7 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function SignUp() {
+ 
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -39,6 +42,10 @@ export default function SignUp() {
   };
 
   return (
+    <>
+     <Helmet>
+        <title>Ekonnet | SignUp </title>
+      </Helmet>
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
@@ -127,5 +134,6 @@ export default function SignUp() {
         <Copyright sx={{ mt: 5 }} />
       </Container>
     </ThemeProvider>
+    </>
   );
 }

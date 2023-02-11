@@ -5,7 +5,7 @@ import Ethereum from "./assets/s.jpg";
 import Exchange from "./assets/s5.png";
 import Margin from "./assets/s2.png";
 import FundingImg from "./assets/s4.png";
-
+import { Helmet } from 'react-helmet';
 
 
 
@@ -13,6 +13,9 @@ import FundingImg from "./assets/s4.png";
 const BuySilver = () => {
   return (
     <>
+    <Helmet>
+        <title>Ekonnet | Silver </title>
+      </Helmet>
       <section id='features' className='features' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
             <div className='row'>

@@ -13,13 +13,16 @@ import CoinAnimate from "../assets/coin.png";
 import { motion, AnimatePresence } from 'framer-motion'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import {  Helmet } from 'react-helmet';
 const MobileApp = () => {
     useEffect(() => {
         AOS.init();
     }, [])
     return (
         <>
+        <Helmet>
+        <title>Ekonnet | MobileApp </title>
+      </Helmet>
             <section id='mobile' className='mobile bg-no-repeat bg-cover' style={{ backgroundImage: `url(${Bg2})` }}>
                 <div className='container'>
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>

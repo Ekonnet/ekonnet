@@ -2,10 +2,13 @@ import React from 'react'
 import './GeneralNoticeAndTerms.css';
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
-
+import { Helmet } from 'react-helmet';
 const CookiesPreferences = () => {
   return (
     <>
+    <Helmet>
+        <title>Ekonnet | Legal And Privacy </title>
+      </Helmet>
     <section id='legal_hero' className='legal_hero'>
         <div className='container'>
             <div className='row'>
