@@ -47,8 +47,8 @@ function HeaderNav() {
                Mobile App
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to={"/security"}>
-               Security
+              <NavDropdown.Item as={Link} to={"/security-protection"}>
+               Security & Protection
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to={"/wallets"}>

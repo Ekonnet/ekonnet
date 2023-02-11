@@ -59,7 +59,7 @@ const Footer = () => {
                         <Nav.Link as={Link} to={"/blog"}><h5>Blog</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/mobile-app"}><h5>Mobile App</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/ekonnet-pay"}><h5>Ekonnet Pay</h5></Nav.Link>       
-                        <Nav.Link as={Link} to={"/wallets"}><h5>Wallet</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/wallet"}><h5>Wallet</h5></Nav.Link>
                         {/* <Nav.Link as={Link} to={"/ekonnet-terminal"}><h5>Ekonnet Terminal</h5></Nav.Link> */}
                         <Nav.Link as={Link} to={"/tell-a-friend"}><h5>Tell-a-Friend</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/best"}><h5>Best</h5></Nav.Link>
@@ -69,7 +69,7 @@ const Footer = () => {
                             <h2>Company</h2>
                         <Nav.Link as={Link} to={"/about-us"}><h5>About Us</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/affiliate"}><h5>Affiliate</h5></Nav.Link>
-                        <Nav.Link as={Link} to={"/career"}><h5>Careers</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/career"}><h5>Career</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/news-letter"}><h5>NewsLetter</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/fees"}><h5>Fees</h5></Nav.Link>
                         </Col>

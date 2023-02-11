@@ -8,7 +8,7 @@ const P2pTradingFees = () => {
   return (
     <>
     <Helmet>
-        <title>Ekonnet | P2P Trading Fees</title>
+        <title>Ekonnet | p2p Trading Fees</title>
       </Helmet>
     <section id='p_to_p' className='p_to_p'>
       <div className='container'>

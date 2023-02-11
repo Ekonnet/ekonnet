@@ -2,10 +2,13 @@ import React from 'react';
 import './OneClickBuy.css';
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
-
+import { Helmet } from 'react-helmet';
 const OneClickSell = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | One-Click Sell</title>
+      </Helmet>
     <section id='one_click' className='one_click'>
       <div className='container'>
         <div className='row'>

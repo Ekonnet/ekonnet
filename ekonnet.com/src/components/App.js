@@ -168,7 +168,7 @@ const App = () => {
        <Route path="/traders" element={<Traders/>}/>
        <Route path="/features" element={<Features/>}/>
        <Route path="/mobile-app" element={<MobileApp/>}/>
-       <Route path="/wallets" element={<Wallets/>}/>
+       <Route path="/wallet" element={<Wallets/>}/>
        <Route path="/security-protection" element={<Security/>}/>
        <Route path="/explore" element={<Explore/>}/>
        <Route path="/future" element={<Future/>}/>

@@ -8,7 +8,7 @@ const FiatDeposite = () => {
   return (
     <>
     <Helmet>
-        <title>Ekonnet | Fait Deposite</title>
+        <title>Ekonnet | Fiat Deposite</title>
       </Helmet>
     <section id='fiat_deposite' className='fiat_deposite'>
       <div className='container'>
