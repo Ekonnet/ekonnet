@@ -179,7 +179,7 @@ const App = () => {
        <Route path="/sign-in" element={<SignIn/>}/>
        <Route path="/sign-up" element={<SignUp/>}/>
        <Route path='/affiliate' element={<Affiliate/>}/>
-       <Route path='/about' element={<About/>}/>
+       <Route path='/about-us' element={<About/>}/>
        <Route path='/contact-us' element={<ContactUs/>}/>
        <Route path='/career' element={<Career/>}/>
        <Route path='/fees' element={<Fees/>}/>
@@ -274,7 +274,7 @@ const App = () => {
        <Route path='/terminal12' element={<Terminal12/>}/>
        <Route path='/terminal13' element={<Terminal13/>}/>
        <Route path='/terminal14' element={<Terminal14/>}/>
-       <Route path='/tell-friend' element={<TellFriend/>}/>
+       <Route path='/tell-a-friend' element={<TellFriend/>}/>
        <Route path='/best' element={<Best/>}/>
        <Route path='/corporate-professional' element={<Corporate/>}/>
        <Route path='/margin-trades' element={<Margintrades/>}/>

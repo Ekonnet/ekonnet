@@ -16,7 +16,7 @@ const About = () => {
     return (
         <>
         <Helmet>
-        <title>Ekonnet | About</title>
+        <title>Ekonnet | About Us</title>
       </Helmet>
             <section id='about_hero' className='about_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
                 <div className='container'>

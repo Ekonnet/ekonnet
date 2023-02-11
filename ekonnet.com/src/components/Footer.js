@@ -61,14 +61,14 @@ const Footer = () => {
                         <Nav.Link as={Link} to={"/ekonnet-pay"}><h5>Ekonnet Pay</h5></Nav.Link>       
                         <Nav.Link as={Link} to={"/wallets"}><h5>Wallet</h5></Nav.Link>
                         {/* <Nav.Link as={Link} to={"/ekonnet-terminal"}><h5>Ekonnet Terminal</h5></Nav.Link> */}
-                        <Nav.Link as={Link} to={"/tell-friend"}><h5>Tell-a-Friend</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/tell-a-friend"}><h5>Tell-a-Friend</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/best"}><h5>Best</h5></Nav.Link>
                         </Col>
                         {/* ------------3rd section--------------- */}
                         <Col className='footer-services'>
                             <h2>Company</h2>
-                        <Nav.Link as={Link} to={"/about"}><h5>About</h5></Nav.Link>
-                        <Nav.Link as={Link} to={"/affiliate"}><h5>Affiliates</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/about-us"}><h5>About Us</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/affiliate"}><h5>Affiliate</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/career"}><h5>Careers</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/news-letter"}><h5>NewsLetter</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/fees"}><h5>Fees</h5></Nav.Link>
