@@ -7,7 +7,7 @@ const Question19 = () => {
   return (
     <>
     <Helmet>
-        <title>Ekonnet | PaperTrading </title>
+        <title>Ekonnet | Paper Trading </title>
       </Helmet>
     <section id='paper_hero' className='paper_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
@@ -28,47 +28,47 @@ const Question19 = () => {
                 <div className='col-lg-4'>
                     <div className='question'>
                     
-                    <Nav.Link as={Link} to={"/que1"}><button>Currency Switch Tool on Ekonnet</button>             
+                    <Nav.Link as={Link} to={"/Currency-Switch-Tool-on-Ekonnet"}><button>Currency Switch Tool on Ekonnet</button>             
                     </Nav.Link> 
-                    <Nav.Link as={Link} to={"/que2"}><button>How to trade on Ekonnet</button>
+                    <Nav.Link as={Link} to={"/How-to-trade-on-Ekonnet"}><button>How to trade on Ekonnet</button>
                     </Nav.Link> 
-                    <Nav.Link as={Link} to={"/que3"}> <button>Paper Trading at Ekonnet — test, learn and simulate trading strategies</button>                    
+                    <Nav.Link as={Link} to={"/Paper-Trading-at-Ekonnet-test-learn-and-simulate-trading-strategies"}> <button>Paper Trading at Ekonnet — test, learn and simulate trading strategies</button>                    
                     </Nav.Link>
-                    <Nav.Link as={Link} to={"/que4"}><button>Ekonnet Order Types and Order Options</button>
+                    <Nav.Link as={Link} to={"/Ekonnet-Order-Types-and-Order-Options"}><button>Ekonnet Order Types and Order Options</button>
                     </Nav.Link> 
-                    <Nav.Link as={Link} to={"/que5"}><button>Understanding Ekonnet Over the Counter (OTC)</button>    
+                    <Nav.Link as={Link} to={"/Understanding-Ekonnet-Over-the-Counter(OTC)"}><button>Understanding Ekonnet Over the Counter (OTC)</button>    
                     </Nav.Link> 
-                    <Nav.Link as={Link} to={"/que6"}><button>How to check you are paying the right trading fees on Ekonnet</button>  
+                    <Nav.Link as={Link} to={"/How-to-check-you-are-paying-the-right-trading-fees-on-Ekonnet"}><button>How to check you are paying the right trading fees on Ekonnet</button>  
                     </Nav.Link> 
-                    <Nav.Link as={Link} to={"/que7"}><button>What is the minimum order size on Ekonnet</button>  
+                    <Nav.Link as={Link} to={"/What-is-the-minimum-order-size-on-Ekonnet"}><button>What is the minimum order size on Ekonnet</button>  
                     </Nav.Link> 
-                    <Nav.Link as={Link} to={"/que8"}><button>Order and Funding Books terms on Ekonnet</button>     
+                    <Nav.Link as={Link} to={"/Order-and-Funding-Books-terms-on-Ekonnet"}><button>Order and Funding Books terms on Ekonnet</button>     
                     </Nav.Link> 
-                    <Nav.Link as={Link} to={"/que9"}><button>The Ekonnet Chart, Layout Customisation & Ekonnet Trade Desk</button>
+                    <Nav.Link as={Link} to={"/The-Ekonnet-Chart-Layout-Customisation-&-Ekonnet-Trade-Desk"}><button>The Ekonnet Chart, Layout Customisation & Ekonnet Trade Desk</button>
                     </Nav.Link>
-                    <Nav.Link as={Link} to={"/que10"}><button>Customisation on Ekonnet</button>
+                    <Nav.Link as={Link} to={"/Customisation-on-Ekonnet"}><button>Customisation on Ekonnet</button>
                     </Nav.Link>
-                    <Nav.Link as={Link} to={"/que11"}><button>Bitcoin (Satoshi) Mode</button>
+                    <Nav.Link as={Link} to={"/Bitcoin(Satoshi)-Mode"}><button>Bitcoin (Satoshi) Mode</button>
                     </Nav.Link> 
-                    <Nav.Link as={Link} to={"/que12"}><button>Ekonnet Interface loading issues — Frequently Asked Questions (FAQ)</button>
+                    <Nav.Link as={Link} to={"/Ekonnet-Interface-loading-issues-Frequently-Asked-Questions(FAQ)"}><button>Ekonnet Interface loading issues — Frequently Asked Questions (FAQ)</button>
                     </Nav.Link>
-                    <Nav.Link as={Link} to={"/que13"}><button>Price alert setting on Ekonnet</button>
+                    <Nav.Link as={Link} to={"/Price-alert-setting-on-Ekonnet"}><button>Price alert setting on Ekonnet</button>
                     </Nav.Link>
-                    <Nav.Link as={Link} to={"/que14"}><button>What is a settlement on Ekonnet</button>
+                    <Nav.Link as={Link} to={"/What-is-a-settlement-on-Ekonnet"}><button>What is a settlement on Ekonnet</button>
                     </Nav.Link>
-                    <Nav.Link as={Link} to={"/que15"}><button>Why are BTC profits on Ekonnet</button>
+                    <Nav.Link as={Link} to={"/Why-are-BTC-profits-on-Ekonnet"}><button>Why are BTC profits on Ekonnet</button>
                     </Nav.Link>
-                    <Nav.Link as={Link} to={"/que16"}><button>Trading Error Message</button>
+                    <Nav.Link as={Link} to={"/Trading-Error-Message"}><button>Trading Error Message</button>
                     </Nav.Link>
-                    <Nav.Link as={Link} to={"/que17"}><button>Editing orders and viewing order history in bulk</button>
+                    <Nav.Link as={Link} to={"/Editing-orders-and-viewing-order-history-in-bulk"}><button>Editing orders and viewing order history in bulk</button>
                     </Nav.Link>
-                    <Nav.Link as={Link} to={"/que18"}><button>How is precision calculated using significant digits on Ekonnet</button>
+                    <Nav.Link as={Link} to={"/How-is-precision-calculated-using-significant-digits-on-Ekonnet"}><button>How is precision calculated using significant digits on Ekonnet</button>
                     </Nav.Link>
-                    <Nav.Link as={Link} to={"/que19"}><button id='button_active'>Orders execution on Ekonnet</button>
+                    <Nav.Link as={Link} to={"/Orders-execution-on-Ekonnet"}><button id='button_active'>Orders execution on Ekonnet</button>
                     </Nav.Link>
-                    <Nav.Link as={Link} to={"/que20"}><button>Why a stop order might not be filled at the stop price on Ekonnet</button>
+                    <Nav.Link as={Link} to={"/Why-a-stop-order-might-not-be-filled-at-the-stop-price-on-Ekonnet"}><button>Why a stop order might not be filled at the stop price on Ekonnet</button>
                     </Nav.Link>
-                    <Nav.Link as={Link} to={"/que21"}><button>Chain Split Tokens and Token Manager on Ekonnet</button>
+                    <Nav.Link as={Link} to={"/Chain-Split-Tokens-and-Token-Manager-on-Ekonnet"}><button>Chain Split Tokens and Token Manager on Ekonnet</button>
                     </Nav.Link>
                     </div>
                 </div>

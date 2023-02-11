@@ -5,7 +5,7 @@ const Margintrades = () => {
   return (
     <>
     <Helmet>
-        <title>Ekonnet | MarginTrades </title>
+        <title>Ekonnet | Margin Trades </title>
       </Helmet>
     <img src={exchange} alt='' className='image-fluid mw-100 h-auto' />
     </>

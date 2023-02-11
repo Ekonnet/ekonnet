@@ -42,8 +42,8 @@ const Footer = () => {
                         <Nav.Link as={Link} to={"/exchange"} ><h5>Exchange</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/otc"}><h5>Otc</h5></Nav.Link>
                         <Nav.Link as={Link} to={"/staking"}><h5>Staking</h5></Nav.Link>
-                        <Nav.Link as={Link} to={"/security"}><h5>Security & Protection</h5></Nav.Link>
-                        <Nav.Link as={Link} to={"/credit-card"}><h5>Credit & Debit Card</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/security-protection"}><h5>Security & Protection</h5></Nav.Link>
+                        <Nav.Link as={Link} to={"/credit-debit-card"}><h5>Credit & Debit Card</h5></Nav.Link>
                         {/* <Nav.Link as={Link} to={"/web-socket"}><h5>API & WebSockets</h5></Nav.Link> */}
                         {/* <Nav.Link as={Link} to={"/corporate-professional"}><h5>Corporate & Professional</h5></Nav.Link>  */}
                         <Nav.Link as={Link} to={"/contact-us"}><h5>Contact Us</h5></Nav.Link>
@@ -79,13 +79,13 @@ const Footer = () => {
                         <Col className='footer-services'>
                             <h2>Read</h2>
                             <Nav.Link as={Link} to={"/paper-trading"}><h5>Paper Trading</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-bitcoin"}><h5>How to Buy Bitcoin</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-tether"}><h5>How to buy Tether</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-ethereum"}><h5>How to buy Ethereum</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-xrp"}><h5>How to buy XRP</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-shiba"}><h5>How to buy Shiba Inu</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-gold"}><h5>How to buy Gold</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/buy-silver"}><h5>How to buy Silver</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/how-to-buy-bitcoin"}><h5>How to buy Bitcoin</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/how-to-buy-tether"}><h5>How to buy Tether</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/how-to-buy-ethereum"}><h5>How to buy Ethereum</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/how-to-buy-xrp"}><h5>How to buy XRP</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/how-to-buy-shiba-inu"}><h5>How to buy Shiba Inu</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/how-to-buy-gold"}><h5>How to buy Gold</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/how-to-buy-silver"}><h5>How to buy Silver</h5></Nav.Link>
                         </Col>
                         
                         {/* ------------5th section--------------- */}
@@ -109,11 +109,11 @@ const Footer = () => {
                             <Nav.Link as={Link} to={"/limit-order"}><h5>Limit Order</h5></Nav.Link>
                             <Nav.Link as={Link} to={"/stop-order"}><h5>Stop Order</h5></Nav.Link>
                             <Nav.Link as={Link} to={"/stop-limit-order"}><h5>Stop limit Order</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/fill-order"}><h5>Fill or Kill Order</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/immediate-order"}><h5>Immediate Cancellation Order</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/trailing-order"}><h5>Trailing Limit Order</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/book-order"}><h5>Active Book Order</h5></Nav.Link>
-                            <Nav.Link as={Link} to={"/pro-order"}><h5>Scaled Pro Order</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/fill-or-kill-order"}><h5>Fill or Kill Order</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/immediate-cancellation-order"}><h5>Immediate Cancellation Order</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/trailing-limit-order"}><h5>Trailing Limit Order</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/active-book-order"}><h5>Active Book Order</h5></Nav.Link>
+                            <Nav.Link as={Link} to={"/scaled-pro-order"}><h5>Scaled Pro Order</h5></Nav.Link>
                         </Col>
                     </Row>
                 </div>

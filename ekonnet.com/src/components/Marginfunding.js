@@ -5,7 +5,7 @@ const Marginfunding = () => {
   return (
     <>
      <Helmet>
-        <title>Ekonnet | Marginfunding </title>
+        <title>Ekonnet | Margin Funding </title>
       </Helmet>
     <img src={exchange} alt='' className='image-fluid mw-100 h-auto' />
     </>

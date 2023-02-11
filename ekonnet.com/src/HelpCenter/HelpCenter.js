@@ -28,7 +28,7 @@ const HelpCenter = () => {
     return (
         <>
         <Helmet>
-        <title>Ekonnet | HelpCenter </title>
+        <title>Ekonnet | Help Center </title>
       </Helmet>
             <section className="hepcenter__front" style={Background}>
                 <div className="container">
@@ -118,8 +118,11 @@ const HelpCenter = () => {
                             <h2 className='acount__heading'>  Verification</h2>
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
-                        <div className="col-4 ">
+                        <div className="col-4 accountDiv">
+                            <h2 className='acount__heading'>  Lending</h2>
+                            <MdDoubleArrow className='arrow-icon'/>
                         </div>
+                        
                         
                         
                     </div>
@@ -164,14 +167,14 @@ const HelpCenter = () => {
                         
     
                     </div>
-                    <div className="row d-flex justify-content-around gap-1 mt-3">
+                    {/* <div className="row d-flex justify-content-around gap-1 mt-3">
                     <div className="col-4 accountDiv">
                             <h2 className='acount__heading text-center'>  Lending</h2>
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
-                        <div className="col-4"></div>
-                        <div className="col-4"></div>
-                    </div>
+                        <div className="col-4 accountDiv"></div>
+                        <div className="col-4 accountDiv"></div>
+                    </div> */}
                 </div>
             </section>
 

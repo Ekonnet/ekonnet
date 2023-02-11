@@ -14,7 +14,7 @@ const BuyXRP = () => {
   return (
     <>
     <Helmet>
-        <title>Ekonnet | XRP </title>
+        <title>Ekonnet | How to buy XRP </title>
       </Helmet>
       <section id='features' className='features' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>

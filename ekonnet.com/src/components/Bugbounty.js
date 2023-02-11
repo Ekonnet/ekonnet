@@ -7,7 +7,7 @@ const Bugbounty = () => {
   return (
     <>
     <Helmet>
-        <title>Ekonnet | Bugbounty </title>
+        <title>Ekonnet | Bug Bounty </title>
       </Helmet>
      <section id='bug_hero' className='bug_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>

@@ -14,7 +14,7 @@ const BuyGold = () => {
   return (
     <>
     <Helmet>
-        <title>Ekonnet | Gold </title>
+        <title>Ekonnet | How to buy Gold </title>
       </Helmet>
       <section id='features' className='features' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>

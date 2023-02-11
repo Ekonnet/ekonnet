@@ -9,7 +9,7 @@ const FillOrder = () => {
     
     <>
     <Helmet>
-        <title>Ekonnet | MultiTradeOrder </title>
+        <title>Ekonnet | Multi-Trades Order </title>
       </Helmet>
       <section id='paper_hero' className='paper_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
@@ -37,15 +37,15 @@ const FillOrder = () => {
                     </Nav.Link>
                     <Nav.Link as={Link} to={"/stop-limit-order"}><button>Stop limit Order</button>
                     </Nav.Link> 
-                    <Nav.Link as={Link} to={"/fill-order"}><button id='button_active'>Fill or Kill Order</button>    
+                    <Nav.Link as={Link} to={"/fill-or-kill-order"}><button id='button_active'>Fill or Kill Order</button>    
                     </Nav.Link> 
-                    <Nav.Link as={Link} to={"/immediate-order"}><button>Immediate Cancellation Order</button>  
+                    <Nav.Link as={Link} to={"/immediate-cancellation-order"}><button>Immediate Cancellation Order</button>  
                     </Nav.Link> 
-                    <Nav.Link as={Link} to={"/trailing-order"}><button>Trailing Limit Order</button>  
+                    <Nav.Link as={Link} to={"/trailing-limit-order"}><button>Trailing Limit Order</button>  
                     </Nav.Link> 
-                    <Nav.Link as={Link} to={"/book-order"}><button>Active Book Order</button>     
+                    <Nav.Link as={Link} to={"/active-book-order"}><button>Active Book Order</button>     
                     </Nav.Link> 
-                    <Nav.Link as={Link} to={"/pro-order"}><button>Scaled Pro Order</button>
+                    <Nav.Link as={Link} to={"/scaled-pro-order"}><button>Scaled Pro Order</button>
                     </Nav.Link>
                     
                     </div>

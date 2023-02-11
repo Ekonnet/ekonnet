@@ -234,7 +234,7 @@ h2{
     return (
         <>
           <Helmet>
-        <title>Ekonnet | CreditDebitCard </title>
+        <title>Ekonnet | Credit & Debit Card </title>
       </Helmet>
             <Wrapper>
                 <div className="container-fluid" style={{ backgroundImage: `url(${Banner})` }}>

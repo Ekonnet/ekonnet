@@ -14,7 +14,7 @@ const BuyShiba = () => {
   return (
     <>
     <Helmet>
-        <title>Ekonnet | ShibaInu </title>
+        <title>Ekonnet | How to buy ShibaInu </title>
       </Helmet>
       <section id='features' className='features' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>

@@ -5,7 +5,7 @@ const Exchangetrades = () => {
   return (
     <>
     <Helmet>
-        <title>Ekonnet | ExchangeTrades </title>
+        <title>Ekonnet | Exchange Trades </title>
       </Helmet>
       {/* <section id='exchange_trade' className='exchange_trade'>
       <div className='container-fluid'>

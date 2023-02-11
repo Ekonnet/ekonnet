@@ -9,7 +9,7 @@ const TellFriend = () => {
   return (
     <>
      <Helmet>
-        <title>Ekonnet | TellFriend </title>
+        <title>Ekonnet | Tell Friend </title>
       </Helmet>
     <section id='tell_hero' className='tell_hero'>
     <div className='container'>

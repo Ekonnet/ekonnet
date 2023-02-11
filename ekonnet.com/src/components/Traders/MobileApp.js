@@ -21,7 +21,7 @@ const MobileApp = () => {
     return (
         <>
         <Helmet>
-        <title>Ekonnet | MobileApp </title>
+        <title>Ekonnet | Mobile App </title>
       </Helmet>
             <section id='mobile' className='mobile bg-no-repeat bg-cover' style={{ backgroundImage: `url(${Bg2})` }}>
                 <div className='container'>

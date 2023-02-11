@@ -14,7 +14,7 @@ const BuyEthereum = () => {
   return (
     <>
     <Helmet>
-        <title>Ekonnet | Ethereum </title>
+        <title>Ekonnet | How to buy Ethereum </title>
       </Helmet>
       <section id='features' className='features' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>

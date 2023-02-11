@@ -169,7 +169,7 @@ const App = () => {
        <Route path="/features" element={<Features/>}/>
        <Route path="/mobile-app" element={<MobileApp/>}/>
        <Route path="/wallets" element={<Wallets/>}/>
-       <Route path="/security" element={<Security/>}/>
+       <Route path="/security-protection" element={<Security/>}/>
        <Route path="/explore" element={<Explore/>}/>
        <Route path="/future" element={<Future/>}/>
        <Route path="/signup" element={<SignUp/>}/>
@@ -183,7 +183,7 @@ const App = () => {
        <Route path='/contact-us' element={<ContactUs/>}/>
        <Route path='/career' element={<Career/>}/>
        <Route path='/fees' element={<Fees/>}/>
-       <Route path='/credit-card' element={<CreditDebitCard/>}/>
+       <Route path='/credit-debit-card' element={<CreditDebitCard/>}/>
        <Route path='/news-letter' element={<NewsLetter/>}/>
        <Route path='/ekonnet-pay' element={<EkonnetPay/>}/>
        <Route path='/blog' element={<Blog/>}/>
@@ -210,35 +210,35 @@ const App = () => {
        <Route path='/' element={<Home/>}/>
        <Route path='/sidebar' element={<Sidebar/>}/>
        <Route path='/sidebar-route' element={<SidebarRoot/>}/>
-       <Route path='/buy-bitcoin' element={<BuyBitcoin/>}/>
-       <Route path='/buy-tether' element={<BuyTether/>}/>
-       <Route path='/buy-ethereum' element={<BuyEthereum/>}/>
-       <Route path='/buy-gold' element={<BuyGold/>}/>
-       <Route path='/buy-shiba' element={<BuyShiba/>}/>
-       <Route path='/buy-silver' element={<BuySilver/>}/>
-       <Route path='/buy-xrp' element={<BuyXrp/>}/>
+       <Route path='/how-to-buy-bitcoin' element={<BuyBitcoin/>}/>
+       <Route path='/how-to-buy-tether' element={<BuyTether/>}/>
+       <Route path='/how-to-buy-ethereum' element={<BuyEthereum/>}/>
+       <Route path='/how-to-buy-gold' element={<BuyGold/>}/>
+       <Route path='/how-to-buy-shiba-inu' element={<BuyShiba/>}/>
+       <Route path='/how-to-buy-silver' element={<BuySilver/>}/>
+       <Route path='/how-to-buy-xrp' element={<BuyXrp/>}/>
        <Route path='/paper-trading' element={<Papertrading/>}/>
-       <Route path='/que1' element={<Question1/>}/>
-       <Route path='/que2' element={<Question2/>}/>
-       <Route path='/que3' element={<Question3/>}/>
-       <Route path='/que4' element={<Question4/>}/>
-       <Route path='/que5' element={<Question5/>}/>
-       <Route path='/que6' element={<Question6/>}/>
-       <Route path='/que7' element={<Question7/>}/>
-       <Route path='/que8' element={<Question8/>}/>
-       <Route path='/que9' element={<Question9/>}/>
-       <Route path='/que10' element={<Question10/>}/>
-       <Route path='/que11' element={<Question11/>}/>
-       <Route path='/que12' element={<Question12/>}/>
-       <Route path='/que13' element={<Question13/>}/>
-       <Route path='/que14' element={<Question14/>}/>
-       <Route path='/que15' element={<Question15/>}/>
-       <Route path='/que16' element={<Question16/>}/>
-       <Route path='/que17' element={<Question17/>}/>
-       <Route path='/que18' element={<Question18/>}/>
-       <Route path='/que19' element={<Question19/>}/>
-       <Route path='/que20' element={<Question20/>}/>
-       <Route path='/que21' element={<Question21/>}/> 
+       <Route path='/Currency-Switch-Tool-on-Ekonnet' element={<Question1/>}/>
+       <Route path='/How-to-trade-on-Ekonnet' element={<Question2/>}/>
+       <Route path='/Paper-Trading-at-Ekonnet-test-learn-and-simulate-trading-strategies' element={<Question3/>}/>
+       <Route path='/Ekonnet-Order-Types-and-Order-Options' element={<Question4/>}/>
+       <Route path='/Understanding-Ekonnet-Over-the-Counter(OTC)' element={<Question5/>}/>
+       <Route path='/How-to-check-you-are-paying-the-right-trading-fees-on-Ekonnet' element={<Question6/>}/>
+       <Route path='/What-is-the-minimum-order-size-on-Ekonnet' element={<Question7/>}/>
+       <Route path='/Order-and-Funding-Books-terms-on-Ekonnet' element={<Question8/>}/>
+       <Route path='/The-Ekonnet-Chart-Layout-Customisation-&-Ekonnet-Trade-Desk' element={<Question9/>}/>
+       <Route path='/Customisation-on-Ekonnet' element={<Question10/>}/>
+       <Route path='/Bitcoin(Satoshi)-Mode' element={<Question11/>}/>
+       <Route path='/Ekonnet-Interface-loading-issues-Frequently-Asked-Questions(FAQ)' element={<Question12/>}/>
+       <Route path='/Price-alert-setting-on-Ekonnet' element={<Question13/>}/>
+       <Route path='/What-is-a-settlement-on-Ekonnet' element={<Question14/>}/>
+       <Route path='/Why-are-BTC-profits-on-Ekonnet' element={<Question15/>}/>
+       <Route path='/Trading-Error-Message' element={<Question16/>}/>
+       <Route path='/Editing-orders-and-viewing-order-history-in-bulk' element={<Question17/>}/>
+       <Route path='/How-is-precision-calculated-using-significant-digits-on-Ekonnet' element={<Question18/>}/>
+       <Route path='/Orders-execution-on-Ekonnet' element={<Question19/>}/>
+       <Route path='/Why-a-stop-order-might-not-be-filled-at-the-stop-price-on-Ekonnet' element={<Question20/>}/>
+       <Route path='/Chain-Split-Tokens-and-Token-Manager-on-Ekonnet' element={<Question21/>}/> 
        <Route path='/web-socket' element={<WebSocket/>}/>
        <Route path='/web1' element={<Web1/>}/>
        <Route path='/web2' element={<Web2/>}/>
@@ -281,14 +281,14 @@ const App = () => {
        <Route path='/margin-funding' element={<Marginfunding/>}/>
        <Route path='/exchange-trades' element={<Exchangetrades/>}/>
        <Route path='/market-order' element={<MarketOrder/>}/>
-       <Route path='/book-order' element={<BookOrder/>}/>
-       <Route path='/fill-order' element={<FillOrder/>}/>
-       <Route path='/immediate-order' element={<ImmediateOrder/>}/>
+       <Route path='/active-book-order' element={<BookOrder/>}/>
+       <Route path='/fill-or-kill-order' element={<FillOrder/>}/>
+       <Route path='/immediate-cancellation-order' element={<ImmediateOrder/>}/>
        <Route path='/limit-order' element={<LimitOrder/>}/>
-       <Route path='/pro-order' element={<ProOrder/>}/>
+       <Route path='/scaled-pro-order' element={<ProOrder/>}/>
        <Route path='/stop-limit-order' element={<StopLimitOrder/>}/>
        <Route path='/stop-order' element={<StopOrder/>}/>
-       <Route path='/trailing-order' element={<TrailingOrder/>}/>
+       <Route path='/trailing-limit-order' element={<TrailingOrder/>}/>
      </Routes>
   
      {/* <Sidebar>

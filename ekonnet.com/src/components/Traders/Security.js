@@ -8,7 +8,7 @@ const Security = () => {
   return (
     <>
     <Helmet>
-        <title>Ekonnet | Security </title>
+        <title>Ekonnet | Security & Protection</title>
       </Helmet>
       <section id='security' className='security pt-[40px]'>
         <div className='container'>

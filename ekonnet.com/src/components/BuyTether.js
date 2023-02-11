@@ -14,7 +14,7 @@ const BuyTether = () => {
   return (
     <>
     <Helmet>
-        <title>Ekonnet | Tether </title>
+        <title>Ekonnet | How to buy Tether </title>
       </Helmet>
       <section id='features' className='features' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>

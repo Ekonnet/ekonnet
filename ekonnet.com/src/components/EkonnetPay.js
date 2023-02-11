@@ -8,7 +8,7 @@ const Ekonnetpay = () => {
   return (
     <>
      <Helmet>
-        <title>Ekonnet | EkonnetPay </title>
+        <title>Ekonnet | Ekonnet Pay </title>
       </Helmet>
     <section id='ekonnet_hero' className='ekonnet_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>
