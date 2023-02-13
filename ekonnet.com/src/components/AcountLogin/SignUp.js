@@ -44,7 +44,7 @@ export default function SignUp() {
   return (
     <>
      <Helmet>
-        <title>Ekonnet | SignUp </title>
+        <title>Ekonnet | Sign Up </title>
       </Helmet>
     <ThemeProvider theme={theme}>
       <Container component="main" maxWidth="xs">

@@ -10,7 +10,7 @@ const ContactUs = () => {
   return (
    <>
    <Helmet>
-        <title>Ekonnet | Contact </title>
+        <title>Ekonnet | Contact Us </title>
       </Helmet>
   <section className="contact__section">
     <div className="container">

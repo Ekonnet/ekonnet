@@ -51,13 +51,13 @@ function HeaderNav() {
                Security & Protection
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to={"/wallets"}>
+              <NavDropdown.Item as={Link} to={"/wallet"}>
                Wallet
               </NavDropdown.Item>
             </NavDropdown>
             {/* <Nav.Link as={Link} to={"/explore"}>Explore</Nav.Link> */}
             <Nav.Link as={Link} to={"/affiliate"}>Affiliate</Nav.Link>
-            <Nav.Link as={Link} to={"/about"}>About Us</Nav.Link>
+            <Nav.Link as={Link} to={"/about-us"}>About Us</Nav.Link>
             
           </Nav>
          

@@ -43,7 +43,7 @@ export default function SignIn() {
   return (
     <>
        <Helmet>
-        <title>Ekonnet | SignIn </title>
+        <title>Ekonnet | Sign In </title>
       </Helmet>
     
     <ThemeProvider theme={theme}>
