@@ -93,3 +93,32 @@ a#basic-nav-dropdown:active{
 .sign-up-btn:hover{
   color: black;
 }
+.hide .dropdown-toggle{
+ visibility: hiden;
+}
+.hide .dropdown-toggle::after{
+  display: none;
+}
+
+.hide svg{
+  height: 1.5em;
+  width: 1.5em;
+}
+.hide .dropdown-menu[data-bs-popper]{
+  top: 100%;
+    right: 0px;
+    left: auto;
+    margin-top: var(--bs-dropdown-spacer);
+}
+
+.toggle-side .dropdown-menu[data-bs-popper]{
+  top: 100%;
+    right: 0px;
+    left: auto;
+    margin-top: var(--bs-dropdown-spacer);
+}
+
+
+
+
+

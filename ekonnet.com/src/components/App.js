@@ -135,6 +135,29 @@ import ProOrder from './MultiTradeOrder/ProOrder';
 import StopLimitOrder from './MultiTradeOrder/StopLimitOrder';
 import StopOrder from './MultiTradeOrder/StopOrder';
 import TrailingOrder from './MultiTradeOrder/TrailingOrder';
+import UserDashboardHome from '../User_Dashboard/UserDashboardHome';
+import UserDerivativesHome from '../User_Dashboard/UserDerivativesHome';
+import UserFundingHome from '../User_Dashboard/UserFundingHome';
+import UserLendingHome from '../User_Dashboard/UserLendingHome';
+import UserOtcHome from '../User_Dashboard/UserOtcHome';
+import UserLendingProductHome from '../User_Dashboard/UserLendingProductHome';
+import UserAccount from '../User_Dashboard/UserAccount';
+import UserSubAccount from '../User_Dashboard/UserSubAccount';
+import UserSecurityAccount from '../User_Dashboard/UserSecurityAccount';
+import UserAddressBook from '../User_Dashboard/UserAddressBook';
+import UserDateAndTime from '../User_Dashboard/UserDateAndTime';
+import UserFees from '../User_Dashboard/UserFees';
+import UserFunding from '../User_Dashboard/UserFunding';
+import UserAccountInfo from '../User_Dashboard/UserAccountInfo';
+import UserNotification from '../User_Dashboard/UserNotification';
+import UserEmail from '../User_Dashboard/UserEmail';
+import UserSoundAlert from '../User_Dashboard/UserSoundAlert';
+import UserInterface from '../User_Dashboard/UserInterface';
+import UserLayout from '../User_Dashboard/UserLayout';
+import UserTickers from '../User_Dashboard/UserTickers';
+import UserOrderBook from '../User_Dashboard/UserOrderBook';
+import UserTheme from '../User_Dashboard/UserTheme';
+
 
 
 
@@ -289,7 +312,30 @@ const App = () => {
        <Route path='/stop-limit-order' element={<StopLimitOrder/>}/>
        <Route path='/stop-order' element={<StopOrder/>}/>
        <Route path='/trailing-limit-order' element={<TrailingOrder/>}/>
-     </Routes>
+       <Route path='/user-dashboard-home' element={<UserDashboardHome/>}/>
+       <Route path='/user-derivatives-home' element={<UserDerivativesHome/>}/>
+       <Route path='/user-funding-home' element={<UserFundingHome/>}/>
+       <Route path='/user-lending-home' element={<UserLendingHome/>}/>
+       <Route path='/user-otc-home' element={<UserOtcHome/>}/>
+       <Route path='/user-lending-product-home' element={<UserLendingProductHome/>}/>
+       <Route path='/user-account' element={<UserAccount/>}/>
+       <Route path='/user-sub-account' element={<UserSubAccount/>}/>
+       <Route path='/user-security-account' element={<UserSecurityAccount/>}/>
+       <Route path='/user-address-book' element={<UserAddressBook/>}/>
+       <Route path='/user-date-and-time' element={<UserDateAndTime/>}/>
+       <Route path='/user-fees' element={<UserFees/>}/>
+       <Route path='/user-funding' element={<UserFunding/>}/>
+       <Route path='/user-account-info' element={<UserAccountInfo/>}/>
+       <Route path='/user-notification' element={<UserNotification/>}/>
+       <Route path='/user-email' element={<UserEmail/>}/>
+       <Route path='/user-sound-alert' element={<UserSoundAlert/>}/>
+       <Route path='/user-interface' element={<UserInterface/>}/>
+       <Route path='/user-layout' element={<UserLayout/>}/>
+       <Route path='/user-tickers' element={<UserTickers/>}/>
+       <Route path='/user-order-book' element={<UserOrderBook/>}/>
+       <Route path='/user-theme' element={<UserTheme/>}/>
+       
+        </Routes>
   
      {/* <Sidebar>
       <Routes>

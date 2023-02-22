@@ -1,0 +1,208 @@
+.account button{
+    background-color: rgba(0, 7, 61);
+    width: 250px;
+    border-bottom: 1px solid black;
+    height: 45px;
+    text-align: center !important;
+    padding-left: 30px;
+    font-size: 1rem;
+    font-family: 'Spectral', serif;
+}
+.account button:hover{
+    background-color: rgba(0, 7, 36);
+}
+.account{
+    margin-top: 30px;
+}
+.account svg{
+    padding-right: 10px;
+    width:2rem;
+    height: 2rem;
+}
+#button_act{
+    border: 2px solid aqua;
+}
+
+#user_name h1{
+    color: darkblue;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    font-family: 'Spectral', serif;
+}
+
+#user_name span{
+    color: blue;
+    font-size: 1.5rem;
+    font-family: 'Spectral', serif; 
+    margin-bottom: 50px;
+}
+#user_name h6{
+    color: darkblue;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    font-family: 'Spectral', serif;
+}
+.input_box label{
+    color: darkblue;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    font-family: 'Spectral', serif; 
+}
+.input_box input{
+    color: darkblue;
+    font-size: 1.2rem;
+    font-family: 'Spectral', serif; 
+    border: 1px solid #A6A6A6;
+    background-color: #DEDEDE;
+    width: 38%;
+    height: 40px;
+}
+#check_box input{
+    margin-top: 15px;
+}
+#check_box label{
+    color: darkblue;
+    font-size: 1rem;
+    padding-left: 10px;
+    font-family: 'Spectral', serif; 
+}
+#btn_box button{
+    width: 15%;
+    height: 35px;
+    margin-top: 20px;
+    align-items: center;
+    padding-left: 6px;
+    background-color: darkblue;
+    border: 1px solid darkblue;
+}
+.p-text p{
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+    color: darkblue;
+}
+.p-box p{
+    color: blue;
+    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-h1{
+    display: flex;
+    
+}
+.nav-h1 h1{
+    color: darkblue;
+    font-size: 1.5rem;
+    padding-left: 29px;
+    font-family: 'Spectral', serif;
+}
+.user-details h4{
+    color: darkblue;
+    font-size: 1rem;
+    font-family: 'Spectral', serif;
+}
+.user-details h5{
+    color: blue;
+    font-size: 1rem;
+    font-family: 'Spectral', serif;
+}
+.user-details h6{
+    color: darkblue;
+    font-size: 1rem;
+    font-family: 'Spectral', serif;
+    align-items: end;
+    text-align: end;
+    direction: rtl;
+}
+.address-book h1{
+    color: darkblue;
+    font-size: 1.5rem;
+    font-family: 'Spectral', serif;
+}
+.address-book p{
+    color: blue;
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.radio_box{
+    color: darkblue;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    font-family: 'Spectral', serif; 
+}
+.txt-p{
+    font-size: 0.8rem;
+font-family: 'Open Sans', sans-serif;
+color: blue;
+}
+.switch-box label{
+    color: darkblue;
+    font-size: 1.2rem;
+    font-family: 'Spectral', serif;  
+    padding-left: 12px;
+}
+.switch.btn {
+    min-width: 3.7rem;
+    min-height: calc(1em + 0.8rem + 0px);
+}
+.switch-on.btn{
+    padding: 0rem;
+}
+
+.sound-icon svg {
+    width: -12rem;
+    width: 3rem;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 3rem;
+}
+.sound_box input{
+    color: darkblue;
+    font-size: 1.2rem;
+    font-family: 'Spectral', serif; 
+    border: 1px solid #A6A6A6;
+    background-color: #DEDEDE;
+    width: 100%;
+    height: 40px;
+}
+.sound_box label{
+    color: darkblue;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    font-family: 'Spectral', serif; 
+}
+
+
+
+@media only screen and (max-width: 640px){
+    .nav-h1 h1{
+        font-size: 1rem;
+        padding-left: 12px;
+        margin-top: 40px;
+    }
+    .user-details h5{
+        padding-left: 130px;
+        text-align: center !important;
+    }
+    .user-details h6{
+        padding-left: 130px;
+    }
+    
+}
+
+@media only screen and (max-width: 480px){
+    .nav-h1 h1{
+        font-size: 0.9rem;
+        padding-left: 8px;
+        margin-top: 40px;
+    }
+    .user-details h5{
+        padding-left: 55px;
+        text-align: center !important;
+    }
+    .user-details h6{
+        padding-left: 50px;
+    }
+}
+
