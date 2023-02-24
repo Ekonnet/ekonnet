@@ -157,6 +157,10 @@ import UserLayout from '../User_Dashboard/UserLayout';
 import UserTickers from '../User_Dashboard/UserTickers';
 import UserOrderBook from '../User_Dashboard/UserOrderBook';
 import UserTheme from '../User_Dashboard/UserTheme';
+import UserSecurity from '../User_Dashboard/UserSecurity';
+import UserApi from '../User_Dashboard/UserApi';
+import UserCreateNewKey from '../User_Dashboard/UserCreateNewKey';
+import UserMyApiKey from '../User_Dashboard/UserMyApiKey';
 
 
 
@@ -334,6 +338,11 @@ const App = () => {
        <Route path='/user-tickers' element={<UserTickers/>}/>
        <Route path='/user-order-book' element={<UserOrderBook/>}/>
        <Route path='/user-theme' element={<UserTheme/>}/>
+       <Route path='/user-security' element={<UserSecurity/>}/>
+       <Route path='/user-api' element={<UserApi/>}/>
+       <Route path='/user-create-new-key' element={<UserCreateNewKey/>}/>
+       <Route path='/user-my-api-key' element={<UserMyApiKey/>}/>
+
        
         </Routes>
   

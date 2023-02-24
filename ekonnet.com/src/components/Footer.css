@@ -58,9 +58,6 @@
 .footer-services h5:active{
     color:  #ff096f !important;
  }
- .footer-services a.nav-link.active{
-    color: yellow;
- }
 .hr{
  color:white;
 }
