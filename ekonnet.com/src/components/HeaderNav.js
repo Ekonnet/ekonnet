@@ -101,13 +101,14 @@ function HeaderNav() {
               <NavDropdown.Item as={Link} to={"/user-account"}>Account</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={"/user-sub-account"}>Sub-Accounts</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={"/user-security-account"}>Security Accounts</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to={""}>Security</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={"/user-security"}>Security</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={"/user-notification"}>Notifications</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={"/user-interface"}>Interface</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={""}>Verification</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={"/user-affiliate"}>Affiliate</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={""}>Reports</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={""}>Leaderboard</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to={""}>API Keys</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to={"/user-api"}>API Keys</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item as={Link} to={""}>Announcements</NavDropdown.Item>
               <NavDropdown.Divider />

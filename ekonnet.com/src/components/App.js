@@ -161,6 +161,8 @@ import UserSecurity from '../User_Dashboard/UserSecurity';
 import UserApi from '../User_Dashboard/UserApi';
 import UserCreateNewKey from '../User_Dashboard/UserCreateNewKey';
 import UserMyApiKey from '../User_Dashboard/UserMyApiKey';
+import UserAffiliate from '../User_Dashboard/UserAffiliate';
+import FAQ from './FAQ';
 
 
 
@@ -342,6 +344,8 @@ const App = () => {
        <Route path='/user-api' element={<UserApi/>}/>
        <Route path='/user-create-new-key' element={<UserCreateNewKey/>}/>
        <Route path='/user-my-api-key' element={<UserMyApiKey/>}/>
+       <Route path='/user-affiliate' element={<UserAffiliate/>}/>
+       <Route path='/frequently-asked-question' element={<FAQ/>}/>
 
        
         </Routes>
