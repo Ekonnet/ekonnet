@@ -163,6 +163,20 @@ import UserCreateNewKey from '../User_Dashboard/UserCreateNewKey';
 import UserMyApiKey from '../User_Dashboard/UserMyApiKey';
 import UserAffiliate from '../User_Dashboard/UserAffiliate';
 import FAQ from './FAQ';
+import TokenDeposite from './TokenDeposite';
+import TokenWithdrawals from './TokenWithdrawals';
+import BankWires from './BankWires';
+import AccountAccess from './AccountAccess';
+import AccountSetting from './AccountSetting';
+import Verification from './Verification';
+import TradingAndFunding from './TradingAndFunding';
+import ApplicationProgrammingInterface from './ApplicationProgrammingInterface';
+import MobileApplication from './MobileApplication';
+import BugReporting from './BugReporting';
+import SecurityConcern from './SecurityConcern';
+import Partnership from './Partnership';
+import OtherIssues from './OtherIssues';
+import ForksAndAirdrops from './ForksAndAirdrops';
 
 
 
@@ -346,8 +360,19 @@ const App = () => {
        <Route path='/user-my-api-key' element={<UserMyApiKey/>}/>
        <Route path='/user-affiliate' element={<UserAffiliate/>}/>
        <Route path='/frequently-asked-question' element={<FAQ/>}/>
-
-       
+       <Route path='/token-deposite' element={<TokenDeposite/>}/>
+       <Route path='/token-withdrawals' element={<TokenWithdrawals/>}/>
+       <Route path='/bank-wires' element={<BankWires/>}/>
+       <Route path='/account-access' element={<AccountAccess/>}/>
+       <Route path='/account-setting' element={<AccountSetting/>}/>
+       <Route path='/verification' element={<Verification/>}/>
+       <Route path='/trading-and-funding' element={<TradingAndFunding/>}/>
+       <Route path='/application-programming-interface' element={<ApplicationProgrammingInterface/>}/>
+       <Route path='/bug-reporting' element={<BugReporting/>}/>
+       <Route path='/security-concern' element={<SecurityConcern/>}/>
+       <Route path='/partnership' element={<Partnership/>}/>
+       <Route path='/other-issues' element={<OtherIssues/>}/>
+       <Route path='/forks-and-airdrops' element={<ForksAndAirdrops/>}/>
         </Routes>
   
      {/* <Sidebar>

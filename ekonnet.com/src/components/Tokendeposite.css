@@ -1,0 +1,226 @@
+.token h2{
+    color: darkblue;
+    font-family: 'Spectral', serif;
+    margin-top: 150px;
+    margin-right: 0px;
+}
+ .token svg{
+    margin-top: 155px;
+    color: darkblue;
+    font-size: 30px;
+    margin-left: 0px;
+ }
+ .token h3{
+    color: blue;
+    font-family: 'Spectral', serif;
+    margin-top: 153px;
+    margin-right: 0px;
+}
+.required:before {
+    content:" *";
+    color: red;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+.token-input label{
+    color: darkblue;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.1rem;
+    margin-top: 10px;
+   
+}
+.token-input-s label{
+  color: darkblue;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  margin-top: 10px;
+ 
+}
+
+.token-input-bottom label{
+  color: darkblue;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  margin-left: 51px;
+}
+
+.token-input input{
+   width: 95%;
+   margin-left: 22px;
+    border:  1px solid darkblue;
+    border-radius: 3px;
+    height: 40px;
+    background-color: transparent;
+    padding-left: 10px;
+    color: darkblue;
+    outline: none;
+}
+.token-input-s input{
+  width: 95%;
+  margin-left: 22px;
+   border:  1px solid darkblue;
+   border-radius: 3px;
+   height: 40px;
+   background-color: transparent;
+   padding-left: 10px;
+   color: darkblue;
+   outline: none;
+   padding-left: 490px;
+   padding-top: 5px;
+}
+.token-input-bottom input{
+  width: 165%;
+  margin-left: 72px;
+   border:  1px solid darkblue;
+   border-radius: 3px;
+   height: 40px;
+   background-color: transparent;
+   padding-left: 10px;
+   color: darkblue;
+   outline: none;
+}
+.token-input textarea{
+  width: 95%;
+  margin-left: 22px;
+   border:  1px solid darkblue;
+   border-radius: 3px;
+   height: 140px;
+   background-color: transparent;
+   padding-left: 10px;
+   color: darkblue;
+   outline: none;
+}
+.token-input input:focus {
+    border: 1px solid blue !important;
+  }
+  .token-input textarea:focus {
+    border: 1px solid blue !important;
+  }
+  .token-input-bottom input:focus {
+    border: 1px solid blue !important;
+  }
+  .token-input input::placeholder {
+    color: blue !important;
+    opacity: 1; 
+  }
+  
+  .token-input input:-ms-input-placeholder { 
+   color: blue;
+  }
+  
+  .token-input input::-ms-input-placeholder { 
+   color: blue;
+  }
+  .token-input textarea::placeholder {
+    color: blue !important;
+    opacity: 1; 
+  }
+  
+  .token-input textarea:-ms-input-placeholder { 
+   color: blue;
+  }
+  
+  .token-input textarea::-ms-input-placeholder { 
+   color: blue;
+  }
+  .bottom-sec p{
+    color: darkblue;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 22px;
+  }
+  .token-input-bottom input::placeholder {
+    color: blue !important;
+    opacity: 1; 
+  }
+  
+  .token-input-bottom input:-ms-input-placeholder { 
+   color: blue;
+  }
+  
+  .token-input-bottom input::-ms-input-placeholder { 
+   color: blue;
+  }
+  .bottom-sec strong{
+    color: darkblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+  }
+  .captcha p{
+    color: darkblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: 800;
+  }
+  .token-input-s span{
+    margin-left: -695px;
+     color:blue;
+  }
+  .token-input-s input:focus {
+    border: 1px solid blue !important;
+  }
+
+  .token-input-s input::placeholder {
+    color: blue !important;
+    opacity: 1; 
+  }
+  .token-input-s input:-ms-input-placeholder { 
+    color: blue;
+   }
+   
+   .token-input-s input::-ms-input-placeholder { 
+    color: blue;
+   }
+  
+
+  
+
+
+
+
+  @media only screen and (max-width: 640px){
+    .token-input-s span{
+      margin-left: -484px;
+       color:blue;
+    }
+    .token-input-s input{
+       padding-left: 282px;
+    }
+    .token-input-bottom label{
+      margin-left: 0px;
+    }
+    .token-input-bottom input{
+      width: 90%;
+      margin-left: 23px;
+       padding-left: 10px;
+    }
+    .bottom-sec p{
+      font-size: 11px;
+      margin-left: 0px;
+    }
+    .token h2{
+      margin-top: 30px;
+  }
+   .token svg{
+      margin-top: 31px;
+   }
+   .token h3{
+      margin-top: 33px;
+       }
+
+  }
+
+
+
+  @media only screen and (max-width: 480px){
+    .token-input-s span{
+      margin-left: -350px;
+       color:blue;
+    }
+    .token-input-s input{
+      padding-left: 256px;
+   }
+  }
