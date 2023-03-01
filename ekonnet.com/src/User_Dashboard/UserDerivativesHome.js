@@ -4,7 +4,7 @@ import trade from '../components/assets/u1.png';
 const UserDerivativesHome = () => {
   return (
     <>
-   <img src={trade} alt='' className='image-fluid mw-100 h-auto' />
+   <img src={trade} alt='' className='image-fluid' style={{width: "100%"}} />
     </>
   )
 }

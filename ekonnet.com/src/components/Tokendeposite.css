@@ -224,3 +224,71 @@
       padding-left: 256px;
    }
   }
+
+
+  @media only screen and (min-width:1400px) and (max-width: 2500px){
+    .token-input-s span{
+      margin-left: -808px;
+       color:blue;
+    }
+    .token-input-s input{
+      padding-left: 595px;
+   }
+  }
+
+
+  @media only screen and (max-width: 380px){
+    .token-input-s span{
+      margin-left: -310px;
+       color:blue;
+    }
+    .token-input-s input{
+      padding-left: 215px;
+   }
+  }
+  @media only screen and (min-width:481px) and (max-width: 580px){
+    .token-input-s span{
+      margin-left: -422px;
+       color:blue;
+    }
+    .token-input-s input{
+      padding-left: 215px;
+   }
+  }
+  @media only screen and (min-width:992px) and (max-width: 1199px){
+    .token-input-s span{
+      margin-left: -583px;
+       color:blue;
+    }
+    .token-input-s input{
+      padding-left: 374px;
+   }
+  }
+  @media only screen and (min-width:768px) and (max-width: 991px){
+    .token-input-s span{
+      margin-left: -651px;
+       color:blue;
+    }
+    .token-input-s input{
+      padding-left: 442px;
+   }
+   .token-input-bottom input{
+    width: 69%;
+    
+  }
+  }
+
+
+  @media only screen and (min-width:641px) and (max-width: 767px){
+    .token-input-s span{
+      margin-left: -477px;
+       color:blue;
+    }
+    .token-input-s input{
+      padding-left: 278px;
+   }
+   .token-input-bottom input{
+    width: 69%;
+    
+  }
+  }

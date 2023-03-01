@@ -20,7 +20,7 @@
 .right-icons svg{
     color: darkblue;
     font-size: 25px;
-    margin: 10px 259px 0px;
+    margin: 10px 264px 0px;
     text-align: right;
     width: 70%;
 }
@@ -60,19 +60,43 @@
     font-size: 12px;
     margin: 4px 4px;
     color: blue;
-    width: 185%;
+    width: 189%;
     
 }
 .right-icons svg{
     color: darkblue;
     font-size: 25px;
-    margin: 10px 145px 0px;
+    margin: 10px 152px 0px;
     text-align: right;
     width: 61%;
 }
 }
 
-
+@media only screen and (min-width:481px) and (max-width: 580px){
+    .middle-text h3{
+        padding-top: 12px;
+        margin: 0 4px 4px 4px;
+        font-size: 15px;
+        font-weight: 500;
+        color:  darkblue;
+        width: 160%;
+    
+    }
+    .middle-text h6{
+        font-size: 12px;
+        margin: 4px 4px;
+        color: blue;
+        width: 189%;
+        
+    }
+    .right-icons svg{
+        color: darkblue;
+        font-size: 25px;
+        margin: 10px 132px 0px;
+        text-align: right;
+        width: 56%;
+    }
+}
 
 
 @media only screen and (max-width: 480px){
@@ -95,7 +119,7 @@
 .right-icons svg{
     color: darkblue;
     font-size: 25px;
-    margin: 10px 75px 0px;
+    margin: 10px 83px 0px;
     text-align: right;
     width: 48%;
 }
@@ -159,7 +183,64 @@
         text-align: right;
         width: 48%;
     }
-    
-
-
 } */
+@media only screen and (min-width:641px) and (max-width: 1024px){
+    .middle-text h3{
+        padding-top: 12px;
+        margin: 0 4px 4px 4px;
+        font-size: 15px;
+        font-weight: 500;
+        color:  darkblue;
+        width: 194%;
+    
+    }
+    .middle-text h6{
+        font-size: 12px;
+        margin: 4px 4px;
+        color: blue;
+        width: 244%;
+        
+    }
+    .right-icons svg{
+        color: darkblue;
+        font-size: 25px;
+        margin: 10px 264px 0px;
+        text-align: right;
+        width: 70%;
+    }
+}
+@media only screen and (min-width:1025px) and (max-width: 1199px){
+    .right-icons svg{
+        color: darkblue;
+        font-size: 25px;
+        margin: 10px 208px 0px;
+        text-align: right;
+        width: 70%;
+    }
+        .middle-text h3{
+            padding-top: 12px;
+            margin: 0 4px 4px 4px;
+            font-size: 15px;
+            font-weight: 500;
+            color:  darkblue;
+            width: 237%;
+        
+        }
+        .middle-text h6{
+            font-size: 12px;
+            margin: 4px 4px;
+            color: blue;
+            width: 448%;
+            
+        }
+    }
+
+@media only screen and (min-width:1400px) and (max-width: 2500px){
+    .right-icons svg{
+        color: darkblue;
+        font-size: 25px;
+        margin: 10px 323px 0px;
+        text-align: right;
+        width: 70%;
+    }
+}

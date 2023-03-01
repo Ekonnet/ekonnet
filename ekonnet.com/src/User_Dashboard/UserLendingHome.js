@@ -3,7 +3,7 @@ import lending from '../components/assets/u3.png';
 const UserLendingHome = () => {
   return (
     <>
-           <img src={lending} alt='' className='image-fluid mw-100 h-auto' />
+           <img src={lending} alt='' className='image-fluid' style={{width: "100%"}} />
   
     </>
   )

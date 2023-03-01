@@ -4,7 +4,7 @@ import otc from '../components/assets/u2.png';
 const UserOtcHome = () => {
   return (
     <>
-     <img src={otc} alt='' className='image-fluid mw-100 h-auto' />
+     <img src={otc} alt='' className='image-fluid' style={{width: "100%"}} />
  
     </>
   )

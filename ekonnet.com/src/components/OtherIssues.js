@@ -37,7 +37,7 @@ const OtherIssues = () => {
      <div className='token-input-s'>
      <label className='required mt-3'>Attachments</label><br/>
         <input type="file" name="text" placeholder='' className='mt-1' style={{}}></input> 
-        <span>Please upload your image file here</span>
+        <span>Upload file here</span>
         <hr style={{marginTop: "60px", color: "darkblue"}}></hr>
      </div>
      <div className='bottom-sec'>

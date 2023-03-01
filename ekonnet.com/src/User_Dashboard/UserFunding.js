@@ -46,11 +46,11 @@ const UserFunding = () => {
     <h1>Funding Options</h1>
     <div id='check_box'>
         <input type="checkbox" name="trading"></input>
-        <label>Keep taken margin funding open after being used in a margin position</label><br/>
+        <label>Keep taken margin funding open used in a margin position</label><br/>
             <input type="checkbox" name="trading"></input>
         <label>close margin funds expiring the soonest first</label><br/>
             <input type="checkbox" name="trading"></input>
-        <label>When you take new margin funding, use them immediately to back your position if possible.</label><br/>
+        <label>When you take new margin funding, use them immediately</label><br/>
         <div id='btn_box'>
         <button className='btn btn-primary'>Save Changes</button>
         </div>
