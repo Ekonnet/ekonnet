@@ -10,7 +10,7 @@ const Terminal = () => {
   return (
     <>
      <Helmet>
-        <title>Ekonnet | OTC </title>
+        <title>Ekonnet | Terminal </title>
       </Helmet>
     <section id='terminel_hero' className='terminal_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
         <div className='container'>

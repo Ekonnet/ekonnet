@@ -1,6 +1,6 @@
 import React from 'react'
-import { Button, Container } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import {Container } from 'react-bootstrap';
+// import { NavLink } from 'react-router-dom';
 import { Row, Col } from 'react-bootstrap';
 import './Footer.css';
 import { AiFillTwitterCircle } from 'react-icons/ai';
@@ -18,7 +18,7 @@ const Footer = () => {
         
         <>
         
-            <section className='footer-section' >
+            {/* <section className='footer-section' >
                 <div className="contact-sort">
                     <div className='d-flex justify-content-between align-items-center'>
                         <div className='getstart-now'>
@@ -31,7 +31,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             {/* footer section */}
             <footer className='footer-color'>
                 <div className="container footer-container">

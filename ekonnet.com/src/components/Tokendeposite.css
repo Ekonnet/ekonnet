@@ -155,6 +155,9 @@
     margin-top: 50px;
     font-weight: 800;
   }
+  .captcha-box{
+    margin:0px 180px 15px 230px;
+  }
   .token-input-s span{
     margin-left: -695px;
      color:blue;
@@ -174,8 +177,7 @@
    .token-input-s input::-ms-input-placeholder { 
     color: blue;
    }
-  
-
+ 
   
 
 
@@ -210,7 +212,9 @@
    .token h3{
       margin-top: 33px;
        }
-
+       .captcha-box{
+        margin:0px 0px 15px 100px;
+      }
   }
 
 
@@ -221,8 +225,11 @@
        color:blue;
     }
     .token-input-s input{
-      padding-left: 256px;
+      padding-left: 257px;
    }
+   .captcha-box{
+    margin:0px 0px 15px 35px;
+  }
   }
 
 
@@ -243,8 +250,9 @@
        color:blue;
     }
     .token-input-s input{
-      padding-left: 215px;
+      padding-left: 219px;
    }
+  
   }
   @media only screen and (min-width:481px) and (max-width: 580px){
     .token-input-s span{

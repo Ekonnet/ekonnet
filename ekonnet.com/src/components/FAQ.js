@@ -6,10 +6,13 @@ import {CiMobile2, CiCircleQuestion} from 'react-icons/ci'
 import {TbFriends, TbArrowFork} from 'react-icons/tb'
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
-
+import { Helmet } from 'react-helmet'
 const FAQ = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | Frequently Asked Question</title>
+      </Helmet>
     <section id='faq_hero' className='faq_hero'>
       <div className='container'>
         <div className='row'>
@@ -174,7 +177,7 @@ const FAQ = () => {
         <Nav.Link as={Link} to={"/forks-and-airdrops"}><MdArrowForwardIos/></Nav.Link>
         </div>
         </div>
-        <div className='faq_box d-flex'>
+        <div className='faq_box d-flex mb-5'>
         <div className='left-icons'>
         <Nav.Link as={Link} to={"/other-issues"}><CiCircleQuestion/></Nav.Link>
         </div>

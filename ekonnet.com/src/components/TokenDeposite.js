@@ -3,10 +3,14 @@ import './Tokendeposite.css'
 import {BiChevronRight} from 'react-icons/bi'
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
-
+// import Captcha from './Captcha';
+import { Helmet } from 'react-helmet';
 const TokenDeposite = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | Frequently Asked Question</title>
+      </Helmet>
       <section id='token-deposite' className='token-deposite'>
       <div className='container'>
      <div className='row'>
@@ -290,9 +294,10 @@ const TokenDeposite = () => {
      <div className='text-center captcha'>
       <p>Fill in all required fields to submit your ticket</p>
       </div>
-      <div className='justify-content-center align-item-center text-center'>
-        <button className='btn btn-primary'>Submit</button>
-      </div>
+      <div className='justify-content-center align-item-center text-center'>   
+      <button type="submit" className='btn btn-primary mb-5'>Submit</button>
+    </div>
+      {/* <Captcha/> */}
      </div>
      </form>
      </div>

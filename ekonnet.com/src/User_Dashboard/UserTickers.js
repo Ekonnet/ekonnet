@@ -10,10 +10,13 @@ import {TbAffiliate} from 'react-icons/tb';
 import {SlTrophy} from 'react-icons/sl';
 import {BiCodeAlt} from 'react-icons/bi';
 import '../User_Dashboard/UserAccount.css'
-
+import { Helmet } from 'react-helmet';
 const UserTickers = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | User Tickers</title>
+      </Helmet>
       <section id ="account" className='account'>
       <div className='container'>
       <div className='row'>
@@ -29,7 +32,7 @@ const UserTickers = () => {
       <Nav.Link as={Link} to={"/user-affiliate"}><button className='d-flex'><TbAffiliate/>Affiliate</button></Nav.Link>
       <Nav.Link as={Link} to={""}><button className='d-flex'><HiOutlineDocumentReport/>Reports</button></Nav.Link>
       <Nav.Link as={Link} to={""}><button className='d-flex'><SlTrophy/>LeaderBoard</button></Nav.Link>
-      <Nav.Link as={Link} to={"/user-api"}><button className='d-flex'><BiCodeAlt/>API</button></Nav.Link>
+      <Nav.Link as={Link} to={"/user-api"}><button className='d-flex mb-5'><BiCodeAlt/>API</button></Nav.Link>
       </div>
     </div>
     <div className='col-lg-9'>
@@ -79,7 +82,7 @@ const UserTickers = () => {
       </div>
       
       <div id='btn_box'>
-        <button className='btn btn-primary'>Save Changes</button>
+        <button className='btn btn-primary mb-5'>Save Changes</button>
         </div>
       </div>
       </div>

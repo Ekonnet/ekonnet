@@ -204,9 +204,9 @@
     .right-icons svg{
         color: darkblue;
         font-size: 25px;
-        margin: 10px 264px 0px;
+        margin: 10px 238px 0px;
         text-align: right;
-        width: 70%;
+        width: 50%;
     }
 }
 @media only screen and (min-width:1025px) and (max-width: 1199px){

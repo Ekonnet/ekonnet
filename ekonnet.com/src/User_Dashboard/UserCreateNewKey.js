@@ -10,10 +10,13 @@ import {TbAffiliate} from 'react-icons/tb';
 import {SlTrophy} from 'react-icons/sl';
 import {BiCodeAlt} from 'react-icons/bi';
 import '../User_Dashboard/UserAccount.css'
-
+import { Helmet } from 'react-helmet';
 const UserCreateNewKey = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | User Create New Key</title>
+      </Helmet>
       <section id ="account" className='account'>
       <div className='container'>
       <div className='row'>
@@ -29,7 +32,7 @@ const UserCreateNewKey = () => {
       <Nav.Link as={Link} to={"/user-affiliate"}><button className='d-flex'><TbAffiliate/>Affiliate</button></Nav.Link>
       <Nav.Link as={Link} to={""}><button className='d-flex'><HiOutlineDocumentReport/>Reports</button></Nav.Link>
       <Nav.Link as={Link} to={""}><button className='d-flex'><SlTrophy/>LeaderBoard</button></Nav.Link>
-      <Nav.Link as={Link} to={"/user-api"}><button className='d-flex' id='button_act'><BiCodeAlt/>API</button></Nav.Link>
+      <Nav.Link as={Link} to={"/user-api"}><button className='d-flex mb-5' id='button_act'><BiCodeAlt/>API</button></Nav.Link>
       </div>
     </div>
     <div className='col-lg-9'>
@@ -200,7 +203,7 @@ const UserCreateNewKey = () => {
     </div>
     </div>
     <div id='btn_box'>
-        <button className='btn btn-primary'>Generate API Key</button>
+        <button className='btn btn-primary mb-5'>Generate API Key</button>
         </div>
     </div>
 </div>

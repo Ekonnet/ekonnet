@@ -177,6 +177,7 @@ import SecurityConcern from './SecurityConcern';
 import Partnership from './Partnership';
 import OtherIssues from './OtherIssues';
 import ForksAndAirdrops from './ForksAndAirdrops';
+import Captcha from './Captcha';
 
 
 
@@ -374,6 +375,7 @@ const App = () => {
        <Route path='/other-issues' element={<OtherIssues/>}/>
        <Route path='/mobile-application' element={<MobileApplication/>}/>
        <Route path='/forks-and-airdrops' element={<ForksAndAirdrops/>}/>
+       <Route path='/captcha' element={<Captcha/>}/>
         </Routes>
   
      {/* <Sidebar>

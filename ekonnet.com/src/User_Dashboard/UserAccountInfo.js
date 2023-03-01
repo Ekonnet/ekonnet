@@ -11,11 +11,14 @@ import {SlTrophy} from 'react-icons/sl';
 import {BiCodeAlt} from 'react-icons/bi';
 import '../User_Dashboard/UserAccount.css'
 import BootstrapSwitchButton from 'bootstrap-switch-button-react'
-
+import { Helmet } from 'react-helmet';
 
 const UserAccountInfo = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | User Account Info</title>
+      </Helmet>
       <section id ="account" className='account'>
       <div className='container'>
       <div className='row'>
@@ -31,7 +34,7 @@ const UserAccountInfo = () => {
       <Nav.Link as={Link} to={"/user-affiliate"}><button className='d-flex'><TbAffiliate/>Affiliate</button></Nav.Link>
       <Nav.Link as={Link} to={""}><button className='d-flex'><HiOutlineDocumentReport/>Reports</button></Nav.Link>
       <Nav.Link as={Link} to={""}><button className='d-flex'><SlTrophy/>LeaderBoard</button></Nav.Link>
-      <Nav.Link as={Link} to={"/user-api"}><button className='d-flex'><BiCodeAlt/>API</button></Nav.Link>
+      <Nav.Link as={Link} to={"/user-api"}><button className='d-flex mb-5'><BiCodeAlt/>API</button></Nav.Link>
       </div>
     </div>
     <div className='col-lg-9'>
@@ -77,7 +80,7 @@ const UserAccountInfo = () => {
     <p className='txt-p'>(If enabled, the leaderboard will display the Nickname set above)</p>
     </div>
     <div id='btn_box'>
-        <button className='btn btn-primary'>Save Changes</button>
+        <button className='btn btn-primary mb-5'>Save Changes</button>
         </div>
     
   </div>

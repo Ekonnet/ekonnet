@@ -3,10 +3,13 @@ import './Tokendeposite.css'
 import {BiChevronRight} from 'react-icons/bi'
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
-
+import { Helmet } from 'react-helmet';
 const OtherIssues = () => {
   return (
     <>
+     <Helmet>
+        <title>Ekonnet | Frequently Asked Question</title>
+      </Helmet>
       <section id='token-deposite' className='token-deposite'>
       <div className='container'>
      <div className='row'>
@@ -60,7 +63,7 @@ const OtherIssues = () => {
       <p>Fill in all required fields to submit your ticket</p>
       </div>
       <div className='justify-content-center align-item-center text-center'>
-        <button className='btn btn-primary'>Submit</button>
+        <button className='btn btn-primary mb-5'>Submit</button>
       </div>
      </div>
      </form>
