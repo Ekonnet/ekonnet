@@ -83,7 +83,7 @@ const UserTheme = () => {
         <hr className='mt-3'></hr>
        
       <div id='btn_box'>
-        <button className='btn btn-primary'>Save Changes</button>
+        <button className='btn btn-primary mb-5'>Save Changes</button>
         </div>
       </div>
       </div>

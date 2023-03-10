@@ -57,7 +57,7 @@ const UserTickers = () => {
     <h1>Trading Volume units</h1>
     <div id='check_box'>
         <input type="radio" name="trading" className='mt-0'></input>
-        <label>Show volume in terms of the first currency in the pair (default)</label><br/>
+        <label>Show volume in terms of the first currency</label><br/>
             <input type="radio" name="trading" className='mt-0'></input>
         <label>Show volume in USD equivalent</label><br/>
         <input type="radio" name="trading" className='mt-0'></input>

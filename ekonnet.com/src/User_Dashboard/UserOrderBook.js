@@ -61,11 +61,11 @@ const UserOrderBook = () => {
     <h1>Choose the order of the columns in the order book</h1>
     <div id='check_box'>
         <input type="radio" name="trading" className='mt-0'></input>
-        <label>Count Price Amount Total Total Amount Price Count</label><br/>
+        <label>Count Price Amount Amount Price Count</label><br/>
         <input type="radio" name="trading" className='mt-0'></input>
-        <label>Count Amount Total Price Price Total Amount Count</label><br/>
+        <label>Count Amount Total Total Amount Count</label><br/>
             <input type="radio" name="trading" className='mt-0'></input>
-        <label>Count Total Price Amount Amount Price Total Count</label><br/>
+        <label>Count Total Price Price Total Count</label><br/>
         </div>
       <hr className='mt-3'></hr>
       </div>
