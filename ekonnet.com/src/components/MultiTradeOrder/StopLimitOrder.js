@@ -4,6 +4,8 @@ import AffiliateImg from '../assets/home-banner-bg.png';
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 import { Helmet } from 'react-helmet';
+import h7 from '../assets/order7.png'
+
 
 const StopLimitOrder = () => {
   return (
@@ -51,17 +53,17 @@ const StopLimitOrder = () => {
                     </div>
                 </div>
                 <div className='col-lg-8 summary'>
-                    <h2>What are market orders, limit orders, stop limit orders?</h2>
-                    <h5>Last updated 30 November, 2022</h5>
-                    <h3>What is a stop limit order and how does it work?</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-                    <br/><br/>  
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    <br/><br/>  
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    <br/><br/>  
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                     </p>
+                <h2>What is a Stop-Limit Order on Ekonnet</h2>
+                    <h5>Last updated 5 March, 2023</h5>
+                    <p>A stop-limit order is a buy or a sell order that combines the features of a stop order with a limit order. When the stop price hits, the stop-limit order transforms into a limit order, which is executed at a predetermined price (or better).</p>
+                    <p>A stop-limit order allows you to specify a stop price at which the order is triggered as well as a limit price at which the order may be filled. As long as matching bids or asks are available on the book, the order will only execute between the stop and the limit.</p>
+                    <p>Note: If the market price surpasses the limit price, the order may not be entirely filled.</p>
+                    <p>The limit order is automatically added to the book when the stop order is triggered. If the market price does not reach the stop price, the order is not triggered and remains unfulfilled. Likewise, if the stop is triggered and the limit order is placed, but the market price does not reach the limit price, the order will be unfilled as well.</p>
+                    <p>If the market price moves quickly and gaps above the limit price, there may not be enough matching offers available between your stop and limit price to fulfill the order.</p>
+                    <p>Example: If you want to buy when the market price reaches 250 but do not want to pay more than 252, you can use a stop-limit order to specify a limit price of 252 and a stop price of 250 at the same time. The stop order is triggered when the market price reaches 250 and will match the best available asks up to 252. If the market price exceeds 252.01, the order may be partially filled due to the limit price.</p>
+                   <img src={h7} alt="main-heading" className='img-fluid mx-auto' />
+                   <p>You can find more information about additional Ekonnet Orders here.</p>
+                   <p>If you have any questions about the stop-limit orders, feel free to contact Ekonnet Support for further assistance. </p>
                 </div>
             </div>
         </div>

@@ -4,6 +4,8 @@ import AffiliateImg from '../assets/home-banner-bg.png';
 import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 import { Helmet } from 'react-helmet';
+import h8 from '../assets/order8.png'
+import h9 from '../assets/order9.png'
 const FillOrder = () => {
   return (
     
@@ -51,17 +53,24 @@ const FillOrder = () => {
                     </div>
                 </div>
                 <div className='col-lg-8 summary'>
-                    <h2>What are market orders, limit orders, stop limit orders?</h2>
-                    <h5>Last updated 30 November, 2022</h5>
-                    <h3>What is a fill or kill order and how does it work?</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    <br/><br/>  
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    <br/><br/>  
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    <br/><br/>  
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                     </p>
+                <h2>What is a Fill or Kill Order on Ekonnet</h2>
+                    <h5>Last updated 5 March, 2023</h5>
+                    <p>A Fill or Kill order is an order that must be filled immediately in its entirety, at a specific price (or better), or it is cancelled (killed).</p>
+                    <h3>How to place a Fill or Kill Order on Ekonnet</h3>
+                   <p><bold>1.</bold> Firstly, <span>log in </span>to your Ekonnet account.</p>
+                   <p><bold>2.</bold> Then, you will be taken to the Ekonnet platform's Trading page.</p>
+                   <p><bold>3.</bold> Here, you can select the relevant trading pair from the ticker.</p>
+                   <p><bold>4.</bold> Following, navigate to the order form and select Fill or Kill from the drop-down box.</p>
+                   <img src={h8} alt="main-heading" className='img-fluid mx-auto' />
+                   <p><bold>5.</bold> Then, depending on the sort of order you want to execute, you can choose between Exchange or Margin from the same order form.</p>
+                   <img src={h9} alt="main-heading" className='img-fluid mx-auto' />
+                   <p className='mt-0'>Note: The default will be Exchange. </p>
+                   <p><bold>6.</bold> Now, you can fill in the Price and Amount and place a buy or sell order. </p>
+                   <p><bold>7.</bold> Once the order is in the order book, it will either be filled in its entirety at your specified price or else cancelled (killed).</p>
+                   <h2>How to use a Fill or Kill Order</h2>
+                   <p>Once the order is in the order book, it will either be filled in its entirety at your specified price or else cancelled (killed). </p>
+                  <p>If you have any questions, please feel free to reach out to Ekonnet Support. We are happy to help!</p> 
+                 
                 </div>
             </div>
         </div>

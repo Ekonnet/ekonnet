@@ -3,7 +3,7 @@ import './Home.css'
 import { BiDollar } from 'react-icons/bi';
 import Swipper from './Swipper';
 import Maingraph from "../assets/main-graph.png";
-import Video from '../assets/Header_Video.mp4';
+import Video from '../assets/video1.mp4';
 import TradeImg from "../assets/Trade.png";
 import analysisImg from "../assets/analysis.png";
 import p2pImg from "../assets/p2pImage.png";

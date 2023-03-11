@@ -1,9 +1,9 @@
 import React from 'react'
-import SecurityImg from '../assets/feature-img-1.png'
-import SecurityImg2 from '../assets/banner-bg-2.png'
+import SecurityImg2 from '../assets/security1.jpg'
 import { SiSpringsecurity } from 'react-icons/si';
 import './Security.css';
 import { Helmet } from 'react-helmet';
+import Video from '../assets/video2.mp4';
 const Security = () => {
   return (
     <>
@@ -19,7 +19,11 @@ const Security = () => {
                 <p className='text-[20px] leading-9  md:text-[24px] p-1   lg:md:text-[20px] p-1  xl:md:text-[24px] p-2  2xl:'>Our security team is continually improving our end-to-end security measures, improving auditing processes, and reducing the 'attack surface' of our infrastructure. Please note that we cannot disclose too many details of the security measures implemented on the platform for security and proprietary reasons.</p>
               </div>
               <div className=''>
-                <img src={SecurityImg} alt='Security.png' className='img-fluid'></img>
+              <div className="outervideo">
+              <video autoPlay loop muted className='videostyle'>
+              <source src={Video} type="video/mp4" />
+              </video>
+              </div>
               </div>
             </div>
           </div>
@@ -31,7 +35,7 @@ const Security = () => {
           <div className="cover__security-section2 mt-5">
             <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 justify-center items-center'>
               <div className=' order-2 md:order-2 lg:order-1 xl:order-1'>
-                <img src={SecurityImg2} alt='Security_Policy' className='img-fluid'></img>
+                <img src={SecurityImg2} alt='Security_Policy' className='img-fluid ml-2 mt-3 rounded-3'></img>
               </div>
               <div className='md:order-1'>
                 <div className="sidebox">
@@ -118,15 +122,15 @@ const Security = () => {
             <h1 className='flex justify-center items-center mb-4'>System security</h1>
             </div>
             <div className=" grid grid-cols-1 gap-x-8 gap-y-4 md:grid-cols-2 lg:grid-cols-3">
-            <div className='system__security'>
+            <div className='system__security mb-5'>
               <h3>Always up-to-date Linux systems to host the platform</h3>
               <p>Our servers network is protected using always up-to-date software and the best possible practices.</p>
             </div>
-            <div className='system__security'>
+            <div className='system__security mb-5'>
               <h3>Automatic real-time backup of the database</h3>
               <p>The platform database is backed up in real-time on encrypted hard-drives and is replicated in several geographical locations.</p>
             </div>
-            <div className=' system__security'>
+            <div className=' system__security mb-5'>
               <h3>Protection from DDoS attacks</h3>
               <p>We are protected by automatic Distributed Denial of Service protection to prevent trading to be halted by outside attacks.</p>
             </div>
