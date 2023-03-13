@@ -96,11 +96,12 @@ const HelpCenter = () => {
                     <div className="row d-flex justify-content-around gap-1">
                         <h2 className='acount-main-heading'> Account</h2>
                         <div className="col-4 accountDiv">
-                            <h2 className='acount__heading'>  Account Access</h2>
+                        <Nav.Link as={Link} to={"/account-accessess"}><h2 className='acount__heading'>  Account Access</h2></Nav.Link>
+                            
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         <div className="col-4 accountDiv">
-                            <h2 className='acount__heading'>  Verification</h2>
+                        <Nav.Link as={Link} to={"/verifications"}><h2 className='acount__heading'>Verification</h2></Nav.Link>
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         <div className="col-4 accountDiv">

@@ -1,3 +1,24 @@
+.access h3{
+    color: darkblue;
+    margin-top: 60px;
+    font-family: 'Spectral', serif;
+    font-size: 2.5rem;
+}
+.access ul{
+    color: darkblue;
+    list-style-type: disc;
+    margin-bottom: 150px;
+}
+.access ul li{
+    color: blue;
+    font-family: 'Spectral', serif;
+    font-size: 1.1rem;
+    margin-top: 16px;
+    margin-left: -13px;
+}
+
+
+
 .paper_hero h1{
     color: white;
     font-size: 2.8rem;
@@ -18,25 +39,25 @@
     margin-bottom: 70px;
 }
 
-.question{
+/* .question{
     width: 300px;
     height: 975px;
     border: 1px solid black;
     margin-top: 100px;
-    /* background-color: darkblue; */
+     background-color: darkblue; 
     background-color: rgba(0, 7, 61)
    
-}
-.market{
+} */
+/* .market{
     width: 300px;
     height: 408px;
     border: 1px solid black;
     margin-top: 100px;
-    /* background-color: darkblue; */
+    background-color: darkblue; 
     background-color: rgba(0, 7, 61)
    
-}
-.question button{
+} */
+/* .question button{
     width: 298px;
     border-radius: 0px;
     background-color: transparent;
@@ -50,8 +71,8 @@
     transition: all 0.5s;
     gap: 2rem;
     
-}
-.market button{
+} */
+/* .market button{
     width: 298px;
     border-radius: 0px;
     background-color: transparent;
@@ -65,8 +86,8 @@
     transition: all 0.5s;
     gap: 2rem;
     
-}
-.question button:hover, .question button:focus{
+} */
+/* .question button:hover, .question button:focus{
     border-color: #0d6efd;
     background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
     color: white;
@@ -75,47 +96,54 @@
     border-color: #0d6efd;
     background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
     color: white;
-}
+} */
 #button_active{
     border-color: #0d6efd;
     background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
     color: white;
 }
-.summary h2{
+.summer h2{
     margin-top: 100px;
     color: darkblue;
     font-family: 'Spectral';
-    font-weight: bold;
+    
 }
-.summary h5{
+.summer h5{
     margin-top: 30px;
     color: darkblue;
     font-family: 'Spectral';
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
 }
-.summary h3{
+.summer h4{
     margin-top: 30px;
     color: darkblue;
     font-family: 'Spectral';
 }
-.summary p{
+.summer h3{
+    color: darkblue;
+    font-family: 'Spectral';
+}
+.summer p{
     color: blue;  
     font-family: 'Spectral';
     margin-top: 20px;
     font-size: 1rem;
     line-height: 2rem;
 }
-.term{
+.summer li{
+    list-style: disc;
+}
+.lost{
     width: 300px;
-    height: 643px;
+    height: 145px;
     border: 1px solid black;
     margin-top: 100px;
     /* background-color: darkblue; */
     background-color: rgba(0, 7, 61)
    
 }
-.term button{
+.lost button{
     width: 298px;
     border-radius: 0px;
     background-color: transparent;
@@ -130,12 +158,72 @@
     gap: 2rem;
     
 }
-.term button:hover, .term button:focus{
+.verify button:hover, .verify button:focus{
     border-color: #0d6efd;
     background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
     color: white;
 }
  
-
+.verify{
+    width: 300px;
+    height: 282px;
+    border: 1px solid black;
+    margin-top: 100px;
+    /* background-color: darkblue; */
+    background-color: rgba(0, 7, 61)
+   
+}
+.verify button{
+    width: 298px;
+    border-radius: 0px;
+    background-color: transparent;
+    height: 45px;
+    border-color: transparent;
+    color: white;
+    font-size: 0.9rem;
+    text-align: left;
+    padding-left: 25px;
+    font-family: 'Spectral';
+    transition: all 0.5s;
+    gap: 2rem;
+    
+}
+.lost button:hover, .lost button:focus{
+    border-color: #0d6efd;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+    color: white;
+}
+.tb{
+    font-family: 'Spectral', serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 2px;
+}
+.tb td{
+    font-family: 'Spectral', serif;
+    font-weight: 600;
+    text-align: center;
+    width: 25%;
+    
+    border-collapse: collapse;
+}
+.tab{
+    font-family: 'Spectral', serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid;
+}
+.tab th{
+    text-align: center;
+    padding: 10px;
+}
+.tab td{
+    border: 1px solid;
+    text-align: center;
+    width: 25%;
+    border-collapse: collapse;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 

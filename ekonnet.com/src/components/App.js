@@ -178,6 +178,17 @@ import Partnership from './Partnership';
 import OtherIssues from './OtherIssues';
 import ForksAndAirdrops from './ForksAndAirdrops';
 import Captcha from './Captcha';
+import AccountAccessess from './Account/AccountAccessess';
+import LostAccess from './Account/LostAccess';
+import ResetPassword from './Account/ResetPassword';
+import Token from './Account/Token';
+import Verfications from './Account/Verfications';
+import Verification1 from './Account/Verification1';
+import Verification2 from './Account/Verification2';
+import Verification3 from './Account/Verification3';
+import Verification4 from './Account/Verification4';
+import Verification5 from './Account/Verification5';
+import Verification6 from './Account/Verification6';
 
 
 
@@ -376,6 +387,18 @@ const App = () => {
        <Route path='/mobile-application' element={<MobileApplication/>}/>
        <Route path='/forks-and-airdrops' element={<ForksAndAirdrops/>}/>
        <Route path='/captcha' element={<Captcha/>}/>
+       <Route path='/account-accessess' element={<AccountAccessess/>}/>
+       <Route path='/lost-access-to-google-authenticator-2fa-of-a-ekonnet-account' element={<LostAccess/>}/>
+       <Route path='/how-to-reset-change-your-ekonnet-password' element={<ResetPassword/>}/>
+       <Route path='/what-is the-invalid-token-message' element={<Token/>}/>
+       <Route path='/verifications' element={<Verfications/>}/>
+       <Route path='/verification-levels-at-ekonnet' element={<Verification1/>}/>
+       <Route path='/how-to-verify-an-individual-ekonnet-account' element={<Verification2/>}/>
+       <Route path='/how-to-verify-a-corporate-account-on-ekonnet' element={<Verification3/>}/>
+       <Route path='/how-long-does-ekonnet-verification-take' element={<Verification4/>}/>
+       <Route path='/verification-frequently-asked-questions(FAQ)' element={<Verification5/>}/>
+       <Route path='/ekonnet-master-and-sub-accounts' element={<Verification6/>}/>
+
         </Routes>
   
      {/* <Sidebar>
