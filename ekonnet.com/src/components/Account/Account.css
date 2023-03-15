@@ -146,6 +146,7 @@
 .lost button{
     width: 298px;
     border-radius: 0px;
+    margin-top: 1px;
     background-color: transparent;
     height: 45px;
     border-color: transparent;
@@ -166,7 +167,7 @@
  
 .verify{
     width: 300px;
-    height: 282px;
+    height: 285px;
     border: 1px solid black;
     margin-top: 100px;
     /* background-color: darkblue; */
@@ -178,6 +179,7 @@
     border-radius: 0px;
     background-color: transparent;
     height: 45px;
+    margin-top: 1px;
     border-color: transparent;
     color: white;
     font-size: 0.9rem;
@@ -224,6 +226,69 @@
     border-collapse: collapse;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.report button:hover, .report button:focus{
+    border-color: #0d6efd;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+    color: white;
+}
+ 
+.report{
+    width: 300px;
+    height: 365x;
+    border: 1px solid black;
+    margin-top: 100px;
+    background-color: rgba(0, 7, 61)
+   
+}
+.report button{
+    width: 298px;
+    margin-top: 1px;
+    border-radius: 0px;
+    background-color: transparent;
+    height: 45px;
+    border-color: transparent;
+    color: white;
+    font-size: 0.9rem;
+    text-align: left;
+    padding-left: 25px;
+    font-family: 'Spectral';
+    transition: all 0.5s;
+    gap: 2rem;
+    
+}
+
+.trade button:hover, .trade button:focus{
+    border-color: #0d6efd;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+    color: white;
+}
+ 
+.trade{
+    width: 300px;
+    height: 1371px;
+    border: 1px solid black;
+    margin-top: 100px;
+    /* background-color: darkblue; */
+    background-color: rgba(0, 7, 61);
+    margin-bottom: 10px;
+   
+}
+.trade button{
+    width: 298px;
+    border-radius: 0px;
+    background-color: transparent;
+    height: 64px;
+    margin-top: 1px;
+    border-color: transparent;
+    color: white;
+    font-size: 0.9rem;
+    text-align: left;
+    padding-left: 25px;
+    font-family: 'Spectral';
+    transition: all 0.5s;
+    gap: 2rem;
+    
 }
 
 

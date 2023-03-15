@@ -3,14 +3,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import {Link} from "react-router-dom";
-import {AiOutlineUser} from 'react-icons/ai';
-import {IoIosNotificationsOutline} from 'react-icons/io';
-import {BiSearch} from 'react-icons/bi';
+//import {AiOutlineUser} from 'react-icons/ai';
+//import {IoIosNotificationsOutline} from 'react-icons/io';
+//import {BiSearch} from 'react-icons/bi';
 function HeaderNav() {
   return (
     
    <>
-    {/* <Navbar className='navbg' expand="lg" sticky="top">
+    <Navbar className='navbg' expand="lg" sticky="top">
       <Container>
         <Navbar.Brand as={Link} to={"/"} className='logo'>Ekonnet</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-white text-black' />
@@ -53,8 +53,8 @@ function HeaderNav() {
       </Container>
     </Navbar>
     <div>
-    </div> */}
-    <Navbar className='navbg' expand="lg" sticky="top">
+    </div>
+    {/* <Navbar className='navbg' expand="lg" sticky="top">
       <Container>
         <Navbar.Brand as={Link} to={"/"} className='logo'>Ekonnet</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-white text-black' />
@@ -117,7 +117,7 @@ function HeaderNav() {
             </Nav>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
+    </Navbar> */}
     <div>
     </div>
     </>

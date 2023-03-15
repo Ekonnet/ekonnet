@@ -63,28 +63,28 @@ import SingleBlogPage from './SingleBlogPage';
 import Sidebar from '../HelpCenter/Getting Startted/Sidebar';
 import SidebarRoot from '../HelpCenter/Getting Startted/SidebarRoot';
 import Exchange from './Exchange';
-import Papertrading from './PaperTrading/Papertrading';
-import Question1 from './PaperTrading/Question1';
-import Question2 from './PaperTrading/Question2';
-import Question3 from './PaperTrading/Question3';
-import Question4 from './PaperTrading/Question4';
-import Question5 from './PaperTrading/Question5';
-import Question6 from './PaperTrading/Question6';
-import Question7 from './PaperTrading/Question7';
-import Question8 from './PaperTrading/Question8';
-import Question9 from './PaperTrading/Question9';
-import Question10 from './PaperTrading/Question10';
-import Question11 from './PaperTrading/Question11';
-import Question12 from './PaperTrading/Question12';
-import Question13 from './PaperTrading/Question13';
-import Question14 from './PaperTrading/Question14';
-import Question15 from './PaperTrading/Question15';
-import Question16 from './PaperTrading/Question16';
-import Question17 from './PaperTrading/Question17';
-import Question18 from './PaperTrading/Question18';
-import Question19 from './PaperTrading/Question19';
-import Question20 from './PaperTrading/Question20';
-import Question21 from './PaperTrading/Question21';
+// import Papertrading from './PaperTrading/Papertrading';
+// import Question1 from './PaperTrading/Question1';
+// import Question2 from './PaperTrading/Question2';
+// import Question3 from './PaperTrading/Question3';
+// import Question4 from './PaperTrading/Question4';
+// import Question5 from './PaperTrading/Question5';
+// import Question6 from './PaperTrading/Question6';
+// import Question7 from './PaperTrading/Question7';
+// import Question8 from './PaperTrading/Question8';
+// import Question9 from './PaperTrading/Question9';
+// import Question10 from './PaperTrading/Question10';
+// import Question11 from './PaperTrading/Question11';
+// import Question12 from './PaperTrading/Question12';
+// import Question13 from './PaperTrading/Question13';
+// import Question14 from './PaperTrading/Question14';
+// import Question15 from './PaperTrading/Question15';
+// import Question16 from './PaperTrading/Question16';
+// import Question17 from './PaperTrading/Question17';
+// import Question18 from './PaperTrading/Question18';
+// import Question19 from './PaperTrading/Question19';
+// import Question20 from './PaperTrading/Question20';
+// import Question21 from './PaperTrading/Question21';
 import WebSocket from './Api/websocket';
 import Web1 from './Api/Web1';
 import Web2 from './Api/Web2';
@@ -189,6 +189,37 @@ import Verification3 from './Account/Verification3';
 import Verification4 from './Account/Verification4';
 import Verification5 from './Account/Verification5';
 import Verification6 from './Account/Verification6';
+import Report from './Account/Report';
+import Report1 from './Account/Report1';
+import Report2 from './Account/Report2';
+import Report3 from './Account/Report3';
+import Report4 from './Account/Report4';
+import Report5 from './Account/Report5';
+import Report6 from './Account/Report6';
+import Report7 from './Account/Report7';
+import Report8 from './Account/Report8';
+import Trading from './Account/Trading';
+import Trading1 from './Account/Trading1';
+import Trading2 from './Account/Trading2';
+import Trading3 from './Account/Trading3';
+import Trading4 from './Account/Trading4';
+import Trading5 from './Account/Trading5';
+import Trading6 from './Account/Trading6';
+import Trading7 from './Account/Trading7';
+import Trading8 from './Account/Trading8';
+import Trading9 from './Account/Trading9';
+import Trading10 from './Account/Trading10';
+import Trading11 from './Account/Trading11';
+import Trading13 from './Account/Trading13';
+import Trading12 from './Account/Trading12';
+import Trading14 from './Account/Trading14';
+import Trading15 from './Account/Trading15';
+import Trading16 from './Account/Trading16';
+import Trading17 from './Account/Trading17';
+import Trading18 from './Account/Trading18';
+import Trading19 from './Account/Trading19';
+import Trading20 from './Account/Trading20';
+import Trading21 from './Account/Trading21';
 
 
 
@@ -272,7 +303,7 @@ const App = () => {
        <Route path='/how-to-buy-shiba-inu' element={<BuyShiba/>}/>
        <Route path='/how-to-buy-silver' element={<BuySilver/>}/>
        <Route path='/how-to-buy-xrp' element={<BuyXrp/>}/>
-       <Route path='/paper-trading' element={<Papertrading/>}/>
+       {/* <Route path='/paper-trading' element={<Papertrading/>}/>
        <Route path='/Currency-Switch-Tool-on-Ekonnet' element={<Question1/>}/>
        <Route path='/How-to-trade-on-Ekonnet' element={<Question2/>}/>
        <Route path='/Paper-Trading-at-Ekonnet-test-learn-and-simulate-trading-strategies' element={<Question3/>}/>
@@ -293,7 +324,7 @@ const App = () => {
        <Route path='/How-is-precision-calculated-using-significant-digits-on-Ekonnet' element={<Question18/>}/>
        <Route path='/Orders-execution-on-Ekonnet' element={<Question19/>}/>
        <Route path='/Why-a-stop-order-might-not-be-filled-at-the-stop-price-on-Ekonnet' element={<Question20/>}/>
-       <Route path='/Chain-Split-Tokens-and-Token-Manager-on-Ekonnet' element={<Question21/>}/> 
+       <Route path='/Chain-Split-Tokens-and-Token-Manager-on-Ekonnet' element={<Question21/>}/>  */}
        <Route path='/web-socket' element={<WebSocket/>}/>
        <Route path='/web1' element={<Web1/>}/>
        <Route path='/web2' element={<Web2/>}/>
@@ -398,6 +429,37 @@ const App = () => {
        <Route path='/how-long-does-ekonnet-verification-take' element={<Verification4/>}/>
        <Route path='/verification-frequently-asked-questions(FAQ)' element={<Verification5/>}/>
        <Route path='/ekonnet-master-and-sub-accounts' element={<Verification6/>}/>
+       <Route path='/reports' element={<Report/>}/>
+       <Route path='/what-are-my-orders-reports' element={<Report1/>}/>
+       <Route path='/what-is-positions-on-ekonnet-report' element={<Report2/>}/>
+       <Route path='/what-is-a-ekonnet-report' element={<Report3/>}/>
+       <Route path='/what-is-a-funding-report-on-ekonnet' element={<Report4/>}/>
+       <Route path='/what-are-my-trades-reports' element={<Report5/>}/>
+       <Route path='/what-is-my-wallet-history-on-ekonnet' element={<Report6/>}/>
+       <Route path='/what-is-my-movements-report-at-ekonnet' element={<Report7/>}/>
+       <Route path='/full-tax-report-ekonnet-reporting-application' element={<Report8/>}/>
+       <Route path='/trading-overviews' element={<Trading/>}/>
+       <Route path='/currency-conversion-tool-on-ekonnet' element={<Trading1/>}/>
+       <Route path='/how-to-trade-on-ekonnet' element={<Trading2/>}/>
+       <Route path='/paper-trading-at-ekonnet-test-learn-and-simulate-trading-strategies' element={<Trading3/>}/>
+       <Route path='/ekonnet-order-types-and-order-options' element={<Trading4/>}/>
+       <Route path='/understanding-ekonnet-over-the-counter-(otc)' element={<Trading5/>}/>
+       <Route path='/how-to-check-you-are-paying-the-right-trading-fees-on-ekonnet' element={<Trading6/>}/>
+       <Route path='/what-is-the-minimum-order-size-on-ekonnet' element={<Trading7/>}/>
+       <Route path='/order-and-funding-books-terms-on-ekonnet' element={<Trading8/>}/>
+       <Route path='/the-ekonnet-chart-layout-customisation-and-ekonnet-trade-desk' element={<Trading9/>}/>
+       <Route path='/customisation-on-ekonnet' element={<Trading10/>}/>
+       <Route path='/ekonnet-satoshi-mode' element={<Trading11/>}/>
+       <Route path='/ekonnet-interface-loading-issues-frequently-asked-questions' element={<Trading12/>}/>
+       <Route path='/price-alert-setting-on-ekonnet' element={<Trading13/>}/>
+       <Route path='/what-is-a-settlement-on-ekonnet' element={<Trading14/>}/>
+       <Route path='/why-are-btc-profits-on-ekonnet-account-converted-to-usd-when-the-margin-position-is-closed' element={<Trading15/>}/>
+       <Route path='/trading-error-message' element={<Trading16/>}/>
+       <Route path='/editing-orders-and-viewing-order-history-in-bulk' element={<Trading17/>}/>
+       <Route path='/how-is-precision-calculated-using-significant-digits-on-ekonnet' element={<Trading18/>}/>
+       <Route path='/orders-execution-on-ekonnet' element={<Trading19/>}/>
+       <Route path='/why-a-stop-order-might-not-be-filled-at-the-stop-price-on-ekonnet' element={<Trading20/>}/>
+       <Route path='/chain-split-tokens-and-token-manager-on-ekonnet' element={<Trading21/>}/>
 
         </Routes>
   
