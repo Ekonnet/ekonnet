@@ -68,19 +68,19 @@ const Trading9 = () => {
                     </div>
                 </div>
                 <div className='col-lg-8 summer'>
-                    <h2>The Bitfinex Chart, Layout Customisation & Bitfinex Trade Desk</h2>
+                    <h2>The Ekonnet Chart, Layout Customisation & Ekonnet Trade Desk</h2>
                     <h5>Last updated 3 March, 2022</h5>
                     <p>
                     <ul>
-                      <li>Bitfinex Chart</li>
+                      <li>Ekonnet Chart</li>
                       <li>Layout Customisation</li>
-                      <li>Bitfinex Trade Desk</li>
-                      <li>Bitfinex Market Watch widget</li>
+                      <li>Ekonnet Trade Desk</li>
+                      <li>Ekonnet Market Watch widget</li>
                       <li>Depth Chart</li>
                       <li>Price Alerts</li>
                     </ul>
-                    <h3>What is Bitfinex Chart</h3><br/>
-                    The Bitfinex Chart is supported by Trading View, building it into the Bitfinex trading UI and allowing you to use and customise charts to your own preferences. 
+                    <h3>What is Ekonnet Chart</h3><br/>
+                    The Ekonnet Chart is supported by Trading View, building it into the Ekonnet trading UI and allowing you to use and customise charts to your own preferences. 
                     <br/><br/>
                     You will see that the toolbar on the left of the chart will include most of the drawing tools that can be used directly on the chart. Below we will go into more details on the functions that are available.
                     <br/><br/>
@@ -121,9 +121,9 @@ const Trading9 = () => {
                     <br/> <br/> 
                     *Active positions, orders, and price alerts will also appear in a similar fashion (different colours) as the current market price line.
                     <br/> <br/> 
-                    <h3>Layout Customisation on Bitfinex</h3>
+                    <h3>Layout Customisation on Ekonnet</h3>
                     <br/>
-                    Layout Customisation allows you to customise your Bitfinex trading page according to your preferences. Different widgets can be added on and removed, and you can also adjust the size of each widget.
+                    Layout Customisation allows you to customise your Ekonnet trading page according to your preferences. Different widgets can be added on and removed, and you can also adjust the size of each widget.
                     <br/><br/>
                     1. Customise your page layout by finding the Customized Layout icon on the top navigation bar.
                     <br/><br/>
@@ -143,11 +143,11 @@ const Trading9 = () => {
                     <img src={trade34} alt="main-heading" className='img-fluid mx-auto' /><br/>
                     Note: Layout customisation supports widescreen sizes.
                     <br/><br/>
-                    <h3>What is Bitfinex Trade Desk</h3><br/>
-                    The Bitfinex Trade Desk allows you to create custom trading views with the ability to tailor many components, such as charts, orders, and books, to specific trading pairs, making it easier to monitor or place frequent trades.
+                    <h3>What is Ekonnet Trade Desk</h3><br/>
+                    The Ekonnet Trade Desk allows you to create custom trading views with the ability to tailor many components, such as charts, orders, and books, to specific trading pairs, making it easier to monitor or place frequent trades.
                     <br/><br/>
-                    <h3>How to use Bitfinex Trade Desk</h3><br/>
-                    1. The Bitfinex Trade Desk is accessible through the Layout icon in the top navigation bar. Here, you will gain access to an array of customisable widgets and the ability to create various editable templates based on pairs and parameters of your liking.
+                    <h3>How to use Ekonnet Trade Desk</h3><br/>
+                    1. The Ekonnet Trade Desk is accessible through the Layout icon in the top navigation bar. Here, you will gain access to an array of customisable widgets and the ability to create various editable templates based on pairs and parameters of your liking.
                     <br/><br/>
                     <img src={trade35} alt="main-heading" className='img-fluid mx-auto' /><br/>
                     2. Proceeding, when you click on Configure new template, you will be able to begin building your custom template.
@@ -157,7 +157,7 @@ const Trading9 = () => {
                     <ul>
                     <li>Balances;</li>
                     <li>Bids & Offers;</li>
-                    <li>Bitfinex Pulse;</li>
+                    <li>Ekonnet Pulse;</li>
                     <li>Chart;</li>
                     <li>Depth Chart;</li>
                     <li>Funding Book;</li>
@@ -174,10 +174,10 @@ const Trading9 = () => {
                     <li>Ticker;</li>
                     <li>Ticker list;</li>
                     <li>Trades;</li>
-                    <li>Bitfinex Market Watch.</li>
+                    <li>Ekonnet Market Watch.</li>
                     </ul>
                     <img src={trade37} alt="main-heading" className='img-fluid mx-auto' /><br/>
-                    Note: Balances, Bitfinex Pulse, Liquidation, Derivative (Liquidations), Orders, Positions, Order History, Bids & Offers cannot be configured. You can only use the Add, Remove, Move and Resize functions.
+                    Note: Balances, Ekonnet Pulse, Liquidation, Derivative (Liquidations), Orders, Positions, Order History, Bids & Offers cannot be configured. You can only use the Add, Remove, Move and Resize functions.
                     <br/><br/>
                     <img src={trade38} alt="main-heading" className='img-fluid mx-auto' /><br/>
                     As shown in the image above, all other tickers and trading components can be configured for all available trading pairs.
@@ -187,8 +187,8 @@ const Trading9 = () => {
                     <img src={trade39} alt="main-heading" className='img-fluid mx-auto' /><br/>
                     Note: Multiple types of templates, each with its own configurations, can be saved.
                     <br/><br/>
-                    <h3>What is Bitfinex Market Watch widget</h3><br/>
-                    Bitfinex Market Watch is a powerful tool which features customisable ticker tiles showing:
+                    <h3>What is Ekonnet Market Watch widget</h3><br/>
+                    Ekonnet Market Watch is a powerful tool which features customisable ticker tiles showing:
                     <ul>
                       <li>Ticker;</li>
                       <li>Price;</li>
@@ -197,17 +197,17 @@ const Trading9 = () => {
                       <li>24h Chart.</li>
                     </ul>
                     <img src={trade40} alt="main-heading" className='img-fluid mx-auto' /><br/>
-                    You can either customise the Bitfinex Market Watch widget with pairs of your choice or use the following pre-built presets found in Settings:
+                    You can either customise the Ekonnet Market Watch widget with pairs of your choice or use the following pre-built presets found in Settings:
                     <ul>
                       <li>Top by volume</li>
                       <li>24H best performers</li>
                       <li>24H worst performers</li>
                     </ul>
                     <img src={trade41} alt="main-heading" className='img-fluid mx-auto' /><br/>
-                    To customise the ticker tiles you would like to see in the Bitfinex Market Watch widget, select the Choose the tickers to display option and then click the cogwheel on the right to configure.
+                    To customise the ticker tiles you would like to see in the Ekonnet Market Watch widget, select the Choose the tickers to display option and then click the cogwheel on the right to configure.
                     <br/><br/>
                     <img src={trade42} alt="main-heading" className='img-fluid mx-auto' /><br/>
-                    Then, you can select as many trading pairs as you would like from all the available trading pairs on Bitfinex. The pairs can be easily accessed and edited anytime via the settings.
+                    Then, you can select as many trading pairs as you would like from all the available trading pairs on Ekonnet. The pairs can be easily accessed and edited anytime via the settings.
                     <br/><br/>
                     <img src={trade43} alt="main-heading" className='img-fluid mx-auto' /><br/>
                     <h3>What is Depth Chart</h3><br/>
@@ -218,7 +218,7 @@ const Trading9 = () => {
                       <li>identify significant support and resistance levels.</li>
                     </ul>
                     <img src={trade44} alt="main-heading" className='img-fluid mx-auto' /><br/>
-                    The Depth Chart will be available on your Bitfinex trading page by default, and you can also choose to remove it using “Customise Layout” as described in the previous section above:
+                    The Depth Chart will be available on your Ekonnet trading page by default, and you can also choose to remove it using “Customise Layout” as described in the previous section above:
                     <ul>
                       <li>X-axis: Price;</li>
                       <li>Y-axis: Total amount of orders;</li>
@@ -241,7 +241,7 @@ const Trading9 = () => {
                     <h3>What is Price Alerts</h3><br/>
                     Price Alerts provide you with a notification in your browser, desktop, and/or mobile device.
                     <br/><br/>
-                    <h3>How to create a Price Alert on Bitfinex</h3><br/>
+                    <h3>How to create a Price Alert on Ekonnet</h3><br/>
                     1. First, click on the bell icon at the top of the order book.
                     <br/><br/>
                     <img src={trade45} alt="main-heading" className='img-fluid mx-auto' /><br/>
@@ -257,7 +257,7 @@ const Trading9 = () => {
                     2. Click the bell icon to toggle a price alert at that price point.
                     <br/><br/>
                     <img src={trade47} alt="main-heading" className='img-fluid mx-auto' /><br/>
-                    If you have any inquiries, feel free to reach out to Bitfinex Support. Our team is happy to help!
+                    If you have any inquiries, feel free to reach out to Ekonnet Support. Our team is happy to help!
                     </p>
                     <hr className='mt-5 mb-5'></hr>
                     <h4>Can't you find what you are looking for?</h4>

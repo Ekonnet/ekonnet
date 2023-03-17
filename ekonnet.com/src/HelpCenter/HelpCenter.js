@@ -112,11 +112,11 @@ const HelpCenter = () => {
                     </div>
                     <div className="row d-flex justify-content-around gap-1 mt-3">
                         <div className="col-4 accountDiv">
-                            <h2 className='acount__heading'>  Account Access</h2>
+                        <Nav.Link as={Link} to={"/Deposits-Withdrawals"}><h2 className='acount__heading'>  Deposits/Withdrawals</h2></Nav.Link>
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         <div className="col-4 accountDiv">
-                            <h2 className='acount__heading'>  Verification</h2>
+                        <Nav.Link as={Link} to={"/Security"}><h2 className='acount__heading'>  Security</h2></Nav.Link>
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         <div className="col-4 accountDiv">
@@ -132,8 +132,6 @@ const HelpCenter = () => {
 
 
 
-
-
             <section className="account mt-5">
                 <div className="container">
                     <div className="row d-flex justify-content-around gap-1">
@@ -143,18 +141,18 @@ const HelpCenter = () => {
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         <div className="col-4 accountDiv">
-                            <h2 className='acount__heading'>  Margin Trading</h2>
+                        <Nav.Link as={Link} to={"/margin-trading"}><h2 className='acount__heading'>  Margin Trading</h2></Nav.Link>
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         <div className="col-4 accountDiv">
-                            <h2 className='acount__heading'>  Derivatives</h2>
+                        <Nav.Link as={Link} to={"/derivatives"}><h2 className='acount__heading'>  Derivatives</h2></Nav.Link>
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
-                        
+                    
                     </div>
                     <div className="row d-flex justify-content-around gap-1 mt-3">
                         <div className="col-4 accountDiv">
-                            <h2 className='acount__heading'>  Fees</h2>
+                        <Nav.Link as={Link} to={"/fee"}><h2 className='acount__heading'>  Fees</h2></Nav.Link>
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         <div className="col-4 accountDiv">
@@ -162,7 +160,7 @@ const HelpCenter = () => {
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         <div className="col-4 accountDiv">
-                            <h2 className='acount__heading'>  Ekonnet Pay</h2>
+                        <Nav.Link as={Link} to={"/ekonnet-honey"}><h2 className='acount__heading'>  Ekonnet Honey</h2></Nav.Link>
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         

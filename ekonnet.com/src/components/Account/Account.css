@@ -4,6 +4,12 @@
     font-family: 'Spectral', serif;
     font-size: 2.5rem;
 }
+.access h4{
+    color: darkblue;
+    margin-top: 40px;
+    font-family: 'Spectral', serif;
+    margin-bottom: 20px;
+}
 .access ul{
     color: darkblue;
     list-style-type: disc;
@@ -274,6 +280,38 @@
     margin-bottom: 10px;
    
 }
+.marg button{
+    width: 298px;
+    border-radius: 0px;
+    background-color: transparent;
+    height: 64px;
+    margin-top: 1px;
+    border-color: transparent;
+    color: white;
+    font-size: 0.9rem;
+    text-align: left;
+    padding-left: 25px;
+    font-family: 'Spectral';
+    transition: all 0.5s;
+    gap: 2rem;
+    
+}
+.marg button:hover, .marg button:focus{
+    border-color: #0d6efd;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+    color: white;
+}
+ 
+.marg{
+    width: 300px;
+    height: 789px;
+    border: 1px solid black;
+    margin-top: 100px;
+    /* background-color: darkblue; */
+    background-color: rgba(0, 7, 61);
+    margin-bottom: 10px;
+   
+}
 .trade button{
     width: 298px;
     border-radius: 0px;
@@ -290,5 +328,70 @@
     gap: 2rem;
     
 }
+.derivat button:hover, .derivat button:focus{
+    border-color: #0d6efd;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+    color: white;
+}
+ 
+.derivat{
+    width: 300px;
+    height: 263px;
+    border: 1px solid black;
+    margin-top: 100px;
+    /* background-color: darkblue; */
+    background-color: rgba(0, 7, 61);
+    margin-bottom: 10px;
+   
+}
+.derivat button{
+    width: 298px;
+    border-radius: 0px;
+    background-color: transparent;
+    height: 64px;
+    margin-top: 1px;
+    border-color: transparent;
+    color: white;
+    font-size: 0.9rem;
+    text-align: left;
+    padding-left: 25px;
+    font-family: 'Spectral';
+    transition: all 0.5s;
+    gap: 2rem;
+    
+}
+.honey button:hover, .honey button:focus{
+    border-color: #0d6efd;
+    background: linear-gradient(90deg, #BC35BC 0%, #124EE8 100%);
+    color: white;
+}
+ 
+.honey{
+    width: 300px;
+    height: 133px;
+    border: 1px solid black;
+    margin-top: 100px;
+    /* background-color: darkblue; */
+    background-color: rgba(0, 7, 61);
+    margin-bottom: 10px;
+   
+}
+.honey button{
+    width: 298px;
+    border-radius: 0px;
+    background-color: transparent;
+    height: 64px;
+    margin-top: 1px;
+    border-color: transparent;
+    color: white;
+    font-size: 0.9rem;
+    text-align: left;
+    padding-left: 25px;
+    font-family: 'Spectral';
+    transition: all 0.5s;
+    gap: 2rem;
+    
+}
+
 
 

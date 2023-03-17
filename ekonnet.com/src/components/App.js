@@ -220,6 +220,34 @@ import Trading18 from './Account/Trading18';
 import Trading19 from './Account/Trading19';
 import Trading20 from './Account/Trading20';
 import Trading21 from './Account/Trading21';
+import Margin from './Account/Margin';
+import Margin1 from './Account/Margin1';
+import Margin2 from './Account/Margin2';
+import Margin3 from './Account/Margin3';
+import Margin4 from './Account/Margin4';
+import Margin5 from './Account/Margin5';
+import Margin6 from './Account/Margin6';
+import Margin7 from './Account/Margin7';
+import Margin8 from './Account/Margin8';
+import Margin9 from './Account/Margin9';
+import Margin10 from './Account/Margin10';
+import Margin11 from './Account/Margin11';
+import Margin12 from './Account/Margin12';
+import Derivative from './Account/Derivative';
+import Derivative1 from './Account/Derivative1';
+import Derivative2 from './Account/Derivative2';
+import Derivative3 from './Account/Derivative3';
+import Derivative4 from './Account/Derivative4';
+import Fee from './Account/Fee';
+import Fee1 from './Account/Fee1';
+import Fee2 from './Account/Fee2';
+import Fee3 from './Account/Fee3';
+import Fee4 from './Account/Fee4';
+import Honey from './Account/Honey';
+import Honey1 from './Account/Honey1';
+import Honey2 from './Account/Honey2';
+import Depos from './Account/Depos';
+import Secure from './Account/Secure';
 
 
 
@@ -460,6 +488,38 @@ const App = () => {
        <Route path='/orders-execution-on-ekonnet' element={<Trading19/>}/>
        <Route path='/why-a-stop-order-might-not-be-filled-at-the-stop-price-on-ekonnet' element={<Trading20/>}/>
        <Route path='/chain-split-tokens-and-token-manager-on-ekonnet' element={<Trading21/>}/>
+       <Route path='/margin-trading' element={<Margin/>}/>
+       <Route path='/What-is-Margin-Trading-on-Ekonnet' element={<Margin1/>}/>
+       <Route path='/How-to-open-close-a-margin-position-at-Ekonnet' element={<Margin2/>}/>
+       <Route path='/What-interest-rate-is-charged-on-margin-positions-on-Ekonnet' element={<Margin3/>}/>
+       <Route path='/How-to-claim-a-margin-position-on-Ekonnet' element={<Margin4/>}/>
+       <Route path='/Margin-call-policy-on-Ekonnet' element={<Margin5/>}/>
+       <Route path='/What-happens-to-a-Ekonnet-margin-position-if-the-underlying-funds-become-unavailable' element={<Margin6/>}/>
+       <Route path='/Margin-Funding-on-Ekonnet' element={<Margin7/>}/>
+       <Route path='/Is-it-possible-to-open-multiple-Margin-Trading-positions-for-the-same-pair-on-Ekonnet' element={<Margin8/>}/>
+       <Route path='/What-is-the-base-price-at-Ekonnet' element={<Margin9/>}/>
+       <Route path='/How-to-replace-funding-in-a-margin-position' element={<Margin10/>}/>
+       <Route path='/Using-Reserved-Funding-for-a-position-on-Ekonnet' element={<Margin11/>}/>
+       <Route path='/The-error-message-Insufficient-Balance-on-Ekonnet' element={<Margin12/>}/>
+       <Route path='/derivatives' element={<Derivative/>}/>
+       <Route path='/How-to-move-funds-to-the-Derivatives-wallet' element={<Derivative1/>}/>
+       <Route path='/Derivatives-Trading-on-Ekonnet' element={<Derivative2/>}/>
+       <Route path='/The-Ekonnet-Derivatives-trading-interface' element={<Derivative3/>}/>
+       <Route path='/What-is-Termination-on-Ekonnet' element={<Derivative4/>}/>
+       <Route path='/fee' element={<Fee/>}/>
+       <Route path='/How-to-pay-less-trading-fees-at-Ekonnet' element={<Fee1/>}/>
+       <Route path='/What-fees-does-Ekonnet-charge' element={<Fee2/>}/>
+       <Route path='/Ekonnet-Fees' element={<Fee3/>}/>
+       <Route path='/Does-Ekonnet-offer-traders-preferential-fee-discounts' element={<Fee4/>}/>
+       <Route path='/ekonnet-honey' element={<Honey/>}/>
+       <Route path='/Ekonnet-Honey-Algorithmic-Orders' element={<Honey1/>}/>
+       <Route path='/Ekonet-Honey' element={<Honey2/>}/>
+       <Route path='/Deposits-Withdrawals' element={<Depos/>}/>
+       <Route path='/Security' element={<Secure/>}/>
+
+       
+
+
 
         </Routes>
   
