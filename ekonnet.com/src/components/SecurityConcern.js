@@ -27,7 +27,7 @@ const SecurityConcern = () => {
         <h3>Security Concern</h3>
      </div>
      </div>
-     {/* <p style={{color: "darkblue"}}>1. A Regular wire withdrawal request is sent out from Bitfinex within 5-10 business days. 2. An Express wire withdrawal is sent out from Bitfinex within 24 hours on any given business day and incurs a 1% processing fee. Bitfinex cannot guarantee processing of your withdrawal within a specified time frame as each bank will have its own procedures and processing times.</p> */}
+     {/* <p style={{color: "darkblue"}}>1. A Regular wire withdrawal request is sent out from Ekonnetwithin 5-10 business days. 2. An Express wire withdrawal is sent out from EEkonnetithin 24 hours on any given business day and incurs a 1% processing fee. EkEkonnetnnot guarantee processing of your withdrawal within a specified time frame as each bank will have its own procedures and processing times.</p> */}
      <form>
      <div className='token-input'>
      <label className='required mt-3'>Subject</label><br/>

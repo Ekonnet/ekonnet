@@ -71,7 +71,7 @@ const ProOrder = () => {
                    <h2>How to use a Scaled order</h2>
                   <p>Scaled orders are a complex trade creation tool that enables traders to spend less time entering orders and more time concentrating on their strategy.</p>
                   <p>A Scaled order consists of many orders at various prices to mitigate the market impact of submitting a single large order. Additionally, it can be used to obtain a more favourable average price when entering or quitting a position.</p>
-                 <p>If you have any questions, please feel free to reach out to Bitfinex Support. We are happy to help!</p>   
+                 <p>If you have any questions, please feel free to reach out to EkonnetSupport. We are happy to help!</p>   
                 </div>
             </div>
         </div>

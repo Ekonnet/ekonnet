@@ -75,6 +75,7 @@ const HelpCenter = () => {
                             </Nav.Link>
                         </div>
                         <div className="col-lg-4 col-md-6 col-12 box__heplcenter">
+                        <Nav.Link as={Link} to={"/web-socket"}>
                             <div className='circle__icon'>
                                 <SiStartrek className='icon' size="2rem" />
                             </div>
@@ -83,7 +84,7 @@ const HelpCenter = () => {
                             <div className='d-flex justify-content-end'>
                             <IoArrowRedoCircle size={30} className="div__arrow-icon"/>
                             </div>
-
+                        </Nav.Link>
                         </div>
                     </div>
                 </div>
@@ -120,7 +121,7 @@ const HelpCenter = () => {
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         <div className="col-4 accountDiv">
-                            <h2 className='acount__heading'>  Lending</h2>
+                        <Nav.Link as={Link} to={"/Lending"}><h2 className='acount__heading'>  Lending</h2></Nav.Link>
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         
@@ -156,7 +157,7 @@ const HelpCenter = () => {
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         <div className="col-4 accountDiv">
-                            <h2 className='acount__heading'>  Oder Type and Order Option</h2>
+                        <Nav.Link as={Link} to={"/Oder-Type-and-Order-Option"}>  <h2 className='acount__heading'>  Oder Type and Order Option</h2></Nav.Link>
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         <div className="col-4 accountDiv">
@@ -184,15 +185,15 @@ const HelpCenter = () => {
                     <div className="row d-flex justify-content-around gap-1">
                         <h2 className='acount-main-heading'> More</h2>
                         <div className="col-4 accountDiv">
-                            <h2 className='acount__heading'>  Mobile App</h2>
+                        <Nav.Link as={Link} to={"/Mobiles"}><h2 className='acount__heading'>  Mobile App</h2></Nav.Link>v
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         <div className="col-4 accountDiv">
-                            <h2 className='acount__heading'>  Currencies & Token</h2>
+                        <Nav.Link as={Link} to={"/Currencies-and-Token"}><h2 className='acount__heading'>  Currencies & Token</h2></Nav.Link>
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         <div className="col-4 accountDiv">
-                            <h2 className='acount__heading'>  Other Resources</h2>
+                        <Nav.Link as={Link} to={"/Other-Resources"}><h2 className='acount__heading'>  Other Resources</h2></Nav.Link>
                             <MdDoubleArrow className='arrow-icon'/>
                         </div>
                         

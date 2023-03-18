@@ -62,11 +62,11 @@ const Token = () => {
                     <br/><br/>
                     4. You will now need to make a new login attempt after you have disabled Safelinks.
                     <br/><br/>
-                    5. Once you have successfully logged in to your Bitfinex account, we recommend that you enable 2FA as soon as possible to protect your account and ensure that future logins no longer require email confirmation.
+                    5. Once you have successfully logged in to your Ekonnetaccount, we recommend that you enable 2FA as soon as possible to protect your account and ensure that future logins no longer require email confirmation.
                     <br/><br/>
                     Note: You can turn Safelinks back on again once the link has been used.
                     <br/><br/>
-                    If you still have inquiries, please feel free to contact Bitfinex Support for further assistance. We are happy to help!
+                    If you still have inquiries, please feel free to contact EkonnetSupport for further assistance. We are happy to help!
                     </p>
                     <hr className='mt-5 mb-5'></hr>
                     <h4>Can't you find what you are looking for?</h4>

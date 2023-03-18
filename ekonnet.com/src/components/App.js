@@ -248,6 +248,11 @@ import Honey1 from './Account/Honey1';
 import Honey2 from './Account/Honey2';
 import Depos from './Account/Depos';
 import Secure from './Account/Secure';
+import Order from './Account/Order';
+import Lend from './Account/Lend';
+import Mob from './Account/Mob';
+import Currencies from './Account/Currencies';
+import Resource from './Account/Resource';
 
 
 
@@ -516,11 +521,11 @@ const App = () => {
        <Route path='/Ekonet-Honey' element={<Honey2/>}/>
        <Route path='/Deposits-Withdrawals' element={<Depos/>}/>
        <Route path='/Security' element={<Secure/>}/>
-
-       
-
-
-
+       <Route path='/Oder-Type-and-Order-Option' element={<Order/>}/>
+       <Route path='/Lending' element={<Lend/>}/>
+       <Route path='/Mobiles' element={<Mob/>}/>
+       <Route path='/Currencies-and-Token' element={<Currencies/>}/>
+       <Route path='/Other-Resources' element={<Resource/>}/>
         </Routes>
   
      {/* <Sidebar>

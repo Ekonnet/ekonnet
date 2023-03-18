@@ -1,200 +1,79 @@
 import React from 'react'
-import background from '../../components/assets/pbg.jpg'
-import section2 from '../../components/assets/footer_bg.jpg'
-import '../HelpCenter__main.css';
-import { BiSearchAlt2 } from 'react-icons/bi';
-import { IoIosArrowDroprightCircle } from 'react-icons/io';
-import { Link } from 'react-router-dom';
+import {Link} from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
-import Contact from '../../components/Contacts/Contact';
-import BreadCumbs from '../BreadCumbs/BreadCumbs';
+import AffiliateImg from '../../components/assets/home-banner-bg.png';
+import '../../components/Account/Account.css'
 
 
 const GettingStarted = () => {
 
-    const Background = {
-        backgroundImage: `url(${background})`,
-        height: '40vh',
-        marginTop: '0',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-    }
-
-    const Section2 = {
-        backgroundImage: `url(${section2})`,
-        height: 'auto',
-        marginTop: '0',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-    }
+    
 
     return (
         <>
-            <section className="hepcenter__front" style={Background}>
-                <div className="blur-main">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-8 mx-auto welcome__main">
-                                <h2 className="wellcome__ekonnet">
-                                    Welcome to the Ekonnet Help Center
-                                </h2>
-                                <div className="search__form search__icon-div ">
-                                    <span><BiSearchAlt2 /></span>
-                                    <span> Search</span>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div className="row">
-                            <div className=" col-lg-8 mx-auto d-flex justify-content-center align-items-center pt-4 breadcumbs text-center">
-                                <BreadCumbs className="breadcumb-color" />
-                            </div>
-                        </div>
+        <section id='web_hero' className='web_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
+        <div className='container'>
+            <div className='row'>
+                 <div className='col-lg-12 text-center'>
+                 <h1>Welcome to the Ekonnet Help Center</h1>
+                    <form>
+                    <input type='search' placeholder='Search' id="search" name="search"></input>
+                    </form>
                     </div>
-                </div>
-            </section>
+            </div>
+        </div>
+      </section>
+      <section>
+        <div className='container'>
+        <div className='row'>
+         <div className='col-lg-2'>
+         </div>
+         <div className='col-lg-8 access'>
+         <h3>Getting Started</h3>
+         <h4>Getting Started</h4>
+         <ul>
+         <Nav.Link as={Link} to={""}><li>What is Ekonnet</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>How to create an account on Ekonnet</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>A Beginner's guide to Ekonnet</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>How to earn on Ekonnet without trading</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>Tutorial: How to use Ekonnet</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>How to make a deposit at Ekonnet</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>How to make a crypto withdrawal at Ekonnet</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>What browsers and operating systems does Ekonnet support</li></Nav.Link>
 
 
-            <section className="" style={Section2}>
-                <div className="content__blur">
-                    <div className="container">
-                        <div className="row">
-                            <div className=" contact__contact col-4 mx-auto text-center">
-                                <div className="beforeLine"></div>
-                                <span>HELP CENTER LINKS</span>
-                            </div>
-                        </div>
-                        <div className="row gx-1 pt-3 pb-5">
+         <h4>Mobile App</h4>
+         <Nav.Link as={Link} to={""}><li>What is the Swap tool on Ekonnet Mobile Lite</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>How to sign up from the Ekonnet Mobile App</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>How to log in to the Ekonnet Mobile App</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>Best security practices for the Ekonnet Mobile App</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>How to make a deposit or withdrawal using the Ekonnet Mobile App</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>How to create or edit orders using the Ekonnet Mobile App</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>Setting up the Ekonnet Mobile App notifications</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>How to create and revoke a Ekonnet API Key</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>What is Fast Pay</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>What is SWAPiX on the Ekonnet Mobile App</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>Ekonnet Mobile Lite</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>What is a Market order on Ekonnet Mobile Lite</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>What is Lending on Ekonnet Mobile Lite</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>What is a Limit Order on Ekonnet Mobile Lite</li></Nav.Link>
 
-                            <div className="col getingStartedDiv">
-                                <h2 className="gettingStartHeading">
-                                    Getting Started
-                                </h2>
-                                <div className="cover pt-5 ">
-                                    <Nav.Link as={Link} to={"/sidebar"}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is Ekonnet</h5>
-                                        </div>
-                                    </Nav.Link>
-                                    <Nav.Link as={Link} to={"/sidebar"}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to create an account on Ekonnet</h5>
-                                        </div>
-                                    </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>A Beginner's guide to Ekonnet</h5>
-                                        </div>
-                                    </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to earn on Ekonnet without trading</h5>
-                                        </div>
-                                    </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>Tutorial: How to use Ekonnet</h5>
-                                        </div>
-                                    </Nav.Link>
-
-                                </div>
-
-                            </div>
-                            <div className="col  getingStartedDiv ">
-                                <h2 className="gettingStartHeading">
-                                    Mobile App
-                                </h2>
-                                <div className="cover pt-5">
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is SWAPiX on the Ekonnet Mobile App</h5>
-                                        </div>
-                                    </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is Lending on Ekonnet Mobile Lite</h5>
-                                        </div>
-                                    </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is a Limit Order on Ekonnet Mobile Lite</h5>
-                                        </div>
-                                    </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to sign up from the Ekonnet Mobile App</h5>
-                                        </div>
-                                    </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to log in to the Ekonnet Mobile App</h5>
-                                        </div>
-                                    </Nav.Link>
-                                </div>
-
-
-                            </div>
-
-
-                            <div className="col  getingStartedDiv ">
-                                <h2 className="gettingStartHeading">
-                                    Ekonnet Community
-                                </h2>
-                                <div className="cover pt-5">
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>The Ekonnet Affiliate Program</h5>
-                                        </div>
-                                    </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is Bitrefill at Ekonnet</h5>
-                                        </div>
-                                    </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What are the Ekonnet Social Media Channels</h5>
-                                        </div>
-                                    </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>What is Ekonnet Pulse</h5>
-                                        </div>
-                                    </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to create a pulse on Ekonnet Pulse</h5>
-                                        </div>
-                                    </Nav.Link>
-                                    <Nav.Link as={Link} to={""}>
-                                        <div className="d-flex gap-2 justify-content-start align-items-center">
-                                            <IoIosArrowDroprightCircle size={18} /> <h5 className='sublink-getstart'>How to tip on Ekonnet Pulse</h5>
-                                        </div>
-                                    </Nav.Link>
-
-
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-
-                    </div>
-
-
-                </div>
-
-            </section>
-            <section>
-                <Contact />
-
-            </section>
-
-
-
-
+         <h4>Ekonnet Community</h4>
+         <Nav.Link as={Link} to={""}><li>The Ekonnet Affiliate Program</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>What is Bitrefill at Ekonnet</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>What are the Ekonnet Social Media Channels</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>What is Ekonnet Pulse</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>How to create a pulse on Ekonnet Pulse</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>How to use the Ekonnet Pulse Tipping function</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>How to report a pulse on Ekonnet Pulse</li></Nav.Link>
+         <Nav.Link as={Link} to={""}><li>Ekonnet Pulse — Important information</li></Nav.Link> 
+         </ul>
+         </div>
+         <div className='col-lg-2'>
+         </div>
+        </div>
+        </div>
+      </section>
         </>
     )
 }

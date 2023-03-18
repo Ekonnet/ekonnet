@@ -49,14 +49,14 @@ const Trading21 = () => {
                     </div>
                 </div>
                 <div className='col-lg-8 summer'>
-                    <h2>Chain Split Tokens and Token Manager on Bitfinex</h2>
+                    <h2>Chain Split Tokens and Token Manager on Ekonnet</h2>
                     <h5>Last updated 3 March, 2022</h5>
                     <p>
                     <h3>What are Chain Split Tokens</h3>
-                    In early 2017, Bitfinex introduced a new type of digital tokens called the Chain Split Tokens (CSTs). The first such product of its kind, CSTs allow market participants to speculate on future fork events of digital currencies.
+                    In early 2017, Ekonnetintroduced a new type of digital tokens called the Chain Split Tokens (CSTs). The first such product of its kind, CSTs allow market participants to speculate on future fork events of digital currencies.
                     <br/><br/>
                     <h3>BCC and BCU</h3>
-                    The first implementation was to speculate on the potential forking event of Bitcoin Unlimited. These two original CSTs were BCC and BCU and referred specifically to the potential fork between Bitcoin Core and Bitcoin Unlimited. Bitfinex designated these CSTs as BCC (Bitcoin Core) and BCU (Bitcoin Unlimited).
+                    The first implementation was to speculate on the potential forking event of Bitcoin Unlimited. These two original CSTs were BCC and BCU and referred specifically to the potential fork between Bitcoin Core and Bitcoin Unlimited. Ekonnetdesignated these CSTs as BCC (Bitcoin Core) and BCU (Bitcoin Unlimited).
                     <br/><br/> 
                     For more information, please view the Bitcoin Unlimited CST announcement.
                     <br/><br/>
@@ -72,7 +72,7 @@ const Trading21 = () => {
                     <br/><br/>
                     It uses the Exchange Wallet balances to allow users to merge or split CSTs to and from their constituent parts. In other words, it is the mechanism for creating and destroying the CSTs. Each CST in existence was created through this process by a specific user. Immediately after CSTs are created in the Token Manager, they are available for  trading. 
                     <br/><br/>
-                    If you have any inquiries, please feel free to contact Bitfinex Support. We are always happy to help! 
+                    If you have any inquiries, please feel free to contact EkonnetSupport. We are always happy to help! 
                    </p>
                     <hr className='mt-5 mb-5'></hr>
                     <h4>Can't you find what you are looking for?</h4>

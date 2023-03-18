@@ -42,10 +42,10 @@ const Margin12 = () => {
                     </div>
                 </div>
                 <div className='col-lg-8 summer'>
-                    <h2>The error message "Insufficient Balance" on Bitfinex</h2>
+                    <h2>The error message "Insufficient Balance" on Ekonnet</h2>
                     <h5>Last updated 3 March, 2022</h5>
                     <p>
-                    If you receive the error message “Insufficient Balance” when trying to open a margin position on Bitfinex, this may be due to various reasons.
+                    If you receive the error message “Insufficient Balance” when trying to open a margin position on Ekonnet this may be due to various reasons.
                     <br/><br/>
                     <h3>What are the reasons for “Insufficient Balance” error</h3><br/>
                     <h3>No funding available</h3>
@@ -54,7 +54,7 @@ const Margin12 = () => {
                     If funding is required, but there is no funding provider available, your order will be cancelled with the status message “Insufficient Balance”, which could mean no funding available when the order should have been executed.
                     <br/><br/>
                     <h3>Not enough tradable balance</h3>
-                    To open positions on Bitfinex, you will need to have a tradable balance used as collateral to place orders for a certain amount.
+                    To open positions on Ekonnet you will need to have a tradable balance used as collateral to place orders for a certain amount.
                     <br/><br/>  
                     However, as the market moves, it may be that the value of your collateral decreases, and you no longer have enough tradable balance for executing the entire order.
                     <br/><br/>
@@ -67,7 +67,7 @@ const Margin12 = () => {
                     <h3>Market order max buy</h3>
                     Due to slippage, it is possible that a part of your order will be cancelled due to an insufficient tradable balance.
                     <br/><br/>
-                    If you have any inquiries, please feel free to contact Bitfinex Support. We are always happy to help!                           
+                    If you have any inquiries, please feel free to contact EkonnetSupport. We are always happy to help!                           
                     </p>
                     <hr className='mt-5 mb-5'></hr>
                     <h4>Can't you find what you are looking for?</h4>

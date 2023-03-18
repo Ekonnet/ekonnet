@@ -40,8 +40,8 @@
     height: 784px;
     border: 1px solid black;
     margin-top: 100px;
-    background-color: rgba(0, 7, 61)
-   
+    background-color: rgba(0, 7, 61);
+    margin-bottom: 10px;
 }
 .web button{
     width: 298px;

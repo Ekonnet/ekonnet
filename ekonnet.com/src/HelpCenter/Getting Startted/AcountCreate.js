@@ -4,7 +4,7 @@ const AcountCreate = () => {
   return (
    <>
    <div className="intro-heading">
-     <h5 className='text-2xl mb-10'>How to create an account on Bitfinex</h5>
+     <h5 className='text-2xl mb-10'>How to create an account on Ekonnet</h5>
    </div>
    <div className="para leading-10 font-light">
    Ekonnet is a digital asset trading platform offering state-of-the-art services for digital currency traders and global liquidity providers.
