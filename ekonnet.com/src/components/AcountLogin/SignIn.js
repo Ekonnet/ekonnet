@@ -14,6 +14,8 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import '../AcountLogin/login.css';
 import { Helmet } from 'react-helmet';
+import { useNavigate } from "react-router-dom";
+import axios from 'axios'
 
 function Copyright(props) {
   return (
@@ -31,13 +33,16 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function SignIn() {
+  const navigate = useNavigate()
   const handleSubmit = (event) => {
+    axios.post('https://ekonnet.com/ekoapi/login')
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     console.log({
       email: data.get('email'),
       password: data.get('password'),
     });
+    navigate('/');
   };
 
   return (
@@ -99,7 +104,7 @@ export default function SignIn() {
             </Button>
             <Grid container>
               <Grid item xs>
-                <Link href="#" variant="body2">
+                <Link href="forgot-password" variant="body2">
                   Forgot password?
                 </Link>
               </Grid>

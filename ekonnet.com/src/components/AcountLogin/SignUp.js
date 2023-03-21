@@ -13,6 +13,9 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Helmet } from 'react-helmet';
+import axios from 'axios'
+import {useState} from 'react';
+import { useNavigate } from "react-router-dom";
 
 function Copyright(props) {
   return (
@@ -31,14 +34,43 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function SignUp() {
- 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
+  const[firstName, setfirstname]=useState('')
+  const[lastName, setlastname]=useState('')
+  const[email, setemail]=useState('')
+  const[password, setpassword]=useState('')
+  const[mobile, setmobile]=useState('')
+  const[country, setcountry]=useState('')
+  const navigate = useNavigate()
+  //const[data, setData]= useState('')
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // console.log({
+    //   firstname: data.post('firstName'),
+    //   lastname: data.post('lastName'),
+    //   email: data.post('email'),
+    //   password: data.post('password'),
+    //   mobile: data.post('mobile'),
+    //   country: data.post('country')
+    // });
+    // const data = new FormData(e.currentTarget);
+    axios.post('https://ekonnet.com/ekoapi/register',{
+               firstname : firstName,
+               lastname : lastName,
+               email: email,
+               password: password,
+               mobile: mobile,
+               country: country
+    })
+    .then(result=>{
+      console.log(result)
+      //setData(result) 
+      navigate('/sign-in');  
+    })
+    .catch(error=>{
+      console.log(error)
+    })
+    
   };
 
   return (
@@ -66,7 +98,7 @@ export default function SignUp() {
           <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}>
-                <TextField
+                <TextField onChange={(e)=> setfirstname(e.target.value)} value={firstName} 
                   autoComplete="given-name"
                   name="firstName"
                   required
@@ -77,7 +109,7 @@ export default function SignUp() {
                 />
               </Grid>
               <Grid item xs={12} sm={6}>
-                <TextField
+                <TextField onChange={(e)=>setlastname(e.target.value)} value={lastName}
                   required
                   fullWidth
                   id="lastName"
@@ -87,7 +119,7 @@ export default function SignUp() {
                 />
               </Grid>
               <Grid item xs={12}>
-                <TextField
+                <TextField onChange={(e)=> setemail(e.target.value)} value={email} 
                   required
                   fullWidth
                   id="email"
@@ -97,7 +129,7 @@ export default function SignUp() {
                 />
               </Grid>
               <Grid item xs={12}>
-                <TextField
+                <TextField onChange={(e)=> setpassword(e.target.value)} value={password}
                   required
                   fullWidth
                   name="password"
@@ -108,12 +140,35 @@ export default function SignUp() {
                 />
               </Grid>
               <Grid item xs={12}>
+                <TextField onChange={(e)=> setmobile(e.target.value)} value={mobile}
+                  // required
+                  fullWidth
+                  name="mobile"
+                  label="Mobile No"
+                  type="mobile"
+                  id="mobile"
+                  autoComplete="mobile"
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField onChange={(e)=> setcountry(e.target.value)} value={country}
+                  // required
+                  fullWidth
+                  name="country"
+                  label="Country"
+                  type="country"
+                  id="country"
+                  autoComplete="country"
+                />
+              </Grid>
+              <Grid item xs={12}>
                 <FormControlLabel
                   control={<Checkbox value="allowExtraEmails" color="primary" />}
                   label="I want to receive inspiration, marketing promotions and updates via email."
                 />
               </Grid>
             </Grid>
+            {/* <Button onClick ={handleApi} */}
             <Button
               type="submit"
               fullWidth

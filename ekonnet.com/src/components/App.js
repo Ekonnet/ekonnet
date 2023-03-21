@@ -253,6 +253,7 @@ import Lend from './Account/Lend';
 import Mob from './Account/Mob';
 import Currencies from './Account/Currencies';
 import Resource from './Account/Resource';
+import ForgetPassword from './AcountLogin/ForgetPassword';
 
 
 
@@ -526,6 +527,9 @@ const App = () => {
        <Route path='/Mobiles' element={<Mob/>}/>
        <Route path='/Currencies-and-Token' element={<Currencies/>}/>
        <Route path='/Other-Resources' element={<Resource/>}/>
+       <Route path='/forgot-password' element={<ForgetPassword/>}/>
+
+
         </Routes>
   
      {/* <Sidebar>
