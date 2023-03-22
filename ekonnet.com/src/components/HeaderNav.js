@@ -52,8 +52,7 @@ function HeaderNav() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    <div>
-    </div>
+    
     {/* <Navbar className='navbg' expand="lg" sticky="top">
       <Container>
         <Navbar.Brand as={Link} to={"/"} className='logo'>Ekonnet</Navbar.Brand>
@@ -80,8 +79,7 @@ function HeaderNav() {
               <NavDropdown.Item as={Link} to={"/user-lending-product-home"}>Lending Products</NavDropdown.Item>
             </NavDropdown>
     </Nav>
-    <Nav>
-          
+    <Nav> 
           <NavDropdown title="Wallet" id="basic-nav-dropdown" className='toggle-side'>
               <NavDropdown.Item as={Link} to={""}>Deposite</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -118,8 +116,7 @@ function HeaderNav() {
         </Navbar.Collapse>
       </Container>
     </Navbar> */}
-    <div>
-    </div>
+   
     </>
   );
 }

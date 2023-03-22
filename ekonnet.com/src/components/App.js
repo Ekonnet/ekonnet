@@ -254,7 +254,7 @@ import Mob from './Account/Mob';
 import Currencies from './Account/Currencies';
 import Resource from './Account/Resource';
 import ForgetPassword from './AcountLogin/ForgetPassword';
-
+import Coin from '../components/Home/routes/Coin'
 
 
 
@@ -278,6 +278,8 @@ const App = () => {
     <>
       <Routes>
        {/* <Route path="/" element={<Home/>}/>  */}
+       <Route path="/" element={<Home />} />
+        <Route path="/coin/:coinId" element={<Coin />} />
        <Route path="/one-click-buy" element={<OneClickBuy/>}/> 
        <Route path="/spot" element={<Spot/>}/> 
        <Route path="/darivatives" element={<Derivatives/>}/> 
