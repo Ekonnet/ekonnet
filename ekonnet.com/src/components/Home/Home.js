@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Home.css'
 import { BiDollar } from 'react-icons/bi';
 import Swipper from './Swipper';
 import Maingraph from "../assets/main-graph.png";
-import Video from '../assets/video1.mp4';
+import Video from '../assets/Header_Video.mp4';
 import TradeImg from "../assets/Trade.png";
 import analysisImg from "../assets/analysis.png";
 import p2pImg from "../assets/p2pImage.png";
@@ -18,27 +18,42 @@ import { AiOutlineBank } from 'react-icons/ai';
 import { BsTwitter } from 'react-icons/bs';
 import { FaFacebookF } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
+import axios from 'axios';
+import NavbarCoins from './NavbarCoins';
+
 // import { AiFillGithub } from 'react-icons/ai';
 // import { AiFillYoutube } from 'react-icons/ai';
 // import Col from 'react-bootstrap/Col';
 // import Row from 'react-bootstrap/Row';
 // import Container from 'react-bootstrap/Container';
 import { FaBloggerB } from 'react-icons/fa';
-
+import Coins from './Coins'
 import { NavLink } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
 // import Button from '@mui/material/Button';
 
 const Home = () => {
-    
-      
+    const [coins, setCoins] = useState([])
+    const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false';
+    useEffect(() => {
+        axios.get(url).then((res) => {
+            setCoins(res.data)
+            console.log(res.data[0])
+        }).catch((error) => {
+            console.log(error)
+        })
+
+    }, [])
+
+
+
     return (
         <>
-        <Helmet>
-        <title>Ekonnet | Home</title>
-      </Helmet>
-                
+            <Helmet>
+                <title>Ekonnet | Home</title>
+            </Helmet>
+
             {/* <section className="hero">
                 <div className='app'>
                     <video loop muted>
@@ -88,17 +103,17 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-lg-6">
-                        <div className="outervideo">
+                            <div className="outervideo">
 
-<video autoPlay loop muted className='videostyle'>
-    <source src={Video} type="video/mp4" />
-</video>
+                                <video autoPlay loop muted className='videostyle'>
+                                    <source src={Video} type="video/mp4" />
+                                </video>
 
-</div>
-                        <div>
-                        <img src={h1} alt="main-heading" className='img-fluid mx-auto' />
-                        </div>
-                           
+                            </div>
+                            <div>
+                                <img src={h1} alt="main-heading" className='img-fluid mx-auto' />
+                            </div>
+
                         </div>
 
 
@@ -118,9 +133,11 @@ const Home = () => {
                         <div className="slider-here pt-5">
                             <Swipper />
                         </div>
-                        <div className="row">
-                            <img className='mt-5' src={Maingraph} alt="main-heading" width="2900px" height="700px" />
-
+                        <div className="row mt-5">
+                            {/* <img className='mt-5' src={Maingraph} alt="main-heading" width="2900px" height="700px" /> */}
+                            <NavbarCoins />
+                            <Coins coins={coins} />
+                            
                         </div>
                     </div>
 
@@ -288,12 +305,12 @@ const Home = () => {
                                 </div>
 
                             </div>
-                        
 
 
 
 
-                       
+
+
                             <div className=" Outer__wordclass">
                                 <div className="wordClass__image">
                                     <img src={p2pImg} alt="test" />
@@ -470,48 +487,48 @@ const Home = () => {
             <section className='Common_style bg-[#160141] pt-[40px] pb-[40px]' id='join-cumunity'>
                 <div className="container">
 
-               
-     
 
-       
-            <div className='d-flex justify-content-center  flex-column text-center invest-heading'>
-              <h3 className='join-community-heading text-white font-bold text-[20px] md:text-[30px] '>Join Our Community</h3>
-              <h4 className='join-community-para text-white text-[15px] md:text-[20px]'>Ekonnet is Global .Join The Conversation in any of our woldwide communities.</h4>
-            </div>
-       
-        
-            <div className='grid grid-cols-8 mx-auto  place-content-center place-items-center justify-items-center pt-3'>
-            <div className=' col-span-2 '>
-              <div className="com-twitter flex justify-center items-center sm:gap-1 md:gap-2 lg:gap-3">
-                <FaFacebookF className='community-icon sm:size-1rem md:size-1.2rem lg:size-1.5rem'  />
-                <NavLink as={Link} to={"/"} className="sm:text-1rem md:text-1.2rem lg:text-1.5rem">Facebook</NavLink>
+
+
+
+                    <div className='d-flex justify-content-center  flex-column text-center invest-heading'>
+                        <h3 className='join-community-heading text-white font-bold text-[20px] md:text-[30px] '>Join Our Community</h3>
+                        <h4 className='join-community-para text-white text-[15px] md:text-[20px]'>Ekonnet is Global .Join The Conversation in any of our woldwide communities.</h4>
+                    </div>
+
+
+                    <div className='grid grid-cols-8 mx-auto  place-content-center place-items-center justify-items-center pt-3'>
+                        <div className=' col-span-2 '>
+                            <div className="com-twitter flex justify-center items-center sm:gap-1 md:gap-2 lg:gap-3">
+                                <FaFacebookF className='community-icon sm:size-1rem md:size-1.2rem lg:size-1.5rem' />
+                                <NavLink as={Link} to={"/"} className="sm:text-1rem md:text-1.2rem lg:text-1.5rem">Facebook</NavLink>
+                            </div>
+                        </div>
+                        <div className='col-span-2 '>
+                            <div className=" com-twitter flex justify-center items-center sm:gap-1 md:gap-2 lg:gap-3">
+                                <BsTwitter className='community-icon sm:size-1rem md:size-1.2rem lg:size-1.5rem ' />
+                                <NavLink as={Link} to={"/"} className="sm:text-1rem md:text-1.2rem lg:text-1.5rem" >Twitter</NavLink>
+                            </div>
+                        </div>
+                        <div className=' col-span-2 '>
+                            <div className=" com-twitter flex justify-center items-center sm:gap-1 md:gap-2 lg:gap-3">
+                                <FaBloggerB className='community-icon sm:size-1rem md:size-1.2rem lg:size-1.5rem' />
+                                <NavLink as={Link} to={"/"} className="sm:text-1rem md:text-1.2rem lg:text-1.5rem">Blog</NavLink>
+                            </div>
+                        </div>
+                        <div className=' col-span-2 '>
+                            <div className=" com-twitter flex justify-center items-center sm:gap-1 md:gap-2 lg:gap-3">
+                                <AiFillInstagram className='community-icon sm:size-1rem md:size-1.2rem lg:size-1.5rem' />
+                                <NavLink as={Link} to={"/"} className="sm:text-1rem md:text-1.2rem lg:text-1.5rem">Instagram</NavLink>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div className='col-span-2 '>
-                <div className=" com-twitter flex justify-center items-center sm:gap-1 md:gap-2 lg:gap-3">
-                <BsTwitter className='community-icon sm:size-1rem md:size-1.2rem lg:size-1.5rem '  />
-                <NavLink as={Link} to={"/"} className="sm:text-1rem md:text-1.2rem lg:text-1.5rem" >Twitter</NavLink>
-                </div>
-              </div> 
-              <div className=' col-span-2 '>
-              <div className=" com-twitter flex justify-center items-center sm:gap-1 md:gap-2 lg:gap-3">
-                <FaBloggerB className='community-icon sm:size-1rem md:size-1.2rem lg:size-1.5rem'  />
-                <NavLink as={Link} to={"/"} className="sm:text-1rem md:text-1.2rem lg:text-1.5rem">Blog</NavLink>
-              </div>
-              </div>
-              <div className=' col-span-2 '>
-              <div className=" com-twitter flex justify-center items-center sm:gap-1 md:gap-2 lg:gap-3">
-                <AiFillInstagram className='community-icon sm:size-1rem md:size-1.2rem lg:size-1.5rem'  />
-                <NavLink as={Link} to={"/"} className="sm:text-1rem md:text-1.2rem lg:text-1.5rem">Instagram</NavLink>
-              </div>
-              </div>
-            </div>
-            </div>
 
 
 
-       
-      </section>
+
+            </section>
 
 
 
