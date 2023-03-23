@@ -14,9 +14,9 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Helmet } from 'react-helmet';
 import axios from 'axios';
-import { SignUpUrl, SignInUrl } from '../../Constants/UrlConstants';
+import { SignUpUrl} from '../../Constants/UrlConstants';
 import { useState } from 'react';
-import { postData } from '../../../src/components/Api Helper/ApiHelper'
+//import { postData } from '../../../src/components/Api Helper/ApiHelper'
 import { useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -52,7 +52,7 @@ export default function SignUp() {
       if (response) {
         toast('User Added Succesfully!', {
           position: "top-center",
-          autoClose: 2000,
+          autoClose: 1000,
           hideProgressBar: false,
           closeOnClick: true,
           pauseOnHover: true,
@@ -62,8 +62,8 @@ export default function SignUp() {
         });
 
         setTimeout(() => {
-          navigate('/');
-        }, 3000);
+          navigate('/sign-in');
+        }, 500);
 
       }
     }).catch((error) => {
@@ -151,6 +151,33 @@ export default function SignUp() {
                     value={inputs.password}
                     onChange={handleOnChange}
                   />
+                </Grid>
+                <Grid item xs={12}>
+                  <TextField
+                    required
+                    fullWidth
+                    id="mobile"
+                    label="Mobile Number"
+                    name="mobile"
+                    autoComplete="mobile"
+                    value={inputs.mobile}
+                    onChange={handleOnChange}
+                  />
+                </Grid>
+                <Grid item xs={12}>
+                
+                  <TextField
+                    required
+                    fullWidth
+                    id="country"
+                    label="Country"
+                    name="country"
+                    select="value"
+                    datalist="country,wqerg,wefg,qwegd"
+                    
+                    
+                    
+                   />  
                 </Grid>
                 <Grid item xs={12}>
                   <FormControlLabel

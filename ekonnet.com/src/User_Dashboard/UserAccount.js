@@ -13,6 +13,7 @@ import '../User_Dashboard/UserAccount.css'
 import { Helmet } from 'react-helmet';
 
 const UserAccount = () => {
+  const user = localStorage.getItem('name');
   return (
     <>
      <Helmet>
@@ -55,7 +56,7 @@ const UserAccount = () => {
     </div>
     <div className='col-lg-3 user-details'>
     <div>
-    <h5>XYZ</h5>
+    <h5>{user}</h5>
     </div>
     </div>
     <div className='col-lg-3 user-details'>

@@ -16,6 +16,12 @@ import '../AcountLogin/login.css';
 import { Helmet } from 'react-helmet';
 import { useNavigate } from "react-router-dom";
 import axios from 'axios'
+import { useState } from 'react';
+import {SignInUrl } from '../../Constants/UrlConstants';
+//import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 function Copyright(props) {
   return (
@@ -33,18 +39,60 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function SignIn() {
-  const navigate = useNavigate()
-  const handleSubmit = (event) => {
-    axios.post('https://ekonnet.com/ekoapi/login')
-    event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
+ 
+  const navigate = useNavigate();
+  const [inputs, setInputs] = useState({
+    email: '',
+    password: '',
+  });
+  const handleOnChange = (event) => {
+    setInputs({
+      ...inputs,
+      [event.target.name]: event.target.value,
     });
-    navigate('/');
   };
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    formData.append('email', inputs.email);
+    formData.append('password', inputs.password);
+    console.log(formData)
+    axios.post(SignInUrl, formData, {
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+    }).then(async (response) => {
+      console.log(response)
+      localStorage.setItem('token', response.data.access_token);
+      localStorage.setItem('name', response.data.status);
 
+      if (response) {
+        toast('User Added Succesfully!', {
+          position: "top-center",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
+
+        setTimeout(() => {
+          navigate('/');
+        }, 500);
+
+      }
+    }).catch((error) => {
+      console.log(error);
+    });
+
+  }; 
+
+
+
+ 
+   
   return (
     <>
        <Helmet>
@@ -71,7 +119,7 @@ export default function SignIn() {
           </Typography>
           <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
-              margin="normal"
+              margin="normal" 
               required
               fullWidth
               id="email"
@@ -79,6 +127,8 @@ export default function SignIn() {
               name="email"
               autoComplete="email"
               autoFocus
+              value={inputs.email}
+              onChange={handleOnChange}
             />
             <TextField
               margin="normal"
@@ -89,6 +139,8 @@ export default function SignIn() {
               type="password"
               id="password"
               autoComplete="current-password"
+              value={inputs.password}
+              onChange={handleOnChange}
             />
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
@@ -102,6 +154,16 @@ export default function SignIn() {
             >
               Sign In
             </Button>
+            {localStorage.getItem('token') && (
+            <div>
+               {localStorage.getItem('token')}
+            </div>
+         )}
+         {localStorage.getItem('name') && (
+            <div>
+               {localStorage.getItem('name')}
+            </div>
+         )}
             <Grid container>
               <Grid item xs>
                 <Link href="forgot-password" variant="body2">
