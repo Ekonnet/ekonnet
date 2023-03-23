@@ -33,9 +33,12 @@ import Coins from './Coins'
 import { NavLink } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
+import { useContext } from 'react';
+import { AppContext } from '../../Context/Context'
 // import Button from '@mui/material/Button';
 
 const Home = () => {
+    const Data = useContext(AppContext);
     const [coins, setCoins] = useState([])
     const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=1&sparkline=false';
     useEffect(() => {
@@ -144,7 +147,7 @@ const Home = () => {
                                     <Route path=":coinId" element={<Coin />} />
                                 </Route>
                             </Routes>
-
+                          
 
                         </div>
                     </div>

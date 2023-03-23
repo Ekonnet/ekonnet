@@ -3,7 +3,11 @@
     width: 100%;
     height: 100vh;
 }
-
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px;
+}
 .new-listing-heading {
     color: #fff;
     font-family: 'spectral';
@@ -70,17 +74,21 @@
         left: 45%;
      
      }
+     .Main-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
      .Market-section {
            
-        height: 40vh;
+        height: 100vh;
     }
     .Market-fav-section {
        
-        height: 55vh;
+        height: 100vh;
     }
     .Market-news-section {
        
-        height: 50vh;
+        height: 80vh;
     }
 
 }
@@ -94,6 +102,10 @@
     position: relative;
     z-index: 1;
 }
+.Main-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 .new-listing-heading::before {
     bottom: 57;
     left: 43%;
@@ -101,7 +113,7 @@
  }
  .Market-section {
        
-    height: 60vh;
+    height: 100vh;
 }
 .Market-fav-section {
    
@@ -121,6 +133,10 @@
         left: 41%;
      
      }
+     .Main-container {
+        grid-template-columns: repeat(2, 1fr);
+      
+      }
      .Market-section {
        
         height: 115vh;
@@ -144,6 +160,10 @@
         left: 37%;
      
      }
+     .Main-container {
+        grid-template-columns: repeat(1, 1fr);
+      
+      }
      
      .Market-section {
        
@@ -153,7 +173,7 @@
 
     .Market-fav-section {
        
-        height: 340vh;
+        height: 180vh;
         width: 100%;
     }
     .Market-news-section {
@@ -171,7 +191,10 @@
         left: 37%;
      
      }
-     
+     .Main-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+      }
      .Market-section {
        
         height: 80vh;
