@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import '@coreui/coreui/dist/css/coreui.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Top from './components/Traders/Top';
-
+import {AppProvider} from './Context/Context'
 
 
 
@@ -19,7 +19,9 @@ root.render(
    <BrowserRouter>
    <Top />
    <HeaderNav />
+   <AppProvider>
    <App/>
+   </AppProvider>
    <Footer/>
    </BrowserRouter>
 

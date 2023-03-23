@@ -20,6 +20,8 @@ import { FaFacebookF } from 'react-icons/fa';
 import { AiFillInstagram } from 'react-icons/ai';
 import axios from 'axios';
 import NavbarCoins from './NavbarCoins';
+import { Routes, Route } from 'react-router-dom';
+import Coin from './routes/Coin'
 
 // import { AiFillGithub } from 'react-icons/ai';
 // import { AiFillYoutube } from 'react-icons/ai';
@@ -31,11 +33,14 @@ import Coins from './Coins'
 import { NavLink } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
+import { useContext } from 'react';
+import { AppContext } from '../../Context/Context'
 // import Button from '@mui/material/Button';
 
 const Home = () => {
+    const Data = useContext(AppContext);
     const [coins, setCoins] = useState([])
-    const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false';
+    const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=1&sparkline=false';
     useEffect(() => {
         axios.get(url).then((res) => {
             setCoins(res.data)
@@ -136,8 +141,14 @@ const Home = () => {
                         <div className="row mt-5">
                             {/* <img className='mt-5' src={Maingraph} alt="main-heading" width="2900px" height="700px" /> */}
                             <NavbarCoins />
-                            <Coins coins={coins} />
-                            
+                            <Routes>
+                                <Route path="/" element={<Coins coins={coins} />} />
+                                <Route path="/coin" element={<Coin />} >
+                                    <Route path=":coinId" element={<Coin />} />
+                                </Route>
+                            </Routes>
+                          
+
                         </div>
                     </div>
 

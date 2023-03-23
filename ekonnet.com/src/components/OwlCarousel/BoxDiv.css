@@ -16,7 +16,7 @@
     width:100%;
     object-fit: cover;
     border-radius: 50%;
-   border: 3px solid rgb(19, 56, 205);
+   border: 3px solid #dc3545;
 
 }
 
@@ -64,6 +64,28 @@ color: rgb(28, 206, 215);
     font-weight: bold;
     font-family: 'spectral';
     padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.CoinDetails .Coin-symbol-red{
+    font-size: 1.2rem;
+    background-color: #dc3545;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 5px;
+    font-family: 'spectral';
+    padding: 2px 15px;
+    text-transform: uppercase;
+}
+
+.CoinDetails .Coin-symbol-green{
+    font-size: 1.2rem;
+    background-color: #414F12;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 5px;
+    font-family: 'spectral';
+    padding: 2px 15px;
     text-transform: uppercase;
 }
 
