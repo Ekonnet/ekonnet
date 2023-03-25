@@ -64,7 +64,12 @@ export default function SignIn() {
     }).then(async (response) => {
       console.log(response)
       localStorage.setItem('token', response.data.access_token);
-      localStorage.setItem('name', response.data.status);
+      localStorage.setItem('name', response.data.data.firstname);
+      localStorage.setItem('pass', response.data.data.password);
+      localStorage.setItem('Email', response.data.data.email);
+      localStorage.setItem('Status', response.data.status);
+
+
 
       if (response) {
         toast('User Added Succesfully!', {
@@ -80,7 +85,7 @@ export default function SignIn() {
 
         setTimeout(() => {
           navigate('/');
-        }, 500);
+        }, 3000);
 
       }
     }).catch((error) => {
@@ -162,6 +167,21 @@ export default function SignIn() {
          {localStorage.getItem('name') && (
             <div>
                {localStorage.getItem('name')}
+            </div>
+         )}
+         {localStorage.getItem('pass') && (
+            <div>
+               {localStorage.getItem('pass')}
+            </div>
+         )}
+          {localStorage.getItem('Email') && (
+            <div>
+               {localStorage.getItem('Email')}
+            </div>
+         )}
+         {localStorage.getItem('Status') && (
+            <div>
+               {localStorage.getItem('Status')}
             </div>
          )}
             <Grid container>

@@ -14,6 +14,13 @@ import { Helmet } from 'react-helmet';
 
 const UserAccount = () => {
   const user = localStorage.getItem('name');
+  const password = localStorage.getItem('pass');
+  const user_email = localStorage.getItem('Email');
+  const user_status = localStorage.getItem('Status');
+
+
+
+
   return (
     <>
      <Helmet>
@@ -74,7 +81,7 @@ const UserAccount = () => {
     </div>
     <div className='col-lg-3 user-details'>
     <div>
-    <h5>Xyz@123</h5>
+    <h5 style={{webkitTextSecurity: "disc"}}>{password}</h5>
     </div>
     </div>
     <div className='col-lg-3 user-details'>
@@ -92,7 +99,7 @@ const UserAccount = () => {
     </div>
     <div className='col-lg-3 user-details'>
     <div>
-    <h5>xyz@gmail.com</h5>
+    <h5>{user_email}</h5>
     </div>
     </div>
     <div className='col-lg-3 user-details'>
@@ -128,7 +135,7 @@ const UserAccount = () => {
     </div>
     <div className='col-lg-3 user-details'>
     <div>
-    <h5>Active</h5>
+    <h5>{user_status}</h5>
     </div>
     </div>
     <div className='col-lg-3 user-details'>
