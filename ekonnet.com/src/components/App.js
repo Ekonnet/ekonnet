@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 // import Future from '../components/Future/Future.js';
 
@@ -273,7 +273,7 @@ import Coin from '../components/Home/routes/Coin'
 
 
 const App = () => {
-
+ 
   return (
     <>
       <Routes>

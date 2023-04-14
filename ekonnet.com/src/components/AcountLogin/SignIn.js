@@ -1,4 +1,5 @@
 import * as React from 'react';
+//import PropTypes from 'prop-types'
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -61,13 +62,15 @@ export default function SignIn() {
       headers: {
         'Content-Type': 'multipart/form-data',
       },
-    }).then(async (response) => {
+     
+    }
+    ).then(async (response) => {
       console.log(response)
-      localStorage.setItem('token', response.data.access_token);
-      localStorage.setItem('name', response.data.data.firstname);
-      localStorage.setItem('pass', response.data.data.password);
-      localStorage.setItem('Email', response.data.data.email);
-      localStorage.setItem('Status', response.data.status);
+      // localStorage.setItem('token', response.data.access_token);
+      // localStorage.setItem('name', response.data.data.firstname);
+      // localStorage.setItem('pass', response.data.data.password);
+      // localStorage.setItem('Email', response.data.data.email);
+      // localStorage.setItem('Status', response.data.status);
 
 
 
@@ -92,12 +95,7 @@ export default function SignIn() {
       console.log(error);
     });
 
-  }; 
-
-
-
- 
-   
+  };  
   return (
     <>
        <Helmet>
@@ -122,7 +120,7 @@ export default function SignIn() {
           <Typography component="h1" variant="h5">
             Sign in
           </Typography>
-          <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
+          <Box component="form" onSubmit={handleSubmit} Validate sx={{ mt: 1 }}>
             <TextField
               margin="normal" 
               required
@@ -159,31 +157,31 @@ export default function SignIn() {
             >
               Sign In
             </Button>
-            {localStorage.getItem('token') && (
+            {/* {localStorage.getItem('token') && (
             <div>
                {localStorage.getItem('token')}
             </div>
-         )}
-         {localStorage.getItem('name') && (
+         )} */}
+         {/* {localStorage.getItem('name') && (
             <div>
                {localStorage.getItem('name')}
             </div>
-         )}
-         {localStorage.getItem('pass') && (
+         )} */}
+         {/* {localStorage.getItem('pass') && (
             <div>
                {localStorage.getItem('pass')}
             </div>
-         )}
-          {localStorage.getItem('Email') && (
+         )} */}
+          {/* {localStorage.getItem('Email') && (
             <div>
                {localStorage.getItem('Email')}
             </div>
-         )}
-         {localStorage.getItem('Status') && (
+         )} */}
+         {/* {localStorage.getItem('Status') && (
             <div>
                {localStorage.getItem('Status')}
             </div>
-         )}
+         )} */}
             <Grid container>
               <Grid item xs>
                 <Link href="forgot-password" variant="body2">
@@ -206,3 +204,6 @@ export default function SignIn() {
     
   );
 }
+// SignIn.propTypes = {
+//   setToken: PropTypes.func.isRequired
+// }

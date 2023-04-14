@@ -65,8 +65,8 @@ function HeaderNav() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to={""} className='hide'><BiSearch/></Nav.Link>
-            <Nav.Link as={Link} to={""} className='hide'><IoIosNotificationsOutline/></Nav.Link>
-             <NavDropdown title={user} id="basic-nav-dropdown" className='hide'>
+            <Nav.Link as={Link} to={""} className='hide'><IoIosNotificationsOutline/>{user} </Nav.Link>
+             <NavDropdown title=<IoIosNotificationsOutline/>id="basic-nav-dropdown" className='hide'>
               <NavDropdown.Item as={Link} to={"/user-account"}>UserAccount</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={"/user-sub-account"}>Sub-Accounts</NavDropdown.Item>
               <NavDropdown.Item as={Link} to={"/user-security-account"}>Security Accounts</NavDropdown.Item>

@@ -22,6 +22,7 @@ import axios from 'axios';
 import NavbarCoins from './NavbarCoins';
 import { Routes, Route } from 'react-router-dom';
 import Coin from './routes/Coin'
+// C:\Users\HP\Desktop\Crypto\https-Ekonnet.github.io\ekonnet.com\src\components\AcountLogin\SignIn.js
 
 // import { AiFillGithub } from 'react-icons/ai';
 // import { AiFillYoutube } from 'react-icons/ai';
@@ -38,9 +39,11 @@ import { AppContext } from '../../Context/Context'
 // import Button from '@mui/material/Button';
 
 const Home = () => {
+  
     const Data = useContext(AppContext);
     const [coins, setCoins] = useState([])
     const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=20&page=1&sparkline=false';
+    
     useEffect(() => {
         axios.get(url).then((res) => {
             setCoins(res.data)
@@ -51,6 +54,7 @@ const Home = () => {
 
     }, [])
 
+   
 
 
     return (
@@ -198,8 +202,6 @@ const Home = () => {
                             <button className='main-btn'>Read more</button>
                         </div>
                     </div>
-
-
                     <div className="row flex justify-center items-center pt-2">
                         <div className="col-lg-6 col-md-6 col-sm-12 home-content-wrapper">
                             <div className="col flex justify-start items-center text-center flex-row gap-1">

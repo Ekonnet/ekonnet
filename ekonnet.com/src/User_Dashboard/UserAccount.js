@@ -11,14 +11,21 @@ import {SlTrophy} from 'react-icons/sl';
 import {BiCodeAlt} from 'react-icons/bi';
 import '../User_Dashboard/UserAccount.css'
 import { Helmet } from 'react-helmet';
+//import SignIn from '../components/AcountLogin/SignIn';
+
 
 const UserAccount = () => {
+  //const [token, setToken] = useState();
+
   const user = localStorage.getItem('name');
   const password = localStorage.getItem('pass');
   const user_email = localStorage.getItem('Email');
   const user_status = localStorage.getItem('Status');
 
 
+  // if(!token) {
+  //   return <SignIn setToken={setToken} />
+  // }
 
 
   return (
