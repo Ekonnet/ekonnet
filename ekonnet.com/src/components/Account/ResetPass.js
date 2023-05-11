@@ -7,7 +7,7 @@ import lost1 from '../assets/lost1.png'
 import lost2 from '../assets/lost2.png'
 import lost3 from '../assets/lost3.png'
 
-const ResetPassword = () => {
+const ResetPass = () => {
   return (
     <>
     <section id='paper_hero' className='paper_hero' style={{ backgroundImage: `url(${AffiliateImg})` }}>
@@ -78,4 +78,4 @@ const ResetPassword = () => {
   )
 }
 
-export default ResetPassword
+export default ResetPass

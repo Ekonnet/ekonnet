@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 // import Future from '../components/Future/Future.js';
 
@@ -180,7 +180,7 @@ import ForksAndAirdrops from './ForksAndAirdrops';
 import Captcha from './Captcha';
 import AccountAccessess from './Account/AccountAccessess';
 import LostAccess from './Account/LostAccess';
-import ResetPassword from './Account/ResetPassword';
+import ResetPass from './Account/ResetPass';
 import Token from './Account/Token';
 import Verfications from './Account/Verfications';
 import Verification1 from './Account/Verification1';
@@ -255,6 +255,10 @@ import Currencies from './Account/Currencies';
 import Resource from './Account/Resource';
 import ForgetPassword from './AcountLogin/ForgetPassword';
 import Coin from '../components/Home/routes/Coin'
+import ResetPassword from './AcountLogin/ResetPassword';
+import Authentication from './AcountLogin/Authentication';
+import Auth_One from './AcountLogin/Auth_One'
+import Protected from '../Protected';
 
 
 
@@ -266,11 +270,6 @@ import Coin from '../components/Home/routes/Coin'
 // import HowToUse from '../HelpCenter/Getting Startted/HowToUse';
 // import HowToDeposite from '../HelpCenter/Getting Startted/HowToDeposite';
 // import HowToWithdrawal from '../HelpCenter/Getting Startted/HowToWithdrawal';
-
-
-
-
-
 
 const App = () => {
  
@@ -530,8 +529,11 @@ const App = () => {
        <Route path='/Currencies-and-Token' element={<Currencies/>}/>
        <Route path='/Other-Resources' element={<Resource/>}/>
        <Route path='/forgot-password' element={<ForgetPassword/>}/>
-
-
+       <Route path='/reset-password' element={<ResetPassword/>}/>
+       <Route path='/reset-pass' element={<ResetPass/>}/>
+       <Route path='/authentication' element={<Protected Cmp = {Authentication}/>}/>
+       <Route path='/auth-one' element={<Protected Cmp = {Auth_One}/>}/>
+       
         </Routes>
   
      {/* <Sidebar>

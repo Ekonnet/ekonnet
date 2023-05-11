@@ -16,9 +16,8 @@ import '../AcountLogin/login.css';
 import { Helmet } from 'react-helmet';
 import { useNavigate } from "react-router-dom";
 import axios from 'axios'
-import { useState } from 'react';
-import { ForgotPasswordUrl } from '../../Constants/UrlConstants';
-
+import { useState, useEffect } from 'react';
+import { ResetPasswordUrl } from '../../Constants/UrlConstants';
 
 function Copyright(props) {
     return (
@@ -34,12 +33,18 @@ function Copyright(props) {
   }
   
   const theme = createTheme();
-  
-  export default function ForgetPassword() {
+ 
+  export default function ResetPassword() {
+    const [token, setToken] = useState(null);
+   // const reset_token = localStorage.getItem('forget_token');
     const [error, setError] = useState("")
+   // const token = reset_token;
+    
     const navigate = useNavigate()
     const [inputs, setInputs] = useState({
-      email: '',
+      password: '',
+      confirm_password: '',
+      token: '',
     });
     const handleOnChange = (event) => {
       setInputs({
@@ -52,18 +57,20 @@ function Copyright(props) {
     const handleSubmit = (event) => {
       event.preventDefault();
       const formData = new FormData(event.currentTarget);
-        formData.append('email', inputs.email);
-        console.log(formData)
-      axios.post(ForgotPasswordUrl, formData,{
+        formData.append('password', inputs.password);
+        formData.append('confirm_password', inputs.confirm_password);
+        formData.append('token', (JSON.stringify(token)))
+        console.log(inputs)
+       
+      axios.post(ResetPasswordUrl, formData,{
         headers: {
           'Content-Type': 'multipart/form-data',
+          'Content-type': 'application/json,'
         },
       }
       ).then(async (response) => {
-        console.log(response)   
-        localStorage.setItem('forget_token', response.data.token);
+        console.log(response)  
         navigate('/');
-        
       })
         .catch((error) => {
         console.log(error);
@@ -73,6 +80,15 @@ function Copyright(props) {
       
   
     };  
+    useEffect(() => {
+      // Get the token value from the URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const tokenParam = urlParams.get('token');
+  
+      // Set the token value to state
+      setToken(tokenParam);
+    }, []);
+  
   
     return (
       <>
@@ -96,37 +112,57 @@ function Copyright(props) {
               <LockOutlinedIcon />
             </Avatar>
             <Typography component="h1" variant="h5">
-              Forgot Password
+              Reset Password
             </Typography>
             <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
             <TextField
                 margin="normal"
                 required
                 fullWidth
-                name="email"
-                label="Mobile Number/Email"
-                type="text"
-                id="text"
+                name="password"
+                label="New Password"
+                type="password"
+                id="password"
                 autoComplete="current-password"
                 onChange={handleOnChange}
-                value={inputs.email}
+                value={inputs.password}
               />
               {error && (
-                    <p className="error" style={{color:"red"}}> {error.email} </p>
+                    <p className="error" style={{color:"red"}}> {error.password} </p>
 )}
-              <Button
+<TextField
+                margin="normal"
+                required
+                fullWidth
+                name="confirm_password"
+                label="Confirm New Password"
+                type="password"
+                id="confirm_password"
+                autoComplete="current-password"
+                onChange={handleOnChange}
+                value={inputs.confirm_password}
+              />
+              {error && (
+                    <p className="error" style={{color:"red"}}> {error.confirm_password} </p>
+)}
+          <input name="token"  type="hidden"
+           onChange={handleOnChange}
+           value={token}
+           
+
+           />
+             
+            <Button
                 type="submit"
                 fullWidth
                 variant="contained"
                 sx={{ mt: 3, mb: 2 }}
               >
-                Submit
+                Submitting
               </Button>
-              {/* {localStorage.getItem('auth_token') && (
-            <div>
-               {localStorage.getItem('auth_token')}
-            </div>
-         )} */}
+              
+          
+              {/* {token} */}
               <Grid container>     
               </Grid>
             </Box>

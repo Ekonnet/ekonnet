@@ -1,5 +1,4 @@
 import * as React from 'react';
-//import PropTypes from 'prop-types'
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -19,8 +18,9 @@ import { useNavigate } from "react-router-dom";
 import axios from 'axios'
 import { useState } from 'react';
 import {SignInUrl } from '../../Constants/UrlConstants';
-//import { ToastContainer, toast } from 'react-toastify';
 import { toast } from 'react-toastify';
+// import Authentication from '../AcountLogin/Authentication'
+
 
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -33,19 +33,27 @@ function Copyright(props) {
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
+      {/* <Authentication/> */}
     </Typography>
+    
   );
 }
+
+
+  
+
 
 const theme = createTheme();
 
 export default function SignIn() {
- 
+  // const qrcode = localStorage.getItem('qr');
+  const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate();
   const [inputs, setInputs] = useState({
     email: '',
     password: '',
   });
+
   const handleOnChange = (event) => {
     setInputs({
       ...inputs,
@@ -57,7 +65,7 @@ export default function SignIn() {
     const formData = new FormData(event.currentTarget);
     formData.append('email', inputs.email);
     formData.append('password', inputs.password);
-    console.log(formData)
+    console.log(inputs)
     axios.post(SignInUrl, formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
@@ -66,14 +74,12 @@ export default function SignIn() {
     }
     ).then(async (response) => {
       console.log(response)
-      // localStorage.setItem('token', response.data.access_token);
-      // localStorage.setItem('name', response.data.data.firstname);
-      // localStorage.setItem('pass', response.data.data.password);
-      // localStorage.setItem('Email', response.data.data.email);
-      // localStorage.setItem('Status', response.data.status);
-
-
-
+      localStorage.setItem('login', true)
+      localStorage.setItem('sign-id', response.data.data.id);
+      localStorage.setItem('name', response.data.data.firstName);
+      localStorage.setItem('pass', response.data.data.password);
+      localStorage.setItem('Email', response.data.data.email);
+      localStorage.setItem('Status', response.data.status);
       if (response) {
         toast('User Added Succesfully!', {
           position: "top-center",
@@ -85,14 +91,16 @@ export default function SignIn() {
           progress: undefined,
           theme: "light",
         });
-
         setTimeout(() => {
-          navigate('/');
-        }, 3000);
+          navigate('/auth-one');
+        }, 2000);
+       
+       
 
       }
     }).catch((error) => {
       console.log(error);
+      setErrorMessage(error.response.data.errors);
     });
 
   };  
@@ -123,7 +131,7 @@ export default function SignIn() {
           <Box component="form" onSubmit={handleSubmit} Validate sx={{ mt: 1 }}>
             <TextField
               margin="normal" 
-              required
+              //required
               fullWidth
               id="email"
               label="Email Address"
@@ -133,9 +141,12 @@ export default function SignIn() {
               value={inputs.email}
               onChange={handleOnChange}
             />
+            {errorMessage && (
+                    <p className="error" style={{color:"red"}}> {errorMessage.email} </p>
+)}
             <TextField
               margin="normal"
-              required
+             // required
               fullWidth
               name="password"
               label="Password"
@@ -145,11 +156,15 @@ export default function SignIn() {
               value={inputs.password}
               onChange={handleOnChange}
             />
+            {errorMessage && (
+                    <p className="error" style={{color:"red"}}> {errorMessage.password} </p>
+)}
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
             />
-            <Button
+            
+          <Button 
               type="submit"
               fullWidth
               variant="contained"
@@ -157,31 +172,33 @@ export default function SignIn() {
             >
               Sign In
             </Button>
-            {/* {localStorage.getItem('token') && (
+            {/* {qrcode} */}
+            {/* <Authentication /> */}
+            {localStorage.getItem('token') && (
             <div>
                {localStorage.getItem('token')}
             </div>
-         )} */}
-         {/* {localStorage.getItem('name') && (
+         )}
+         {localStorage.getItem('name') && (
             <div>
                {localStorage.getItem('name')}
             </div>
-         )} */}
-         {/* {localStorage.getItem('pass') && (
+         )}
+         {localStorage.getItem('pass') && (
             <div>
                {localStorage.getItem('pass')}
             </div>
-         )} */}
-          {/* {localStorage.getItem('Email') && (
+         )}
+          {localStorage.getItem('Email') && (
             <div>
                {localStorage.getItem('Email')}
             </div>
-         )} */}
-         {/* {localStorage.getItem('Status') && (
+         )}
+         {localStorage.getItem('Status') && (
             <div>
                {localStorage.getItem('Status')}
             </div>
-         )} */}
+         )}
             <Grid container>
               <Grid item xs>
                 <Link href="forgot-password" variant="body2">
@@ -200,10 +217,19 @@ export default function SignIn() {
       </Container>
       </section>
     </ThemeProvider>
+   
+
     </>
     
   );
 }
-// SignIn.propTypes = {
-//   setToken: PropTypes.func.isRequired
-// }
+
+
+
+
+
+
+
+
+
+

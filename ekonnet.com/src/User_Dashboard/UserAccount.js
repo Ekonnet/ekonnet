@@ -11,6 +11,7 @@ import {SlTrophy} from 'react-icons/sl';
 import {BiCodeAlt} from 'react-icons/bi';
 import '../User_Dashboard/UserAccount.css'
 import { Helmet } from 'react-helmet';
+import Popup from 'reactjs-popup';
 //import SignIn from '../components/AcountLogin/SignIn';
 
 
@@ -75,7 +76,12 @@ const UserAccount = () => {
     </div>
     <div className='col-lg-3 user-details'>
     <div>
-      <h6>CHANGE</h6>
+    <Popup trigger=
+      {<button style={{color:"darkblue"}}>CHANGE</button>}
+      position="right center">
+        <div>GeeksforGeeks</div>
+                <button>Click here</button>
+      </Popup>
     </div>
     </div>
     </div>
@@ -93,7 +99,7 @@ const UserAccount = () => {
     </div>
     <div className='col-lg-3 user-details'>
     <div>
-      <h6>CHANGE</h6>
+    <button style={{color:"darkblue"}}>CHANGE</button>
     </div>
     </div>
     </div>
@@ -111,7 +117,7 @@ const UserAccount = () => {
     </div>
     <div className='col-lg-3 user-details'>
     <div>
-      <h6>CHANGE</h6>
+    <button style={{color:"darkblue"}}>CHANGE</button>
     </div>
     </div>
     </div>
@@ -129,7 +135,7 @@ const UserAccount = () => {
     </div>
     <div className='col-lg-3 user-details'>
     <div>
-      <h6>ENGLISH</h6>
+    <button style={{color:"darkblue"}}>CHANGE</button>
     </div>
     </div>
     </div>
@@ -147,7 +153,7 @@ const UserAccount = () => {
     </div>
     <div className='col-lg-3 user-details'>
     <div>
-      <h6>DEACTIVATE</h6>
+    <button style={{color:"darkblue"}}>DEACTIVATE</button>
     </div>
     </div>
     </div>
