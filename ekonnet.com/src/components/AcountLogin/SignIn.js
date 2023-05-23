@@ -19,10 +19,8 @@ import axios from 'axios'
 import { useState } from 'react';
 import {SignInUrl } from '../../Constants/UrlConstants';
 import { toast } from 'react-toastify';
-// import Authentication from '../AcountLogin/Authentication'
-
-
 import 'react-toastify/dist/ReactToastify.css';
+// import RefreshToken from './RefreshToken';
 
 function Copyright(props) {
   return (
@@ -46,7 +44,7 @@ function Copyright(props) {
 const theme = createTheme();
 
 export default function SignIn() {
-  // const qrcode = localStorage.getItem('qr');
+  //  const refreshToken = localStorage.getItem('token');
   const [errorMessage, setErrorMessage] = useState('');
   const navigate = useNavigate();
   const [inputs, setInputs] = useState({
@@ -69,19 +67,20 @@ export default function SignIn() {
     axios.post(SignInUrl, formData, {
       headers: {
         'Content-Type': 'multipart/form-data',
+        
       },
      
     }
     ).then(async (response) => {
       console.log(response)
       localStorage.setItem('login', true)
+      localStorage.setItem('token', response.data.access_token);
       localStorage.setItem('sign-id', response.data.data.id);
       localStorage.setItem('name', response.data.data.firstName);
-      localStorage.setItem('pass', response.data.data.password);
       localStorage.setItem('Email', response.data.data.email);
       localStorage.setItem('Status', response.data.status);
       if (response) {
-        toast('User Added Succesfully!', {
+        toast('Succesfully Logged in!!', {
           position: "top-center",
           autoClose: 2000,
           hideProgressBar: false,
@@ -94,6 +93,9 @@ export default function SignIn() {
         setTimeout(() => {
           navigate('/auth-one');
         }, 2000);
+        setInterval(() => {
+          console.log("logged in");
+        }, 1000);
        
        
 
@@ -104,8 +106,15 @@ export default function SignIn() {
     });
 
   };  
+  // const config = {
+  //   headers: {
+  //     "Authorization": `Bearer ${refreshToken}`,
+  //   },
+  // };
+  // axios.get("https://srninfotech.com/projects/ekonnet/backend/api/refresh-token", config);
   return (
     <>
+    
        <Helmet>
         <title>Ekonnet | Sign In </title>
       </Helmet>
@@ -174,31 +183,11 @@ export default function SignIn() {
             </Button>
             {/* {qrcode} */}
             {/* <Authentication /> */}
-            {localStorage.getItem('token') && (
-            <div>
-               {localStorage.getItem('token')}
-            </div>
-         )}
-         {localStorage.getItem('name') && (
-            <div>
-               {localStorage.getItem('name')}
-            </div>
-         )}
-         {localStorage.getItem('pass') && (
-            <div>
-               {localStorage.getItem('pass')}
-            </div>
-         )}
-          {localStorage.getItem('Email') && (
-            <div>
-               {localStorage.getItem('Email')}
-            </div>
-         )}
-         {localStorage.getItem('Status') && (
-            <div>
-               {localStorage.getItem('Status')}
-            </div>
-         )}
+            {localStorage.getItem('token')}
+            {localStorage.getItem('name')}
+             {localStorage.getItem('pass')}
+          {localStorage.getItem('Email')}
+         {localStorage.getItem('Status')}
             <Grid container>
               <Grid item xs>
                 <Link href="forgot-password" variant="body2">

@@ -61,7 +61,6 @@ function Copyright(props) {
       }
       ).then(async (response) => {
         console.log(response)   
-        localStorage.setItem('forget_token', response.data.token);
         navigate('/');
         
       })
@@ -122,11 +121,6 @@ function Copyright(props) {
               >
                 Submit
               </Button>
-              {/* {localStorage.getItem('auth_token') && (
-            <div>
-               {localStorage.getItem('auth_token')}
-            </div>
-         )} */}
               <Grid container>     
               </Grid>
             </Box>

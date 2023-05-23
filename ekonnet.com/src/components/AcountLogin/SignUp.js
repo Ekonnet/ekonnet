@@ -64,7 +64,7 @@ export default function SignUp(response) {
     formData.append('password', inputs.password);
     formData.append('mobile', inputs.mobile);
     formData.append('country', inputs.country);
-    console.log(formData); 
+    console.log(inputs); 
     axios.post(SignUpUrl, formData, {
       headers: {
         'Content-Type': 'multipart/form-data',

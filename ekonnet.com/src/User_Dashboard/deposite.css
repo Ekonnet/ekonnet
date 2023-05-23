@@ -1,0 +1,145 @@
+.deposite .deposite_left-side {
+  background-color: rgba(0, 7, 61);
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 1px solid darkblue;
+
+}
+.deposite .deposite_left-side button {
+  width: 241px;
+  border-radius: 0px;
+  background-color: transparent;
+  height: 50px;
+  border-color: transparent;
+  color: white;
+  font-size: 1rem;
+  text-align: left;
+  padding-left: 25px;
+  font-family: "Spectral";
+  transition: all 0.5s;
+  gap: 3rem;
+  margin-top: 2px;
+}
+.deposite .deposite_left-side button:hover {
+  border-color: #0d6efd;
+  background: linear-gradient(90deg, #bc35bc 0%, #124ee8 100%);
+  color: white;
+}
+ #button-act {
+  border-color: #0d6efd;
+  background: linear-gradient(90deg, #bc35bc 0%, #124ee8 100%);
+  color: white;
+}
+
+.deposite .deposite-right {
+  background-color: rgba(0, 7, 61);
+  margin-top: 30px;
+  padding: 25px;
+  margin-bottom: 80px;
+  border-radius: 15px;
+}
+.deposite .depo h2 {
+  color: white;
+  font-size: 1.6rem;
+}
+.deposite .depo p {
+  color: white;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.deposite-right .box-1{
+  border: 1px solid darkblue;
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+  box-shadow: 2px 2px darkblue;
+
+}
+
+.deposite-right .box-1 h3{
+  color:  white;
+  padding: 20px 20px 0px 20px;
+  font-size: 1.5rem;
+}
+.deposite-right .box-1 p{
+  color:  white;
+  padding: 5px 20px;
+}
+.deposite .recent h2 {
+  color: white;
+  font-size: 1.6rem;
+  margin-top: 30px;
+}
+.deposite .second-box{
+  border: 1px solid darkblue;
+  padding: 200px;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  box-shadow: 2px 2px darkblue;
+}
+
+
+
+
+
+@media only screen and (max-width: 640px){
+  .deposite .deposite_left-side button {
+    width: 515px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 480px){
+  .deposite .deposite_left-side button {
+    width: 374px;
+  }
+  .deposite-right .box-1{
+    width:164px;
+  }
+  .deposite-right .box-1 h3{
+    font-size: 1.1rem;
+  }
+  .deposite .second-box{
+    padding: 100px;
+  }
+  .deposite-right .box-1 p{
+    font-size: 0.8rem;
+  }
+
+}
+
+
+
+
+@media only screen and (max-width: 360px){
+  .deposite .deposite_left-side button {
+    width: 334px;
+  }
+  .deposite-right .box-1{
+    width:145px;
+    margin-right: 10px;
+  }
+  .deposite-right .box-1 h3{
+    font-size: 1rem;
+  }
+  .deposite-right .box-1 p{
+    font-size: 0.8rem;
+  }
+  .deposite .second-box{
+    padding: 100px;
+  }
+}
+
+
+
+@media only screen and (min-width: 641px)and (max-width: 1199px){
+  .deposite .deposite_left-side button {
+    width: 694px;
+  }
+}

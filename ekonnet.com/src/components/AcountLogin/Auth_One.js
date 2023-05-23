@@ -53,8 +53,8 @@ export default function AuthenticationOne() {
     }
     ).then(async (response) => {
       console.log(response)   
-      localStorage.setItem('token', response.data.access_token);
-      navigate('/user-account');
+      localStorage.setItem('result', response.data.result);
+      navigate('/');
       
     })
       .catch((error) => {
@@ -134,13 +134,8 @@ export default function AuthenticationOne() {
               sx={{ mt: 3, mb: 2, ml: 0, mr:5  }}
             >
               Authenticate
-            </Button>
-               {localStorage.getItem('token') && (
-            <div>
-               {localStorage.getItem('token')}
-            </div>
-         )}
-              
+            </Button>    
+            {localStorage.getItem('result')}           
             <Grid container>
               <Grid item xs sx={{mb: 12}}>
                 <Link href="forgot-password" variant="body2" 
