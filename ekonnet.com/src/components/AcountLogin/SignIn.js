@@ -82,8 +82,8 @@ export default function SignIn() {
       if (response) {
         toast('Succesfully Logged in!!', {
           position: "top-center",
-          autoClose: 2000,
-          hideProgressBar: false,
+          autoClose: 1000,
+          hideProgressBar: true,
           closeOnClick: true,
           pauseOnHover: true,
           draggable: true,

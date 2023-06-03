@@ -685,7 +685,6 @@ const App = () => {
         <Route path="/auth-one" element={<Protected Cmp={Auth_One} />} />
         <Route path="/deposite" element={<Deposite />} />
         <Route path="/withdrawal" element={<Withdrawal />} />
-
       </Routes>
 
       {/* <Sidebar>

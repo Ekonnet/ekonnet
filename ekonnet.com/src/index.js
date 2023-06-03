@@ -10,6 +10,7 @@ import '@coreui/coreui/dist/css/coreui.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Top from './components/Traders/Top';
 import {AppProvider} from './Context/Context'
+import AutoLogout from './components/AcountLogin/AutoLogout';
 
 
 
@@ -17,15 +18,15 @@ import {AppProvider} from './Context/Context'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <BrowserRouter>
+   <AutoLogout>
    <Top />
    <HeaderNav />
    <AppProvider>
    <App/>
    </AppProvider>
    <Footer/>
+   </AutoLogout>
    </BrowserRouter>
-
-
 );
 
 
